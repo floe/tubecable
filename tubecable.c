@@ -1,13 +1,19 @@
 /*
  * libtubecable - displaylink protocol reference implementation
+ *
+ * version 0.1.1 - added missing Huffman sequences
+ *                 fixed 2 bugs in encoder 
+ *                 June 5th, 2009
+ *
+ * version 0.1   - initial public release
+ *                 May 30th, 2009
+ *
  * written 2008/09 by floe at butterbrot.org
  * in cooperation with chrisly at platon42.de
  * this code is released as public domain.
  *
  * this is so experimental that the warranty shot itself.
  * so don't expect any.
- *
- * build with "g++ -ggdb -Wall -c tubecable.c -lusb"
  *
  */
 
@@ -832,6 +838,9 @@ int dl_huffman_load_table( const char* filename ) {
 		fgets(tmp,sizeof(tmp)-1,table); // clear rest of line
 		if (res != 3) continue;
 
+		if (dl_huffman_table[loc].bitcount != 0)
+			printf( "warning: overwriting entry %d\n", loc );
+
 		dl_huffman_table[loc].bitcount = len;
 		dl_huffman_table[loc].sequence = seq;
 		count++;
@@ -891,7 +900,8 @@ int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixel
 		uint16_t prev = 0; if (pixel > 0) prev = pixels[pixel-1];
 
 		// start a new sub-block if 256 pixels have been encoded or if we are near the end of the big block
-		if (((bpcnt % 256) == 0) || (cs->pos-start == blocksize-20)) {
+		if ( ((bpcnt % 256) == 0) || ((cs->pos-start >= blocksize-20) && (cs->pos-start <= blocksize-16)) ) {
+			//if (addr == 0x035ED2) printf("new block\n");
 
 			if (cs->bitpos != 0) { cs->pos++; cs->bitpos = 0; } // don't overwrite the last bits of the previous block
 			if (lastcnt) *lastcnt = bpcnt % 256; // adjust pixel count of previous block
@@ -919,6 +929,9 @@ int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixel
 	// fix pixel count of the last sub-block
 	if (lastcnt) *lastcnt = bpcnt % 256;
 	dl_reg_set( cs, DL_REG_SYNC, 0xFF );
+
+	// make sure the next block starts on a byte boundary
+	cs->bitpos = 0;
 
 	// return total number of encoded pixels
 	return pixel;

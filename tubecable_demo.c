@@ -1,13 +1,19 @@
 /*
  * libtubecable - displaylink protocol reference implementation
+ *
+ * version 0.1.1 - added missing Huffman sequences
+ *                 fixed 2 bugs in encoder 
+ *                 June 5th, 2009
+ *
+ * version 0.1   - initial public release
+ *                 May 30th, 2009
+ *
  * written 2008/09 by floe at butterbrot.org
  * in cooperation with chrisly at platon42.de
  * this code is released as public domain.
  *
  * this is so experimental that the warranty shot itself.
  * so don't expect any.
- *
- * build with "g++ -ggdb -Wall -c tubecable.c -lusb"
  *
  */
 
@@ -29,12 +35,14 @@ int main(int argc, char* argv[] ) {
 	dl_cmdstream cs;
 	create( &cs, 1024*1024 );
 
-	// usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x01AE ); // DL-120
-	usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
-	if (!handle) return 1;
-
 	// load huffman table
 	dl_huffman_load_table( "tubecable_huffman.c" );
+
+	usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x01AE ); // DL-120
+	if (!handle)
+		handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
+	if (!handle)
+		return 1;
 
 	// startup control messages & decompressor table
 	dl_init( handle );

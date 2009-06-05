@@ -63,7 +63,7 @@
 	array[   -30] = assign( 12, "111111101101" );
 	array[    31] = assign(  9, "101101100" );
 	array[   -31] = assign(  9, "111101100" );
-	array[    32] = assign(  5, "01000" );	// warning: length mismatch
+	array[    32] = assign(  5, "01000" );
 	array[   -32] = assign(  5, "01100" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 33
@@ -129,7 +129,7 @@
 	array[   -62] = assign( 18, "111111110100101010" );
 	array[    63] = assign( 11, "10111110010" );
 	array[   -63] = assign( 11, "11111110010" );
-	array[    64] = assign(  9, "010111010" );	// warning: length mismatch
+	array[    64] = assign(  9, "010111010" );
 	array[   -64] = assign(  9, "011111010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 65
@@ -195,7 +195,7 @@
 	array[   -94] = assign( 18, "111111111100101010" );
 	array[    95] = assign( 12, "101111011110" );
 	array[   -95] = assign( 12, "111111011110" );
-	array[    96] = assign( 10, "0101110010" );	// warning: length mismatch
+	array[    96] = assign( 10, "0101110010" );
 	array[   -96] = assign( 10, "0111110010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 97
@@ -261,7 +261,7 @@
 	array[  -126] = assign( 20, "11111111011010010010" );
 	array[   127] = assign( 20, "10111111011010010000" );
 	array[  -127] = assign( 20, "11111111011010010000" );
-	array[   128] = assign( 13, "0101100001010" );	// warning: length mismatch
+	array[   128] = assign( 13, "0101100001010" );
 	array[  -128] = assign( 13, "0111100001010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 129
@@ -327,7 +327,7 @@
 	array[  -158] = assign( 20, "11111111111010010010" );
 	array[   159] = assign( 20, "10111111111010010000" );
 	array[  -159] = assign( 20, "11111111111010010000" );
-	array[   160] = assign( 13, "0101100001110" );	// warning: length mismatch
+	array[   160] = assign( 13, "0101100001110" );
 	array[  -160] = assign( 13, "0111100001110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 161
@@ -393,7 +393,7 @@
 	array[  -190] = assign( 22, "1111111101010010110010" );
 	array[   191] = assign( 22, "1011111101010010110000" );
 	array[  -191] = assign( 22, "1111111101010010110000" );
-	array[   192] = assign( 15, "010110010100100" );	// warning: length mismatch
+	array[   192] = assign( 15, "010110010100100" );
 	array[  -192] = assign( 15, "011110010100100" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 193
@@ -459,7 +459,7 @@
 	array[  -222] = assign( 22, "1111111111010010110010" );
 	array[   223] = assign( 22, "1011111111010010110000" );
 	array[  -223] = assign( 22, "1111111111010010110000" );
-	array[   224] = assign( 15, "010110010110100" );	// warning: length mismatch
+	array[   224] = assign( 15, "010110010110100" );
 	array[  -224] = assign( 15, "011110010110100" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 225
@@ -525,7 +525,7 @@
 	array[  -254] = assign( 22, "1111111101110010011010" );
 	array[   255] = assign( 22, "1011111101110010011000" );
 	array[  -255] = assign( 22, "1111111101110010011000" );
-	array[   256] = assign( 17, "01011000100101100" );	// warning: length mismatch
+	array[   256] = assign( 17, "01011000100101100" );
 	array[  -256] = assign( 17, "01111000100101100" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 257
@@ -591,7 +591,7 @@
 	array[  -286] = assign( 22, "1111111111110010011010" );
 	array[   287] = assign( 22, "1011111111110010011000" );
 	array[  -287] = assign( 22, "1111111111110010011000" );
-	array[   288] = assign( 17, "01011000100111100" );	// warning: length mismatch
+	array[   288] = assign( 17, "01011000100111100" );
 	array[  -288] = assign( 17, "01111000100111100" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 289
@@ -657,7 +657,7 @@
 	array[  -318] = assign( 22, "1111111101011010111010" );
 	array[   319] = assign( 22, "1011111101011010111000" );
 	array[  -319] = assign( 22, "1111111101011010111000" );
-	array[   320] = assign( 17, "01011001100100110" );	// warning: length mismatch
+	array[   320] = assign( 17, "01011001100100110" );
 	array[  -320] = assign( 17, "01111001100100110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 321
@@ -723,7 +723,7 @@
 	array[  -350] = assign( 22, "1111111111011010111010" );
 	array[   351] = assign( 22, "1011111111011010111000" );
 	array[  -351] = assign( 22, "1111111111011010111000" );
-	array[   352] = assign( 17, "01011001100110110" );	// warning: length mismatch
+	array[   352] = assign( 17, "01011001100110110" );
 	array[  -352] = assign( 17, "01111001100110110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 353
@@ -789,7 +789,7 @@
 	array[  -382] = assign( 23, "11111111011110100101010" );
 	array[   383] = assign( 23, "10111111011110100101000" );
 	array[  -383] = assign( 23, "11111111011110100101000" );
-	array[   384] = assign( 17, "01011000110101110" );	// warning: length mismatch
+	array[   384] = assign( 17, "01011000110101110" );
 	array[  -384] = assign( 17, "01111000110101110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 385
@@ -855,7 +855,7 @@
 	array[  -414] = assign( 23, "11111111111110100101010" );
 	array[   415] = assign( 23, "10111111111110100101000" );
 	array[  -415] = assign( 23, "11111111111110100101000" );
-	array[   416] = assign( 17, "01011000110111110" );	// warning: length mismatch
+	array[   416] = assign( 17, "01011000110111110" );
 	array[  -416] = assign( 17, "01111000110111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 417
@@ -921,7 +921,7 @@
 	array[  -446] = assign( 25, "1111111101010100101101010" );
 	array[   447] = assign( 25, "1011111101010100101101000" );
 	array[  -447] = assign( 25, "1111111101010100101101000" );
-	array[   448] = assign( 18, "010110011101001010" );	// warning: length mismatch
+	array[   448] = assign( 18, "010110011101001010" );
 	array[  -448] = assign( 18, "011110011101001010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 449
@@ -987,7 +987,7 @@
 	array[  -478] = assign( 25, "1111111111010100101101010" );
 	array[   479] = assign( 25, "1011111111010100101101000" );
 	array[  -479] = assign( 25, "1111111111010100101101000" );
-	array[   480] = assign( 18, "010110011101101010" );	// warning: length mismatch
+	array[   480] = assign( 18, "010110011101101010" );
 	array[  -480] = assign( 18, "011110011101101010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 481
@@ -1053,7 +1053,7 @@
 	array[  -510] = assign( 25, "1111111101110100100111010" );
 	array[   511] = assign( 25, "1011111101110100100111000" );
 	array[  -511] = assign( 25, "1111111101110100100111000" );
-	array[   512] = assign( 19, "0101100010101011010" );	// warning: length mismatch
+	array[   512] = assign( 19, "0101100010101011010" );
 	array[  -512] = assign( 19, "0111100010101011010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 513
@@ -1119,7 +1119,7 @@
 	array[  -542] = assign( 25, "1111111111110100100111010" );
 	array[   543] = assign( 25, "1011111111110100100111000" );
 	array[  -543] = assign( 25, "1111111111110100100111000" );
-	array[   544] = assign( 19, "0101100010101111010" );	// warning: length mismatch
+	array[   544] = assign( 19, "0101100010101111010" );
 	array[  -544] = assign( 19, "0111100010101111010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 545
@@ -1185,7 +1185,7 @@
 	array[  -574] = assign( 25, "1111111101011100101111010" );
 	array[   575] = assign( 25, "1011111101011100101111000" );
 	array[  -575] = assign( 25, "1111111101011100101111000" );
-	array[   576] = assign( 19, "0101100110101001110" );	// warning: length mismatch
+	array[   576] = assign( 19, "0101100110101001110" );
 	array[  -576] = assign( 19, "0111100110101001110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 577
@@ -1251,7 +1251,7 @@
 	array[  -606] = assign( 25, "1111111111011100101111010" );
 	array[   607] = assign( 25, "1011111111011100101111000" );
 	array[  -607] = assign( 25, "1111111111011100101111000" );
-	array[   608] = assign( 19, "0101100110101101110" );	// warning: length mismatch
+	array[   608] = assign( 19, "0101100110101101110" );
 	array[  -608] = assign( 19, "0111100110101101110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 609
@@ -1317,7 +1317,7 @@
 	array[  -638] = assign( 26, "11111111011111001001011010" );
 	array[   639] = assign( 26, "10111111011111001001011000" );
 	array[  -639] = assign( 26, "11111111011111001001011000" );
-	array[   640] = assign( 19, "0101100011101011110" );	// warning: length mismatch
+	array[   640] = assign( 19, "0101100011101011110" );
 	array[  -640] = assign( 19, "0111100011101011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 641
@@ -1383,7 +1383,7 @@
 	array[  -670] = assign( 26, "11111111111111001001011010" );
 	array[   671] = assign( 26, "10111111111111001001011000" );
 	array[  -671] = assign( 26, "11111111111111001001011000" );
-	array[   672] = assign( 19, "0101100011101111110" );	// warning: length mismatch
+	array[   672] = assign( 19, "0101100011101111110" );
 	array[  -672] = assign( 19, "0111100011101111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 673
@@ -1449,7 +1449,7 @@
 	array[  -702] = assign( 26, "11111111010101101011011010" );
 	array[   703] = assign( 26, "10111111010101101011011000" );
 	array[  -703] = assign( 26, "11111111010101101011011000" );
-	array[   704] = assign( 20, "01011001111010010110" );	// warning: length mismatch
+	array[   704] = assign( 20, "01011001111010010110" );
 	array[  -704] = assign( 20, "01111001111010010110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 705
@@ -1515,7 +1515,7 @@
 	array[  -734] = assign( 26, "11111111110101101011011010" );
 	array[   735] = assign( 26, "10111111110101101011011000" );
 	array[  -735] = assign( 26, "11111111110101101011011000" );
-	array[   736] = assign( 20, "01011001111011010110" );	// warning: length mismatch
+	array[   736] = assign( 20, "01011001111011010110" );
 	array[  -736] = assign( 20, "01111001111011010110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 737
@@ -1581,7 +1581,7 @@
 	array[  -766] = assign( 26, "11111111011101101001111010" );
 	array[   767] = assign( 26, "10111111011101101001111000" );
 	array[  -767] = assign( 26, "11111111011101101001111000" );
-	array[   768] = assign( 21, "010110001011010110110" );	// warning: length mismatch
+	array[   768] = assign( 21, "010110001011010110110" );
 	array[  -768] = assign( 21, "011110001011010110110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 769
@@ -1647,7 +1647,7 @@
 	array[  -798] = assign( 26, "11111111111101101001111010" );
 	array[   799] = assign( 26, "10111111111101101001111000" );
 	array[  -799] = assign( 26, "11111111111101101001111000" );
-	array[   800] = assign( 21, "010110001011011110110" );	// warning: length mismatch
+	array[   800] = assign( 21, "010110001011011110110" );
 	array[  -800] = assign( 21, "011110001011011110110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 801
@@ -1713,11 +1713,11 @@
 	array[  -830] = assign( 26, "11111111010111101011111010" );
 	array[   831] = assign( 26, "10111111010111101011111000" );
 	array[  -831] = assign( 26, "11111111010111101011111000" );
-	array[   832] = assign( 21, "010110011011010011110" );	// warning: length mismatch
+	array[   832] = assign( 21, "010110011011010011110" );
 	array[  -832] = assign( 21, "011110011011010011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 833
-	array[   833] = assign( 21, "011101111011011111111" );	// warning: length mismatch
+	array[   833] = assign( 21, "011101111011011111111" );
 	array[  -833] = assign( 21, "010101111011011111111" );
 	array[   834] = assign( 26, "10011111010111101011011010" );
 	array[  -834] = assign( 26, "11011111010111101011011010" );
@@ -1779,11 +1779,11 @@
 	array[  -862] = assign( 26, "11011111010111100011111110" );
 	array[   863] = assign( 26, "10111111110111101011111000" );
 	array[  -863] = assign( 26, "11111111110111101011111000" );
-	array[   864] = assign( 21, "010101111111110011110" );	// warning: length mismatch
+	array[   864] = assign( 21, "010101111111110011110" );
 	array[  -864] = assign( 21, "011101111111110011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 865
-	array[   865] = assign( 21, "011101111011010111111" );	// warning: length mismatch
+	array[   865] = assign( 21, "011101111011010111111" );
 	array[  -865] = assign( 21, "010101111011010111111" );
 	array[   866] = assign( 26, "10011111110111101011011010" );
 	array[  -866] = assign( 26, "11011111110111101011011010" );
@@ -1845,11 +1845,11 @@
 	array[  -894] = assign( 26, "11011111110111100011111110" );
 	array[   895] = assign( 26, "10111111011111101001011100" );
 	array[  -895] = assign( 26, "11111111011111101001011100" );
-	array[   896] = assign( 21, "010101111111111011110" );	// warning: length mismatch
+	array[   896] = assign( 21, "010101111111111011110" );
 	array[  -896] = assign( 21, "011101111111111011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 897
-	array[   897] = assign( 21, "011101101111011011111" );	// warning: length mismatch
+	array[   897] = assign( 21, "011101101111011011111" );
 	array[  -897] = assign( 21, "010101101111011011111" );
 	array[   898] = assign( 26, "10011111011111101001111010" );
 	array[  -898] = assign( 26, "11011111011111101001111010" );
@@ -1911,11 +1911,11 @@
 	array[  -926] = assign( 26, "11011111011111100001111110" );
 	array[   927] = assign( 26, "10011111011111100011111100" );
 	array[  -927] = assign( 26, "11011111011111100011111100" );
-	array[   928] = assign( 21, "010101101111110111110" );	// warning: length mismatch
+	array[   928] = assign( 21, "010101101111110111110" );
 	array[  -928] = assign( 21, "011101101111110111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 929
-	array[   929] = assign( 21, "011101101111010011111" );	// warning: length mismatch
+	array[   929] = assign( 21, "011101101111010011111" );
 	array[  -929] = assign( 21, "010101101111010011111" );
 	array[   930] = assign( 26, "10011111111111101001111010" );
 	array[  -930] = assign( 26, "11011111111111101001111010" );
@@ -1977,11 +1977,11 @@
 	array[  -958] = assign( 26, "11011111111111100001111110" );
 	array[   959] = assign( 26, "10011111111111100011111100" );
 	array[  -959] = assign( 26, "11011111111111100011111100" );
-	array[   960] = assign( 21, "010101101111111111110" );	// warning: length mismatch
+	array[   960] = assign( 21, "010101101111111111110" );
 	array[  -960] = assign( 21, "011101101111111111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 961
-	array[   961] = assign( 21, "011101111111011110111" );	// warning: length mismatch
+	array[   961] = assign( 21, "011101111111011110111" );
 	array[  -961] = assign( 21, "010101111111011110111" );
 	array[   962] = assign( 27, "100111110101010101011111010" );
 	array[  -962] = assign( 27, "100111111111010100001011100" );
@@ -2043,11 +2043,11 @@
 	array[  -990] = assign( 27, "110111110101010100011011110" );
 	array[   991] = assign( 27, "100111110101010100001111100" );
 	array[  -991] = assign( 27, "100111111111010101011011110" );
-	array[   992] = assign( 21, "010101111011110010111" );	// warning: length mismatch
+	array[   992] = assign( 21, "010101111011110010111" );
 	array[  -992] = assign( 21, "011101111011110010111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 993
-	array[   993] = assign( 21, "011101111111010110111" );	// warning: length mismatch
+	array[   993] = assign( 21, "011101111111010110111" );
 	array[  -993] = assign( 21, "010101111111010110111" );
 	array[   994] = assign( 27, "100111111101010101011111010" );
 	array[  -994] = assign( 27, "100111110111010100001011100" );
@@ -2109,11 +2109,11 @@
 	array[ -1022] = assign( 27, "110111111101010100011011110" );
 	array[  1023] = assign( 27, "100111111101010100001111100" );
 	array[ -1023] = assign( 27, "100111110111010101011011110" );
-	array[  1024] = assign( 21, "010101111011111010111" );	// warning: length mismatch
+	array[  1024] = assign( 21, "010101111011111010111" );
 	array[ -1024] = assign( 21, "011101111011111010111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1025
-	array[  1025] = assign( 21, "011101101011111010111" );	// warning: length mismatch
+	array[  1025] = assign( 21, "011101101011111010111" );
 	array[ -1025] = assign( 21, "010101101011111010111" );
 	array[  1026] = assign( 27, "100111110111010101001011110" );
 	array[ -1026] = assign( 27, "100111111101010100011011100" );
@@ -2175,11 +2175,11 @@
 	array[ -1054] = assign( 27, "110111110111010100001011110" );
 	array[  1055] = assign( 27, "100111110111010100011011100" );
 	array[ -1055] = assign( 27, "100111111101010101001011110" );
-	array[  1056] = assign( 21, "010101101011110110111" );	// warning: length mismatch
+	array[  1056] = assign( 21, "010101101011110110111" );
 	array[ -1056] = assign( 21, "011101101011110110111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1057
-	array[  1057] = assign( 21, "011101101011110010111" );	// warning: length mismatch
+	array[  1057] = assign( 21, "011101101011110010111" );
 	array[ -1057] = assign( 21, "010101101011110010111" );
 	array[  1058] = assign( 27, "100111111111010101001011110" );
 	array[ -1058] = assign( 27, "100111110101010100011011100" );
@@ -2241,11 +2241,11 @@
 	array[ -1086] = assign( 27, "110111111111010100001011110" );
 	array[  1087] = assign( 26, "11111111111111100011111110" );
 	array[ -1087] = assign( 26, "10111111111111100011111110" );
-	array[  1088] = assign( 21, "010101101011111110111" );	// warning: length mismatch
+	array[  1088] = assign( 21, "010101101011111110111" );
 	array[ -1088] = assign( 21, "011101101011111110111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1089
-	array[  1089] = assign( 21, "011101111011111111110" );	// warning: length mismatch
+	array[  1089] = assign( 21, "011101111011111111110" );
 	array[ -1089] = assign( 21, "010101111011111111110" );
 	array[  1090] = assign( 26, "11011111111111100001111100" );
 	array[ -1090] = assign( 26, "10011111111111100001111100" );
@@ -2307,11 +2307,11 @@
 	array[ -1118] = assign( 27, "110111110101110100011111010" );
 	array[  1119] = assign( 26, "11011111111111101011111010" );
 	array[ -1119] = assign( 26, "10011111111111101011111010" );
-	array[  1120] = assign( 21, "010101111111010011111" );	// warning: length mismatch
+	array[  1120] = assign( 21, "010101111111010011111" );
 	array[ -1120] = assign( 21, "011101111111010011111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1121
-	array[  1121] = assign( 21, "011101111011110111110" );	// warning: length mismatch
+	array[  1121] = assign( 21, "011101111011110111110" );
 	array[ -1121] = assign( 21, "010101111011110111110" );
 	array[  1122] = assign( 26, "11011111011111100001111100" );
 	array[ -1122] = assign( 26, "10011111011111100001111100" );
@@ -2373,11 +2373,11 @@
 	array[ -1150] = assign( 27, "110111111101110100011111010" );
 	array[  1151] = assign( 26, "11011111011111101011111010" );
 	array[ -1151] = assign( 26, "10011111011111101011111010" );
-	array[  1152] = assign( 21, "010101111111011011111" );	// warning: length mismatch
+	array[  1152] = assign( 21, "010101111111011011111" );
 	array[ -1152] = assign( 21, "011101111111011011111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1153
-	array[  1153] = assign( 21, "011101101111111011110" );	// warning: length mismatch
+	array[  1153] = assign( 21, "011101101111111011110" );
 	array[ -1153] = assign( 21, "010101101111111011110" );
 	array[  1154] = assign( 26, "11011111110111100011111100" );
 	array[ -1154] = assign( 26, "10011111110111100011111100" );
@@ -2439,11 +2439,11 @@
 	array[ -1182] = assign( 27, "110111110111110100001111010" );
 	array[  1183] = assign( 26, "11011111110111101001111010" );
 	array[ -1183] = assign( 26, "10011111110111101001111010" );
-	array[  1184] = assign( 21, "010101101111010111111" );	// warning: length mismatch
+	array[  1184] = assign( 21, "010101101111010111111" );
 	array[ -1184] = assign( 21, "011101101111010111111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1185
-	array[  1185] = assign( 21, "011101101111110011110" );	// warning: length mismatch
+	array[  1185] = assign( 21, "011101101111110011110" );
 	array[ -1185] = assign( 21, "010101101111110011110" );
 	array[  1186] = assign( 26, "11011111010111100011111100" );
 	array[ -1186] = assign( 26, "10011111010111100011111100" );
@@ -2505,11 +2505,11 @@
 	array[ -1214] = assign( 27, "110111111111110100001111010" );
 	array[  1215] = assign( 26, "11011111010111101001111010" );
 	array[ -1215] = assign( 26, "10011111010111101001111010" );
-	array[  1216] = assign( 21, "010101101111011111111" );	// warning: length mismatch
+	array[  1216] = assign( 21, "010101101111011111111" );
 	array[ -1216] = assign( 21, "011101101111011111111" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1217
-	array[  1217] = assign( 21, "011101111111111110110" );	// warning: length mismatch
+	array[  1217] = assign( 21, "011101111111111110110" );
 	array[ -1217] = assign( 21, "010101111111111110110" );
 	array[  1218] = assign( 26, "11111111010111101001011100" );
 	array[ -1218] = assign( 26, "10111111010111101001011100" );
@@ -2575,7 +2575,7 @@
 	array[ -1248] = assign( 26, "10011111111101101001111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1249
-	array[  1249] = assign( 21, "011101111111110110110" );	// warning: length mismatch
+	array[  1249] = assign( 21, "011101111111110110110" );
 	array[ -1249] = assign( 21, "010101111111110110110" );
 	array[  1250] = assign( 26, "11111111111101101011111000" );
 	array[ -1250] = assign( 26, "10111111111101101011111000" );
@@ -2641,7 +2641,7 @@
 	array[ -1280] = assign( 26, "10011111011101101001111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1281
-	array[  1281] = assign( 21, "011110011011010110110" );	// warning: length mismatch
+	array[  1281] = assign( 21, "011110011011010110110" );
 	array[ -1281] = assign( 21, "010110011011010110110" );
 	array[  1282] = assign( 26, "11111111011101101011111000" );
 	array[ -1282] = assign( 26, "10111111011101101011111000" );
@@ -2707,7 +2707,7 @@
 	array[ -1312] = assign( 26, "10011111110101101011011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1313
-	array[  1313] = assign( 21, "011110001011011010110" );	// warning: length mismatch
+	array[  1313] = assign( 21, "011110001011011010110" );
 	array[ -1313] = assign( 21, "010110001011011010110" );
 	array[  1314] = assign( 26, "11111111110101101001111000" );
 	array[ -1314] = assign( 26, "10111111110101101001111000" );
@@ -2773,7 +2773,7 @@
 	array[ -1344] = assign( 26, "10011111010101101011011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1345
-	array[  1345] = assign( 21, "011110001011010010110" );	// warning: length mismatch
+	array[  1345] = assign( 21, "011110001011010010110" );
 	array[ -1345] = assign( 21, "010110001011010010110" );
 	array[  1346] = assign( 26, "11111111010101101001111000" );
 	array[ -1346] = assign( 26, "10111111010101101001111000" );
@@ -2839,7 +2839,7 @@
 	array[ -1376] = assign( 26, "10011111111111001001011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1377
-	array[  1377] = assign( 19, "0111100111101111110" );	// warning: length mismatch
+	array[  1377] = assign( 19, "0111100111101111110" );
 	array[ -1377] = assign( 19, "0101100111101111110" );
 	array[  1378] = assign( 26, "11111111111111001011011000" );
 	array[ -1378] = assign( 26, "10111111111111001011011000" );
@@ -2905,7 +2905,7 @@
 	array[ -1408] = assign( 26, "10011111011111001001011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1409
-	array[  1409] = assign( 19, "0111100111101011110" );	// warning: length mismatch
+	array[  1409] = assign( 19, "0111100111101011110" );
 	array[ -1409] = assign( 19, "0101100111101011110" );
 	array[  1410] = assign( 26, "11111111011111001011011000" );
 	array[ -1410] = assign( 26, "10111111011111001011011000" );
@@ -2971,7 +2971,7 @@
 	array[ -1440] = assign( 25, "1001111111011100101111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1441
-	array[  1441] = assign( 19, "0111100011101101110" );	// warning: length mismatch
+	array[  1441] = assign( 19, "0111100011101101110" );
 	array[ -1441] = assign( 19, "0101100011101101110" );
 	array[  1442] = assign( 26, "11111111110111001001011000" );
 	array[ -1442] = assign( 26, "10111111110111001001011000" );
@@ -3037,7 +3037,7 @@
 	array[ -1472] = assign( 25, "1001111101011100101111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1473
-	array[  1473] = assign( 19, "0111100011101001110" );	// warning: length mismatch
+	array[  1473] = assign( 19, "0111100011101001110" );
 	array[ -1473] = assign( 19, "0101100011101001110" );
 	array[  1474] = assign( 26, "11111111010111001001011000" );
 	array[ -1474] = assign( 26, "10111111010111001001011000" );
@@ -3103,7 +3103,7 @@
 	array[ -1504] = assign( 25, "1001111111110100100111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1505
-	array[  1505] = assign( 19, "0111100110101111010" );	// warning: length mismatch
+	array[  1505] = assign( 19, "0111100110101111010" );
 	array[ -1505] = assign( 19, "0101100110101111010" );
 	array[  1506] = assign( 25, "1111111111110100101111000" );
 	array[ -1506] = assign( 25, "1011111111110100101111000" );
@@ -3169,7 +3169,7 @@
 	array[ -1536] = assign( 25, "1001111101110100100111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1537
-	array[  1537] = assign( 19, "0111100110101011010" );	// warning: length mismatch
+	array[  1537] = assign( 19, "0111100110101011010" );
 	array[ -1537] = assign( 19, "0101100110101011010" );
 	array[  1538] = assign( 25, "1111111101110100101111000" );
 	array[ -1538] = assign( 25, "1011111101110100101111000" );
@@ -3235,7 +3235,7 @@
 	array[ -1568] = assign( 25, "1001111111010100101101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1569
-	array[  1569] = assign( 19, "0111100010101101010" );	// warning: length mismatch
+	array[  1569] = assign( 19, "0111100010101101010" );
 	array[ -1569] = assign( 19, "0101100010101101010" );
 	array[  1570] = assign( 25, "1111111111010100100111000" );
 	array[ -1570] = assign( 25, "1011111111010100100111000" );
@@ -3301,7 +3301,7 @@
 	array[ -1600] = assign( 25, "1001111101010100101101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1601
-	array[  1601] = assign( 19, "0111100010101001010" );	// warning: length mismatch
+	array[  1601] = assign( 19, "0111100010101001010" );
 	array[ -1601] = assign( 19, "0101100010101001010" );
 	array[  1602] = assign( 25, "1111111101010100100111000" );
 	array[ -1602] = assign( 25, "1011111101010100100111000" );
@@ -3367,7 +3367,7 @@
 	array[ -1632] = assign( 23, "10011111111110100101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1633
-	array[  1633] = assign( 17, "01111001110111110" );	// warning: length mismatch
+	array[  1633] = assign( 17, "01111001110111110" );
 	array[ -1633] = assign( 17, "01011001110111110" );
 	array[  1634] = assign( 23, "11111111111110101101000" );
 	array[ -1634] = assign( 23, "10111111111110101101000" );
@@ -3433,7 +3433,7 @@
 	array[ -1664] = assign( 23, "10011111011110100101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1665
-	array[  1665] = assign( 17, "01111001110101110" );	// warning: length mismatch
+	array[  1665] = assign( 17, "01111001110101110" );
 	array[ -1665] = assign( 17, "01011001110101110" );
 	array[  1666] = assign( 23, "11111111011110101101000" );
 	array[ -1666] = assign( 23, "10111111011110101101000" );
@@ -3499,7 +3499,7 @@
 	array[ -1696] = assign( 22, "1001111111011010111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1697
-	array[  1697] = assign( 17, "01111000110110110" );	// warning: length mismatch
+	array[  1697] = assign( 17, "01111000110110110" );
 	array[ -1697] = assign( 17, "01011000110110110" );
 	array[  1698] = assign( 23, "11111111110110100101000" );
 	array[ -1698] = assign( 23, "10111111110110100101000" );
@@ -3565,7 +3565,7 @@
 	array[ -1728] = assign( 22, "1001111101011010111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1729
-	array[  1729] = assign( 17, "01111000110100110" );	// warning: length mismatch
+	array[  1729] = assign( 17, "01111000110100110" );
 	array[ -1729] = assign( 17, "01011000110100110" );
 	array[  1730] = assign( 23, "11111111010110100101000" );
 	array[ -1730] = assign( 23, "10111111010110100101000" );
@@ -3631,7 +3631,7 @@
 	array[ -1760] = assign( 22, "1001111111110010011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1761
-	array[  1761] = assign( 17, "01111001100111100" );	// warning: length mismatch
+	array[  1761] = assign( 17, "01111001100111100" );
 	array[ -1761] = assign( 17, "01011001100111100" );
 	array[  1762] = assign( 22, "1111111111110010111000" );
 	array[ -1762] = assign( 22, "1011111111110010111000" );
@@ -3697,7 +3697,7 @@
 	array[ -1792] = assign( 22, "1001111101110010011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1793
-	array[  1793] = assign( 17, "01111001100101100" );	// warning: length mismatch
+	array[  1793] = assign( 17, "01111001100101100" );
 	array[ -1793] = assign( 17, "01011001100101100" );
 	array[  1794] = assign( 22, "1111111101110010111000" );
 	array[ -1794] = assign( 22, "1011111101110010111000" );
@@ -3763,7 +3763,7 @@
 	array[ -1824] = assign( 22, "1001111111010010110000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1825
-	array[  1825] = assign( 17, "01111000100110100" );	// warning: length mismatch
+	array[  1825] = assign( 17, "01111000100110100" );
 	array[ -1825] = assign( 17, "01011000100110100" );
 	array[  1826] = assign( 22, "1111111111010010011000" );
 	array[ -1826] = assign( 22, "1011111111010010011000" );
@@ -3829,7 +3829,7 @@
 	array[ -1856] = assign( 22, "1001111101010010110000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1857
-	array[  1857] = assign( 17, "01111000100100100" );	// warning: length mismatch
+	array[  1857] = assign( 17, "01111000100100100" );
 	array[ -1857] = assign( 17, "01011000100100100" );
 	array[  1858] = assign( 22, "1111111101010010011000" );
 	array[ -1858] = assign( 22, "1011111101010010011000" );
@@ -3895,7 +3895,7 @@
 	array[ -1888] = assign( 20, "10011111111010010000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1889
-	array[  1889] = assign( 13, "0111100101110" );	// warning: length mismatch
+	array[  1889] = assign( 13, "0111100101110" );
 	array[ -1889] = assign( 13, "0101100101110" );
 	array[  1890] = assign( 20, "11111111111010110000" );
 	array[ -1890] = assign( 20, "10111111111010110000" );
@@ -3961,7 +3961,7 @@
 	array[ -1920] = assign( 20, "10011111011010010000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1921
-	array[  1921] = assign( 13, "0111100101010" );	// warning: length mismatch
+	array[  1921] = assign( 13, "0111100101010" );
 	array[ -1921] = assign( 13, "0101100101010" );
 	array[  1922] = assign( 20, "11111111011010110000" );
 	array[ -1922] = assign( 20, "10111111011010110000" );
@@ -4027,7 +4027,7 @@
 	array[ -1952] = assign( 12, "100111011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1953
-	array[  1953] = assign( 13, "0111100001100" );	// warning: length mismatch
+	array[  1953] = assign( 13, "0111100001100" );
 	array[ -1953] = assign( 13, "0101100001100" );
 	array[  1954] = assign( 20, "11111111110010010000" );
 	array[ -1954] = assign( 20, "10111111110010010000" );
@@ -4093,7 +4093,7 @@
 	array[ -1984] = assign( 11, "10011110010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 1985
-	array[  1985] = assign( 13, "0111100001000" );	// warning: length mismatch
+	array[  1985] = assign( 13, "0111100001000" );
 	array[ -1985] = assign( 13, "0101100001000" );
 	array[  1986] = assign( 20, "11111111010010010000" );
 	array[ -1986] = assign( 20, "10111111010010010000" );
@@ -4159,7 +4159,7 @@
 	array[ -2016] = assign(  9, "100101100" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2017
-	array[  2017] = assign(  9, "011111000" );	// warning: length mismatch
+	array[  2017] = assign(  9, "011111000" );
 	array[ -2017] = assign(  9, "010111000" );
 	array[  2018] = assign( 11, "11111101110" );
 	array[ -2018] = assign( 11, "10111101110" );
@@ -4225,7 +4225,7 @@
 	array[ -2048] = assign(  5, "11000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2049
-	array[  2049] = assign(  7, "0101010" );	// warning: length mismatch
+	array[  2049] = assign(  7, "0101010" );
 	array[ -2049] = assign(  7, "0111010" );
 	array[  2050] = assign( 10, "1111111000" );
 	array[ -2050] = assign( 10, "1011111000" );
@@ -4291,7 +4291,7 @@
 	array[ -2080] = assign(  5, "11001" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2081
-	array[  2081] = assign(  6, "010011" );	// warning: length mismatch
+	array[  2081] = assign(  6, "010011" );
 	array[ -2081] = assign(  6, "011011" );
 	array[  2082] = assign( 10, "1011110100" );
 	array[ -2082] = assign( 10, "1111110100" );
@@ -4357,7 +4357,7 @@
 	array[ -2112] = assign(  7, "1111100" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2113
-	array[  2113] = assign(  6, "010010" );	// warning: length mismatch
+	array[  2113] = assign(  6, "010010" );
 	array[ -2113] = assign(  6, "011010" );
 	array[  2114] = assign(  8, "10110100" );
 	array[ -2114] = assign(  8, "11110100" );
@@ -4423,7 +4423,7 @@
 	array[ -2144] = assign( 10, "1111011010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2145
-	array[  2145] = assign(  8, "01010000" );	// warning: length mismatch
+	array[  2145] = assign(  8, "01010000" );
 	array[ -2145] = assign(  8, "01110000" );
 	array[  2146] = assign(  7, "1011000" );
 	array[ -2146] = assign(  7, "1111000" );
@@ -4489,7 +4489,7 @@
 	array[ -2176] = assign( 12, "111111100110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2177
-	array[  2177] = assign(  8, "01010010" );	// warning: length mismatch
+	array[  2177] = assign(  8, "01010010" );
 	array[ -2177] = assign(  8, "01110010" );
 	array[  2178] = assign(  8, "10011010" );
 	array[ -2178] = assign(  8, "11011010" );
@@ -4555,7 +4555,7 @@
 	array[ -2208] = assign( 13, "1111110111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2209
-	array[  2209] = assign( 11, "01011100110" );	// warning: length mismatch
+	array[  2209] = assign( 11, "01011100110" );
 	array[ -2209] = assign( 11, "01111100110" );
 	array[  2210] = assign( 11, "10010110110" );
 	array[ -2210] = assign( 11, "11010110110" );
@@ -4621,7 +4621,7 @@
 	array[ -2240] = assign( 22, "1111111101010010010000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2241
-	array[  2241] = assign( 15, "010110000100100" );	// warning: length mismatch
+	array[  2241] = assign( 15, "010110000100100" );
 	array[ -2241] = assign( 15, "011110000100100" );
 	array[  2242] = assign( 13, "1001111001110" );
 	array[ -2242] = assign( 13, "1101111001110" );
@@ -4687,7 +4687,7 @@
 	array[ -2272] = assign( 22, "1111111111010010010000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2273
-	array[  2273] = assign( 15, "010110000110100" );	// warning: length mismatch
+	array[  2273] = assign( 15, "010110000110100" );
 	array[ -2273] = assign( 15, "011110000110100" );
 	array[  2274] = assign( 14, "10011101111110" );
 	array[ -2274] = assign( 14, "11011101111110" );
@@ -4753,7 +4753,7 @@
 	array[ -2304] = assign( 22, "1111111101110010110000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2305
-	array[  2305] = assign( 15, "010110010101100" );	// warning: length mismatch
+	array[  2305] = assign( 15, "010110010101100" );
 	array[ -2305] = assign( 15, "011110010101100" );
 	array[  2306] = assign( 22, "1001111101110010010000" );
 	array[ -2306] = assign( 22, "1101111101110010010000" );
@@ -4819,7 +4819,7 @@
 	array[ -2336] = assign( 22, "1111111111110010110000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2337
-	array[  2337] = assign( 15, "010110010111100" );	// warning: length mismatch
+	array[  2337] = assign( 15, "010110010111100" );
 	array[ -2337] = assign( 15, "011110010111100" );
 	array[  2338] = assign( 22, "1001111111110010010000" );
 	array[ -2338] = assign( 22, "1101111111110010010000" );
@@ -4885,7 +4885,7 @@
 	array[ -2368] = assign( 22, "1111111101011010011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2369
-	array[  2369] = assign( 17, "01011000100100110" );	// warning: length mismatch
+	array[  2369] = assign( 17, "01011000100100110" );
 	array[ -2369] = assign( 17, "01111000100100110" );
 	array[  2370] = assign( 22, "1001111101011010110000" );
 	array[ -2370] = assign( 22, "1101111101011010110000" );
@@ -4951,7 +4951,7 @@
 	array[ -2400] = assign( 22, "1111111111011010011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2401
-	array[  2401] = assign( 17, "01011000100110110" );	// warning: length mismatch
+	array[  2401] = assign( 17, "01011000100110110" );
 	array[ -2401] = assign( 17, "01111000100110110" );
 	array[  2402] = assign( 22, "1001111111011010110000" );
 	array[ -2402] = assign( 22, "1101111111011010110000" );
@@ -5017,7 +5017,7 @@
 	array[ -2432] = assign( 22, "1111111101111010111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2433
-	array[  2433] = assign( 17, "01011001100101110" );	// warning: length mismatch
+	array[  2433] = assign( 17, "01011001100101110" );
 	array[ -2433] = assign( 17, "01111001100101110" );
 	array[  2434] = assign( 22, "1001111101111010011000" );
 	array[ -2434] = assign( 22, "1101111101111010011000" );
@@ -5083,7 +5083,7 @@
 	array[ -2464] = assign( 22, "1111111111111010111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2465
-	array[  2465] = assign( 17, "01011001100111110" );	// warning: length mismatch
+	array[  2465] = assign( 17, "01011001100111110" );
 	array[ -2465] = assign( 17, "01111001100111110" );
 	array[  2466] = assign( 22, "1001111111111010011000" );
 	array[ -2466] = assign( 22, "1101111111111010011000" );
@@ -5149,7 +5149,7 @@
 	array[ -2496] = assign( 25, "1111111101010100100101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2497
-	array[  2497] = assign( 18, "010110001101001010" );	// warning: length mismatch
+	array[  2497] = assign( 18, "010110001101001010" );
 	array[ -2497] = assign( 18, "011110001101001010" );
 	array[  2498] = assign( 24, "100111110101010010111000" );
 	array[ -2498] = assign( 24, "110111110101010010111000" );
@@ -5215,7 +5215,7 @@
 	array[ -2528] = assign( 25, "1111111111010100100101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2529
-	array[  2529] = assign( 18, "010110001101101010" );	// warning: length mismatch
+	array[  2529] = assign( 18, "010110001101101010" );
 	array[ -2529] = assign( 18, "011110001101101010" );
 	array[  2530] = assign( 24, "100111111101010010111000" );
 	array[ -2530] = assign( 24, "110111111101010010111000" );
@@ -5281,7 +5281,7 @@
 	array[ -2560] = assign( 25, "1111111101110100101101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2561
-	array[  2561] = assign( 18, "010110011101011010" );	// warning: length mismatch
+	array[  2561] = assign( 18, "010110011101011010" );
 	array[ -2561] = assign( 18, "011110011101011010" );
 	array[  2562] = assign( 25, "1001111101110100100101000" );
 	array[ -2562] = assign( 25, "1101111101110100100101000" );
@@ -5347,7 +5347,7 @@
 	array[ -2592] = assign( 25, "1111111111110100101101000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2593
-	array[  2593] = assign( 18, "010110011101111010" );	// warning: length mismatch
+	array[  2593] = assign( 18, "010110011101111010" );
 	array[ -2593] = assign( 18, "011110011101111010" );
 	array[  2594] = assign( 25, "1001111111110100100101000" );
 	array[ -2594] = assign( 25, "1101111111110100100101000" );
@@ -5413,7 +5413,7 @@
 	array[ -2624] = assign( 25, "1111111101011100100111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2625
-	array[  2625] = assign( 19, "0101100010101001110" );	// warning: length mismatch
+	array[  2625] = assign( 19, "0101100010101001110" );
 	array[ -2625] = assign( 19, "0111100010101001110" );
 	array[  2626] = assign( 25, "1001111101011100101101000" );
 	array[ -2626] = assign( 25, "1101111101011100101101000" );
@@ -5479,7 +5479,7 @@
 	array[ -2656] = assign( 25, "1111111111011100100111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2657
-	array[  2657] = assign( 19, "0101100010101101110" );	// warning: length mismatch
+	array[  2657] = assign( 19, "0101100010101101110" );
 	array[ -2657] = assign( 19, "0111100010101101110" );
 	array[  2658] = assign( 25, "1001111111011100101101000" );
 	array[ -2658] = assign( 25, "1101111111011100101101000" );
@@ -5545,7 +5545,7 @@
 	array[ -2688] = assign( 25, "1111111101111100101111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2689
-	array[  2689] = assign( 19, "0101100110101011110" );	// warning: length mismatch
+	array[  2689] = assign( 19, "0101100110101011110" );
 	array[ -2689] = assign( 19, "0111100110101011110" );
 	array[  2690] = assign( 25, "1001111101111100100111000" );
 	array[ -2690] = assign( 25, "1101111101111100100111000" );
@@ -5611,7 +5611,7 @@
 	array[ -2720] = assign( 25, "1111111111111100101111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2721
-	array[  2721] = assign( 19, "0101100110101111110" );	// warning: length mismatch
+	array[  2721] = assign( 19, "0101100110101111110" );
 	array[ -2721] = assign( 19, "0111100110101111110" );
 	array[  2722] = assign( 25, "1001111111111100100111000" );
 	array[ -2722] = assign( 25, "1101111111111100100111000" );
@@ -5677,7 +5677,7 @@
 	array[ -2752] = assign( 26, "11111111010101101001011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2753
-	array[  2753] = assign( 20, "01011000111010010110" );	// warning: length mismatch
+	array[  2753] = assign( 20, "01011000111010010110" );
 	array[ -2753] = assign( 20, "01111000111010010110" );
 	array[  2754] = assign( 25, "1001111101010110101111000" );
 	array[ -2754] = assign( 25, "1101111101010110101111000" );
@@ -5743,7 +5743,7 @@
 	array[ -2784] = assign( 26, "11111111110101101001011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2785
-	array[  2785] = assign( 20, "01011000111011010110" );	// warning: length mismatch
+	array[  2785] = assign( 20, "01011000111011010110" );
 	array[ -2785] = assign( 20, "01111000111011010110" );
 	array[  2786] = assign( 25, "1001111111010110101111000" );
 	array[ -2786] = assign( 25, "1101111111010110101111000" );
@@ -5809,7 +5809,7 @@
 	array[ -2816] = assign( 26, "11111111011101101011011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2817
-	array[  2817] = assign( 20, "01011001111010110110" );	// warning: length mismatch
+	array[  2817] = assign( 20, "01011001111010110110" );
 	array[ -2817] = assign( 20, "01111001111010110110" );
 	array[  2818] = assign( 26, "10011111011101101001011000" );
 	array[ -2818] = assign( 26, "11011111011101101001011000" );
@@ -5875,7 +5875,7 @@
 	array[ -2848] = assign( 26, "11111111111101101011011000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2849
-	array[  2849] = assign( 20, "01011001111011110110" );	// warning: length mismatch
+	array[  2849] = assign( 20, "01011001111011110110" );
 	array[ -2849] = assign( 20, "01111001111011110110" );
 	array[  2850] = assign( 26, "10011111111101101001011000" );
 	array[ -2850] = assign( 26, "11011111111101101001011000" );
@@ -5941,9 +5941,9 @@
 	array[ -2880] = assign( 26, "11111111010111101001111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2881
-	array[  2881] = assign( 21, "010110001011010011110" );	// warning: length mismatch
+	array[  2881] = assign( 21, "010110001011010011110" );
 	array[ -2881] = assign( 21, "011110001011010011110" );
-	array[  2882] = assign( 21, "011101101011011111111" );	// warning: length mismatch
+	array[  2882] = assign( 21, "011101101011011111111" );
 	array[ -2882] = assign( 21, "010101101011011111111" );
 	array[  2883] = assign( 26, "10011111010111101001011010" );
 	array[ -2883] = assign( 26, "11011111010111101001011010" );
@@ -6007,9 +6007,9 @@
 	array[ -2912] = assign( 26, "11111111110111101001111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2913
-	array[  2913] = assign( 21, "010110001011011011110" );	// warning: length mismatch
+	array[  2913] = assign( 21, "010110001011011011110" );
 	array[ -2913] = assign( 21, "011110001011011011110" );
-	array[  2914] = assign( 21, "011101101011010111111" );	// warning: length mismatch
+	array[  2914] = assign( 21, "011101101011010111111" );
 	array[ -2914] = assign( 21, "010101101011010111111" );
 	array[  2915] = assign( 26, "10011111110111101001011010" );
 	array[ -2915] = assign( 26, "11011111110111101001011010" );
@@ -6073,9 +6073,9 @@
 	array[ -2944] = assign( 26, "11111111011111101011111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2945
-	array[  2945] = assign( 21, "010110011011010111110" );	// warning: length mismatch
+	array[  2945] = assign( 21, "010110011011010111110" );
 	array[ -2945] = assign( 21, "011110011011010111110" );
-	array[  2946] = assign( 21, "011101111011011011111" );	// warning: length mismatch
+	array[  2946] = assign( 21, "011101111011011011111" );
 	array[ -2946] = assign( 21, "010101111011011011111" );
 	array[  2947] = assign( 26, "10011111011111101011011010" );
 	array[ -2947] = assign( 26, "11011111011111101011011010" );
@@ -6139,9 +6139,9 @@
 	array[ -2976] = assign( 26, "11111111111111101011111000" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 2977
-	array[  2977] = assign( 21, "010101111111110111110" );	// warning: length mismatch
+	array[  2977] = assign( 21, "010101111111110111110" );
 	array[ -2977] = assign( 21, "011101111111110111110" );
-	array[  2978] = assign( 21, "011101111011010011111" );	// warning: length mismatch
+	array[  2978] = assign( 21, "011101111011010011111" );
 	array[ -2978] = assign( 21, "010101111011010011111" );
 	array[  2979] = assign( 26, "10011111111111101011011010" );
 	array[ -2979] = assign( 26, "11011111111111101011011010" );
@@ -6205,9 +6205,9 @@
 	array[ -3008] = assign( 27, "100111110101110101011111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3009
-	array[  3009] = assign( 21, "010101111111111111110" );	// warning: length mismatch
+	array[  3009] = assign( 21, "010101111111111111110" );
 	array[ -3009] = assign( 21, "011101111111111111110" );
-	array[  3010] = assign( 21, "011101101111011110111" );	// warning: length mismatch
+	array[  3010] = assign( 21, "011101101111011110111" );
 	array[ -3010] = assign( 21, "010101101111011110111" );
 	array[  3011] = assign( 27, "100111110101010101001111010" );
 	array[ -3011] = assign( 27, "100111111111010100011111000" );
@@ -6271,9 +6271,9 @@
 	array[ -3040] = assign( 27, "100111111111010101001111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3041
-	array[  3041] = assign( 21, "010101101111110010111" );	// warning: length mismatch
+	array[  3041] = assign( 21, "010101101111110010111" );
 	array[ -3041] = assign( 21, "011101101111110010111" );
-	array[  3042] = assign( 21, "011101101111010110111" );	// warning: length mismatch
+	array[  3042] = assign( 21, "011101101111010110111" );
 	array[ -3042] = assign( 21, "010101101111010110111" );
 	array[  3043] = assign( 27, "100111111101010101001111010" );
 	array[ -3043] = assign( 27, "100111110111010100011111000" );
@@ -6337,9 +6337,9 @@
 	array[ -3072] = assign( 27, "100111110111010101001111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3073
-	array[  3073] = assign( 21, "010101101111111010111" );	// warning: length mismatch
+	array[  3073] = assign( 21, "010101101111111010111" );
 	array[ -3073] = assign( 21, "011101101111111010111" );
-	array[  3074] = assign( 21, "011101111111011010111" );	// warning: length mismatch
+	array[  3074] = assign( 21, "011101111111011010111" );
 	array[ -3074] = assign( 21, "010101111111011010111" );
 	array[  3075] = assign( 27, "100111110111010101011111010" );
 	array[ -3075] = assign( 27, "100111111101010100001011100" );
@@ -6403,9 +6403,9 @@
 	array[ -3104] = assign( 27, "100111111101010101011011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3105
-	array[  3105] = assign( 21, "010101111011110110111" );	// warning: length mismatch
+	array[  3105] = assign( 21, "010101111011110110111" );
 	array[ -3105] = assign( 21, "011101111011110110111" );
-	array[  3106] = assign( 21, "011101111111010010111" );	// warning: length mismatch
+	array[  3106] = assign( 21, "011101111111010010111" );
 	array[ -3106] = assign( 21, "010101111111010010111" );
 	array[  3107] = assign( 27, "100111111111010101011111010" );
 	array[ -3107] = assign( 27, "100111110101010100001011100" );
@@ -6469,9 +6469,9 @@
 	array[ -3136] = assign( 26, "10111111111111100001111110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3137
-	array[  3137] = assign( 21, "010101111011111110111" );	// warning: length mismatch
+	array[  3137] = assign( 21, "010101111011111110111" );
 	array[ -3137] = assign( 21, "011101111011111110111" );
-	array[  3138] = assign( 21, "011101101011111111110" );	// warning: length mismatch
+	array[  3138] = assign( 21, "011101101011111111110" );
 	array[ -3138] = assign( 21, "010101101011111111110" );
 	array[  3139] = assign( 26, "11011111111111100011011100" );
 	array[ -3139] = assign( 26, "10011111111111100011011100" );
@@ -6535,9 +6535,9 @@
 	array[ -3168] = assign( 26, "10011111111111101001011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3169
-	array[  3169] = assign( 21, "010101101011110011111" );	// warning: length mismatch
+	array[  3169] = assign( 21, "010101101011110011111" );
 	array[ -3169] = assign( 21, "011101101011110011111" );
-	array[  3170] = assign( 21, "011101101011110111110" );	// warning: length mismatch
+	array[  3170] = assign( 21, "011101101011110111110" );
 	array[ -3170] = assign( 21, "010101101011110111110" );
 	array[  3171] = assign( 26, "11011111011111100011011100" );
 	array[ -3171] = assign( 26, "10011111011111100011011100" );
@@ -6601,9 +6601,9 @@
 	array[ -3200] = assign( 26, "10011111011111101001011110" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3201
-	array[  3201] = assign( 21, "010101101011111011111" );	// warning: length mismatch
+	array[  3201] = assign( 21, "010101101011111011111" );
 	array[ -3201] = assign( 21, "011101101011111011111" );
-	array[  3202] = assign( 21, "011101111011111011110" );	// warning: length mismatch
+	array[  3202] = assign( 21, "011101111011111011110" );
 	array[ -3202] = assign( 21, "010101111011111011110" );
 	array[  3203] = assign( 26, "11011111110111100001111100" );
 	array[ -3203] = assign( 26, "10011111110111100001111100" );
@@ -6667,9 +6667,9 @@
 	array[ -3232] = assign( 26, "10011111110111101011111010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3233
-	array[  3233] = assign( 21, "010101111111010111111" );	// warning: length mismatch
+	array[  3233] = assign( 21, "010101111111010111111" );
 	array[ -3233] = assign( 21, "011101111111010111111" );
-	array[  3234] = assign( 21, "011101111011110011110" );	// warning: length mismatch
+	array[  3234] = assign( 21, "011101111011110011110" );
 	array[ -3234] = assign( 21, "010101111011110011110" );
 	array[  3235] = assign( 26, "11011111010111100001111100" );
 	array[ -3235] = assign( 26, "10011111010111100001111100" );
@@ -6733,9 +6733,9 @@
 	array[ -3264] = assign( 26, "10011111010111101011111010" );
 	// decoded 32 sequences.
 	// decoded sequences starting at 3265
-	array[  3265] = assign( 21, "010101111111011111111" );	// warning: length mismatch
+	array[  3265] = assign( 21, "010101111111011111111" );
 	array[ -3265] = assign( 21, "011101111111011111111" );
-	array[  3266] = assign( 21, "011101101111111110110" );	// warning: length mismatch
+	array[  3266] = assign( 21, "011101101111111110110" );
 	array[ -3266] = assign( 21, "010101101111111110110" );
 	array[  3267] = assign( 26, "11011111111101100011111100" );
 	array[ -3267] = assign( 26, "10011111111101100011111100" );
@@ -6801,7 +6801,7 @@
 	// decoded sequences starting at 3297
 	array[  3297] = assign( 26, "11011111111101101011111000" );
 	array[ -3297] = assign( 26, "10011111111101101011111000" );
-	array[  3298] = assign( 21, "011101101111110110110" );	// warning: length mismatch
+	array[  3298] = assign( 21, "011101101111110110110" );
 	array[ -3298] = assign( 21, "010101101111110110110" );
 	array[  3299] = assign( 26, "11011111011101100011111100" );
 	array[ -3299] = assign( 26, "10011111011101100011111100" );
@@ -6867,7 +6867,7 @@
 	// decoded sequences starting at 3329
 	array[  3329] = assign( 26, "11011111011101101011111000" );
 	array[ -3329] = assign( 26, "10011111011101101011111000" );
-	array[  3330] = assign( 21, "011101111111111010110" );	// warning: length mismatch
+	array[  3330] = assign( 21, "011101111111111010110" );
 	array[ -3330] = assign( 21, "010101111111111010110" );
 	array[  3331] = assign( 26, "11111111011101101001011100" );
 	array[ -3331] = assign( 26, "10111111011101101001011100" );
@@ -6933,7 +6933,7 @@
 	// decoded sequences starting at 3361
 	array[  3361] = assign( 26, "11011111110101101001111000" );
 	array[ -3361] = assign( 26, "10011111110101101001111000" );
-	array[  3362] = assign( 21, "011101111111110010110" );	// warning: length mismatch
+	array[  3362] = assign( 21, "011101111111110010110" );
 	array[ -3362] = assign( 21, "010101111111110010110" );
 	array[  3363] = assign( 26, "11111111110101101011111000" );
 	array[ -3363] = assign( 26, "10111111110101101011111000" );
@@ -6999,7 +6999,7 @@
 	// decoded sequences starting at 3393
 	array[  3393] = assign( 26, "11011111010101101001111000" );
 	array[ -3393] = assign( 26, "10011111010101101001111000" );
-	array[  3394] = assign( 21, "011110011011010010110" );	// warning: length mismatch
+	array[  3394] = assign( 21, "011110011011010010110" );
 	array[ -3394] = assign( 21, "010110011011010010110" );
 	array[  3395] = assign( 26, "11111111010101101011111000" );
 	array[ -3395] = assign( 26, "10111111010101101011111000" );
@@ -7065,7 +7065,7 @@
 	// decoded sequences starting at 3425
 	array[  3425] = assign( 26, "11011111111111001011011000" );
 	array[ -3425] = assign( 26, "10011111111111001011011000" );
-	array[  3426] = assign( 20, "01111000101101111110" );	// warning: length mismatch
+	array[  3426] = assign( 20, "01111000101101111110" );
 	array[ -3426] = assign( 20, "01011000101101111110" );
 	array[  3427] = assign( 26, "11111111111111001001111000" );
 	array[ -3427] = assign( 26, "10111111111111001001111000" );
@@ -7131,7 +7131,7 @@
 	// decoded sequences starting at 3457
 	array[  3457] = assign( 26, "11011111011111001011011000" );
 	array[ -3457] = assign( 26, "10011111011111001011011000" );
-	array[  3458] = assign( 20, "01111000101101011110" );	// warning: length mismatch
+	array[  3458] = assign( 20, "01111000101101011110" );
 	array[ -3458] = assign( 20, "01011000101101011110" );
 	array[  3459] = assign( 26, "11111111011111001001111000" );
 	array[ -3459] = assign( 26, "10111111011111001001111000" );
@@ -7197,7 +7197,7 @@
 	// decoded sequences starting at 3489
 	array[  3489] = assign( 26, "11011111110111001001011000" );
 	array[ -3489] = assign( 26, "10011111110111001001011000" );
-	array[  3490] = assign( 19, "0111100111101101110" );	// warning: length mismatch
+	array[  3490] = assign( 19, "0111100111101101110" );
 	array[ -3490] = assign( 19, "0101100111101101110" );
 	array[  3491] = assign( 26, "11111111110111001011011000" );
 	array[ -3491] = assign( 26, "10111111110111001011011000" );
@@ -7263,7 +7263,7 @@
 	// decoded sequences starting at 3521
 	array[  3521] = assign( 26, "11011111010111001001011000" );
 	array[ -3521] = assign( 26, "10011111010111001001011000" );
-	array[  3522] = assign( 19, "0111100111101001110" );	// warning: length mismatch
+	array[  3522] = assign( 19, "0111100111101001110" );
 	array[ -3522] = assign( 19, "0101100111101001110" );
 	array[  3523] = assign( 26, "11111111010111001011011000" );
 	array[ -3523] = assign( 26, "10111111010111001011011000" );
@@ -7329,7 +7329,7 @@
 	// decoded sequences starting at 3553
 	array[  3553] = assign( 25, "1101111111110100101111000" );
 	array[ -3553] = assign( 25, "1001111111110100101111000" );
-	array[  3554] = assign( 19, "0111100011101111010" );	// warning: length mismatch
+	array[  3554] = assign( 19, "0111100011101111010" );
 	array[ -3554] = assign( 19, "0101100011101111010" );
 	array[  3555] = assign( 26, "11111111111101001001011000" );
 	array[ -3555] = assign( 26, "10111111111101001001011000" );
@@ -7395,7 +7395,7 @@
 	// decoded sequences starting at 3585
 	array[  3585] = assign( 25, "1101111101110100101111000" );
 	array[ -3585] = assign( 25, "1001111101110100101111000" );
-	array[  3586] = assign( 19, "0111100011101011010" );	// warning: length mismatch
+	array[  3586] = assign( 19, "0111100011101011010" );
 	array[ -3586] = assign( 19, "0101100011101011010" );
 	array[  3587] = assign( 26, "11111111011101001001011000" );
 	array[ -3587] = assign( 26, "10111111011101001001011000" );
@@ -7461,7 +7461,7 @@
 	// decoded sequences starting at 3617
 	array[  3617] = assign( 25, "1101111111010100100111000" );
 	array[ -3617] = assign( 25, "1001111111010100100111000" );
-	array[  3618] = assign( 19, "0111100110101101010" );	// warning: length mismatch
+	array[  3618] = assign( 19, "0111100110101101010" );
 	array[ -3618] = assign( 19, "0101100110101101010" );
 	array[  3619] = assign( 25, "1111111111010100101111000" );
 	array[ -3619] = assign( 25, "1011111111010100101111000" );
@@ -7527,7 +7527,7 @@
 	// decoded sequences starting at 3649
 	array[  3649] = assign( 25, "1101111101010100100111000" );
 	array[ -3649] = assign( 25, "1001111101010100100111000" );
-	array[  3650] = assign( 19, "0111100110101001010" );	// warning: length mismatch
+	array[  3650] = assign( 19, "0111100110101001010" );
 	array[ -3650] = assign( 19, "0101100110101001010" );
 	array[  3651] = assign( 25, "1111111101010100101111000" );
 	array[ -3651] = assign( 25, "1011111101010100101111000" );
@@ -7593,7 +7593,7 @@
 	// decoded sequences starting at 3681
 	array[  3681] = assign( 23, "11011111111110101101000" );
 	array[ -3681] = assign( 23, "10011111111110101101000" );
-	array[  3682] = assign( 18, "011110001010111110" );	// warning: length mismatch
+	array[  3682] = assign( 18, "011110001010111110" );
 	array[ -3682] = assign( 18, "010110001010111110" );
 	array[  3683] = assign( 23, "11111111111110100111000" );
 	array[ -3683] = assign( 23, "10111111111110100111000" );
@@ -7659,7 +7659,7 @@
 	// decoded sequences starting at 3713
 	array[  3713] = assign( 23, "11011111011110101101000" );
 	array[ -3713] = assign( 23, "10011111011110101101000" );
-	array[  3714] = assign( 18, "011110001010101110" );	// warning: length mismatch
+	array[  3714] = assign( 18, "011110001010101110" );
 	array[ -3714] = assign( 18, "010110001010101110" );
 	array[  3715] = assign( 23, "11111111011110100111000" );
 	array[ -3715] = assign( 23, "10111111011110100111000" );
@@ -7725,7 +7725,7 @@
 	// decoded sequences starting at 3745
 	array[  3745] = assign( 23, "11011111110110100101000" );
 	array[ -3745] = assign( 23, "10011111110110100101000" );
-	array[  3746] = assign( 17, "01111001110110110" );	// warning: length mismatch
+	array[  3746] = assign( 17, "01111001110110110" );
 	array[ -3746] = assign( 17, "01011001110110110" );
 	array[  3747] = assign( 23, "11111111110110101101000" );
 	array[ -3747] = assign( 23, "10111111110110101101000" );
@@ -7791,7 +7791,7 @@
 	// decoded sequences starting at 3777
 	array[  3777] = assign( 23, "11011111010110100101000" );
 	array[ -3777] = assign( 23, "10011111010110100101000" );
-	array[  3778] = assign( 17, "01111001110100110" );	// warning: length mismatch
+	array[  3778] = assign( 17, "01111001110100110" );
 	array[ -3778] = assign( 17, "01011001110100110" );
 	array[  3779] = assign( 23, "11111111010110101101000" );
 	array[ -3779] = assign( 23, "10111111010110101101000" );
@@ -7857,7 +7857,7 @@
 	// decoded sequences starting at 3809
 	array[  3809] = assign( 22, "1101111111110010111000" );
 	array[ -3809] = assign( 22, "1001111111110010111000" );
-	array[  3810] = assign( 17, "01111000110111100" );	// warning: length mismatch
+	array[  3810] = assign( 17, "01111000110111100" );
 	array[ -3810] = assign( 17, "01011000110111100" );
 	array[  3811] = assign( 23, "11111111111100100101000" );
 	array[ -3811] = assign( 23, "10111111111100100101000" );
@@ -7923,7 +7923,7 @@
 	// decoded sequences starting at 3841
 	array[  3841] = assign( 22, "1101111101110010111000" );
 	array[ -3841] = assign( 22, "1001111101110010111000" );
-	array[  3842] = assign( 17, "01111000110101100" );	// warning: length mismatch
+	array[  3842] = assign( 17, "01111000110101100" );
 	array[ -3842] = assign( 17, "01011000110101100" );
 	array[  3843] = assign( 23, "11111111011100100101000" );
 	array[ -3843] = assign( 23, "10111111011100100101000" );
@@ -7989,7 +7989,7 @@
 	// decoded sequences starting at 3873
 	array[  3873] = assign( 22, "1101111111010010011000" );
 	array[ -3873] = assign( 22, "1001111111010010011000" );
-	array[  3874] = assign( 17, "01111001100110100" );	// warning: length mismatch
+	array[  3874] = assign( 17, "01111001100110100" );
 	array[ -3874] = assign( 17, "01011001100110100" );
 	array[  3875] = assign( 22, "1111111111010010111000" );
 	array[ -3875] = assign( 22, "1011111111010010111000" );
@@ -8055,7 +8055,7 @@
 	// decoded sequences starting at 3905
 	array[  3905] = assign( 22, "1101111101010010011000" );
 	array[ -3905] = assign( 22, "1001111101010010011000" );
-	array[  3906] = assign( 17, "01111001100100100" );	// warning: length mismatch
+	array[  3906] = assign( 17, "01111001100100100" );
 	array[ -3906] = assign( 17, "01011001100100100" );
 	array[  3907] = assign( 22, "1111111101010010111000" );
 	array[ -3907] = assign( 22, "1011111101010010111000" );
@@ -8121,7 +8121,7 @@
 	// decoded sequences starting at 3937
 	array[  3937] = assign( 20, "11011111111010110000" );
 	array[ -3937] = assign( 20, "10011111111010110000" );
-	array[  3938] = assign( 15, "011110001001110" );	// warning: length mismatch
+	array[  3938] = assign( 15, "011110001001110" );
 	array[ -3938] = assign( 15, "010110001001110" );
 	array[  3939] = assign( 20, "11111111111010011000" );
 	array[ -3939] = assign( 20, "10111111111010011000" );
@@ -8187,7 +8187,7 @@
 	// decoded sequences starting at 3969
 	array[  3969] = assign( 20, "11011111011010110000" );
 	array[ -3969] = assign( 20, "10011111011010110000" );
-	array[  3970] = assign( 15, "011110001001010" );	// warning: length mismatch
+	array[  3970] = assign( 15, "011110001001010" );
 	array[ -3970] = assign( 15, "010110001001010" );
 	array[  3971] = assign( 20, "11111111011010011000" );
 	array[ -3971] = assign( 20, "10111111011010011000" );
@@ -8253,7 +8253,7 @@
 	// decoded sequences starting at 4001
 	array[  4001] = assign( 20, "11011111110010010000" );
 	array[ -4001] = assign( 20, "10011111110010010000" );
-	array[  4002] = assign( 13, "0111100101100" );	// warning: length mismatch
+	array[  4002] = assign( 13, "0111100101100" );
 	array[ -4002] = assign( 13, "0101100101100" );
 	array[  4003] = assign( 20, "11111111110010110000" );
 	array[ -4003] = assign( 20, "10111111110010110000" );
@@ -8319,7 +8319,7 @@
 	// decoded sequences starting at 4033
 	array[  4033] = assign( 20, "11011111010010010000" );
 	array[ -4033] = assign( 20, "10011111010010010000" );
-	array[  4034] = assign( 13, "0111100101000" );	// warning: length mismatch
+	array[  4034] = assign( 13, "0111100101000" );
 	array[ -4034] = assign( 13, "0101100101000" );
 	array[  4035] = assign( 20, "11111111010010110000" );
 	array[ -4035] = assign( 20, "10111111010010110000" );
@@ -8385,7 +8385,7 @@
 	// decoded sequences starting at 4065
 	array[  4065] = assign( 11, "11011101110" );
 	array[ -4065] = assign( 11, "10011101110" );
-	array[  4066] = assign( 11, "01111000001" );	// warning: length mismatch
+	array[  4066] = assign( 11, "01111000001" );
 	array[ -4066] = assign( 11, "01011000001" );
 	array[  4067] = assign( 18, "111111111010010000" );
 	array[ -4067] = assign( 18, "101111111010010000" );
@@ -8451,7 +8451,7 @@
 	// decoded sequences starting at 4097
 	array[  4097] = assign( 10, "1101111000" );
 	array[ -4097] = assign( 10, "1001111000" );
-	array[  4098] = assign( 11, "01010110000" );	// warning: length mismatch
+	array[  4098] = assign( 11, "01010110000" );
 	array[ -4098] = assign( 11, "01011000000" );
 	array[  4099] = assign( 18, "101111110000010000" );
 	array[ -4099] = assign( 18, "101111110010010000" );
@@ -8517,7 +8517,7 @@
 	// decoded sequences starting at 4129
 	array[  4129] = assign( 10, "1001110100" );
 	array[ -4129] = assign( 10, "1101110100" );
-	array[  4130] = assign( 11, "01010110001" );	// warning: length mismatch
+	array[  4130] = assign( 11, "01010110001" );
 	array[ -4130] = assign( 11, "01110110001" );
 	array[  4131] = assign( 18, "101111111000010000" );
 	array[ -4131] = assign( 18, "111111111000010000" );
@@ -8583,7 +8583,7 @@
 	// decoded sequences starting at 4161
 	array[  4161] = assign(  8, "10010100" );
 	array[ -4161] = assign(  8, "11010100" );
-	array[  4162] = assign(  9, "010110100" );	// warning: length mismatch
+	array[  4162] = assign(  9, "010110100" );
 	array[ -4162] = assign(  9, "011110100" );
 	array[  4163] = assign( 12, "101111011010" );
 	array[ -4163] = assign( 12, "111111011010" );
@@ -8649,7 +8649,7 @@
 	// decoded sequences starting at 4193
 	array[  4193] = assign(  7, "1001000" );
 	array[ -4193] = assign(  7, "1101000" );
-	array[  4194] = assign(  9, "010110110" );	// warning: length mismatch
+	array[  4194] = assign(  9, "010110110" );
 	array[ -4194] = assign(  9, "011110110" );
 	array[  4195] = assign( 11, "10111101010" );
 	array[ -4195] = assign( 11, "11111101010" );
@@ -8781,7 +8781,7 @@
 	// decoded sequences starting at 4257
 	array[  4257] = assign( 11, "10110110110" );
 	array[ -4257] = assign( 11, "11110110110" );
-	array[  4258] = assign( 10, "0101000100" );	// warning: length mismatch
+	array[  4258] = assign( 10, "0101000100" );
 	array[ -4258] = assign( 10, "0111000100" );
 	array[  4259] = assign(  8, "10110010" );
 	array[ -4259] = assign(  8, "11110010" );
@@ -8847,7 +8847,7 @@
 	// decoded sequences starting at 4289
 	array[  4289] = assign( 13, "1011111001110" );
 	array[ -4289] = assign( 13, "1111111001110" );
-	array[  4290] = assign( 10, "0101001100" );	// warning: length mismatch
+	array[  4290] = assign( 10, "0101001100" );
 	array[ -4290] = assign( 10, "0111001100" );
 	array[  4291] = assign(  9, "100110110" );
 	array[ -4291] = assign(  9, "110110110" );
@@ -8913,7 +8913,7 @@
 	// decoded sequences starting at 4321
 	array[  4321] = assign( 14, "10111101111110" );
 	array[ -4321] = assign( 14, "11111101111110" );
-	array[  4322] = assign( 12, "010111001110" );	// warning: length mismatch
+	array[  4322] = assign( 12, "010111001110" );
 	array[ -4322] = assign( 12, "011111001110" );
 	array[  4323] = assign( 12, "100101101110" );
 	array[ -4323] = assign( 12, "110101101110" );
@@ -8979,7 +8979,7 @@
 	// decoded sequences starting at 4353
 	array[  4353] = assign( 22, "1011111101110010010000" );
 	array[ -4353] = assign( 22, "1111111101110010010000" );
-	array[  4354] = assign( 15, "010110000101100" );	// warning: length mismatch
+	array[  4354] = assign( 15, "010110000101100" );
 	array[ -4354] = assign( 15, "011110000101100" );
 	array[  4355] = assign( 14, "10011110011110" );
 	array[ -4355] = assign( 14, "11011110011110" );
@@ -9045,7 +9045,7 @@
 	// decoded sequences starting at 4385
 	array[  4385] = assign( 22, "1011111111110010010000" );
 	array[ -4385] = assign( 22, "1111111111110010010000" );
-	array[  4386] = assign( 15, "010110000111100" );	// warning: length mismatch
+	array[  4386] = assign( 15, "010110000111100" );
 	array[ -4386] = assign( 15, "011110000111100" );
 	array[  4387] = assign( 15, "100111011111110" );
 	array[ -4387] = assign( 15, "110111011111110" );
@@ -9111,7 +9111,7 @@
 	// decoded sequences starting at 4417
 	array[  4417] = assign( 22, "1011111101011010110000" );
 	array[ -4417] = assign( 22, "1111111101011010110000" );
-	array[  4418] = assign( 15, "010110010100110" );	// warning: length mismatch
+	array[  4418] = assign( 15, "010110010100110" );
 	array[ -4418] = assign( 15, "011110010100110" );
 	array[  4419] = assign( 22, "1001111101011010010000" );
 	array[ -4419] = assign( 22, "1101111101011010010000" );
@@ -9177,7 +9177,7 @@
 	// decoded sequences starting at 4449
 	array[  4449] = assign( 22, "1011111111011010110000" );
 	array[ -4449] = assign( 22, "1111111111011010110000" );
-	array[  4450] = assign( 15, "010110010110110" );	// warning: length mismatch
+	array[  4450] = assign( 15, "010110010110110" );
 	array[ -4450] = assign( 15, "011110010110110" );
 	array[  4451] = assign( 22, "1001111111011010010000" );
 	array[ -4451] = assign( 22, "1101111111011010010000" );
@@ -9243,7 +9243,7 @@
 	// decoded sequences starting at 4481
 	array[  4481] = assign( 22, "1011111101111010011000" );
 	array[ -4481] = assign( 22, "1111111101111010011000" );
-	array[  4482] = assign( 17, "01011000100101110" );	// warning: length mismatch
+	array[  4482] = assign( 17, "01011000100101110" );
 	array[ -4482] = assign( 17, "01111000100101110" );
 	array[  4483] = assign( 22, "1001111101111010110000" );
 	array[ -4483] = assign( 22, "1101111101111010110000" );
@@ -9309,7 +9309,7 @@
 	// decoded sequences starting at 4513
 	array[  4513] = assign( 22, "1011111111111010011000" );
 	array[ -4513] = assign( 22, "1111111111111010011000" );
-	array[  4514] = assign( 17, "01011000100111110" );	// warning: length mismatch
+	array[  4514] = assign( 17, "01011000100111110" );
 	array[ -4514] = assign( 17, "01111000100111110" );
 	array[  4515] = assign( 22, "1001111111111010110000" );
 	array[ -4515] = assign( 22, "1101111111111010110000" );
@@ -9375,7 +9375,7 @@
 	// decoded sequences starting at 4545
 	array[  4545] = assign( 24, "101111110101010010111000" );
 	array[ -4545] = assign( 24, "111111110101010010111000" );
-	array[  4546] = assign( 18, "010110011001001010" );	// warning: length mismatch
+	array[  4546] = assign( 18, "010110011001001010" );
 	array[ -4546] = assign( 18, "011110011001001010" );
 	array[  4547] = assign( 24, "100111110101010010011000" );
 	array[ -4547] = assign( 24, "110111110101010010011000" );
@@ -9441,7 +9441,7 @@
 	// decoded sequences starting at 4577
 	array[  4577] = assign( 24, "101111111101010010111000" );
 	array[ -4577] = assign( 24, "111111111101010010111000" );
-	array[  4578] = assign( 18, "010110011001101010" );	// warning: length mismatch
+	array[  4578] = assign( 18, "010110011001101010" );
 	array[ -4578] = assign( 18, "011110011001101010" );
 	array[  4579] = assign( 24, "100111111101010010011000" );
 	array[ -4579] = assign( 24, "110111111101010010011000" );
@@ -9507,7 +9507,7 @@
 	// decoded sequences starting at 4609
 	array[  4609] = assign( 25, "1011111101110100100101000" );
 	array[ -4609] = assign( 25, "1111111101110100100101000" );
-	array[  4610] = assign( 18, "010110001101011010" );	// warning: length mismatch
+	array[  4610] = assign( 18, "010110001101011010" );
 	array[ -4610] = assign( 18, "011110001101011010" );
 	array[  4611] = assign( 24, "100111110111010010111000" );
 	array[ -4611] = assign( 24, "110111110111010010111000" );
@@ -9573,7 +9573,7 @@
 	// decoded sequences starting at 4641
 	array[  4641] = assign( 25, "1011111111110100100101000" );
 	array[ -4641] = assign( 25, "1111111111110100100101000" );
-	array[  4642] = assign( 18, "010110001101111010" );	// warning: length mismatch
+	array[  4642] = assign( 18, "010110001101111010" );
 	array[ -4642] = assign( 18, "011110001101111010" );
 	array[  4643] = assign( 24, "100111111111010010111000" );
 	array[ -4643] = assign( 24, "110111111111010010111000" );
@@ -9639,7 +9639,7 @@
 	// decoded sequences starting at 4673
 	array[  4673] = assign( 25, "1011111101011100101101000" );
 	array[ -4673] = assign( 25, "1111111101011100101101000" );
-	array[  4674] = assign( 18, "010110011101001110" );	// warning: length mismatch
+	array[  4674] = assign( 18, "010110011101001110" );
 	array[ -4674] = assign( 18, "011110011101001110" );
 	array[  4675] = assign( 25, "1001111101011100100101000" );
 	array[ -4675] = assign( 25, "1101111101011100100101000" );
@@ -9667,43 +9667,45 @@
 	array[ -4686] = assign( 26, "11011111010111001101101110" );
 	array[  4687] = assign( 26, "10011111010111001111101110" );
 	array[ -4687] = assign( 26, "11011111010111001111101110" );
-	array[  4688] = assign( 27, "100111110101110011110101110" );
-	array[ -4688] = assign( 27, "110111110101110011110101110" );
-	array[  4689] = assign( 27, "100111110101110011011101110" );
-	array[ -4689] = assign( 27, "110111110101110011011101110" );
-	array[  4690] = assign( 27, "100111110101110011111101110" );
-	array[ -4690] = assign( 27, "110111110101110011111101110" );
-	array[  4691] = assign( 28, "1001111101011100110101101110" );
-	array[ -4691] = assign( 28, "1001111111111111001111011110" );
-	array[  4692] = assign( 28, "1001111101011100111101101110" );
-	array[ -4692] = assign( 28, "1101111101011100111101101110" );
-	array[  4693] = assign( 28, "1001111101011100110111101110" );
-	array[ -4693] = assign( 28, "1101111101011100110111101110" );
-	array[  4694] = assign( 28, "1001111101011100111111101110" );
-	array[ -4694] = assign( 28, "1101111101011100111111101110" );
-	array[  4695] = assign( 28, "1001111101011100110101111110" );
-	array[ -4695] = assign( 28, "1101111101011100110101111110" );
-	array[  4696] = assign( 28, "1001111101011100111101111110" );
-	array[ -4696] = assign( 28, "1101111101011100111101111110" );
-	array[  4697] = assign( 28, "1001111101011100110111111110" );
-	array[ -4697] = assign( 28, "1101111101011100110111111110" );
-	array[  4698] = assign( 28, "1001111101011100111111111110" );
-	array[ -4698] = assign( 28, "1101111101011100111111111110" );
-	array[  4699] = assign( 27, "101111111101110010110101110" );
-	array[ -4699] = assign( 27, "111111111101110010110101110" );
-	array[  4700] = assign( 27, "101111111101110010110100110" );
-	array[ -4700] = assign( 27, "111111111101110010110100110" );
-	array[  4701] = assign( 27, "101111111101110010110101100" );
-	array[ -4701] = assign( 27, "111111111101110010110101100" );
-	array[  4702] = assign( 27, "101111111101110010110100100" );
-	array[ -4702] = assign( 27, "111111111101110010110100100" );
-	array[  4703] = assign( 25, "1011111111011100101101010" );
-	array[ -4703] = assign( 25, "1111111111011100101101010" );
-	// decoded 31 sequences.
+	array[  4688] = assign( 27, "100111110101110011010101110" );
+	array[ -4688] = assign( 27, "100111111111111100111101110" );
+	array[  4689] = assign( 27, "100111110101110011110101110" );
+	array[ -4689] = assign( 27, "110111110101110011110101110" );
+	array[  4690] = assign( 27, "100111110101110011011101110" );
+	array[ -4690] = assign( 27, "110111110101110011011101110" );
+	array[  4691] = assign( 27, "100111110101110011111101110" );
+	array[ -4691] = assign( 27, "110111110101110011111101110" );
+	array[  4692] = assign( 28, "1001111101011100110101101110" );
+	array[ -4692] = assign( 28, "1001111111111111001111011110" );
+	array[  4693] = assign( 28, "1001111101011100111101101110" );
+	array[ -4693] = assign( 28, "1101111101011100111101101110" );
+	array[  4694] = assign( 28, "1001111101011100110111101110" );
+	array[ -4694] = assign( 28, "1101111101011100110111101110" );
+	array[  4695] = assign( 28, "1001111101011100111111101110" );
+	array[ -4695] = assign( 28, "1101111101011100111111101110" );
+	array[  4696] = assign( 28, "1001111101011100110101111110" );
+	array[ -4696] = assign( 28, "1101111101011100110101111110" );
+	array[  4697] = assign( 28, "1001111101011100111101111110" );
+	array[ -4697] = assign( 28, "1101111101011100111101111110" );
+	array[  4698] = assign( 28, "1001111101011100110111111110" );
+	array[ -4698] = assign( 28, "1101111101011100110111111110" );
+	array[  4699] = assign( 28, "1001111101011100111111111110" );
+	array[ -4699] = assign( 28, "1101111101011100111111111110" );
+	array[  4700] = assign( 27, "101111111101110010110101110" );
+	array[ -4700] = assign( 27, "111111111101110010110101110" );
+	array[  4701] = assign( 27, "101111111101110010110100110" );
+	array[ -4701] = assign( 27, "111111111101110010110100110" );
+	array[  4702] = assign( 27, "101111111101110010110101100" );
+	array[ -4702] = assign( 27, "111111111101110010110101100" );
+	array[  4703] = assign( 27, "101111111101110010110100100" );
+	array[ -4703] = assign( 27, "111111111101110010110100100" );
+	array[  4704] = assign( 25, "1011111111011100101101010" );
+	array[ -4704] = assign( 25, "1111111111011100101101010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 4705
 	array[  4705] = assign( 25, "1011111111011100101101000" );
 	array[ -4705] = assign( 25, "1111111111011100101101000" );
-	array[  4706] = assign( 18, "010110011101101110" );	// warning: length mismatch
+	array[  4706] = assign( 18, "010110011101101110" );
 	array[ -4706] = assign( 18, "011110011101101110" );
 	array[  4707] = assign( 25, "1001111111011100100101000" );
 	array[ -4707] = assign( 25, "1101111111011100100101000" );
@@ -9731,43 +9733,45 @@
 	array[ -4718] = assign( 26, "11011111110111001101101110" );
 	array[  4719] = assign( 26, "10011111110111001111101110" );
 	array[ -4719] = assign( 26, "11011111110111001111101110" );
-	array[  4720] = assign( 27, "100111111101110011110101110" );
-	array[ -4720] = assign( 27, "110111111101110011110101110" );
-	array[  4721] = assign( 27, "100111111101110011011101110" );
-	array[ -4721] = assign( 27, "110111111101110011011101110" );
-	array[  4722] = assign( 27, "100111111101110011111101110" );
-	array[ -4722] = assign( 27, "110111111101110011111101110" );
-	array[  4723] = assign( 28, "1001111111011100110101101110" );
-	array[ -4723] = assign( 28, "1001111101111111001111011110" );
-	array[  4724] = assign( 28, "1001111111011100111101101110" );
-	array[ -4724] = assign( 28, "1101111111011100111101101110" );
-	array[  4725] = assign( 28, "1001111111011100110111101110" );
-	array[ -4725] = assign( 28, "1101111111011100110111101110" );
-	array[  4726] = assign( 28, "1001111111011100111111101110" );
-	array[ -4726] = assign( 28, "1101111111011100111111101110" );
-	array[  4727] = assign( 28, "1001111111011100110101111110" );
-	array[ -4727] = assign( 28, "1101111111011100110101111110" );
-	array[  4728] = assign( 28, "1001111111011100111101111110" );
-	array[ -4728] = assign( 28, "1101111111011100111101111110" );
-	array[  4729] = assign( 28, "1001111111011100110111111110" );
-	array[ -4729] = assign( 28, "1101111111011100110111111110" );
-	array[  4730] = assign( 28, "1001111111011100111111111110" );
-	array[ -4730] = assign( 28, "1101111111011100111111111110" );
-	array[  4731] = assign( 27, "101111110111110010011101110" );
-	array[ -4731] = assign( 27, "111111110111110010011101110" );
-	array[  4732] = assign( 27, "101111110111110010011100110" );
-	array[ -4732] = assign( 27, "111111110111110010011100110" );
-	array[  4733] = assign( 27, "101111110111110010011101100" );
-	array[ -4733] = assign( 27, "111111110111110010011101100" );
-	array[  4734] = assign( 27, "101111110111110010011100100" );
-	array[ -4734] = assign( 27, "111111110111110010011100100" );
-	array[  4735] = assign( 25, "1011111101111100100111010" );
-	array[ -4735] = assign( 25, "1111111101111100100111010" );
-	// decoded 31 sequences.
+	array[  4720] = assign( 27, "100111111101110011010101110" );
+	array[ -4720] = assign( 27, "100111110111111100111101110" );
+	array[  4721] = assign( 27, "100111111101110011110101110" );
+	array[ -4721] = assign( 27, "110111111101110011110101110" );
+	array[  4722] = assign( 27, "100111111101110011011101110" );
+	array[ -4722] = assign( 27, "110111111101110011011101110" );
+	array[  4723] = assign( 27, "100111111101110011111101110" );
+	array[ -4723] = assign( 27, "110111111101110011111101110" );
+	array[  4724] = assign( 28, "1001111111011100110101101110" );
+	array[ -4724] = assign( 28, "1001111101111111001111011110" );
+	array[  4725] = assign( 28, "1001111111011100111101101110" );
+	array[ -4725] = assign( 28, "1101111111011100111101101110" );
+	array[  4726] = assign( 28, "1001111111011100110111101110" );
+	array[ -4726] = assign( 28, "1101111111011100110111101110" );
+	array[  4727] = assign( 28, "1001111111011100111111101110" );
+	array[ -4727] = assign( 28, "1101111111011100111111101110" );
+	array[  4728] = assign( 28, "1001111111011100110101111110" );
+	array[ -4728] = assign( 28, "1101111111011100110101111110" );
+	array[  4729] = assign( 28, "1001111111011100111101111110" );
+	array[ -4729] = assign( 28, "1101111111011100111101111110" );
+	array[  4730] = assign( 28, "1001111111011100110111111110" );
+	array[ -4730] = assign( 28, "1101111111011100110111111110" );
+	array[  4731] = assign( 28, "1001111111011100111111111110" );
+	array[ -4731] = assign( 28, "1101111111011100111111111110" );
+	array[  4732] = assign( 27, "101111110111110010011101110" );
+	array[ -4732] = assign( 27, "111111110111110010011101110" );
+	array[  4733] = assign( 27, "101111110111110010011100110" );
+	array[ -4733] = assign( 27, "111111110111110010011100110" );
+	array[  4734] = assign( 27, "101111110111110010011101100" );
+	array[ -4734] = assign( 27, "111111110111110010011101100" );
+	array[  4735] = assign( 27, "101111110111110010011100100" );
+	array[ -4735] = assign( 27, "111111110111110010011100100" );
+	array[  4736] = assign( 25, "1011111101111100100111010" );
+	array[ -4736] = assign( 25, "1111111101111100100111010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 4737
 	array[  4737] = assign( 25, "1011111101111100100111000" );
 	array[ -4737] = assign( 25, "1111111101111100100111000" );
-	array[  4738] = assign( 19, "0101100010101011110" );	// warning: length mismatch
+	array[  4738] = assign( 19, "0101100010101011110" );
 	array[ -4738] = assign( 19, "0111100010101011110" );
 	array[  4739] = assign( 25, "1001111101111100101101000" );
 	array[ -4739] = assign( 25, "1101111101111100101101000" );
@@ -9833,7 +9837,7 @@
 	// decoded sequences starting at 4769
 	array[  4769] = assign( 25, "1011111111111100100111000" );
 	array[ -4769] = assign( 25, "1111111111111100100111000" );
-	array[  4770] = assign( 19, "0101100010101111110" );	// warning: length mismatch
+	array[  4770] = assign( 19, "0101100010101111110" );
 	array[ -4770] = assign( 19, "0111100010101111110" );
 	array[  4771] = assign( 25, "1001111111111100101101000" );
 	array[ -4771] = assign( 25, "1101111111111100101101000" );
@@ -9899,7 +9903,7 @@
 	// decoded sequences starting at 4801
 	array[  4801] = assign( 25, "1011111101010110101111000" );
 	array[ -4801] = assign( 25, "1111111101010110101111000" );
-	array[  4802] = assign( 20, "01011001101010010110" );	// warning: length mismatch
+	array[  4802] = assign( 20, "01011001101010010110" );
 	array[ -4802] = assign( 20, "01111001101010010110" );
 	array[  4803] = assign( 25, "1001111101010110100111000" );
 	array[ -4803] = assign( 25, "1101111101010110100111000" );
@@ -9965,7 +9969,7 @@
 	// decoded sequences starting at 4833
 	array[  4833] = assign( 25, "1011111111010110101111000" );
 	array[ -4833] = assign( 25, "1111111111010110101111000" );
-	array[  4834] = assign( 20, "01011001101011010110" );	// warning: length mismatch
+	array[  4834] = assign( 20, "01011001101011010110" );
 	array[ -4834] = assign( 20, "01111001101011010110" );
 	array[  4835] = assign( 25, "1001111111010110100111000" );
 	array[ -4835] = assign( 25, "1101111111010110100111000" );
@@ -10031,7 +10035,7 @@
 	// decoded sequences starting at 4865
 	array[  4865] = assign( 26, "10111111011101101001011000" );
 	array[ -4865] = assign( 26, "11111111011101101001011000" );
-	array[  4866] = assign( 20, "01011000111010110110" );	// warning: length mismatch
+	array[  4866] = assign( 20, "01011000111010110110" );
 	array[ -4866] = assign( 20, "01111000111010110110" );
 	array[  4867] = assign( 25, "1001111101110110101111000" );
 	array[ -4867] = assign( 25, "1101111101110110101111000" );
@@ -10061,41 +10065,43 @@
 	array[ -4879] = assign( 25, "1111111101110110011011110" );
 	array[  4880] = assign( 26, "11111111110101110111111010" );
 	array[ -4880] = assign( 26, "10111111110101110111111010" );
-	array[  4881] = assign( 27, "100111110111011011111001110" );
-	array[ -4881] = assign( 27, "110111110111011011111001110" );
-	array[  4882] = assign( 27, "101111110111011001111011110" );
-	array[ -4882] = assign( 27, "111111110111011001111011110" );
-	array[  4883] = assign( 28, "1001111101110110111101001110" );
-	array[ -4883] = assign( 28, "1011111111010111011111101110" );
-	array[  4884] = assign( 28, "1001111101110110110111001110" );
-	array[ -4884] = assign( 28, "1101111101110110110111001110" );
-	array[  4885] = assign( 28, "1001111101110110111111001110" );
-	array[ -4885] = assign( 28, "1101111101110110111111001110" );
-	array[  4886] = assign( 28, "1011111101110110011111011110" );
-	array[ -4886] = assign( 28, "1111111101110110011111011110" );
-	array[  4887] = assign( 29, "10011111011101100001111011110" );
-	array[ -4887] = assign( 29, "10111111110101110111111011110" );
-	array[  4888] = assign( 29, "10011111011101100011111001110" );
-	array[ -4888] = assign( 29, "11011111011101100011111001110" );
-	array[  4889] = assign( 29, "10011111011101100001011111010" );
-	array[ -4889] = assign( 29, "11011111011101100001011111010" );
-	array[  4890] = assign( 29, "10011111011101100011011101010" );
-	array[ -4890] = assign( 29, "11011111011101100011011101010" );
-	array[  4891] = assign( 28, "1001111101110110000111111110" );
-	array[ -4891] = assign( 28, "1101111101110110000111111110" );
-	array[  4892] = assign( 28, "1001111101110110001111110110" );
-	array[ -4892] = assign( 28, "1101111101110110001111110110" );
-	array[  4893] = assign( 28, "1011111111110110100101101100" );
-	array[ -4893] = assign( 28, "1111111111110110100101101100" );
-	array[  4894] = assign( 28, "1011111111110110100101100100" );
-	array[ -4894] = assign( 28, "1111111111110110100101100100" );
-	array[  4895] = assign( 26, "10111111111101101001011010" );
-	array[ -4895] = assign( 26, "11111111111101101001011010" );
-	// decoded 31 sequences.
+	array[  4881] = assign( 27, "100111110111011011011001110" );
+	array[ -4881] = assign( 27, "110111110111011011011001110" );
+	array[  4882] = assign( 27, "100111110111011011111001110" );
+	array[ -4882] = assign( 27, "110111110111011011111001110" );
+	array[  4883] = assign( 27, "101111110111011001111011110" );
+	array[ -4883] = assign( 27, "111111110111011001111011110" );
+	array[  4884] = assign( 28, "1001111101110110111101001110" );
+	array[ -4884] = assign( 28, "1011111111010111011111101110" );
+	array[  4885] = assign( 28, "1001111101110110110111001110" );
+	array[ -4885] = assign( 28, "1101111101110110110111001110" );
+	array[  4886] = assign( 28, "1001111101110110111111001110" );
+	array[ -4886] = assign( 28, "1101111101110110111111001110" );
+	array[  4887] = assign( 28, "1011111101110110011111011110" );
+	array[ -4887] = assign( 28, "1111111101110110011111011110" );
+	array[  4888] = assign( 29, "10011111011101100001111011110" );
+	array[ -4888] = assign( 29, "10111111110101110111111011110" );
+	array[  4889] = assign( 29, "10011111011101100011111001110" );
+	array[ -4889] = assign( 29, "11011111011101100011111001110" );
+	array[  4890] = assign( 29, "10011111011101100001011111010" );
+	array[ -4890] = assign( 29, "11011111011101100001011111010" );
+	array[  4891] = assign( 29, "10011111011101100011011101010" );
+	array[ -4891] = assign( 29, "11011111011101100011011101010" );
+	array[  4892] = assign( 28, "1001111101110110000111111110" );
+	array[ -4892] = assign( 28, "1101111101110110000111111110" );
+	array[  4893] = assign( 28, "1001111101110110001111110110" );
+	array[ -4893] = assign( 28, "1101111101110110001111110110" );
+	array[  4894] = assign( 28, "1011111111110110100101101100" );
+	array[ -4894] = assign( 28, "1111111111110110100101101100" );
+	array[  4895] = assign( 28, "1011111111110110100101100100" );
+	array[ -4895] = assign( 28, "1111111111110110100101100100" );
+	array[  4896] = assign( 26, "10111111111101101001011010" );
+	array[ -4896] = assign( 26, "11111111111101101001011010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 4897
 	array[  4897] = assign( 26, "10111111111101101001011000" );
 	array[ -4897] = assign( 26, "11111111111101101001011000" );
-	array[  4898] = assign( 20, "01011000111011110110" );	// warning: length mismatch
+	array[  4898] = assign( 20, "01011000111011110110" );
 	array[ -4898] = assign( 20, "01111000111011110110" );
 	array[  4899] = assign( 25, "1001111111110110101111000" );
 	array[ -4899] = assign( 25, "1101111111110110101111000" );
@@ -10125,43 +10131,45 @@
 	array[ -4911] = assign( 25, "1111111111110110011011110" );
 	array[  4912] = assign( 26, "11111111010101110111111010" );
 	array[ -4912] = assign( 26, "10111111010101110111111010" );
-	array[  4913] = assign( 27, "100111111111011011111001110" );
-	array[ -4913] = assign( 27, "110111111111011011111001110" );
-	array[  4914] = assign( 27, "101111111111011001111011110" );
-	array[ -4914] = assign( 27, "111111111111011001111011110" );
-	array[  4915] = assign( 28, "1001111111110110111101001110" );
-	array[ -4915] = assign( 28, "1011111101010111011111101110" );
-	array[  4916] = assign( 28, "1001111111110110110111001110" );
-	array[ -4916] = assign( 28, "1101111111110110110111001110" );
-	array[  4917] = assign( 28, "1001111111110110111111001110" );
-	array[ -4917] = assign( 28, "1101111111110110111111001110" );
-	array[  4918] = assign( 28, "1011111111110110011111011110" );
-	array[ -4918] = assign( 28, "1111111111110110011111011110" );
-	array[  4919] = assign( 29, "10011111111101100001111011110" );
-	array[ -4919] = assign( 29, "10111111010101110111111011110" );
-	array[  4920] = assign( 29, "10011111111101100011111001110" );
-	array[ -4920] = assign( 29, "11011111111101100011111001110" );
-	array[  4921] = assign( 29, "10011111111101100001011111010" );
-	array[ -4921] = assign( 29, "11011111111101100001011111010" );
-	array[  4922] = assign( 29, "10011111111101100011011101010" );
-	array[ -4922] = assign( 29, "11011111111101100011011101010" );
-	array[  4923] = assign( 28, "1001111111110110000111111110" );
-	array[ -4923] = assign( 28, "1101111111110110000111111110" );
-	array[  4924] = assign( 28, "1001111111110110001111110110" );
-	array[ -4924] = assign( 28, "1101111111110110001111110110" );
-	array[  4925] = assign( 28, "1011111101011110101101101100" );
-	array[ -4925] = assign( 28, "1111111101011110101101101100" );
-	array[  4926] = assign( 28, "1011111101011110101101100100" );
-	array[ -4926] = assign( 28, "1111111101011110101101100100" );
-	array[  4927] = assign( 26, "10111111010111101011011010" );
-	array[ -4927] = assign( 26, "11111111010111101011011010" );
-	// decoded 31 sequences.
+	array[  4913] = assign( 27, "100111111111011011011001110" );
+	array[ -4913] = assign( 27, "110111111111011011011001110" );
+	array[  4914] = assign( 27, "100111111111011011111001110" );
+	array[ -4914] = assign( 27, "110111111111011011111001110" );
+	array[  4915] = assign( 27, "101111111111011001111011110" );
+	array[ -4915] = assign( 27, "111111111111011001111011110" );
+	array[  4916] = assign( 28, "1001111111110110111101001110" );
+	array[ -4916] = assign( 28, "1011111101010111011111101110" );
+	array[  4917] = assign( 28, "1001111111110110110111001110" );
+	array[ -4917] = assign( 28, "1101111111110110110111001110" );
+	array[  4918] = assign( 28, "1001111111110110111111001110" );
+	array[ -4918] = assign( 28, "1101111111110110111111001110" );
+	array[  4919] = assign( 28, "1011111111110110011111011110" );
+	array[ -4919] = assign( 28, "1111111111110110011111011110" );
+	array[  4920] = assign( 29, "10011111111101100001111011110" );
+	array[ -4920] = assign( 29, "10111111010101110111111011110" );
+	array[  4921] = assign( 29, "10011111111101100011111001110" );
+	array[ -4921] = assign( 29, "11011111111101100011111001110" );
+	array[  4922] = assign( 29, "10011111111101100001011111010" );
+	array[ -4922] = assign( 29, "11011111111101100001011111010" );
+	array[  4923] = assign( 29, "10011111111101100011011101010" );
+	array[ -4923] = assign( 29, "11011111111101100011011101010" );
+	array[  4924] = assign( 28, "1001111111110110000111111110" );
+	array[ -4924] = assign( 28, "1101111111110110000111111110" );
+	array[  4925] = assign( 28, "1001111111110110001111110110" );
+	array[ -4925] = assign( 28, "1101111111110110001111110110" );
+	array[  4926] = assign( 28, "1011111101011110101101101100" );
+	array[ -4926] = assign( 28, "1111111101011110101101101100" );
+	array[  4927] = assign( 28, "1011111101011110101101100100" );
+	array[ -4927] = assign( 28, "1111111101011110101101100100" );
+	array[  4928] = assign( 26, "10111111010111101011011010" );
+	array[ -4928] = assign( 26, "11111111010111101011011010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 4929
 	array[  4929] = assign( 26, "10111111010111101011011000" );
 	array[ -4929] = assign( 26, "11111111010111101011011000" );
-	array[  4930] = assign( 20, "01011001111010011110" );	// warning: length mismatch
+	array[  4930] = assign( 20, "01011001111010011110" );
 	array[ -4930] = assign( 20, "01111001111010011110" );
-	array[  4931] = assign( 20, "01110111111011111111" );	// warning: length mismatch
+	array[  4931] = assign( 20, "01110111111011111111" );
 	array[ -4931] = assign( 20, "01010111111011111111" );
 	array[  4932] = assign( 25, "1001111101011110101111010" );
 	array[ -4932] = assign( 25, "1101111101011110101111010" );
@@ -10225,9 +10233,9 @@
 	// decoded sequences starting at 4961
 	array[  4961] = assign( 26, "10111111110111101011011000" );
 	array[ -4961] = assign( 26, "11111111110111101011011000" );
-	array[  4962] = assign( 20, "01011001111011011110" );	// warning: length mismatch
+	array[  4962] = assign( 20, "01011001111011011110" );
 	array[ -4962] = assign( 20, "01111001111011011110" );
-	array[  4963] = assign( 20, "01110111111010111111" );	// warning: length mismatch
+	array[  4963] = assign( 20, "01110111111010111111" );
 	array[ -4963] = assign( 20, "01010111111010111111" );
 	array[  4964] = assign( 25, "1001111111011110101111010" );
 	array[ -4964] = assign( 25, "1101111111011110101111010" );
@@ -10291,9 +10299,9 @@
 	// decoded sequences starting at 4993
 	array[  4993] = assign( 26, "10111111011111101001111000" );
 	array[ -4993] = assign( 26, "11111111011111101001111000" );
-	array[  4994] = assign( 21, "010110001011010111110" );	// warning: length mismatch
+	array[  4994] = assign( 21, "010110001011010111110" );
 	array[ -4994] = assign( 21, "011110001011010111110" );
-	array[  4995] = assign( 21, "011101101011011011111" );	// warning: length mismatch
+	array[  4995] = assign( 21, "011101101011011011111" );
 	array[ -4995] = assign( 21, "010101101011011011111" );
 	array[  4996] = assign( 26, "10011111011111101001011010" );
 	array[ -4996] = assign( 26, "11011111011111101001011010" );
@@ -10357,9 +10365,9 @@
 	// decoded sequences starting at 5025
 	array[  5025] = assign( 26, "10111111111111101001111000" );
 	array[ -5025] = assign( 26, "11111111111111101001111000" );
-	array[  5026] = assign( 21, "010110001011011111110" );	// warning: length mismatch
+	array[  5026] = assign( 21, "010110001011011111110" );
 	array[ -5026] = assign( 21, "011110001011011111110" );
-	array[  5027] = assign( 21, "011101101011010011111" );	// warning: length mismatch
+	array[  5027] = assign( 21, "011101101011010011111" );
 	array[ -5027] = assign( 21, "010101101011010011111" );
 	array[  5028] = assign( 26, "10011111111111101001011010" );
 	array[ -5028] = assign( 26, "11011111111111101001011010" );
@@ -10423,9 +10431,9 @@
 	// decoded sequences starting at 5057
 	array[  5057] = assign( 27, "101111110101010101011111000" );
 	array[ -5057] = assign( 27, "101111111111010100011111010" );
-	array[  5058] = assign( 21, "010110011011010010111" );	// warning: length mismatch
+	array[  5058] = assign( 21, "010110011011010010111" );
 	array[ -5058] = assign( 21, "011110011011010010111" );
-	array[  5059] = assign( 21, "011101111011011110111" );	// warning: length mismatch
+	array[  5059] = assign( 21, "011101111011011110111" );
 	array[ -5059] = assign( 21, "010101111011011110111" );
 	array[  5060] = assign( 27, "100111110101010101011011010" );
 	array[ -5060] = assign( 27, "100111111111010100001111000" );
@@ -10489,9 +10497,9 @@
 	// decoded sequences starting at 5089
 	array[  5089] = assign( 27, "101111111101010101011111000" );
 	array[ -5089] = assign( 27, "100111111111010101011111110" );
-	array[  5090] = assign( 21, "010101111111110010111" );	// warning: length mismatch
+	array[  5090] = assign( 21, "010101111111110010111" );
 	array[ -5090] = assign( 21, "011101111111110010111" );
-	array[  5091] = assign( 21, "011101111011010110111" );	// warning: length mismatch
+	array[  5091] = assign( 21, "011101111011010110111" );
 	array[ -5091] = assign( 21, "010101111011010110111" );
 	array[  5092] = assign( 27, "100111111101010101011011010" );
 	array[ -5092] = assign( 27, "100111110111010100001111000" );
@@ -10555,9 +10563,9 @@
 	// decoded sequences starting at 5121
 	array[  5121] = assign( 27, "101111110111010101001011100" );
 	array[ -5121] = assign( 27, "100111110111010101011111110" );
-	array[  5122] = assign( 21, "010101111111111010111" );	// warning: length mismatch
+	array[  5122] = assign( 21, "010101111111111010111" );
 	array[ -5122] = assign( 21, "011101111111111010111" );
-	array[  5123] = assign( 21, "011101101111011010111" );	// warning: length mismatch
+	array[  5123] = assign( 21, "011101101111011010111" );
 	array[ -5123] = assign( 21, "010101101111011010111" );
 	array[  5124] = assign( 27, "100111110111010101001111010" );
 	array[ -5124] = assign( 27, "100111111101010100011111000" );
@@ -10621,9 +10629,9 @@
 	// decoded sequences starting at 5153
 	array[  5153] = assign( 27, "100111110111010100011111100" );
 	array[ -5153] = assign( 27, "100111111101010101001111110" );
-	array[  5154] = assign( 21, "010101101111110110111" );	// warning: length mismatch
+	array[  5154] = assign( 21, "010101101111110110111" );
 	array[ -5154] = assign( 21, "011101101111110110111" );
-	array[  5155] = assign( 21, "011101101111010010111" );	// warning: length mismatch
+	array[  5155] = assign( 21, "011101101111010010111" );
 	array[ -5155] = assign( 21, "010101101111010010111" );
 	array[  5156] = assign( 27, "100111111111010101001111010" );
 	array[ -5156] = assign( 27, "100111110101010100011111000" );
@@ -10687,9 +10695,9 @@
 	// decoded sequences starting at 5185
 	array[  5185] = assign( 26, "11111111111111100011011110" );
 	array[ -5185] = assign( 26, "10111111111111100011011110" );
-	array[  5186] = assign( 21, "010101101111111110111" );	// warning: length mismatch
+	array[  5186] = assign( 21, "010101101111111110111" );
 	array[ -5186] = assign( 21, "011101101111111110111" );
-	array[  5187] = assign( 21, "011101111111011111110" );	// warning: length mismatch
+	array[  5187] = assign( 21, "011101111111011111110" );
 	array[ -5187] = assign( 21, "010101111111011111110" );
 	array[  5188] = assign( 26, "11011111111111100001011100" );
 	array[ -5188] = assign( 26, "10011111111111100001011100" );
@@ -10753,9 +10761,9 @@
 	// decoded sequences starting at 5217
 	array[  5217] = assign( 26, "11011111111111101011011110" );
 	array[ -5217] = assign( 26, "10011111111111101011011110" );
-	array[  5218] = assign( 21, "010101111011110011111" );	// warning: length mismatch
+	array[  5218] = assign( 21, "010101111011110011111" );
 	array[ -5218] = assign( 21, "011101111011110011111" );
-	array[  5219] = assign( 21, "011101111111010111110" );	// warning: length mismatch
+	array[  5219] = assign( 21, "011101111111010111110" );
 	array[ -5219] = assign( 21, "010101111111010111110" );
 	array[  5220] = assign( 26, "11011111011111100001011100" );
 	array[ -5220] = assign( 26, "10011111011111100001011100" );
@@ -10819,9 +10827,9 @@
 	// decoded sequences starting at 5249
 	array[  5249] = assign( 26, "11011111011111101011011110" );
 	array[ -5249] = assign( 26, "10011111011111101011011110" );
-	array[  5250] = assign( 21, "010101111011111011111" );	// warning: length mismatch
+	array[  5250] = assign( 21, "010101111011111011111" );
 	array[ -5250] = assign( 21, "011101111011111011111" );
-	array[  5251] = assign( 21, "011101101011111011110" );	// warning: length mismatch
+	array[  5251] = assign( 21, "011101101011111011110" );
 	array[ -5251] = assign( 21, "010101101011111011110" );
 	array[  5252] = assign( 26, "11011111110111100011011100" );
 	array[ -5252] = assign( 26, "10011111110111100011011100" );
@@ -10885,9 +10893,9 @@
 	// decoded sequences starting at 5281
 	array[  5281] = assign( 26, "11011111110111101001011110" );
 	array[ -5281] = assign( 26, "10011111110111101001011110" );
-	array[  5282] = assign( 21, "010101101011110111111" );	// warning: length mismatch
+	array[  5282] = assign( 21, "010101101011110111111" );
 	array[ -5282] = assign( 21, "011101101011110111111" );
-	array[  5283] = assign( 21, "011101101011110011110" );	// warning: length mismatch
+	array[  5283] = assign( 21, "011101101011110011110" );
 	array[ -5283] = assign( 21, "010101101011110011110" );
 	array[  5284] = assign( 26, "11011111010111100011011100" );
 	array[ -5284] = assign( 26, "10011111010111100011011100" );
@@ -10951,9 +10959,9 @@
 	// decoded sequences starting at 5313
 	array[  5313] = assign( 26, "11011111010111101001011110" );
 	array[ -5313] = assign( 26, "10011111010111101001011110" );
-	array[  5314] = assign( 21, "010101101011111111111" );	// warning: length mismatch
+	array[  5314] = assign( 21, "010101101011111111111" );
 	array[ -5314] = assign( 21, "011101101011111111111" );
-	array[  5315] = assign( 21, "011101111011111110110" );	// warning: length mismatch
+	array[  5315] = assign( 21, "011101111011111110110" );
 	array[ -5315] = assign( 21, "010101111011111110110" );
 	array[  5316] = assign( 26, "11011111111101100001111100" );
 	array[ -5316] = assign( 26, "10011111111101100001111100" );
@@ -11019,7 +11027,7 @@
 	array[ -5345] = assign( 26, "10011111111101101011111010" );
 	array[  5346] = assign( 26, "11011111111101101001011100" );
 	array[ -5346] = assign( 26, "10011111111101101001011100" );
-	array[  5347] = assign( 21, "011101111011110110110" );	// warning: length mismatch
+	array[  5347] = assign( 21, "011101111011110110110" );
 	array[ -5347] = assign( 21, "010101111011110110110" );
 	array[  5348] = assign( 26, "11011111011101100001111100" );
 	array[ -5348] = assign( 26, "10011111011101100001111100" );
@@ -11085,7 +11093,7 @@
 	array[ -5377] = assign( 26, "10011111011101101011111010" );
 	array[  5378] = assign( 26, "11011111011101101001011100" );
 	array[ -5378] = assign( 26, "10011111011101101001011100" );
-	array[  5379] = assign( 21, "011101101111111010110" );	// warning: length mismatch
+	array[  5379] = assign( 21, "011101101111111010110" );
 	array[ -5379] = assign( 21, "010101101111111010110" );
 	array[  5380] = assign( 26, "11011111110101100011111100" );
 	array[ -5380] = assign( 26, "10011111110101100011111100" );
@@ -11151,7 +11159,7 @@
 	array[ -5409] = assign( 26, "10011111110101101001111010" );
 	array[  5410] = assign( 26, "11011111110101101011111000" );
 	array[ -5410] = assign( 26, "10011111110101101011111000" );
-	array[  5411] = assign( 21, "011101101111110010110" );	// warning: length mismatch
+	array[  5411] = assign( 21, "011101101111110010110" );
 	array[ -5411] = assign( 21, "010101101111110010110" );
 	array[  5412] = assign( 26, "11011111010101100011111100" );
 	array[ -5412] = assign( 26, "10011111010101100011111100" );
@@ -11217,7 +11225,7 @@
 	array[ -5441] = assign( 26, "10011111010101101001111010" );
 	array[  5442] = assign( 26, "11011111010101101011111000" );
 	array[ -5442] = assign( 26, "10011111010101101011111000" );
-	array[  5443] = assign( 20, "01110111111111111110" );	// warning: length mismatch
+	array[  5443] = assign( 20, "01110111111111111110" );
 	array[ -5443] = assign( 20, "01010111111111111110" );
 	array[  5444] = assign( 26, "11111111010101101001011100" );
 	array[ -5444] = assign( 26, "10111111010101101001011100" );
@@ -11283,7 +11291,7 @@
 	array[ -5473] = assign( 26, "10011111111111001011011010" );
 	array[  5474] = assign( 26, "11011111111111001001111000" );
 	array[ -5474] = assign( 26, "10011111111111001001111000" );
-	array[  5475] = assign( 20, "01110111111111011110" );	// warning: length mismatch
+	array[  5475] = assign( 20, "01110111111111011110" );
 	array[ -5475] = assign( 20, "01010111111111011110" );
 	array[  5476] = assign( 26, "11111111111111001011111000" );
 	array[ -5476] = assign( 26, "10111111111111001011111000" );
@@ -11349,7 +11357,7 @@
 	array[ -5505] = assign( 26, "10011111011111001011011010" );
 	array[  5506] = assign( 26, "11011111011111001001111000" );
 	array[ -5506] = assign( 26, "10011111011111001001111000" );
-	array[  5507] = assign( 20, "01111001101101011110" );	// warning: length mismatch
+	array[  5507] = assign( 20, "01111001101101011110" );
 	array[ -5507] = assign( 20, "01011001101101011110" );
 	array[  5508] = assign( 26, "11111111011111001011111000" );
 	array[ -5508] = assign( 26, "10111111011111001011111000" );
@@ -11415,7 +11423,7 @@
 	array[ -5537] = assign( 26, "10011111110111001001011010" );
 	array[  5538] = assign( 26, "11011111110111001011011000" );
 	array[ -5538] = assign( 26, "10011111110111001011011000" );
-	array[  5539] = assign( 20, "01111000101101101110" );	// warning: length mismatch
+	array[  5539] = assign( 20, "01111000101101101110" );
 	array[ -5539] = assign( 20, "01011000101101101110" );
 	array[  5540] = assign( 26, "11111111110111001001111000" );
 	array[ -5540] = assign( 26, "10111111110111001001111000" );
@@ -11481,7 +11489,7 @@
 	array[ -5569] = assign( 26, "10011111010111001001011010" );
 	array[  5570] = assign( 26, "11011111010111001011011000" );
 	array[ -5570] = assign( 26, "10011111010111001011011000" );
-	array[  5571] = assign( 20, "01111000101101001110" );	// warning: length mismatch
+	array[  5571] = assign( 20, "01111000101101001110" );
 	array[ -5571] = assign( 20, "01011000101101001110" );
 	array[  5572] = assign( 26, "11111111010111001001111000" );
 	array[ -5572] = assign( 26, "10111111010111001001111000" );
@@ -11547,7 +11555,7 @@
 	array[ -5601] = assign( 25, "1001111111110100101111010" );
 	array[  5602] = assign( 26, "11011111111101001001011000" );
 	array[ -5602] = assign( 26, "10011111111101001001011000" );
-	array[  5603] = assign( 19, "0111100111101111010" );	// warning: length mismatch
+	array[  5603] = assign( 19, "0111100111101111010" );
 	array[ -5603] = assign( 19, "0101100111101111010" );
 	array[  5604] = assign( 26, "11111111111101001011011000" );
 	array[ -5604] = assign( 26, "10111111111101001011011000" );
@@ -11613,7 +11621,7 @@
 	array[ -5633] = assign( 25, "1001111101110100101111010" );
 	array[  5634] = assign( 26, "11011111011101001001011000" );
 	array[ -5634] = assign( 26, "10011111011101001001011000" );
-	array[  5635] = assign( 19, "0111100111101011010" );	// warning: length mismatch
+	array[  5635] = assign( 19, "0111100111101011010" );
 	array[ -5635] = assign( 19, "0101100111101011010" );
 	array[  5636] = assign( 26, "11111111011101001011011000" );
 	array[ -5636] = assign( 26, "10111111011101001011011000" );
@@ -11679,7 +11687,7 @@
 	array[ -5665] = assign( 25, "1001111111010100100111010" );
 	array[  5666] = assign( 25, "1101111111010100101111000" );
 	array[ -5666] = assign( 25, "1001111111010100101111000" );
-	array[  5667] = assign( 19, "0111100011101101010" );	// warning: length mismatch
+	array[  5667] = assign( 19, "0111100011101101010" );
 	array[ -5667] = assign( 19, "0101100011101101010" );
 	array[  5668] = assign( 26, "11111111110101001001011000" );
 	array[ -5668] = assign( 26, "10111111110101001001011000" );
@@ -11745,7 +11753,7 @@
 	array[ -5697] = assign( 25, "1001111101010100100111010" );
 	array[  5698] = assign( 25, "1101111101010100101111000" );
 	array[ -5698] = assign( 25, "1001111101010100101111000" );
-	array[  5699] = assign( 19, "0111100011101001010" );	// warning: length mismatch
+	array[  5699] = assign( 19, "0111100011101001010" );
 	array[ -5699] = assign( 19, "0101100011101001010" );
 	array[  5700] = assign( 26, "11111111010101001001011000" );
 	array[ -5700] = assign( 26, "10111111010101001001011000" );
@@ -11811,7 +11819,7 @@
 	array[ -5729] = assign( 23, "10011111111110101101010" );
 	array[  5730] = assign( 23, "11011111111110100111000" );
 	array[ -5730] = assign( 23, "10011111111110100111000" );
-	array[  5731] = assign( 18, "011110011010111110" );	// warning: length mismatch
+	array[  5731] = assign( 18, "011110011010111110" );
 	array[ -5731] = assign( 18, "010110011010111110" );
 	array[  5732] = assign( 23, "11111111111110101111000" );
 	array[ -5732] = assign( 23, "10111111111110101111000" );
@@ -11877,7 +11885,7 @@
 	array[ -5761] = assign( 23, "10011111011110101101010" );
 	array[  5762] = assign( 23, "11011111011110100111000" );
 	array[ -5762] = assign( 23, "10011111011110100111000" );
-	array[  5763] = assign( 18, "011110011010101110" );	// warning: length mismatch
+	array[  5763] = assign( 18, "011110011010101110" );
 	array[ -5763] = assign( 18, "010110011010101110" );
 	array[  5764] = assign( 23, "11111111011110101111000" );
 	array[ -5764] = assign( 23, "10111111011110101111000" );
@@ -11943,7 +11951,7 @@
 	array[ -5793] = assign( 23, "10011111110110100101010" );
 	array[  5794] = assign( 23, "11011111110110101101000" );
 	array[ -5794] = assign( 23, "10011111110110101101000" );
-	array[  5795] = assign( 18, "011110001010110110" );	// warning: length mismatch
+	array[  5795] = assign( 18, "011110001010110110" );
 	array[ -5795] = assign( 18, "010110001010110110" );
 	array[  5796] = assign( 23, "11111111110110100111000" );
 	array[ -5796] = assign( 23, "10111111110110100111000" );
@@ -12009,7 +12017,7 @@
 	array[ -5825] = assign( 23, "10011111010110100101010" );
 	array[  5826] = assign( 23, "11011111010110101101000" );
 	array[ -5826] = assign( 23, "10011111010110101101000" );
-	array[  5827] = assign( 18, "011110001010100110" );	// warning: length mismatch
+	array[  5827] = assign( 18, "011110001010100110" );
 	array[ -5827] = assign( 18, "010110001010100110" );
 	array[  5828] = assign( 23, "11111111010110100111000" );
 	array[ -5828] = assign( 23, "10111111010110100111000" );
@@ -12075,7 +12083,7 @@
 	array[ -5857] = assign( 22, "1001111111110010111010" );
 	array[  5858] = assign( 23, "11011111111100100101000" );
 	array[ -5858] = assign( 23, "10011111111100100101000" );
-	array[  5859] = assign( 17, "01111001110111100" );	// warning: length mismatch
+	array[  5859] = assign( 17, "01111001110111100" );
 	array[ -5859] = assign( 17, "01011001110111100" );
 	array[  5860] = assign( 23, "11111111111100101101000" );
 	array[ -5860] = assign( 23, "10111111111100101101000" );
@@ -12141,7 +12149,7 @@
 	array[ -5889] = assign( 22, "1001111101110010111010" );
 	array[  5890] = assign( 23, "11011111011100100101000" );
 	array[ -5890] = assign( 23, "10011111011100100101000" );
-	array[  5891] = assign( 17, "01111001110101100" );	// warning: length mismatch
+	array[  5891] = assign( 17, "01111001110101100" );
 	array[ -5891] = assign( 17, "01011001110101100" );
 	array[  5892] = assign( 23, "11111111011100101101000" );
 	array[ -5892] = assign( 23, "10111111011100101101000" );
@@ -12207,7 +12215,7 @@
 	array[ -5921] = assign( 22, "1001111111010010011010" );
 	array[  5922] = assign( 22, "1101111111010010111000" );
 	array[ -5922] = assign( 22, "1001111111010010111000" );
-	array[  5923] = assign( 17, "01111000110110100" );	// warning: length mismatch
+	array[  5923] = assign( 17, "01111000110110100" );
 	array[ -5923] = assign( 17, "01011000110110100" );
 	array[  5924] = assign( 23, "11111111110100100101000" );
 	array[ -5924] = assign( 23, "10111111110100100101000" );
@@ -12273,7 +12281,7 @@
 	array[ -5953] = assign( 22, "1001111101010010011010" );
 	array[  5954] = assign( 22, "1101111101010010111000" );
 	array[ -5954] = assign( 22, "1001111101010010111000" );
-	array[  5955] = assign( 17, "01111000110100100" );	// warning: length mismatch
+	array[  5955] = assign( 17, "01111000110100100" );
 	array[ -5955] = assign( 17, "01011000110100100" );
 	array[  5956] = assign( 23, "11111111010100100101000" );
 	array[ -5956] = assign( 23, "10111111010100100101000" );
@@ -12339,7 +12347,7 @@
 	array[ -5985] = assign( 20, "10011111111010110010" );
 	array[  5986] = assign( 20, "11011111111010011000" );
 	array[ -5986] = assign( 20, "10011111111010011000" );
-	array[  5987] = assign( 15, "011110011001110" );	// warning: length mismatch
+	array[  5987] = assign( 15, "011110011001110" );
 	array[ -5987] = assign( 15, "010110011001110" );
 	array[  5988] = assign( 20, "11111111111010111000" );
 	array[ -5988] = assign( 20, "10111111111010111000" );
@@ -12405,7 +12413,7 @@
 	array[ -6017] = assign( 20, "10011111011010110010" );
 	array[  6018] = assign( 20, "11011111011010011000" );
 	array[ -6018] = assign( 20, "10011111011010011000" );
-	array[  6019] = assign( 15, "011110011001010" );	// warning: length mismatch
+	array[  6019] = assign( 15, "011110011001010" );
 	array[ -6019] = assign( 15, "010110011001010" );
 	array[  6020] = assign( 20, "11111111011010111000" );
 	array[ -6020] = assign( 20, "10111111011010111000" );
@@ -12471,7 +12479,7 @@
 	array[ -6049] = assign( 20, "10011111110010010010" );
 	array[  6050] = assign( 20, "11011111110010110000" );
 	array[ -6050] = assign( 20, "10011111110010110000" );
-	array[  6051] = assign( 15, "011110001001100" );	// warning: length mismatch
+	array[  6051] = assign( 15, "011110001001100" );
 	array[ -6051] = assign( 15, "010110001001100" );
 	array[  6052] = assign( 20, "11111111110010011000" );
 	array[ -6052] = assign( 20, "10111111110010011000" );
@@ -12537,7 +12545,7 @@
 	array[ -6081] = assign( 20, "10011111010010010010" );
 	array[  6082] = assign( 20, "11011111010010110000" );
 	array[ -6082] = assign( 20, "10011111010010110000" );
-	array[  6083] = assign( 15, "011110001001000" );	// warning: length mismatch
+	array[  6083] = assign( 15, "011110001001000" );
 	array[ -6083] = assign( 15, "010110001001000" );
 	array[  6084] = assign( 20, "11111111010010011000" );
 	array[ -6084] = assign( 20, "10111111010010011000" );
@@ -12603,7 +12611,7 @@
 	array[ -6113] = assign( 16, "1001111110101010" );
 	array[  6114] = assign( 18, "110111111010010000" );
 	array[ -6114] = assign( 18, "100111111010010000" );
-	array[  6115] = assign( 11, "01111001001" );	// warning: length mismatch
+	array[  6115] = assign( 11, "01111001001" );
 	array[ -6115] = assign( 11, "01011001001" );
 	array[  6116] = assign( 18, "111111111010110000" );
 	array[ -6116] = assign( 18, "101111111010110000" );
@@ -12669,7 +12677,7 @@
 	array[ -6145] = assign( 16, "1001111100101010" );
 	array[  6146] = assign( 18, "100111110000010000" );
 	array[ -6146] = assign( 18, "100111110010010000" );
-	array[  6147] = assign( 11, "01010111000" );	// warning: length mismatch
+	array[  6147] = assign( 11, "01010111000" );
 	array[ -6147] = assign( 11, "01011001000" );
 	array[  6148] = assign( 18, "101111110000110000" );
 	array[ -6148] = assign( 18, "101111110010110000" );
@@ -12735,7 +12743,7 @@
 	array[ -6177] = assign( 16, "1101111110001010" );
 	array[  6178] = assign( 18, "100111111000010000" );
 	array[ -6178] = assign( 18, "110111111000010000" );
-	array[  6179] = assign( 11, "01010111001" );	// warning: length mismatch
+	array[  6179] = assign( 11, "01010111001" );
 	array[ -6179] = assign( 11, "01110111001" );
 	array[  6180] = assign( 18, "101111111000110000" );
 	array[ -6180] = assign( 18, "111111111000110000" );
@@ -12801,7 +12809,7 @@
 	array[ -6209] = assign( 14, "11011110101000" );
 	array[  6210] = assign( 12, "100111011010" );
 	array[ -6210] = assign( 12, "110111011010" );
-	array[  6211] = assign( 13, "0101011001000" );	// warning: length mismatch
+	array[  6211] = assign( 13, "0101011001000" );
 	array[ -6211] = assign( 13, "0111011001000" );
 	array[  6212] = assign( 20, "10111111010000010000" );
 	array[ -6212] = assign( 20, "11111111010000010000" );
@@ -12867,7 +12875,7 @@
 	array[ -6241] = assign( 14, "11011110101100" );
 	array[  6242] = assign( 11, "10011101010" );
 	array[ -6242] = assign( 11, "11011101010" );
-	array[  6243] = assign( 13, "0101011001100" );	// warning: length mismatch
+	array[  6243] = assign( 13, "0101011001100" );
 	array[ -6243] = assign( 13, "0111011001100" );
 	array[  6244] = assign( 20, "10111111110000010000" );
 	array[ -6244] = assign( 20, "11111111110000010000" );
@@ -12933,7 +12941,7 @@
 	array[ -6273] = assign( 11, "11010111110" );
 	array[  6274] = assign(  9, "100101010" );
 	array[ -6274] = assign(  9, "110101010" );
-	array[  6275] = assign( 10, "0101101010" );	// warning: length mismatch
+	array[  6275] = assign( 10, "0101101010" );
 	array[ -6275] = assign( 10, "0111101010" );
 	array[  6276] = assign( 13, "1011110110110" );
 	array[ -6276] = assign( 13, "1111110110110" );
@@ -12999,7 +13007,7 @@
 	array[ -6305] = assign( 11, "11011100110" );
 	array[  6306] = assign(  8, "10010010" );
 	array[ -6306] = assign(  8, "11010010" );
-	array[  6307] = assign( 10, "0101101110" );	// warning: length mismatch
+	array[  6307] = assign( 10, "0101101110" );
 	array[ -6307] = assign( 10, "0111101110" );
 	array[  6308] = assign( 12, "101111010110" );
 	array[ -6308] = assign( 12, "111111010110" );
@@ -13131,7 +13139,7 @@
 	array[ -6369] = assign( 16, "1111111011110100" );
 	array[  6370] = assign( 12, "101101101110" );
 	array[ -6370] = assign( 12, "111101101110" );
-	array[  6371] = assign( 10, "0101000110" );	// warning: length mismatch
+	array[  6371] = assign( 10, "0101000110" );
 	array[ -6371] = assign( 10, "0111000110" );
 	array[  6372] = assign(  9, "101100110" );
 	array[ -6372] = assign(  9, "111100110" );
@@ -13197,7 +13205,7 @@
 	array[ -6401] = assign( 20, "11111111011100101010" );
 	array[  6402] = assign( 14, "10111110011110" );
 	array[ -6402] = assign( 14, "11111110011110" );
-	array[  6403] = assign( 10, "0101001110" );	// warning: length mismatch
+	array[  6403] = assign( 10, "0101001110" );
 	array[ -6403] = assign( 10, "0111001110" );
 	array[  6404] = assign( 10, "1001101110" );
 	array[ -6404] = assign( 10, "1101101110" );
@@ -13263,7 +13271,7 @@
 	array[ -6433] = assign( 20, "11111111111100101010" );
 	array[  6434] = assign( 15, "101111011111110" );
 	array[ -6434] = assign( 15, "111111011111110" );
-	array[  6435] = assign( 13, "0101110011110" );	// warning: length mismatch
+	array[  6435] = assign( 13, "0101110011110" );
 	array[ -6435] = assign( 13, "0111110011110" );
 	array[  6436] = assign( 13, "1001011011110" );
 	array[ -6436] = assign( 13, "1101011011110" );
@@ -13329,7 +13337,7 @@
 	array[ -6465] = assign( 22, "1111111101011010010010" );
 	array[  6466] = assign( 22, "1011111101011010010000" );
 	array[ -6466] = assign( 22, "1111111101011010010000" );
-	array[  6467] = assign( 15, "010110000100110" );	// warning: length mismatch
+	array[  6467] = assign( 15, "010110000100110" );
 	array[ -6467] = assign( 15, "011110000100110" );
 	array[  6468] = assign( 15, "100111100111110" );
 	array[ -6468] = assign( 15, "110111100111110" );
@@ -13395,7 +13403,7 @@
 	array[ -6497] = assign( 22, "1111111111011010010010" );
 	array[  6498] = assign( 22, "1011111111011010010000" );
 	array[ -6498] = assign( 22, "1111111111011010010000" );
-	array[  6499] = assign( 15, "010110000110110" );	// warning: length mismatch
+	array[  6499] = assign( 15, "010110000110110" );
 	array[ -6499] = assign( 15, "011110000110110" );
 	array[  6500] = assign( 16, "1001110111111110" );
 	array[ -6500] = assign( 16, "1101110111111110" );
@@ -13461,7 +13469,7 @@
 	array[ -6529] = assign( 22, "1111111101111010110010" );
 	array[  6530] = assign( 22, "1011111101111010110000" );
 	array[ -6530] = assign( 22, "1111111101111010110000" );
-	array[  6531] = assign( 15, "010110010101110" );	// warning: length mismatch
+	array[  6531] = assign( 15, "010110010101110" );
 	array[ -6531] = assign( 15, "011110010101110" );
 	array[  6532] = assign( 22, "1001111101111010010000" );
 	array[ -6532] = assign( 22, "1101111101111010010000" );
@@ -13527,7 +13535,7 @@
 	array[ -6561] = assign( 22, "1111111111111010110010" );
 	array[  6562] = assign( 22, "1011111111111010110000" );
 	array[ -6562] = assign( 22, "1111111111111010110000" );
-	array[  6563] = assign( 15, "010110010111110" );	// warning: length mismatch
+	array[  6563] = assign( 15, "010110010111110" );
 	array[ -6563] = assign( 15, "011110010111110" );
 	array[  6564] = assign( 22, "1001111111111010010000" );
 	array[ -6564] = assign( 22, "1101111111111010010000" );
@@ -13593,7 +13601,7 @@
 	array[ -6593] = assign( 24, "111111110101010010011010" );
 	array[  6594] = assign( 24, "101111110101010010011000" );
 	array[ -6594] = assign( 24, "111111110101010010011000" );
-	array[  6595] = assign( 18, "010110001001001010" );	// warning: length mismatch
+	array[  6595] = assign( 18, "010110001001001010" );
 	array[ -6595] = assign( 18, "011110001001001010" );
 	array[  6596] = assign( 24, "100111110101010010110000" );
 	array[ -6596] = assign( 24, "110111110101010010110000" );
@@ -13659,7 +13667,7 @@
 	array[ -6625] = assign( 24, "111111111101010010011010" );
 	array[  6626] = assign( 24, "101111111101010010011000" );
 	array[ -6626] = assign( 24, "111111111101010010011000" );
-	array[  6627] = assign( 18, "010110001001101010" );	// warning: length mismatch
+	array[  6627] = assign( 18, "010110001001101010" );
 	array[ -6627] = assign( 18, "011110001001101010" );
 	array[  6628] = assign( 24, "100111111101010010110000" );
 	array[ -6628] = assign( 24, "110111111101010010110000" );
@@ -13725,7 +13733,7 @@
 	array[ -6657] = assign( 24, "111111110111010010111010" );
 	array[  6658] = assign( 24, "101111110111010010111000" );
 	array[ -6658] = assign( 24, "111111110111010010111000" );
-	array[  6659] = assign( 18, "010110011001011010" );	// warning: length mismatch
+	array[  6659] = assign( 18, "010110011001011010" );
 	array[ -6659] = assign( 18, "011110011001011010" );
 	array[  6660] = assign( 24, "100111110111010010011000" );
 	array[ -6660] = assign( 24, "110111110111010010011000" );
@@ -13791,7 +13799,7 @@
 	array[ -6689] = assign( 24, "111111111111010010111010" );
 	array[  6690] = assign( 24, "101111111111010010111000" );
 	array[ -6690] = assign( 24, "111111111111010010111000" );
-	array[  6691] = assign( 18, "010110011001111010" );	// warning: length mismatch
+	array[  6691] = assign( 18, "010110011001111010" );
 	array[ -6691] = assign( 18, "011110011001111010" );
 	array[  6692] = assign( 24, "100111111111010010011000" );
 	array[ -6692] = assign( 24, "110111111111010010011000" );
@@ -13857,7 +13865,7 @@
 	array[ -6721] = assign( 25, "1111111101011100100101010" );
 	array[  6722] = assign( 25, "1011111101011100100101000" );
 	array[ -6722] = assign( 25, "1111111101011100100101000" );
-	array[  6723] = assign( 18, "010110001101001110" );	// warning: length mismatch
+	array[  6723] = assign( 18, "010110001101001110" );
 	array[ -6723] = assign( 18, "011110001101001110" );
 	array[  6724] = assign( 24, "100111110101110010111000" );
 	array[ -6724] = assign( 24, "110111110101110010111000" );
@@ -13923,7 +13931,7 @@
 	array[ -6753] = assign( 25, "1111111111011100100101010" );
 	array[  6754] = assign( 25, "1011111111011100100101000" );
 	array[ -6754] = assign( 25, "1111111111011100100101000" );
-	array[  6755] = assign( 18, "010110001101101110" );	// warning: length mismatch
+	array[  6755] = assign( 18, "010110001101101110" );
 	array[ -6755] = assign( 18, "011110001101101110" );
 	array[  6756] = assign( 24, "100111111101110010111000" );
 	array[ -6756] = assign( 24, "110111111101110010111000" );
@@ -13989,7 +13997,7 @@
 	array[ -6785] = assign( 25, "1111111101111100101101010" );
 	array[  6786] = assign( 25, "1011111101111100101101000" );
 	array[ -6786] = assign( 25, "1111111101111100101101000" );
-	array[  6787] = assign( 18, "010110011101011110" );	// warning: length mismatch
+	array[  6787] = assign( 18, "010110011101011110" );
 	array[ -6787] = assign( 18, "011110011101011110" );
 	array[  6788] = assign( 25, "1001111101111100100101000" );
 	array[ -6788] = assign( 25, "1101111101111100100101000" );
@@ -14055,7 +14063,7 @@
 	array[ -6817] = assign( 25, "1111111111111100101101010" );
 	array[  6818] = assign( 25, "1011111111111100101101000" );
 	array[ -6818] = assign( 25, "1111111111111100101101000" );
-	array[  6819] = assign( 18, "010110011101111110" );	// warning: length mismatch
+	array[  6819] = assign( 18, "010110011101111110" );
 	array[ -6819] = assign( 18, "011110011101111110" );
 	array[  6820] = assign( 25, "1001111111111100100101000" );
 	array[ -6820] = assign( 25, "1101111111111100100101000" );
@@ -14121,7 +14129,7 @@
 	array[ -6849] = assign( 25, "1111111101010110100111010" );
 	array[  6850] = assign( 25, "1011111101010110100111000" );
 	array[ -6850] = assign( 25, "1111111101010110100111000" );
-	array[  6851] = assign( 20, "01011000101010010110" );	// warning: length mismatch
+	array[  6851] = assign( 20, "01011000101010010110" );
 	array[ -6851] = assign( 20, "01111000101010010110" );
 	array[  6852] = assign( 25, "1001111101010110101101000" );
 	array[ -6852] = assign( 25, "1101111101010110101101000" );
@@ -14187,7 +14195,7 @@
 	array[ -6881] = assign( 25, "1111111111010110100111010" );
 	array[  6882] = assign( 25, "1011111111010110100111000" );
 	array[ -6882] = assign( 25, "1111111111010110100111000" );
-	array[  6883] = assign( 20, "01011000101011010110" );	// warning: length mismatch
+	array[  6883] = assign( 20, "01011000101011010110" );
 	array[ -6883] = assign( 20, "01111000101011010110" );
 	array[  6884] = assign( 25, "1001111111010110101101000" );
 	array[ -6884] = assign( 25, "1101111111010110101101000" );
@@ -14253,7 +14261,7 @@
 	array[ -6913] = assign( 25, "1111111101110110101111010" );
 	array[  6914] = assign( 25, "1011111101110110101111000" );
 	array[ -6914] = assign( 25, "1111111101110110101111000" );
-	array[  6915] = assign( 20, "01011001101010110110" );	// warning: length mismatch
+	array[  6915] = assign( 20, "01011001101010110110" );
 	array[ -6915] = assign( 20, "01111001101010110110" );
 	array[  6916] = assign( 25, "1001111101110110100111000" );
 	array[ -6916] = assign( 25, "1101111101110110100111000" );
@@ -14319,7 +14327,7 @@
 	array[ -6945] = assign( 25, "1111111111110110101111010" );
 	array[  6946] = assign( 25, "1011111111110110101111000" );
 	array[ -6946] = assign( 25, "1111111111110110101111000" );
-	array[  6947] = assign( 20, "01011001101011110110" );	// warning: length mismatch
+	array[  6947] = assign( 20, "01011001101011110110" );
 	array[ -6947] = assign( 20, "01111001101011110110" );
 	array[  6948] = assign( 25, "1001111111110110100111000" );
 	array[ -6948] = assign( 25, "1101111111110110100111000" );
@@ -14385,9 +14393,9 @@
 	array[ -6977] = assign( 26, "11111111010111101001011010" );
 	array[  6978] = assign( 26, "10111111010111101001011000" );
 	array[ -6978] = assign( 26, "11111111010111101001011000" );
-	array[  6979] = assign( 20, "01011000111010011110" );	// warning: length mismatch
+	array[  6979] = assign( 20, "01011000111010011110" );
 	array[ -6979] = assign( 20, "01111000111010011110" );
-	array[  6980] = assign( 20, "01110110111011111111" );	// warning: length mismatch
+	array[  6980] = assign( 20, "01110110111011111111" );
 	array[ -6980] = assign( 20, "01010110111011111111" );
 	array[  6981] = assign( 25, "1001111101011110100111010" );
 	array[ -6981] = assign( 25, "1101111101011110100111010" );
@@ -14451,9 +14459,9 @@
 	array[ -7009] = assign( 26, "11111111110111101001011010" );
 	array[  7010] = assign( 26, "10111111110111101001011000" );
 	array[ -7010] = assign( 26, "11111111110111101001011000" );
-	array[  7011] = assign( 20, "01011000111011011110" );	// warning: length mismatch
+	array[  7011] = assign( 20, "01011000111011011110" );
 	array[ -7011] = assign( 20, "01111000111011011110" );
-	array[  7012] = assign( 20, "01110110111010111111" );	// warning: length mismatch
+	array[  7012] = assign( 20, "01110110111010111111" );
 	array[ -7012] = assign( 20, "01010110111010111111" );
 	array[  7013] = assign( 25, "1001111111011110100111010" );
 	array[ -7013] = assign( 25, "1101111111011110100111010" );
@@ -14517,9 +14525,9 @@
 	array[ -7041] = assign( 26, "11111111011111101011011010" );
 	array[  7042] = assign( 26, "10111111011111101011011000" );
 	array[ -7042] = assign( 26, "11111111011111101011011000" );
-	array[  7043] = assign( 20, "01011001111010111110" );	// warning: length mismatch
+	array[  7043] = assign( 20, "01011001111010111110" );
 	array[ -7043] = assign( 20, "01111001111010111110" );
-	array[  7044] = assign( 20, "01110111111011011111" );	// warning: length mismatch
+	array[  7044] = assign( 20, "01110111111011011111" );
 	array[ -7044] = assign( 20, "01010111111011011111" );
 	array[  7045] = assign( 25, "1001111101111110101111010" );
 	array[ -7045] = assign( 25, "1101111101111110101111010" );
@@ -14583,9 +14591,9 @@
 	array[ -7073] = assign( 26, "11111111111111101011011010" );
 	array[  7074] = assign( 26, "10111111111111101011011000" );
 	array[ -7074] = assign( 26, "11111111111111101011011000" );
-	array[  7075] = assign( 20, "01011001111011111110" );	// warning: length mismatch
+	array[  7075] = assign( 20, "01011001111011111110" );
 	array[ -7075] = assign( 20, "01111001111011111110" );
-	array[  7076] = assign( 20, "01110111111010011111" );	// warning: length mismatch
+	array[  7076] = assign( 20, "01110111111010011111" );
 	array[ -7076] = assign( 20, "01010111111010011111" );
 	array[  7077] = assign( 25, "1001111111111110101111010" );
 	array[ -7077] = assign( 25, "1101111111111110101111010" );
@@ -14649,9 +14657,9 @@
 	array[ -7105] = assign( 27, "111111110101010101001111010" );
 	array[  7106] = assign( 27, "101111110101010101001111000" );
 	array[ -7106] = assign( 27, "101111111111010100001111010" );
-	array[  7107] = assign( 21, "010110001011010010111" );	// warning: length mismatch
+	array[  7107] = assign( 21, "010110001011010010111" );
 	array[ -7107] = assign( 21, "011110001011010010111" );
-	array[  7108] = assign( 21, "011101101011011110111" );	// warning: length mismatch
+	array[  7108] = assign( 21, "011101101011011110111" );
 	array[ -7108] = assign( 21, "010101101011011110111" );
 	array[  7109] = assign( 27, "100111110101010101001011010" );
 	array[ -7109] = assign( 27, "100111111111010100011011000" );
@@ -14715,9 +14723,9 @@
 	array[ -7137] = assign( 27, "111111111101010101001111010" );
 	array[  7138] = assign( 27, "101111111101010101001111000" );
 	array[ -7138] = assign( 27, "101111110111010100001111010" );
-	array[  7139] = assign( 21, "010110001011011010111" );	// warning: length mismatch
+	array[  7139] = assign( 21, "010110001011011010111" );
 	array[ -7139] = assign( 21, "011110001011011010111" );
-	array[  7140] = assign( 21, "011101101011010110111" );	// warning: length mismatch
+	array[  7140] = assign( 21, "011101101011010110111" );
 	array[ -7140] = assign( 21, "010101101011010110111" );
 	array[  7141] = assign( 27, "100111111101010101001011010" );
 	array[ -7141] = assign( 27, "100111110111010100011011000" );
@@ -14781,9 +14789,9 @@
 	array[ -7169] = assign( 27, "111111110111010101011111010" );
 	array[  7170] = assign( 27, "101111110111010101011111000" );
 	array[ -7170] = assign( 27, "101111111101010100011111010" );
-	array[  7171] = assign( 21, "010110011011010110111" );	// warning: length mismatch
+	array[  7171] = assign( 21, "010110011011010110111" );
 	array[ -7171] = assign( 21, "011110011011010110111" );
-	array[  7172] = assign( 21, "011101111011011010111" );	// warning: length mismatch
+	array[  7172] = assign( 21, "011101111011011010111" );
 	array[ -7172] = assign( 21, "010101111011011010111" );
 	array[  7173] = assign( 27, "100111110111010101011011010" );
 	array[ -7173] = assign( 27, "100111111101010100001111000" );
@@ -14847,9 +14855,9 @@
 	array[ -7201] = assign( 27, "110111110111010100011111110" );
 	array[  7202] = assign( 27, "101111111111010101011111000" );
 	array[ -7202] = assign( 27, "100111111101010101011111110" );
-	array[  7203] = assign( 21, "010101111111110110111" );	// warning: length mismatch
+	array[  7203] = assign( 21, "010101111111110110111" );
 	array[ -7203] = assign( 21, "011101111111110110111" );
-	array[  7204] = assign( 21, "011101111011010010111" );	// warning: length mismatch
+	array[  7204] = assign( 21, "011101111011010010111" );
 	array[ -7204] = assign( 21, "010101111011010010111" );
 	array[  7205] = assign( 27, "100111111111010101011011010" );
 	array[ -7205] = assign( 27, "100111110101010100001111000" );
@@ -14913,9 +14921,9 @@
 	array[ -7233] = assign( 27, "110111111111010100011111110" );
 	array[  7234] = assign( 26, "11111111111111100001011110" );
 	array[ -7234] = assign( 26, "10111111111111100001011110" );
-	array[  7235] = assign( 21, "010101111111111110111" );	// warning: length mismatch
+	array[  7235] = assign( 21, "010101111111111110111" );
 	array[ -7235] = assign( 21, "011101111111111110111" );
-	array[  7236] = assign( 21, "011101101111011111110" );	// warning: length mismatch
+	array[  7236] = assign( 21, "011101101111011111110" );
 	array[ -7236] = assign( 21, "010101101111011111110" );
 	array[  7237] = assign( 26, "11011111111111100011111000" );
 	array[ -7237] = assign( 26, "10011111111111100011111000" );
@@ -14951,35 +14959,37 @@
 	array[ -7252] = assign( 26, "10011111111111100101111010" );
 	array[  7253] = assign( 26, "11111111111111101111111010" );
 	array[ -7253] = assign( 26, "10111111111111101111111010" );
-	array[  7254] = assign( 28, "1101111111111110010111100110" );
-	array[ -7254] = assign( 28, "1001111111111110010111100110" );
-	array[  7255] = assign( 28, "1101111111111110010111101110" );
-	array[ -7255] = assign( 28, "1001111111111110010111101110" );
-	array[  7256] = assign( 28, "1111111111111110111111101110" );
-	array[ -7256] = assign( 28, "1011111111111110111111101110" );
-	array[  7257] = assign( 28, "1101111111111110100111011110" );
-	array[ -7257] = assign( 28, "1001111111111110100111011110" );
-	array[  7258] = assign( 28, "1101111111111110101111001110" );
-	array[ -7258] = assign( 28, "1001111111111110101111001110" );
-	array[  7259] = assign( 29, "11011111111111100101111011110" );
-	array[ -7259] = assign( 29, "10011111111111100101111011110" );
-	array[  7260] = assign( 29, "10011111010111010000111101110" );
-	array[ -7260] = assign( 29, "10011111111111101011011001010" );
-	array[  7261] = assign( 28, "1101111111111110100111101110" );
-	array[ -7261] = assign( 28, "1001111111111110100111101110" );
-	array[  7262] = assign( 28, "1101111111111110101111100110" );
-	array[ -7262] = assign( 28, "1001111111111110101111100110" );
-	array[  7263] = assign( 28, "1101111111111110100101111100" );
-	array[ -7263] = assign( 28, "1001111111111110100101111100" );
-	// decoded 31 sequences.
+	array[  7254] = assign( 28, "1101111111111110010111101100" );
+	array[ -7254] = assign( 28, "1001111111111110010111101100" );
+	array[  7255] = assign( 28, "1101111111111110010111100110" );
+	array[ -7255] = assign( 28, "1001111111111110010111100110" );
+	array[  7256] = assign( 28, "1101111111111110010111101110" );
+	array[ -7256] = assign( 28, "1001111111111110010111101110" );
+	array[  7257] = assign( 28, "1111111111111110111111101110" );
+	array[ -7257] = assign( 28, "1011111111111110111111101110" );
+	array[  7258] = assign( 28, "1101111111111110100111011110" );
+	array[ -7258] = assign( 28, "1001111111111110100111011110" );
+	array[  7259] = assign( 28, "1101111111111110101111001110" );
+	array[ -7259] = assign( 28, "1001111111111110101111001110" );
+	array[  7260] = assign( 29, "11011111111111100101111011110" );
+	array[ -7260] = assign( 29, "10011111111111100101111011110" );
+	array[  7261] = assign( 29, "10011111010111010000111101110" );
+	array[ -7261] = assign( 29, "10011111111111101011011001010" );
+	array[  7262] = assign( 28, "1101111111111110100111101110" );
+	array[ -7262] = assign( 28, "1001111111111110100111101110" );
+	array[  7263] = assign( 28, "1101111111111110101111100110" );
+	array[ -7263] = assign( 28, "1001111111111110101111100110" );
+	array[  7264] = assign( 28, "1101111111111110100101111100" );
+	array[ -7264] = assign( 28, "1001111111111110100101111100" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 7265
 	array[  7265] = assign( 27, "100111110101110100001111110" );
 	array[ -7265] = assign( 27, "110111110101110100001111110" );
 	array[  7266] = assign( 26, "11011111111111101001111110" );
 	array[ -7266] = assign( 26, "10011111111111101001111110" );
-	array[  7267] = assign( 21, "010101101111110011111" );	// warning: length mismatch
+	array[  7267] = assign( 21, "010101101111110011111" );
 	array[ -7267] = assign( 21, "011101101111110011111" );
-	array[  7268] = assign( 21, "011101101111010111110" );	// warning: length mismatch
+	array[  7268] = assign( 21, "011101101111010111110" );
 	array[ -7268] = assign( 21, "010101101111010111110" );
 	array[  7269] = assign( 26, "11011111011111100011111000" );
 	array[ -7269] = assign( 26, "10011111011111100011111000" );
@@ -15015,35 +15025,37 @@
 	array[ -7284] = assign( 26, "10011111011111100101111010" );
 	array[  7285] = assign( 26, "11111111011111101111111010" );
 	array[ -7285] = assign( 26, "10111111011111101111111010" );
-	array[  7286] = assign( 28, "1101111101111110010111100110" );
-	array[ -7286] = assign( 28, "1001111101111110010111100110" );
-	array[  7287] = assign( 28, "1101111101111110010111101110" );
-	array[ -7287] = assign( 28, "1001111101111110010111101110" );
-	array[  7288] = assign( 28, "1111111101111110111111101110" );
-	array[ -7288] = assign( 28, "1011111101111110111111101110" );
-	array[  7289] = assign( 28, "1101111101111110100111011110" );
-	array[ -7289] = assign( 28, "1001111101111110100111011110" );
-	array[  7290] = assign( 28, "1101111101111110101111001110" );
-	array[ -7290] = assign( 28, "1001111101111110101111001110" );
-	array[  7291] = assign( 29, "11011111011111100101111011110" );
-	array[ -7291] = assign( 29, "10011111011111100101111011110" );
-	array[  7292] = assign( 29, "10011111110111010000111101110" );
-	array[ -7292] = assign( 29, "10011111011111101011011001010" );
-	array[  7293] = assign( 28, "1101111101111110100111101110" );
-	array[ -7293] = assign( 28, "1001111101111110100111101110" );
-	array[  7294] = assign( 28, "1101111101111110101111100110" );
-	array[ -7294] = assign( 28, "1001111101111110101111100110" );
-	array[  7295] = assign( 28, "1101111101111110100101111100" );
-	array[ -7295] = assign( 28, "1001111101111110100101111100" );
-	// decoded 31 sequences.
+	array[  7286] = assign( 28, "1101111101111110010111101100" );
+	array[ -7286] = assign( 28, "1001111101111110010111101100" );
+	array[  7287] = assign( 28, "1101111101111110010111100110" );
+	array[ -7287] = assign( 28, "1001111101111110010111100110" );
+	array[  7288] = assign( 28, "1101111101111110010111101110" );
+	array[ -7288] = assign( 28, "1001111101111110010111101110" );
+	array[  7289] = assign( 28, "1111111101111110111111101110" );
+	array[ -7289] = assign( 28, "1011111101111110111111101110" );
+	array[  7290] = assign( 28, "1101111101111110100111011110" );
+	array[ -7290] = assign( 28, "1001111101111110100111011110" );
+	array[  7291] = assign( 28, "1101111101111110101111001110" );
+	array[ -7291] = assign( 28, "1001111101111110101111001110" );
+	array[  7292] = assign( 29, "11011111011111100101111011110" );
+	array[ -7292] = assign( 29, "10011111011111100101111011110" );
+	array[  7293] = assign( 29, "10011111110111010000111101110" );
+	array[ -7293] = assign( 29, "10011111011111101011011001010" );
+	array[  7294] = assign( 28, "1101111101111110100111101110" );
+	array[ -7294] = assign( 28, "1001111101111110100111101110" );
+	array[  7295] = assign( 28, "1101111101111110101111100110" );
+	array[ -7295] = assign( 28, "1001111101111110101111100110" );
+	array[  7296] = assign( 28, "1101111101111110100101111100" );
+	array[ -7296] = assign( 28, "1001111101111110100101111100" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 7297
 	array[  7297] = assign( 27, "100111111101110100001111110" );
 	array[ -7297] = assign( 27, "110111111101110100001111110" );
 	array[  7298] = assign( 26, "11011111011111101001111110" );
 	array[ -7298] = assign( 26, "10011111011111101001111110" );
-	array[  7299] = assign( 21, "010101101111111011111" );	// warning: length mismatch
+	array[  7299] = assign( 21, "010101101111111011111" );
 	array[ -7299] = assign( 21, "011101101111111011111" );
-	array[  7300] = assign( 21, "011101111111011011110" );	// warning: length mismatch
+	array[  7300] = assign( 21, "011101111111011011110" );
 	array[ -7300] = assign( 21, "010101111111011011110" );
 	array[  7301] = assign( 26, "11011111110111100001011100" );
 	array[ -7301] = assign( 26, "10011111110111100001011100" );
@@ -15107,9 +15119,9 @@
 	array[ -7329] = assign( 27, "110111110111110100011011110" );
 	array[  7330] = assign( 26, "11011111110111101011011110" );
 	array[ -7330] = assign( 26, "10011111110111101011011110" );
-	array[  7331] = assign( 21, "010101111011110111111" );	// warning: length mismatch
+	array[  7331] = assign( 21, "010101111011110111111" );
 	array[ -7331] = assign( 21, "011101111011110111111" );
-	array[  7332] = assign( 21, "011101111111010011110" );	// warning: length mismatch
+	array[  7332] = assign( 21, "011101111111010011110" );
 	array[ -7332] = assign( 21, "010101111111010011110" );
 	array[  7333] = assign( 26, "11011111010111100001011100" );
 	array[ -7333] = assign( 26, "10011111010111100001011100" );
@@ -15173,9 +15185,9 @@
 	array[ -7361] = assign( 27, "110111111111110100011011110" );
 	array[  7362] = assign( 26, "11011111010111101011011110" );
 	array[ -7362] = assign( 26, "10011111010111101011011110" );
-	array[  7363] = assign( 21, "010101111011111111111" );	// warning: length mismatch
+	array[  7363] = assign( 21, "010101111011111111111" );
 	array[ -7363] = assign( 21, "011101111011111111111" );
-	array[  7364] = assign( 21, "011101101011111110110" );	// warning: length mismatch
+	array[  7364] = assign( 21, "011101101011111110110" );
 	array[ -7364] = assign( 21, "010101101011111110110" );
 	array[  7365] = assign( 26, "11011111111101100011011100" );
 	array[ -7365] = assign( 26, "10011111111101100011011100" );
@@ -15241,7 +15253,7 @@
 	array[ -7394] = assign( 26, "10011111111101101001011110" );
 	array[  7395] = assign( 26, "11011111111101101011011100" );
 	array[ -7395] = assign( 26, "10011111111101101011011100" );
-	array[  7396] = assign( 21, "011101101011110110110" );	// warning: length mismatch
+	array[  7396] = assign( 21, "011101101011110110110" );
 	array[ -7396] = assign( 21, "010101101011110110110" );
 	array[  7397] = assign( 26, "11011111011101100011011100" );
 	array[ -7397] = assign( 26, "10011111011101100011011100" );
@@ -15307,7 +15319,7 @@
 	array[ -7426] = assign( 26, "10011111011101101001011110" );
 	array[  7427] = assign( 26, "11011111011101101011011100" );
 	array[ -7427] = assign( 26, "10011111011101101011011100" );
-	array[  7428] = assign( 21, "011101111011111010110" );	// warning: length mismatch
+	array[  7428] = assign( 21, "011101111011111010110" );
 	array[ -7428] = assign( 21, "010101111011111010110" );
 	array[  7429] = assign( 26, "11011111110101100001111100" );
 	array[ -7429] = assign( 26, "10011111110101100001111100" );
@@ -15373,7 +15385,7 @@
 	array[ -7458] = assign( 26, "10011111110101101011111010" );
 	array[  7459] = assign( 26, "11011111110101101001011100" );
 	array[ -7459] = assign( 26, "10011111110101101001011100" );
-	array[  7460] = assign( 21, "011101111011110010110" );	// warning: length mismatch
+	array[  7460] = assign( 21, "011101111011110010110" );
 	array[ -7460] = assign( 21, "010101111011110010110" );
 	array[  7461] = assign( 26, "11011111010101100001111100" );
 	array[ -7461] = assign( 26, "10011111010101100001111100" );
@@ -15439,7 +15451,7 @@
 	array[ -7490] = assign( 26, "10011111010101101011111010" );
 	array[  7491] = assign( 26, "11011111010101101001011100" );
 	array[ -7491] = assign( 26, "10011111010101101001011100" );
-	array[  7492] = assign( 20, "01110110111111111110" );	// warning: length mismatch
+	array[  7492] = assign( 20, "01110110111111111110" );
 	array[ -7492] = assign( 20, "01010110111111111110" );
 	array[  7493] = assign( 26, "11011111111111000011111100" );
 	array[ -7493] = assign( 26, "10011111111111000011111100" );
@@ -15505,7 +15517,7 @@
 	array[ -7522] = assign( 26, "10011111111111001001111010" );
 	array[  7523] = assign( 26, "11011111111111001011111000" );
 	array[ -7523] = assign( 26, "10011111111111001011111000" );
-	array[  7524] = assign( 20, "01110110111111011110" );	// warning: length mismatch
+	array[  7524] = assign( 20, "01110110111111011110" );
 	array[ -7524] = assign( 20, "01010110111111011110" );
 	array[  7525] = assign( 26, "11011111011111000011111100" );
 	array[ -7525] = assign( 26, "10011111011111000011111100" );
@@ -15571,7 +15583,7 @@
 	array[ -7554] = assign( 26, "10011111011111001001111010" );
 	array[  7555] = assign( 26, "11011111011111001011111000" );
 	array[ -7555] = assign( 26, "10011111011111001011111000" );
-	array[  7556] = assign( 20, "01110111111111101110" );	// warning: length mismatch
+	array[  7556] = assign( 20, "01110111111111101110" );
 	array[ -7556] = assign( 20, "01010111111111101110" );
 	array[  7557] = assign( 26, "11111111011111001001011100" );
 	array[ -7557] = assign( 26, "10111111011111001001011100" );
@@ -15637,7 +15649,7 @@
 	array[ -7586] = assign( 26, "10011111110111001011011010" );
 	array[  7587] = assign( 26, "11011111110111001001111000" );
 	array[ -7587] = assign( 26, "10011111110111001001111000" );
-	array[  7588] = assign( 20, "01110111111111001110" );	// warning: length mismatch
+	array[  7588] = assign( 20, "01110111111111001110" );
 	array[ -7588] = assign( 20, "01010111111111001110" );
 	array[  7589] = assign( 26, "11111111110111001011111000" );
 	array[ -7589] = assign( 26, "10111111110111001011111000" );
@@ -15703,7 +15715,7 @@
 	array[ -7618] = assign( 26, "10011111010111001011011010" );
 	array[  7619] = assign( 26, "11011111010111001001111000" );
 	array[ -7619] = assign( 26, "10011111010111001001111000" );
-	array[  7620] = assign( 20, "01111001101101001110" );	// warning: length mismatch
+	array[  7620] = assign( 20, "01111001101101001110" );
 	array[ -7620] = assign( 20, "01011001101101001110" );
 	array[  7621] = assign( 26, "11111111010111001011111000" );
 	array[ -7621] = assign( 26, "10111111010111001011111000" );
@@ -15769,7 +15781,7 @@
 	array[ -7650] = assign( 26, "10011111111101001001011010" );
 	array[  7651] = assign( 26, "11011111111101001011011000" );
 	array[ -7651] = assign( 26, "10011111111101001011011000" );
-	array[  7652] = assign( 20, "01111000101101111010" );	// warning: length mismatch
+	array[  7652] = assign( 20, "01111000101101111010" );
 	array[ -7652] = assign( 20, "01011000101101111010" );
 	array[  7653] = assign( 26, "11111111111101001001111000" );
 	array[ -7653] = assign( 26, "10111111111101001001111000" );
@@ -15835,7 +15847,7 @@
 	array[ -7682] = assign( 26, "10011111011101001001011010" );
 	array[  7683] = assign( 26, "11011111011101001011011000" );
 	array[ -7683] = assign( 26, "10011111011101001011011000" );
-	array[  7684] = assign( 20, "01111000101101011010" );	// warning: length mismatch
+	array[  7684] = assign( 20, "01111000101101011010" );
 	array[ -7684] = assign( 20, "01011000101101011010" );
 	array[  7685] = assign( 26, "11111111011101001001111000" );
 	array[ -7685] = assign( 26, "10111111011101001001111000" );
@@ -15901,7 +15913,7 @@
 	array[ -7714] = assign( 25, "1001111111010100101111010" );
 	array[  7715] = assign( 26, "11011111110101001001011000" );
 	array[ -7715] = assign( 26, "10011111110101001001011000" );
-	array[  7716] = assign( 19, "0111100111101101010" );	// warning: length mismatch
+	array[  7716] = assign( 19, "0111100111101101010" );
 	array[ -7716] = assign( 19, "0101100111101101010" );
 	array[  7717] = assign( 26, "11111111110101001011011000" );
 	array[ -7717] = assign( 26, "10111111110101001011011000" );
@@ -15967,7 +15979,7 @@
 	array[ -7746] = assign( 25, "1001111101010100101111010" );
 	array[  7747] = assign( 26, "11011111010101001001011000" );
 	array[ -7747] = assign( 26, "10011111010101001001011000" );
-	array[  7748] = assign( 19, "0111100111101001010" );	// warning: length mismatch
+	array[  7748] = assign( 19, "0111100111101001010" );
 	array[ -7748] = assign( 19, "0101100111101001010" );
 	array[  7749] = assign( 26, "11111111010101001011011000" );
 	array[ -7749] = assign( 26, "10111111010101001011011000" );
@@ -15977,8 +15989,8 @@
 	array[ -7751] = assign( 27, "101111111111100111111111110" );
 	array[  7752] = assign( 27, "110111111111101111111101110" );
 	array[ -7752] = assign( 27, "100111111111101111111101110" );
-	array[  7753] = assign( 26, "11011111111110001111110110" );
-	array[ -7753] = assign( 26, "10011111111110001111110110" );
+	array[  7753] = assign(  5, "11011" );
+	array[ -7753] = assign(  6, "111111" );
 	array[  7754] = assign( 26, "11011111111110000111111110" );
 	array[ -7754] = assign( 26, "10011111111110000111111110" );
 	array[  7755] = assign( 27, "110111111111100011011101010" );
@@ -16033,7 +16045,7 @@
 	array[ -7778] = assign( 23, "10011111111110100111010" );
 	array[  7779] = assign( 23, "11011111111110101111000" );
 	array[ -7779] = assign( 23, "10011111111110101111000" );
-	array[  7780] = assign( 18, "011110001110111110" );	// warning: length mismatch
+	array[  7780] = assign( 18, "011110001110111110" );
 	array[ -7780] = assign( 18, "010110001110111110" );
 	array[  7781] = assign( 24, "111111111111101001011000" );
 	array[ -7781] = assign( 24, "101111111111101001011000" );
@@ -16099,7 +16111,7 @@
 	array[ -7810] = assign( 23, "10011111011110100111010" );
 	array[  7811] = assign( 23, "11011111011110101111000" );
 	array[ -7811] = assign( 23, "10011111011110101111000" );
-	array[  7812] = assign( 18, "011110001110101110" );	// warning: length mismatch
+	array[  7812] = assign( 18, "011110001110101110" );
 	array[ -7812] = assign( 18, "010110001110101110" );
 	array[  7813] = assign( 24, "111111110111101001011000" );
 	array[ -7813] = assign( 24, "101111110111101001011000" );
@@ -16165,7 +16177,7 @@
 	array[ -7842] = assign( 23, "10011111110110101101010" );
 	array[  7843] = assign( 23, "11011111110110100111000" );
 	array[ -7843] = assign( 23, "10011111110110100111000" );
-	array[  7844] = assign( 18, "011110011010110110" );	// warning: length mismatch
+	array[  7844] = assign( 18, "011110011010110110" );
 	array[ -7844] = assign( 18, "010110011010110110" );
 	array[  7845] = assign( 23, "11111111110110101111000" );
 	array[ -7845] = assign( 23, "10111111110110101111000" );
@@ -16231,7 +16243,7 @@
 	array[ -7874] = assign( 23, "10011111010110101101010" );
 	array[  7875] = assign( 23, "11011111010110100111000" );
 	array[ -7875] = assign( 23, "10011111010110100111000" );
-	array[  7876] = assign( 18, "011110011010100110" );	// warning: length mismatch
+	array[  7876] = assign( 18, "011110011010100110" );
 	array[ -7876] = assign( 18, "010110011010100110" );
 	array[  7877] = assign( 23, "11111111010110101111000" );
 	array[ -7877] = assign( 23, "10111111010110101111000" );
@@ -16297,7 +16309,7 @@
 	array[ -7906] = assign( 23, "10011111111100100101010" );
 	array[  7907] = assign( 23, "11011111111100101101000" );
 	array[ -7907] = assign( 23, "10011111111100101101000" );
-	array[  7908] = assign( 18, "011110001010111100" );	// warning: length mismatch
+	array[  7908] = assign( 18, "011110001010111100" );
 	array[ -7908] = assign( 18, "010110001010111100" );
 	array[  7909] = assign( 23, "11111111111100100111000" );
 	array[ -7909] = assign( 23, "10111111111100100111000" );
@@ -16363,7 +16375,7 @@
 	array[ -7938] = assign( 23, "10011111011100100101010" );
 	array[  7939] = assign( 23, "11011111011100101101000" );
 	array[ -7939] = assign( 23, "10011111011100101101000" );
-	array[  7940] = assign( 18, "011110001010101100" );	// warning: length mismatch
+	array[  7940] = assign( 18, "011110001010101100" );
 	array[ -7940] = assign( 18, "010110001010101100" );
 	array[  7941] = assign( 23, "11111111011100100111000" );
 	array[ -7941] = assign( 23, "10111111011100100111000" );
@@ -16429,7 +16441,7 @@
 	array[ -7970] = assign( 22, "1001111111010010111010" );
 	array[  7971] = assign( 23, "11011111110100100101000" );
 	array[ -7971] = assign( 23, "10011111110100100101000" );
-	array[  7972] = assign( 17, "01111001110110100" );	// warning: length mismatch
+	array[  7972] = assign( 17, "01111001110110100" );
 	array[ -7972] = assign( 17, "01011001110110100" );
 	array[  7973] = assign( 23, "11111111110100101101000" );
 	array[ -7973] = assign( 23, "10111111110100101101000" );
@@ -16495,7 +16507,7 @@
 	array[ -8002] = assign( 22, "1001111101010010111010" );
 	array[  8003] = assign( 23, "11011111010100100101000" );
 	array[ -8003] = assign( 23, "10011111010100100101000" );
-	array[  8004] = assign( 17, "01111001110100100" );	// warning: length mismatch
+	array[  8004] = assign( 17, "01111001110100100" );
 	array[ -8004] = assign( 17, "01011001110100100" );
 	array[  8005] = assign( 23, "11111111010100101101000" );
 	array[ -8005] = assign( 23, "10111111010100101101000" );
@@ -16561,7 +16573,7 @@
 	array[ -8034] = assign( 20, "10011111111010011010" );
 	array[  8035] = assign( 20, "11011111111010111000" );
 	array[ -8035] = assign( 20, "10011111111010111000" );
-	array[  8036] = assign( 15, "011110001101110" );	// warning: length mismatch
+	array[  8036] = assign( 15, "011110001101110" );
 	array[ -8036] = assign( 15, "010110001101110" );
 	array[  8037] = assign( 21, "111111111110100101000" );
 	array[ -8037] = assign( 21, "101111111110100101000" );
@@ -16627,7 +16639,7 @@
 	array[ -8066] = assign( 20, "10011111011010011010" );
 	array[  8067] = assign( 20, "11011111011010111000" );
 	array[ -8067] = assign( 20, "10011111011010111000" );
-	array[  8068] = assign( 15, "011110001101010" );	// warning: length mismatch
+	array[  8068] = assign( 15, "011110001101010" );
 	array[ -8068] = assign( 15, "010110001101010" );
 	array[  8069] = assign( 21, "111111110110100101000" );
 	array[ -8069] = assign( 21, "101111110110100101000" );
@@ -16693,7 +16705,7 @@
 	array[ -8098] = assign( 20, "10011111110010110010" );
 	array[  8099] = assign( 20, "11011111110010011000" );
 	array[ -8099] = assign( 20, "10011111110010011000" );
-	array[  8100] = assign( 15, "011110011001100" );	// warning: length mismatch
+	array[  8100] = assign( 15, "011110011001100" );
 	array[ -8100] = assign( 15, "010110011001100" );
 	array[  8101] = assign( 20, "11111111110010111000" );
 	array[ -8101] = assign( 20, "10111111110010111000" );
@@ -16759,7 +16771,7 @@
 	array[ -8130] = assign( 20, "10011111010010110010" );
 	array[  8131] = assign( 20, "11011111010010011000" );
 	array[ -8131] = assign( 20, "10011111010010011000" );
-	array[  8132] = assign( 15, "011110011001000" );	// warning: length mismatch
+	array[  8132] = assign( 15, "011110011001000" );
 	array[ -8132] = assign( 15, "010110011001000" );
 	array[  8133] = assign( 20, "11111111010010111000" );
 	array[ -8133] = assign( 20, "10111111010010111000" );
@@ -16825,7 +16837,7 @@
 	array[ -8162] = assign( 18, "100111111010010010" );
 	array[  8163] = assign( 18, "110111111010110000" );
 	array[ -8163] = assign( 18, "100111111010110000" );
-	array[  8164] = assign( 13, "0111100010001" );	// warning: length mismatch
+	array[  8164] = assign( 13, "0111100010001" );
 	array[ -8164] = assign( 13, "0101100010001" );
 	array[  8165] = assign( 18, "111111111010011000" );
 	array[ -8165] = assign( 18, "101111111010011000" );
@@ -16891,7 +16903,7 @@
 	array[ -8194] = assign( 18, "100111110010010010" );
 	array[  8195] = assign( 18, "100111110000110000" );
 	array[ -8195] = assign( 18, "100111110010110000" );
-	array[  8196] = assign( 13, "0101011010000" );	// warning: length mismatch
+	array[  8196] = assign( 13, "0101011010000" );
 	array[ -8196] = assign( 13, "0101100010000" );
 	array[  8197] = assign( 18, "101111110000011000" );
 	array[ -8197] = assign( 18, "101111110010011000" );
@@ -16957,7 +16969,7 @@
 	array[ -8226] = assign( 18, "110111111000010010" );
 	array[  8227] = assign( 18, "100111111000110000" );
 	array[ -8227] = assign( 18, "110111111000110000" );
-	array[  8228] = assign( 13, "0101011010001" );	// warning: length mismatch
+	array[  8228] = assign( 13, "0101011010001" );
 	array[ -8228] = assign( 13, "0111011010001" );
 	array[  8229] = assign( 18, "101111111000011000" );
 	array[ -8229] = assign( 18, "111111111000011000" );
@@ -17023,7 +17035,7 @@
 	array[ -8258] = assign( 18, "110111110100001010" );
 	array[  8259] = assign( 20, "10011111010000010000" );
 	array[ -8259] = assign( 20, "11011111010000010000" );
-	array[  8260] = assign( 13, "0101011101000" );	// warning: length mismatch
+	array[  8260] = assign( 13, "0101011101000" );
 	array[ -8260] = assign( 13, "0111011101000" );
 	array[  8261] = assign( 20, "10111111010000110000" );
 	array[ -8261] = assign( 20, "11111111010000110000" );
@@ -17089,7 +17101,7 @@
 	array[ -8290] = assign( 18, "110111111100001010" );
 	array[  8291] = assign( 20, "10011111110000010000" );
 	array[ -8291] = assign( 20, "11011111110000010000" );
-	array[  8292] = assign( 13, "0101011101100" );	// warning: length mismatch
+	array[  8292] = assign( 13, "0101011101100" );
 	array[ -8292] = assign( 13, "0111011101100" );
 	array[  8293] = assign( 20, "10111111110000110000" );
 	array[ -8293] = assign( 20, "11111111110000110000" );
@@ -17155,7 +17167,7 @@
 	array[ -8322] = assign( 14, "11011110101010" );
 	array[  8323] = assign( 13, "1001110110110" );
 	array[ -8323] = assign( 13, "1101110110110" );
-	array[  8324] = assign( 13, "0101011001010" );	// warning: length mismatch
+	array[  8324] = assign( 13, "0101011001010" );
 	array[ -8324] = assign( 13, "0111011001010" );
 	array[  8325] = assign( 20, "10111111011000010000" );
 	array[ -8325] = assign( 20, "11111111011000010000" );
@@ -17221,7 +17233,7 @@
 	array[ -8354] = assign( 14, "11011110101110" );
 	array[  8355] = assign( 12, "100111010110" );
 	array[ -8355] = assign( 12, "110111010110" );
-	array[  8356] = assign( 13, "0101011001110" );	// warning: length mismatch
+	array[  8356] = assign( 13, "0101011001110" );
 	array[ -8356] = assign( 13, "0111011001110" );
 	array[  8357] = assign( 20, "10111111111000010000" );
 	array[ -8357] = assign( 20, "11111111111000010000" );
@@ -17287,7 +17299,7 @@
 	array[ -8386] = assign( 12, "110101111110" );
 	array[  8387] = assign( 10, "1001010110" );
 	array[ -8387] = assign( 10, "1101010110" );
-	array[  8388] = assign( 11, "01011010110" );	// warning: length mismatch
+	array[  8388] = assign( 11, "01011010110" );
 	array[ -8388] = assign( 11, "01111010110" );
 	array[  8389] = assign( 14, "10111101101110" );
 	array[ -8389] = assign( 14, "11111101101110" );
@@ -17353,7 +17365,7 @@
 	array[ -8418] = assign( 12, "110111001110" );
 	array[  8419] = assign(  9, "100100110" );
 	array[ -8419] = assign(  9, "110100110" );
-	array[  8420] = assign( 11, "01011011110" );	// warning: length mismatch
+	array[  8420] = assign( 11, "01011011110" );
 	array[ -8420] = assign( 11, "01111011110" );
 	array[  8421] = assign( 13, "1011110101110" );
 	array[ -8421] = assign( 13, "1111110101110" );
@@ -17485,7 +17497,7 @@
 	array[ -8482] = assign( 16, "1111111011111100" );
 	array[  8483] = assign( 13, "1011011011110" );
 	array[ -8483] = assign( 13, "1111011011110" );
-	array[  8484] = assign( 12, "010100010100" );	// warning: length mismatch
+	array[  8484] = assign( 12, "010100010100" );
 	array[ -8484] = assign( 12, "011100010100" );
 	array[  8485] = assign( 10, "1011001110" );
 	array[ -8485] = assign( 10, "1111001110" );
@@ -17551,7 +17563,7 @@
 	array[ -8514] = assign( 20, "11111111010110101010" );
 	array[  8515] = assign( 15, "101111100111110" );
 	array[ -8515] = assign( 15, "111111100111110" );
-	array[  8516] = assign( 12, "010100110100" );	// warning: length mismatch
+	array[  8516] = assign( 12, "010100110100" );
 	array[ -8516] = assign( 12, "011100110100" );
 	array[  8517] = assign( 11, "10011011110" );
 	array[ -8517] = assign( 11, "11011011110" );
@@ -17617,7 +17629,7 @@
 	array[ -8546] = assign( 20, "11111111110110101010" );
 	array[  8547] = assign( 16, "1011110111111110" );
 	array[ -8547] = assign( 16, "1111110111111110" );
-	array[  8548] = assign( 14, "01011100111110" );	// warning: length mismatch
+	array[  8548] = assign( 14, "01011100111110" );
 	array[ -8548] = assign( 14, "01111100111110" );
 	array[  8549] = assign( 14, "10010110111110" );
 	array[ -8549] = assign( 14, "11010110111110" );
@@ -17683,7 +17695,7 @@
 	array[ -8578] = assign( 22, "1111111101111010010010" );
 	array[  8579] = assign( 22, "1011111101111010010000" );
 	array[ -8579] = assign( 22, "1111111101111010010000" );
-	array[  8580] = assign( 15, "010110000101110" );	// warning: length mismatch
+	array[  8580] = assign( 15, "010110000101110" );
 	array[ -8580] = assign( 15, "011110000101110" );
 	array[  8581] = assign( 16, "1001111001111110" );
 	array[ -8581] = assign( 16, "1101111001111110" );
@@ -17749,7 +17761,7 @@
 	array[ -8610] = assign( 22, "1111111111111010010010" );
 	array[  8611] = assign( 22, "1011111111111010010000" );
 	array[ -8611] = assign( 22, "1111111111111010010000" );
-	array[  8612] = assign( 15, "010110000111110" );	// warning: length mismatch
+	array[  8612] = assign( 15, "010110000111110" );
 	array[ -8612] = assign( 15, "011110000111110" );
 	array[  8613] = assign( 17, "10011101111111110" );
 	array[ -8613] = assign( 17, "11011101111111110" );
@@ -17815,7 +17827,7 @@
 	array[ -8642] = assign( 24, "111111110101010010110010" );
 	array[  8643] = assign( 24, "101111110101010010110000" );
 	array[ -8643] = assign( 24, "111111110101010010110000" );
-	array[  8644] = assign( 16, "0101100101001010" );	// warning: length mismatch
+	array[  8644] = assign( 16, "0101100101001010" );
 	array[ -8644] = assign( 16, "0111100101001010" );
 	array[  8645] = assign( 24, "100111110101010010010000" );
 	array[ -8645] = assign( 24, "110111110101010010010000" );
@@ -17881,7 +17893,7 @@
 	array[ -8674] = assign( 24, "111111111101010010110010" );
 	array[  8675] = assign( 24, "101111111101010010110000" );
 	array[ -8675] = assign( 24, "111111111101010010110000" );
-	array[  8676] = assign( 16, "0101100101101010" );	// warning: length mismatch
+	array[  8676] = assign( 16, "0101100101101010" );
 	array[ -8676] = assign( 16, "0111100101101010" );
 	array[  8677] = assign( 24, "100111111101010010010000" );
 	array[ -8677] = assign( 24, "110111111101010010010000" );
@@ -17947,7 +17959,7 @@
 	array[ -8706] = assign( 24, "111111110111010010011010" );
 	array[  8707] = assign( 24, "101111110111010010011000" );
 	array[ -8707] = assign( 24, "111111110111010010011000" );
-	array[  8708] = assign( 18, "010110001001011010" );	// warning: length mismatch
+	array[  8708] = assign( 18, "010110001001011010" );
 	array[ -8708] = assign( 18, "011110001001011010" );
 	array[  8709] = assign( 24, "100111110111010010110000" );
 	array[ -8709] = assign( 24, "110111110111010010110000" );
@@ -18013,7 +18025,7 @@
 	array[ -8738] = assign( 24, "111111111111010010011010" );
 	array[  8739] = assign( 24, "101111111111010010011000" );
 	array[ -8739] = assign( 24, "111111111111010010011000" );
-	array[  8740] = assign( 18, "010110001001111010" );	// warning: length mismatch
+	array[  8740] = assign( 18, "010110001001111010" );
 	array[ -8740] = assign( 18, "011110001001111010" );
 	array[  8741] = assign( 24, "100111111111010010110000" );
 	array[ -8741] = assign( 24, "110111111111010010110000" );
@@ -18079,7 +18091,7 @@
 	array[ -8770] = assign( 24, "111111110101110010111010" );
 	array[  8771] = assign( 24, "101111110101110010111000" );
 	array[ -8771] = assign( 24, "111111110101110010111000" );
-	array[  8772] = assign( 18, "010110011001001110" );	// warning: length mismatch
+	array[  8772] = assign( 18, "010110011001001110" );
 	array[ -8772] = assign( 18, "011110011001001110" );
 	array[  8773] = assign( 24, "100111110101110010011000" );
 	array[ -8773] = assign( 24, "110111110101110010011000" );
@@ -18145,7 +18157,7 @@
 	array[ -8802] = assign( 24, "111111111101110010111010" );
 	array[  8803] = assign( 24, "101111111101110010111000" );
 	array[ -8803] = assign( 24, "111111111101110010111000" );
-	array[  8804] = assign( 18, "010110011001101110" );	// warning: length mismatch
+	array[  8804] = assign( 18, "010110011001101110" );
 	array[ -8804] = assign( 18, "011110011001101110" );
 	array[  8805] = assign( 24, "100111111101110010011000" );
 	array[ -8805] = assign( 24, "110111111101110010011000" );
@@ -18211,7 +18223,7 @@
 	array[ -8834] = assign( 25, "1111111101111100100101010" );
 	array[  8835] = assign( 25, "1011111101111100100101000" );
 	array[ -8835] = assign( 25, "1111111101111100100101000" );
-	array[  8836] = assign( 18, "010110001101011110" );	// warning: length mismatch
+	array[  8836] = assign( 18, "010110001101011110" );
 	array[ -8836] = assign( 18, "011110001101011110" );
 	array[  8837] = assign( 24, "100111110111110010111000" );
 	array[ -8837] = assign( 24, "110111110111110010111000" );
@@ -18277,7 +18289,7 @@
 	array[ -8866] = assign( 25, "1111111111111100100101010" );
 	array[  8867] = assign( 25, "1011111111111100100101000" );
 	array[ -8867] = assign( 25, "1111111111111100100101000" );
-	array[  8868] = assign( 18, "010110001101111110" );	// warning: length mismatch
+	array[  8868] = assign( 18, "010110001101111110" );
 	array[ -8868] = assign( 18, "011110001101111110" );
 	array[  8869] = assign( 24, "100111111111110010111000" );
 	array[ -8869] = assign( 24, "110111111111110010111000" );
@@ -18343,7 +18355,7 @@
 	array[ -8898] = assign( 25, "1111111101010110101101010" );
 	array[  8899] = assign( 25, "1011111101010110101101000" );
 	array[ -8899] = assign( 25, "1111111101010110101101000" );
-	array[  8900] = assign( 19, "0101100111010010110" );	// warning: length mismatch
+	array[  8900] = assign( 19, "0101100111010010110" );
 	array[ -8900] = assign( 19, "0111100111010010110" );
 	array[  8901] = assign( 25, "1001111101010110100101000" );
 	array[ -8901] = assign( 25, "1101111101010110100101000" );
@@ -18409,7 +18421,7 @@
 	array[ -8930] = assign( 25, "1111111111010110101101010" );
 	array[  8931] = assign( 25, "1011111111010110101101000" );
 	array[ -8931] = assign( 25, "1111111111010110101101000" );
-	array[  8932] = assign( 19, "0101100111011010110" );	// warning: length mismatch
+	array[  8932] = assign( 19, "0101100111011010110" );
 	array[ -8932] = assign( 19, "0111100111011010110" );
 	array[  8933] = assign( 25, "1001111111010110100101000" );
 	array[ -8933] = assign( 25, "1101111111010110100101000" );
@@ -18475,7 +18487,7 @@
 	array[ -8962] = assign( 25, "1111111101110110100111010" );
 	array[  8963] = assign( 25, "1011111101110110100111000" );
 	array[ -8963] = assign( 25, "1111111101110110100111000" );
-	array[  8964] = assign( 20, "01011000101010110110" );	// warning: length mismatch
+	array[  8964] = assign( 20, "01011000101010110110" );
 	array[ -8964] = assign( 20, "01111000101010110110" );
 	array[  8965] = assign( 25, "1001111101110110101101000" );
 	array[ -8965] = assign( 25, "1101111101110110101101000" );
@@ -18541,7 +18553,7 @@
 	array[ -8994] = assign( 25, "1111111111110110100111010" );
 	array[  8995] = assign( 25, "1011111111110110100111000" );
 	array[ -8995] = assign( 25, "1111111111110110100111000" );
-	array[  8996] = assign( 20, "01011000101011110110" );	// warning: length mismatch
+	array[  8996] = assign( 20, "01011000101011110110" );
 	array[ -8996] = assign( 20, "01111000101011110110" );
 	array[  8997] = assign( 25, "1001111111110110101101000" );
 	array[ -8997] = assign( 25, "1101111111110110101101000" );
@@ -18607,9 +18619,9 @@
 	array[ -9026] = assign( 25, "1111111101011110101111010" );
 	array[  9027] = assign( 25, "1011111101011110101111000" );
 	array[ -9027] = assign( 25, "1111111101011110101111000" );
-	array[  9028] = assign( 20, "01011001101010011110" );	// warning: length mismatch
+	array[  9028] = assign( 20, "01011001101010011110" );
 	array[ -9028] = assign( 20, "01111001101010011110" );
-	array[  9029] = assign( 20, "01110111101011111111" );	// warning: length mismatch
+	array[  9029] = assign( 20, "01110111101011111111" );
 	array[ -9029] = assign( 20, "01010111101011111111" );
 	array[  9030] = assign( 25, "1001111101011110101101010" );
 	array[ -9030] = assign( 25, "1101111101011110101101010" );
@@ -18673,9 +18685,9 @@
 	array[ -9058] = assign( 25, "1111111111011110101111010" );
 	array[  9059] = assign( 25, "1011111111011110101111000" );
 	array[ -9059] = assign( 25, "1111111111011110101111000" );
-	array[  9060] = assign( 20, "01011001101011011110" );	// warning: length mismatch
+	array[  9060] = assign( 20, "01011001101011011110" );
 	array[ -9060] = assign( 20, "01111001101011011110" );
-	array[  9061] = assign( 20, "01110111101010111111" );	// warning: length mismatch
+	array[  9061] = assign( 20, "01110111101010111111" );
 	array[ -9061] = assign( 20, "01010111101010111111" );
 	array[  9062] = assign( 25, "1001111111011110101101010" );
 	array[ -9062] = assign( 25, "1101111111011110101101010" );
@@ -18739,9 +18751,9 @@
 	array[ -9090] = assign( 26, "11111111011111101001011010" );
 	array[  9091] = assign( 26, "10111111011111101001011000" );
 	array[ -9091] = assign( 26, "11111111011111101001011000" );
-	array[  9092] = assign( 20, "01011000111010111110" );	// warning: length mismatch
+	array[  9092] = assign( 20, "01011000111010111110" );
 	array[ -9092] = assign( 20, "01111000111010111110" );
-	array[  9093] = assign( 20, "01110110111011011111" );	// warning: length mismatch
+	array[  9093] = assign( 20, "01110110111011011111" );
 	array[ -9093] = assign( 20, "01010110111011011111" );
 	array[  9094] = assign( 25, "1001111101111110100111010" );
 	array[ -9094] = assign( 25, "1101111101111110100111010" );
@@ -18805,9 +18817,9 @@
 	array[ -9122] = assign( 26, "11111111111111101001011010" );
 	array[  9123] = assign( 26, "10111111111111101001011000" );
 	array[ -9123] = assign( 26, "11111111111111101001011000" );
-	array[  9124] = assign( 20, "01011000111011111110" );	// warning: length mismatch
+	array[  9124] = assign( 20, "01011000111011111110" );
 	array[ -9124] = assign( 20, "01111000111011111110" );
-	array[  9125] = assign( 20, "01110110111010011111" );	// warning: length mismatch
+	array[  9125] = assign( 20, "01110110111010011111" );
 	array[ -9125] = assign( 20, "01010110111010011111" );
 	array[  9126] = assign( 25, "1001111111111110100111010" );
 	array[ -9126] = assign( 25, "1101111111111110100111010" );
@@ -18871,9 +18883,9 @@
 	array[ -9154] = assign( 27, "111111110101010101011011010" );
 	array[  9155] = assign( 27, "101111110101010101011011000" );
 	array[ -9155] = assign( 27, "101111111111010100011011010" );
-	array[  9156] = assign( 20, "01011001111010010111" );	// warning: length mismatch
+	array[  9156] = assign( 20, "01011001111010010111" );
 	array[ -9156] = assign( 20, "01111001111010010111" );
-	array[  9157] = assign( 20, "01110111111011110111" );	// warning: length mismatch
+	array[  9157] = assign( 20, "01110111111011110111" );
 	array[ -9157] = assign( 20, "01010111111011110111" );
 	array[  9158] = assign( 26, "10011111010101010101111010" );
 	array[ -9158] = assign( 26, "11011111010101010101111010" );
@@ -18937,9 +18949,9 @@
 	array[ -9186] = assign( 27, "111111111101010101011011010" );
 	array[  9187] = assign( 27, "101111111101010101011011000" );
 	array[ -9187] = assign( 27, "101111110111010100011011010" );
-	array[  9188] = assign( 20, "01011001111011010111" );	// warning: length mismatch
+	array[  9188] = assign( 20, "01011001111011010111" );
 	array[ -9188] = assign( 20, "01111001111011010111" );
-	array[  9189] = assign( 20, "01110111111010110111" );	// warning: length mismatch
+	array[  9189] = assign( 20, "01110111111010110111" );
 	array[ -9189] = assign( 20, "01010111111010110111" );
 	array[  9190] = assign( 26, "10011111110101010101111010" );
 	array[ -9190] = assign( 26, "11011111110101010101111010" );
@@ -19003,9 +19015,9 @@
 	array[ -9218] = assign( 27, "111111110111010101001111010" );
 	array[  9219] = assign( 27, "101111110111010101001111000" );
 	array[ -9219] = assign( 27, "101111111101010100001111010" );
-	array[  9220] = assign( 21, "010110001011010110111" );	// warning: length mismatch
+	array[  9220] = assign( 21, "010110001011010110111" );
 	array[ -9220] = assign( 21, "011110001011010110111" );
-	array[  9221] = assign( 21, "011101101011011010111" );	// warning: length mismatch
+	array[  9221] = assign( 21, "011101101011011010111" );
 	array[ -9221] = assign( 21, "010101101011011010111" );
 	array[  9222] = assign( 27, "100111110111010101001011010" );
 	array[ -9222] = assign( 27, "100111111101010100011011000" );
@@ -19069,9 +19081,9 @@
 	array[ -9250] = assign( 27, "111111111111010101001111010" );
 	array[  9251] = assign( 27, "101111111111010101001111000" );
 	array[ -9251] = assign( 27, "101111110101010100001111010" );
-	array[  9252] = assign( 21, "010110001011011110111" );	// warning: length mismatch
+	array[  9252] = assign( 21, "010110001011011110111" );
 	array[ -9252] = assign( 21, "011110001011011110111" );
-	array[  9253] = assign( 21, "011101101011010010111" );	// warning: length mismatch
+	array[  9253] = assign( 21, "011101101011010010111" );
 	array[ -9253] = assign( 21, "010101101011010010111" );
 	array[  9254] = assign( 27, "100111111111010101001011010" );
 	array[ -9254] = assign( 27, "100111110101010100011011000" );
@@ -19135,9 +19147,9 @@
 	array[ -9282] = assign( 27, "111111110101110101011111010" );
 	array[  9283] = assign( 26, "11111111111111100011111010" );
 	array[ -9283] = assign( 26, "10111111111111100011111010" );
-	array[  9284] = assign( 21, "010110011011010011111" );	// warning: length mismatch
+	array[  9284] = assign( 21, "010110011011010011111" );
 	array[ -9284] = assign( 21, "011110011011010011111" );
-	array[  9285] = assign( 21, "011101111011011111110" );	// warning: length mismatch
+	array[  9285] = assign( 21, "011101111011011111110" );
 	array[ -9285] = assign( 21, "010101111011011111110" );
 	array[  9286] = assign( 26, "11011111111111100001111000" );
 	array[ -9286] = assign( 26, "10011111111111100001111000" );
@@ -19201,9 +19213,9 @@
 	array[ -9314] = assign( 27, "110111110101110100011111110" );
 	array[  9315] = assign( 26, "11011111111111101011111110" );
 	array[ -9315] = assign( 26, "10011111111111101011111110" );
-	array[  9316] = assign( 21, "010101111111110011111" );	// warning: length mismatch
+	array[  9316] = assign( 21, "010101111111110011111" );
 	array[ -9316] = assign( 21, "011101111111110011111" );
-	array[  9317] = assign( 21, "011101111011010111110" );	// warning: length mismatch
+	array[  9317] = assign( 21, "011101111011010111110" );
 	array[ -9317] = assign( 21, "010101111011010111110" );
 	array[  9318] = assign( 26, "11011111011111100001111000" );
 	array[ -9318] = assign( 26, "10011111011111100001111000" );
@@ -19267,9 +19279,9 @@
 	array[ -9346] = assign( 27, "110111111101110100011111110" );
 	array[  9347] = assign( 26, "11011111011111101011111110" );
 	array[ -9347] = assign( 26, "10011111011111101011111110" );
-	array[  9348] = assign( 21, "010101111111111011111" );	// warning: length mismatch
+	array[  9348] = assign( 21, "010101111111111011111" );
 	array[ -9348] = assign( 21, "011101111111111011111" );
-	array[  9349] = assign( 21, "011101101111011011110" );	// warning: length mismatch
+	array[  9349] = assign( 21, "011101101111011011110" );
 	array[ -9349] = assign( 21, "010101101111011011110" );
 	array[  9350] = assign( 26, "11011111110111100011111000" );
 	array[ -9350] = assign( 26, "10011111110111100011111000" );
@@ -19333,9 +19345,9 @@
 	array[ -9378] = assign( 27, "110111110111110100001111110" );
 	array[  9379] = assign( 26, "11011111110111101001111110" );
 	array[ -9379] = assign( 26, "10011111110111101001111110" );
-	array[  9380] = assign( 21, "010101101111110111111" );	// warning: length mismatch
+	array[  9380] = assign( 21, "010101101111110111111" );
 	array[ -9380] = assign( 21, "011101101111110111111" );
-	array[  9381] = assign( 21, "011101101111010011110" );	// warning: length mismatch
+	array[  9381] = assign( 21, "011101101111010011110" );
 	array[ -9381] = assign( 21, "010101101111010011110" );
 	array[  9382] = assign( 26, "11011111010111100011111000" );
 	array[ -9382] = assign( 26, "10011111010111100011111000" );
@@ -19399,9 +19411,9 @@
 	array[ -9410] = assign( 27, "110111111111110100001111110" );
 	array[  9411] = assign( 26, "11011111010111101001111110" );
 	array[ -9411] = assign( 26, "10011111010111101001111110" );
-	array[  9412] = assign( 21, "010101101111111111111" );	// warning: length mismatch
+	array[  9412] = assign( 21, "010101101111111111111" );
 	array[ -9412] = assign( 21, "011101101111111111111" );
-	array[  9413] = assign( 21, "011101111111011110110" );	// warning: length mismatch
+	array[  9413] = assign( 21, "011101111111011110110" );
 	array[ -9413] = assign( 21, "010101111111011110110" );
 	array[  9414] = assign( 26, "11011111111101100001011100" );
 	array[ -9414] = assign( 26, "10011111111101100001011100" );
@@ -19467,7 +19479,7 @@
 	array[ -9443] = assign( 26, "10011111111101101011011110" );
 	array[  9444] = assign( 26, "11011111111101101001111100" );
 	array[ -9444] = assign( 26, "10011111111101101001111100" );
-	array[  9445] = assign( 21, "011101111111010110110" );	// warning: length mismatch
+	array[  9445] = assign( 21, "011101111111010110110" );
 	array[ -9445] = assign( 21, "010101111111010110110" );
 	array[  9446] = assign( 26, "11011111011101100001011100" );
 	array[ -9446] = assign( 26, "10011111011101100001011100" );
@@ -19533,7 +19545,7 @@
 	array[ -9475] = assign( 26, "10011111011101101011011110" );
 	array[  9476] = assign( 26, "11011111011101101001111100" );
 	array[ -9476] = assign( 26, "10011111011101101001111100" );
-	array[  9477] = assign( 21, "011101101011111010110" );	// warning: length mismatch
+	array[  9477] = assign( 21, "011101101011111010110" );
 	array[ -9477] = assign( 21, "010101101011111010110" );
 	array[  9478] = assign( 26, "11011111110101100011011100" );
 	array[ -9478] = assign( 26, "10011111110101100011011100" );
@@ -19599,7 +19611,7 @@
 	array[ -9507] = assign( 26, "10011111110101101001011110" );
 	array[  9508] = assign( 26, "11011111110101101011011100" );
 	array[ -9508] = assign( 26, "10011111110101101011011100" );
-	array[  9509] = assign( 21, "011101101011110010110" );	// warning: length mismatch
+	array[  9509] = assign( 21, "011101101011110010110" );
 	array[ -9509] = assign( 21, "010101101011110010110" );
 	array[  9510] = assign( 26, "11011111010101100011011100" );
 	array[ -9510] = assign( 26, "10011111010101100011011100" );
@@ -19665,7 +19677,7 @@
 	array[ -9539] = assign( 26, "10011111010101101001011110" );
 	array[  9540] = assign( 26, "11011111010101101011011100" );
 	array[ -9540] = assign( 26, "10011111010101101011011100" );
-	array[  9541] = assign( 20, "01110111101111111110" );	// warning: length mismatch
+	array[  9541] = assign( 20, "01110111101111111110" );
 	array[ -9541] = assign( 20, "01010111101111111110" );
 	array[  9542] = assign( 26, "11011111111111000001111100" );
 	array[ -9542] = assign( 26, "10011111111111000001111100" );
@@ -19731,7 +19743,7 @@
 	array[ -9571] = assign( 26, "10011111111111001011111010" );
 	array[  9572] = assign( 26, "11011111111111001001011100" );
 	array[ -9572] = assign( 26, "10011111111111001001011100" );
-	array[  9573] = assign( 20, "01110111101111011110" );	// warning: length mismatch
+	array[  9573] = assign( 20, "01110111101111011110" );
 	array[ -9573] = assign( 20, "01010111101111011110" );
 	array[  9574] = assign( 26, "11011111011111000001111100" );
 	array[ -9574] = assign( 26, "10011111011111000001111100" );
@@ -19797,7 +19809,7 @@
 	array[ -9603] = assign( 26, "10011111011111001011111010" );
 	array[  9604] = assign( 26, "11011111011111001001011100" );
 	array[ -9604] = assign( 26, "10011111011111001001011100" );
-	array[  9605] = assign( 20, "01110110111111101110" );	// warning: length mismatch
+	array[  9605] = assign( 20, "01110110111111101110" );
 	array[ -9605] = assign( 20, "01010110111111101110" );
 	array[  9606] = assign( 26, "11011111110111000011111100" );
 	array[ -9606] = assign( 26, "10011111110111000011111100" );
@@ -19863,7 +19875,7 @@
 	array[ -9635] = assign( 26, "10011111110111001001111010" );
 	array[  9636] = assign( 26, "11011111110111001011111000" );
 	array[ -9636] = assign( 26, "10011111110111001011111000" );
-	array[  9637] = assign( 20, "01110110111111001110" );	// warning: length mismatch
+	array[  9637] = assign( 20, "01110110111111001110" );
 	array[ -9637] = assign( 20, "01010110111111001110" );
 	array[  9638] = assign( 26, "11011111010111000011111100" );
 	array[ -9638] = assign( 26, "10011111010111000011111100" );
@@ -19929,7 +19941,7 @@
 	array[ -9667] = assign( 26, "10011111010111001001111010" );
 	array[  9668] = assign( 26, "11011111010111001011111000" );
 	array[ -9668] = assign( 26, "10011111010111001011111000" );
-	array[  9669] = assign( 20, "01110111111111111010" );	// warning: length mismatch
+	array[  9669] = assign( 20, "01110111111111111010" );
 	array[ -9669] = assign( 20, "01010111111111111010" );
 	array[  9670] = assign( 26, "11111111010111001001011100" );
 	array[ -9670] = assign( 26, "10111111010111001001011100" );
@@ -19995,7 +20007,7 @@
 	array[ -9699] = assign( 26, "10011111111101001011011010" );
 	array[  9700] = assign( 26, "11011111111101001001111000" );
 	array[ -9700] = assign( 26, "10011111111101001001111000" );
-	array[  9701] = assign( 20, "01110111111111011010" );	// warning: length mismatch
+	array[  9701] = assign( 20, "01110111111111011010" );
 	array[ -9701] = assign( 20, "01010111111111011010" );
 	array[  9702] = assign( 26, "11111111111101001011111000" );
 	array[ -9702] = assign( 26, "10111111111101001011111000" );
@@ -20061,7 +20073,7 @@
 	array[ -9731] = assign( 26, "10011111011101001011011010" );
 	array[  9732] = assign( 26, "11011111011101001001111000" );
 	array[ -9732] = assign( 26, "10011111011101001001111000" );
-	array[  9733] = assign( 20, "01111001101101011010" );	// warning: length mismatch
+	array[  9733] = assign( 20, "01111001101101011010" );
 	array[ -9733] = assign( 20, "01011001101101011010" );
 	array[  9734] = assign( 26, "11111111011101001011111000" );
 	array[ -9734] = assign( 26, "10111111011101001011111000" );
@@ -20127,7 +20139,7 @@
 	array[ -9763] = assign( 26, "10011111110101001001011010" );
 	array[  9764] = assign( 26, "11011111110101001011011000" );
 	array[ -9764] = assign( 26, "10011111110101001011011000" );
-	array[  9765] = assign( 20, "01111000101101101010" );	// warning: length mismatch
+	array[  9765] = assign( 20, "01111000101101101010" );
 	array[ -9765] = assign( 20, "01011000101101101010" );
 	array[  9766] = assign( 26, "11111111110101001001111000" );
 	array[ -9766] = assign( 26, "10111111110101001001111000" );
@@ -20193,7 +20205,7 @@
 	array[ -9795] = assign( 26, "10011111010101001001011010" );
 	array[  9796] = assign( 26, "11011111010101001011011000" );
 	array[ -9796] = assign( 26, "10011111010101001011011000" );
-	array[  9797] = assign( 20, "01111000101101001010" );	// warning: length mismatch
+	array[  9797] = assign( 20, "01111000101101001010" );
 	array[ -9797] = assign( 20, "01011000101101001010" );
 	array[  9798] = assign( 26, "11111111010101001001111000" );
 	array[ -9798] = assign( 26, "10111111010101001001111000" );
@@ -20259,7 +20271,7 @@
 	array[ -9827] = assign( 23, "10011111111110101111010" );
 	array[  9828] = assign( 24, "110111111111101001011000" );
 	array[ -9828] = assign( 24, "100111111111101001011000" );
-	array[  9829] = assign( 18, "011110011110111110" );	// warning: length mismatch
+	array[  9829] = assign( 18, "011110011110111110" );
 	array[ -9829] = assign( 18, "010110011110111110" );
 	array[  9830] = assign( 24, "111111111111101011011000" );
 	array[ -9830] = assign( 24, "101111111111101011011000" );
@@ -20325,7 +20337,7 @@
 	array[ -9859] = assign( 23, "10011111011110101111010" );
 	array[  9860] = assign( 24, "110111110111101001011000" );
 	array[ -9860] = assign( 24, "100111110111101001011000" );
-	array[  9861] = assign( 18, "011110011110101110" );	// warning: length mismatch
+	array[  9861] = assign( 18, "011110011110101110" );
 	array[ -9861] = assign( 18, "010110011110101110" );
 	array[  9862] = assign( 24, "111111110111101011011000" );
 	array[ -9862] = assign( 24, "101111110111101011011000" );
@@ -20391,7 +20403,7 @@
 	array[ -9891] = assign( 23, "10011111110110100111010" );
 	array[  9892] = assign( 23, "11011111110110101111000" );
 	array[ -9892] = assign( 23, "10011111110110101111000" );
-	array[  9893] = assign( 18, "011110001110110110" );	// warning: length mismatch
+	array[  9893] = assign( 18, "011110001110110110" );
 	array[ -9893] = assign( 18, "010110001110110110" );
 	array[  9894] = assign( 24, "111111111101101001011000" );
 	array[ -9894] = assign( 24, "101111111101101001011000" );
@@ -20457,7 +20469,7 @@
 	array[ -9923] = assign( 23, "10011111010110100111010" );
 	array[  9924] = assign( 23, "11011111010110101111000" );
 	array[ -9924] = assign( 23, "10011111010110101111000" );
-	array[  9925] = assign( 18, "011110001110100110" );	// warning: length mismatch
+	array[  9925] = assign( 18, "011110001110100110" );
 	array[ -9925] = assign( 18, "010110001110100110" );
 	array[  9926] = assign( 24, "111111110101101001011000" );
 	array[ -9926] = assign( 24, "101111110101101001011000" );
@@ -20523,7 +20535,7 @@
 	array[ -9955] = assign( 23, "10011111111100101101010" );
 	array[  9956] = assign( 23, "11011111111100100111000" );
 	array[ -9956] = assign( 23, "10011111111100100111000" );
-	array[  9957] = assign( 18, "011110011010111100" );	// warning: length mismatch
+	array[  9957] = assign( 18, "011110011010111100" );
 	array[ -9957] = assign( 18, "010110011010111100" );
 	array[  9958] = assign( 23, "11111111111100101111000" );
 	array[ -9958] = assign( 23, "10111111111100101111000" );
@@ -20589,7 +20601,7 @@
 	array[ -9987] = assign( 23, "10011111011100101101010" );
 	array[  9988] = assign( 23, "11011111011100100111000" );
 	array[ -9988] = assign( 23, "10011111011100100111000" );
-	array[  9989] = assign( 18, "011110011010101100" );	// warning: length mismatch
+	array[  9989] = assign( 18, "011110011010101100" );
 	array[ -9989] = assign( 18, "010110011010101100" );
 	array[  9990] = assign( 23, "11111111011100101111000" );
 	array[ -9990] = assign( 23, "10111111011100101111000" );
@@ -20655,7 +20667,7 @@
 	array[-10019] = assign( 23, "10011111110100100101010" );
 	array[ 10020] = assign( 23, "11011111110100101101000" );
 	array[-10020] = assign( 23, "10011111110100101101000" );
-	array[ 10021] = assign( 18, "011110001010110100" );	// warning: length mismatch
+	array[ 10021] = assign( 18, "011110001010110100" );
 	array[-10021] = assign( 18, "010110001010110100" );
 	array[ 10022] = assign( 23, "11111111110100100111000" );
 	array[-10022] = assign( 23, "10111111110100100111000" );
@@ -20721,7 +20733,7 @@
 	array[-10051] = assign( 23, "10011111010100100101010" );
 	array[ 10052] = assign( 23, "11011111010100101101000" );
 	array[-10052] = assign( 23, "10011111010100101101000" );
-	array[ 10053] = assign( 18, "011110001010100100" );	// warning: length mismatch
+	array[ 10053] = assign( 18, "011110001010100100" );
 	array[-10053] = assign( 18, "010110001010100100" );
 	array[ 10054] = assign( 23, "11111111010100100111000" );
 	array[-10054] = assign( 23, "10111111010100100111000" );
@@ -20787,7 +20799,7 @@
 	array[-10083] = assign( 20, "10011111111010111010" );
 	array[ 10084] = assign( 21, "110111111110100101000" );
 	array[-10084] = assign( 21, "100111111110100101000" );
-	array[ 10085] = assign( 15, "011110011101110" );	// warning: length mismatch
+	array[ 10085] = assign( 15, "011110011101110" );
 	array[-10085] = assign( 15, "010110011101110" );
 	array[ 10086] = assign( 21, "111111111110101101000" );
 	array[-10086] = assign( 21, "101111111110101101000" );
@@ -20853,7 +20865,7 @@
 	array[-10115] = assign( 20, "10011111011010111010" );
 	array[ 10116] = assign( 21, "110111110110100101000" );
 	array[-10116] = assign( 21, "100111110110100101000" );
-	array[ 10117] = assign( 15, "011110011101010" );	// warning: length mismatch
+	array[ 10117] = assign( 15, "011110011101010" );
 	array[-10117] = assign( 15, "010110011101010" );
 	array[ 10118] = assign( 21, "111111110110101101000" );
 	array[-10118] = assign( 21, "101111110110101101000" );
@@ -20919,7 +20931,7 @@
 	array[-10147] = assign( 20, "10011111110010011010" );
 	array[ 10148] = assign( 20, "11011111110010111000" );
 	array[-10148] = assign( 20, "10011111110010111000" );
-	array[ 10149] = assign( 15, "011110001101100" );	// warning: length mismatch
+	array[ 10149] = assign( 15, "011110001101100" );
 	array[-10149] = assign( 15, "010110001101100" );
 	array[ 10150] = assign( 21, "111111111100100101000" );
 	array[-10150] = assign( 21, "101111111100100101000" );
@@ -20985,7 +20997,7 @@
 	array[-10179] = assign( 20, "10011111010010011010" );
 	array[ 10180] = assign( 20, "11011111010010111000" );
 	array[-10180] = assign( 20, "10011111010010111000" );
-	array[ 10181] = assign( 15, "011110001101000" );	// warning: length mismatch
+	array[ 10181] = assign( 15, "011110001101000" );
 	array[-10181] = assign( 15, "010110001101000" );
 	array[ 10182] = assign( 21, "111111110100100101000" );
 	array[-10182] = assign( 21, "101111110100100101000" );
@@ -21051,7 +21063,7 @@
 	array[-10211] = assign( 18, "100111111010110010" );
 	array[ 10212] = assign( 18, "110111111010011000" );
 	array[-10212] = assign( 18, "100111111010011000" );
-	array[ 10213] = assign( 13, "0111100110001" );	// warning: length mismatch
+	array[ 10213] = assign( 13, "0111100110001" );
 	array[-10213] = assign( 13, "0101100110001" );
 	array[ 10214] = assign( 18, "111111111010111000" );
 	array[-10214] = assign( 18, "101111111010111000" );
@@ -21117,7 +21129,7 @@
 	array[-10243] = assign( 18, "100111110010110010" );
 	array[ 10244] = assign( 18, "100111110000011000" );
 	array[-10244] = assign( 18, "100111110010011000" );
-	array[ 10245] = assign( 13, "0101011110000" );	// warning: length mismatch
+	array[ 10245] = assign( 13, "0101011110000" );
 	array[-10245] = assign( 13, "0101100110000" );
 	array[ 10246] = assign( 18, "101111110000111000" );
 	array[-10246] = assign( 18, "101111110010111000" );
@@ -21183,7 +21195,7 @@
 	array[-10275] = assign( 18, "110111111000110010" );
 	array[ 10276] = assign( 18, "100111111000011000" );
 	array[-10276] = assign( 18, "110111111000011000" );
-	array[ 10277] = assign( 13, "0101011110001" );	// warning: length mismatch
+	array[ 10277] = assign( 13, "0101011110001" );
 	array[-10277] = assign( 13, "0111011110001" );
 	array[ 10278] = assign( 18, "101111111000111000" );
 	array[-10278] = assign( 18, "111111111000111000" );
@@ -21249,7 +21261,7 @@
 	array[-10307] = assign( 20, "11011111010000010010" );
 	array[ 10308] = assign( 20, "10011111010000110000" );
 	array[-10308] = assign( 20, "11011111010000110000" );
-	array[ 10309] = assign( 15, "010101101001000" );	// warning: length mismatch
+	array[ 10309] = assign( 15, "010101101001000" );
 	array[-10309] = assign( 15, "011101101001000" );
 	array[ 10310] = assign( 20, "10111111010000011000" );
 	array[-10310] = assign( 20, "11111111010000011000" );
@@ -21315,7 +21327,7 @@
 	array[-10339] = assign( 20, "11011111110000010010" );
 	array[ 10340] = assign( 20, "10011111110000110000" );
 	array[-10340] = assign( 20, "11011111110000110000" );
-	array[ 10341] = assign( 15, "010101101001100" );	// warning: length mismatch
+	array[ 10341] = assign( 15, "010101101001100" );
 	array[-10341] = assign( 15, "011101101001100" );
 	array[ 10342] = assign( 20, "10111111110000011000" );
 	array[-10342] = assign( 20, "11111111110000011000" );
@@ -21381,7 +21393,7 @@
 	array[-10371] = assign( 18, "110111110110001010" );
 	array[ 10372] = assign( 20, "10011111011000010000" );
 	array[-10372] = assign( 20, "11011111011000010000" );
-	array[ 10373] = assign( 13, "0101011101010" );	// warning: length mismatch
+	array[ 10373] = assign( 13, "0101011101010" );
 	array[-10373] = assign( 13, "0111011101010" );
 	array[ 10374] = assign( 20, "10111111011000110000" );
 	array[-10374] = assign( 20, "11111111011000110000" );
@@ -21447,7 +21459,7 @@
 	array[-10403] = assign( 18, "110111111110001010" );
 	array[ 10404] = assign( 20, "10011111111000010000" );
 	array[-10404] = assign( 20, "11011111111000010000" );
-	array[ 10405] = assign( 13, "0101011101110" );	// warning: length mismatch
+	array[ 10405] = assign( 13, "0101011101110" );
 	array[-10405] = assign( 13, "0111011101110" );
 	array[ 10406] = assign( 20, "10111111111000110000" );
 	array[-10406] = assign( 20, "11111111111000110000" );
@@ -21513,7 +21525,7 @@
 	array[-10435] = assign( 16, "1101111010100100" );
 	array[ 10436] = assign( 14, "10011101101110" );
 	array[-10436] = assign( 14, "11011101101110" );
-	array[ 10437] = assign( 15, "010101100100100" );	// warning: length mismatch
+	array[ 10437] = assign( 15, "010101100100100" );
 	array[-10437] = assign( 15, "011101100100100" );
 	array[ 10438] = assign( 22, "1011111101010000010000" );
 	array[-10438] = assign( 22, "1111111101010000010000" );
@@ -21579,7 +21591,7 @@
 	array[-10467] = assign( 16, "1101111010110100" );
 	array[ 10468] = assign( 13, "1001110101110" );
 	array[-10468] = assign( 13, "1101110101110" );
-	array[ 10469] = assign( 15, "010101100110100" );	// warning: length mismatch
+	array[ 10469] = assign( 15, "010101100110100" );
 	array[-10469] = assign( 15, "011101100110100" );
 	array[ 10470] = assign( 22, "1011111111010000010000" );
 	array[-10470] = assign( 22, "1111111111010000010000" );
@@ -21645,7 +21657,7 @@
 	array[-10499] = assign( 13, "1101011111110" );
 	array[ 10500] = assign( 11, "10010101110" );
 	array[-10500] = assign( 11, "11010101110" );
-	array[ 10501] = assign( 12, "010110101110" );	// warning: length mismatch
+	array[ 10501] = assign( 12, "010110101110" );
 	array[-10501] = assign( 12, "011110101110" );
 	array[ 10502] = assign( 15, "101111011011110" );
 	array[-10502] = assign( 15, "111111011011110" );
@@ -21711,7 +21723,7 @@
 	array[-10531] = assign( 13, "1101110011110" );
 	array[ 10532] = assign( 10, "1001001110" );
 	array[-10532] = assign( 10, "1101001110" );
-	array[ 10533] = assign( 12, "010110111110" );	// warning: length mismatch
+	array[ 10533] = assign( 12, "010110111110" );
 	array[-10533] = assign( 12, "011110111110" );
 	array[ 10534] = assign( 14, "10111101011110" );
 	array[-10534] = assign( 14, "11111101011110" );
@@ -21843,7 +21855,7 @@
 	array[-10595] = assign( 16, "1111111011110110" );
 	array[ 10596] = assign( 14, "10110110111110" );
 	array[-10596] = assign( 14, "11110110111110" );
-	array[ 10597] = assign( 12, "010100011100" );	// warning: length mismatch
+	array[ 10597] = assign( 12, "010100011100" );
 	array[-10597] = assign( 12, "011100011100" );
 	array[ 10598] = assign( 11, "10110011110" );
 	array[-10598] = assign( 11, "11110011110" );
@@ -21909,7 +21921,7 @@
 	array[-10627] = assign( 20, "11111111011110101010" );
 	array[ 10628] = assign( 16, "1011111001111110" );
 	array[-10628] = assign( 16, "1111111001111110" );
-	array[ 10629] = assign( 12, "010100111100" );	// warning: length mismatch
+	array[ 10629] = assign( 12, "010100111100" );
 	array[-10629] = assign( 12, "011100111100" );
 	array[ 10630] = assign( 12, "100110111110" );
 	array[-10630] = assign( 12, "110110111110" );
@@ -21975,7 +21987,7 @@
 	array[-10659] = assign( 20, "11111111111110101010" );
 	array[ 10660] = assign( 17, "10111101111111110" );
 	array[-10660] = assign( 17, "11111101111111110" );
-	array[ 10661] = assign( 15, "010111001111110" );	// warning: length mismatch
+	array[ 10661] = assign( 15, "010111001111110" );
 	array[-10661] = assign( 15, "011111001111110" );
 	array[ 10662] = assign( 15, "100101101111110" );
 	array[-10662] = assign( 15, "110101101111110" );
@@ -22041,7 +22053,7 @@
 	array[-10691] = assign( 24, "111111110101010010010010" );
 	array[ 10692] = assign( 24, "101111110101010010010000" );
 	array[-10692] = assign( 24, "111111110101010010010000" );
-	array[ 10693] = assign( 16, "0101100001001010" );	// warning: length mismatch
+	array[ 10693] = assign( 16, "0101100001001010" );
 	array[-10693] = assign( 16, "0111100001001010" );
 	array[ 10694] = assign( 17, "10011110011111110" );
 	array[-10694] = assign( 17, "11011110011111110" );
@@ -22107,7 +22119,7 @@
 	array[-10723] = assign( 24, "111111111101010010010010" );
 	array[ 10724] = assign( 24, "101111111101010010010000" );
 	array[-10724] = assign( 24, "111111111101010010010000" );
-	array[ 10725] = assign( 16, "0101100001101010" );	// warning: length mismatch
+	array[ 10725] = assign( 16, "0101100001101010" );
 	array[-10725] = assign( 16, "0111100001101010" );
 	array[ 10726] = assign( 18, "100111011111111110" );
 	array[-10726] = assign( 18, "110111011111111110" );
@@ -22173,7 +22185,7 @@
 	array[-10755] = assign( 24, "111111110111010010110010" );
 	array[ 10756] = assign( 24, "101111110111010010110000" );
 	array[-10756] = assign( 24, "111111110111010010110000" );
-	array[ 10757] = assign( 16, "0101100101011010" );	// warning: length mismatch
+	array[ 10757] = assign( 16, "0101100101011010" );
 	array[-10757] = assign( 16, "0111100101011010" );
 	array[ 10758] = assign( 24, "100111110111010010010000" );
 	array[-10758] = assign( 24, "110111110111010010010000" );
@@ -22239,7 +22251,7 @@
 	array[-10787] = assign( 24, "111111111111010010110010" );
 	array[ 10788] = assign( 24, "101111111111010010110000" );
 	array[-10788] = assign( 24, "111111111111010010110000" );
-	array[ 10789] = assign( 16, "0101100101111010" );	// warning: length mismatch
+	array[ 10789] = assign( 16, "0101100101111010" );
 	array[-10789] = assign( 16, "0111100101111010" );
 	array[ 10790] = assign( 24, "100111111111010010010000" );
 	array[-10790] = assign( 24, "110111111111010010010000" );
@@ -22305,7 +22317,7 @@
 	array[-10819] = assign( 24, "111111110101110010011010" );
 	array[ 10820] = assign( 24, "101111110101110010011000" );
 	array[-10820] = assign( 24, "111111110101110010011000" );
-	array[ 10821] = assign( 18, "010110001001001110" );	// warning: length mismatch
+	array[ 10821] = assign( 18, "010110001001001110" );
 	array[-10821] = assign( 18, "011110001001001110" );
 	array[ 10822] = assign( 24, "100111110101110010110000" );
 	array[-10822] = assign( 24, "110111110101110010110000" );
@@ -22371,7 +22383,7 @@
 	array[-10851] = assign( 24, "111111111101110010011010" );
 	array[ 10852] = assign( 24, "101111111101110010011000" );
 	array[-10852] = assign( 24, "111111111101110010011000" );
-	array[ 10853] = assign( 18, "010110001001101110" );	// warning: length mismatch
+	array[ 10853] = assign( 18, "010110001001101110" );
 	array[-10853] = assign( 18, "011110001001101110" );
 	array[ 10854] = assign( 24, "100111111101110010110000" );
 	array[-10854] = assign( 24, "110111111101110010110000" );
@@ -22437,7 +22449,7 @@
 	array[-10883] = assign( 24, "111111110111110010111010" );
 	array[ 10884] = assign( 24, "101111110111110010111000" );
 	array[-10884] = assign( 24, "111111110111110010111000" );
-	array[ 10885] = assign( 18, "010110011001011110" );	// warning: length mismatch
+	array[ 10885] = assign( 18, "010110011001011110" );
 	array[-10885] = assign( 18, "011110011001011110" );
 	array[ 10886] = assign( 24, "100111110111110010011000" );
 	array[-10886] = assign( 24, "110111110111110010011000" );
@@ -22503,7 +22515,7 @@
 	array[-10915] = assign( 24, "111111111111110010111010" );
 	array[ 10916] = assign( 24, "101111111111110010111000" );
 	array[-10916] = assign( 24, "111111111111110010111000" );
-	array[ 10917] = assign( 18, "010110011001111110" );	// warning: length mismatch
+	array[ 10917] = assign( 18, "010110011001111110" );
 	array[-10917] = assign( 18, "011110011001111110" );
 	array[ 10918] = assign( 24, "100111111111110010011000" );
 	array[-10918] = assign( 24, "110111111111110010011000" );
@@ -22569,7 +22581,7 @@
 	array[-10947] = assign( 25, "1111111101010110100101010" );
 	array[ 10948] = assign( 25, "1011111101010110100101000" );
 	array[-10948] = assign( 25, "1111111101010110100101000" );
-	array[ 10949] = assign( 19, "0101100011010010110" );	// warning: length mismatch
+	array[ 10949] = assign( 19, "0101100011010010110" );
 	array[-10949] = assign( 19, "0111100011010010110" );
 	array[ 10950] = assign( 24, "100111110101011010111000" );
 	array[-10950] = assign( 24, "110111110101011010111000" );
@@ -22635,7 +22647,7 @@
 	array[-10979] = assign( 25, "1111111111010110100101010" );
 	array[ 10980] = assign( 25, "1011111111010110100101000" );
 	array[-10980] = assign( 25, "1111111111010110100101000" );
-	array[ 10981] = assign( 19, "0101100011011010110" );	// warning: length mismatch
+	array[ 10981] = assign( 19, "0101100011011010110" );
 	array[-10981] = assign( 19, "0111100011011010110" );
 	array[ 10982] = assign( 24, "100111111101011010111000" );
 	array[-10982] = assign( 24, "110111111101011010111000" );
@@ -22701,7 +22713,7 @@
 	array[-11011] = assign( 25, "1111111101110110101101010" );
 	array[ 11012] = assign( 25, "1011111101110110101101000" );
 	array[-11012] = assign( 25, "1111111101110110101101000" );
-	array[ 11013] = assign( 19, "0101100111010110110" );	// warning: length mismatch
+	array[ 11013] = assign( 19, "0101100111010110110" );
 	array[-11013] = assign( 19, "0111100111010110110" );
 	array[ 11014] = assign( 25, "1001111101110110100101000" );
 	array[-11014] = assign( 25, "1101111101110110100101000" );
@@ -22767,7 +22779,7 @@
 	array[-11043] = assign( 25, "1111111111110110101101010" );
 	array[ 11044] = assign( 25, "1011111111110110101101000" );
 	array[-11044] = assign( 25, "1111111111110110101101000" );
-	array[ 11045] = assign( 19, "0101100111011110110" );	// warning: length mismatch
+	array[ 11045] = assign( 19, "0101100111011110110" );
 	array[-11045] = assign( 19, "0111100111011110110" );
 	array[ 11046] = assign( 25, "1001111111110110100101000" );
 	array[-11046] = assign( 25, "1101111111110110100101000" );
@@ -22833,9 +22845,9 @@
 	array[-11075] = assign( 25, "1111111101011110100111010" );
 	array[ 11076] = assign( 25, "1011111101011110100111000" );
 	array[-11076] = assign( 25, "1111111101011110100111000" );
-	array[ 11077] = assign( 20, "01011000101010011110" );	// warning: length mismatch
+	array[ 11077] = assign( 20, "01011000101010011110" );
 	array[-11077] = assign( 20, "01111000101010011110" );
-	array[ 11078] = assign( 20, "01110110101011111111" );	// warning: length mismatch
+	array[ 11078] = assign( 20, "01110110101011111111" );
 	array[-11078] = assign( 20, "01010110101011111111" );
 	array[ 11079] = assign( 25, "1001111101011110100101010" );
 	array[-11079] = assign( 25, "1101111101011110100101010" );
@@ -22899,9 +22911,9 @@
 	array[-11107] = assign( 25, "1111111111011110100111010" );
 	array[ 11108] = assign( 25, "1011111111011110100111000" );
 	array[-11108] = assign( 25, "1111111111011110100111000" );
-	array[ 11109] = assign( 20, "01011000101011011110" );	// warning: length mismatch
+	array[ 11109] = assign( 20, "01011000101011011110" );
 	array[-11109] = assign( 20, "01111000101011011110" );
-	array[ 11110] = assign( 20, "01110110101010111111" );	// warning: length mismatch
+	array[ 11110] = assign( 20, "01110110101010111111" );
 	array[-11110] = assign( 20, "01010110101010111111" );
 	array[ 11111] = assign( 25, "1001111111011110100101010" );
 	array[-11111] = assign( 25, "1101111111011110100101010" );
@@ -22965,9 +22977,9 @@
 	array[-11139] = assign( 25, "1111111101111110101111010" );
 	array[ 11140] = assign( 25, "1011111101111110101111000" );
 	array[-11140] = assign( 25, "1111111101111110101111000" );
-	array[ 11141] = assign( 20, "01011001101010111110" );	// warning: length mismatch
+	array[ 11141] = assign( 20, "01011001101010111110" );
 	array[-11141] = assign( 20, "01111001101010111110" );
-	array[ 11142] = assign( 20, "01110111101011011111" );	// warning: length mismatch
+	array[ 11142] = assign( 20, "01110111101011011111" );
 	array[-11142] = assign( 20, "01010111101011011111" );
 	array[ 11143] = assign( 25, "1001111101111110101101010" );
 	array[-11143] = assign( 25, "1101111101111110101101010" );
@@ -23031,9 +23043,9 @@
 	array[-11171] = assign( 25, "1111111111111110101111010" );
 	array[ 11172] = assign( 25, "1011111111111110101111000" );
 	array[-11172] = assign( 25, "1111111111111110101111000" );
-	array[ 11173] = assign( 20, "01011001101011111110" );	// warning: length mismatch
+	array[ 11173] = assign( 20, "01011001101011111110" );
 	array[-11173] = assign( 20, "01111001101011111110" );
-	array[ 11174] = assign( 20, "01110111101010011111" );	// warning: length mismatch
+	array[ 11174] = assign( 20, "01110111101010011111" );
 	array[-11174] = assign( 20, "01010111101010011111" );
 	array[ 11175] = assign( 25, "1001111111111110101101010" );
 	array[-11175] = assign( 25, "1101111111111110101101010" );
@@ -23097,9 +23109,9 @@
 	array[-11203] = assign( 27, "111111110101010101001011010" );
 	array[ 11204] = assign( 27, "101111110101010101001011000" );
 	array[-11204] = assign( 27, "101111111111010100001011010" );
-	array[ 11205] = assign( 20, "01011000111010010111" );	// warning: length mismatch
+	array[ 11205] = assign( 20, "01011000111010010111" );
 	array[-11205] = assign( 20, "01111000111010010111" );
-	array[ 11206] = assign( 20, "01110110111011110111" );	// warning: length mismatch
+	array[ 11206] = assign( 20, "01110110111011110111" );
 	array[-11206] = assign( 20, "01010110111011110111" );
 	array[ 11207] = assign( 26, "10011111010101010100111010" );
 	array[-11207] = assign( 26, "10011111111101010001111000" );
@@ -23163,9 +23175,9 @@
 	array[-11235] = assign( 27, "111111111101010101001011010" );
 	array[ 11236] = assign( 27, "101111111101010101001011000" );
 	array[-11236] = assign( 27, "101111110111010100001011010" );
-	array[ 11237] = assign( 20, "01011000111011010111" );	// warning: length mismatch
+	array[ 11237] = assign( 20, "01011000111011010111" );
 	array[-11237] = assign( 20, "01111000111011010111" );
-	array[ 11238] = assign( 20, "01110110111010110111" );	// warning: length mismatch
+	array[ 11238] = assign( 20, "01110110111010110111" );
 	array[-11238] = assign( 20, "01010110111010110111" );
 	array[ 11239] = assign( 26, "10011111110101010100111010" );
 	array[-11239] = assign( 26, "10011111011101010001111000" );
@@ -23229,9 +23241,9 @@
 	array[-11267] = assign( 27, "111111110111010101011011010" );
 	array[ 11268] = assign( 27, "101111110111010101011011000" );
 	array[-11268] = assign( 27, "101111111101010100011011010" );
-	array[ 11269] = assign( 20, "01011001111010110111" );	// warning: length mismatch
+	array[ 11269] = assign( 20, "01011001111010110111" );
 	array[-11269] = assign( 20, "01111001111010110111" );
-	array[ 11270] = assign( 20, "01110111111011010111" );	// warning: length mismatch
+	array[ 11270] = assign( 20, "01110111111011010111" );
 	array[-11270] = assign( 20, "01010111111011010111" );
 	array[ 11271] = assign( 26, "10011111011101010101111010" );
 	array[-11271] = assign( 26, "11011111011101010101111010" );
@@ -23295,9 +23307,9 @@
 	array[-11299] = assign( 27, "111111111111010101011011010" );
 	array[ 11300] = assign( 27, "101111111111010101011011000" );
 	array[-11300] = assign( 27, "101111110101010100011011010" );
-	array[ 11301] = assign( 20, "01011001111011110111" );	// warning: length mismatch
+	array[ 11301] = assign( 20, "01011001111011110111" );
 	array[-11301] = assign( 20, "01111001111011110111" );
-	array[ 11302] = assign( 20, "01110111111010010111" );	// warning: length mismatch
+	array[ 11302] = assign( 20, "01110111111010010111" );
 	array[-11302] = assign( 20, "01010111111010010111" );
 	array[ 11303] = assign( 26, "10011111111101010101111010" );
 	array[-11303] = assign( 26, "11011111111101010101111010" );
@@ -23361,9 +23373,9 @@
 	array[-11331] = assign( 27, "111111110101110101001111010" );
 	array[ 11332] = assign( 26, "11111111111111100001111010" );
 	array[-11332] = assign( 26, "10111111111111100001111010" );
-	array[ 11333] = assign( 21, "010110001011010011111" );	// warning: length mismatch
+	array[ 11333] = assign( 21, "010110001011010011111" );
 	array[-11333] = assign( 21, "011110001011010011111" );
-	array[ 11334] = assign( 21, "011101101011011111110" );	// warning: length mismatch
+	array[ 11334] = assign( 21, "011101101011011111110" );
 	array[-11334] = assign( 21, "010101101011011111110" );
 	array[ 11335] = assign( 26, "11011111111111100011011000" );
 	array[-11335] = assign( 26, "10011111111111100011011000" );
@@ -23427,9 +23439,9 @@
 	array[-11363] = assign( 27, "111111111101110101001111010" );
 	array[ 11364] = assign( 26, "11111111011111100001111010" );
 	array[-11364] = assign( 26, "10111111011111100001111010" );
-	array[ 11365] = assign( 21, "010110001011011011111" );	// warning: length mismatch
+	array[ 11365] = assign( 21, "010110001011011011111" );
 	array[-11365] = assign( 21, "011110001011011011111" );
-	array[ 11366] = assign( 21, "011101101011010111110" );	// warning: length mismatch
+	array[ 11366] = assign( 21, "011101101011010111110" );
 	array[-11366] = assign( 21, "010101101011010111110" );
 	array[ 11367] = assign( 26, "11011111011111100011011000" );
 	array[-11367] = assign( 26, "10011111011111100011011000" );
@@ -23493,9 +23505,9 @@
 	array[-11395] = assign( 27, "111111110111110101011111010" );
 	array[ 11396] = assign( 26, "11111111110111100011111010" );
 	array[-11396] = assign( 26, "10111111110111100011111010" );
-	array[ 11397] = assign( 21, "010110011011010111111" );	// warning: length mismatch
+	array[ 11397] = assign( 21, "010110011011010111111" );
 	array[-11397] = assign( 21, "011110011011010111111" );
-	array[ 11398] = assign( 21, "011101111011011011110" );	// warning: length mismatch
+	array[ 11398] = assign( 21, "011101111011011011110" );
 	array[-11398] = assign( 21, "010101111011011011110" );
 	array[ 11399] = assign( 26, "11011111110111100001111000" );
 	array[-11399] = assign( 26, "10011111110111100001111000" );
@@ -23559,9 +23571,9 @@
 	array[-11427] = assign( 27, "110111110111110100011111110" );
 	array[ 11428] = assign( 26, "11011111110111101011111110" );
 	array[-11428] = assign( 26, "10011111110111101011111110" );
-	array[ 11429] = assign( 21, "010101111111110111111" );	// warning: length mismatch
+	array[ 11429] = assign( 21, "010101111111110111111" );
 	array[-11429] = assign( 21, "011101111111110111111" );
-	array[ 11430] = assign( 21, "011101111011010011110" );	// warning: length mismatch
+	array[ 11430] = assign( 21, "011101111011010011110" );
 	array[-11430] = assign( 21, "010101111011010011110" );
 	array[ 11431] = assign( 26, "11011111010111100001111000" );
 	array[-11431] = assign( 26, "10011111010111100001111000" );
@@ -23625,9 +23637,9 @@
 	array[-11459] = assign( 27, "110111111111110100011111110" );
 	array[ 11460] = assign( 26, "11011111010111101011111110" );
 	array[-11460] = assign( 26, "10011111010111101011111110" );
-	array[ 11461] = assign( 21, "010101111111111111111" );	// warning: length mismatch
+	array[ 11461] = assign( 21, "010101111111111111111" );
 	array[-11461] = assign( 21, "011101111111111111111" );
-	array[ 11462] = assign( 21, "011101101111011110110" );	// warning: length mismatch
+	array[ 11462] = assign( 21, "011101101111011110110" );
 	array[-11462] = assign( 21, "010101101111011110110" );
 	array[ 11463] = assign( 26, "11011111111101100011111000" );
 	array[-11463] = assign( 26, "10011111111101100011111000" );
@@ -23693,7 +23705,7 @@
 	array[-11492] = assign( 26, "10011111111101101001111110" );
 	array[ 11493] = assign( 26, "11011111111101101011111100" );
 	array[-11493] = assign( 26, "10011111111101101011111100" );
-	array[ 11494] = assign( 21, "011101101111010110110" );	// warning: length mismatch
+	array[ 11494] = assign( 21, "011101101111010110110" );
 	array[-11494] = assign( 21, "010101101111010110110" );
 	array[ 11495] = assign( 26, "11011111011101100011111000" );
 	array[-11495] = assign( 26, "10011111011101100011111000" );
@@ -23759,7 +23771,7 @@
 	array[-11524] = assign( 26, "10011111011101101001111110" );
 	array[ 11525] = assign( 26, "11011111011101101011111100" );
 	array[-11525] = assign( 26, "10011111011101101011111100" );
-	array[ 11526] = assign( 21, "011101111111011010110" );	// warning: length mismatch
+	array[ 11526] = assign( 21, "011101111111011010110" );
 	array[-11526] = assign( 21, "010101111111011010110" );
 	array[ 11527] = assign( 26, "11011111110101100001011100" );
 	array[-11527] = assign( 26, "10011111110101100001011100" );
@@ -23825,7 +23837,7 @@
 	array[-11556] = assign( 26, "10011111110101101011011110" );
 	array[ 11557] = assign( 26, "11011111110101101001111100" );
 	array[-11557] = assign( 26, "10011111110101101001111100" );
-	array[ 11558] = assign( 21, "011101111111010010110" );	// warning: length mismatch
+	array[ 11558] = assign( 21, "011101111111010010110" );
 	array[-11558] = assign( 21, "010101111111010010110" );
 	array[ 11559] = assign( 26, "11011111010101100001011100" );
 	array[-11559] = assign( 26, "10011111010101100001011100" );
@@ -23891,7 +23903,7 @@
 	array[-11588] = assign( 26, "10011111010101101011011110" );
 	array[ 11589] = assign( 26, "11011111010101101001111100" );
 	array[-11589] = assign( 26, "10011111010101101001111100" );
-	array[ 11590] = assign( 20, "01110110101111111110" );	// warning: length mismatch
+	array[ 11590] = assign( 20, "01110110101111111110" );
 	array[-11590] = assign( 20, "01010110101111111110" );
 	array[ 11591] = assign( 26, "11011111111111000011011100" );
 	array[-11591] = assign( 26, "10011111111111000011011100" );
@@ -23957,7 +23969,7 @@
 	array[-11620] = assign( 26, "10011111111111001001011110" );
 	array[ 11621] = assign( 26, "11011111111111001011011100" );
 	array[-11621] = assign( 26, "10011111111111001011011100" );
-	array[ 11622] = assign( 20, "01110110101111011110" );	// warning: length mismatch
+	array[ 11622] = assign( 20, "01110110101111011110" );
 	array[-11622] = assign( 20, "01010110101111011110" );
 	array[ 11623] = assign( 26, "11011111011111000011011100" );
 	array[-11623] = assign( 26, "10011111011111000011011100" );
@@ -24023,7 +24035,7 @@
 	array[-11652] = assign( 26, "10011111011111001001011110" );
 	array[ 11653] = assign( 26, "11011111011111001011011100" );
 	array[-11653] = assign( 26, "10011111011111001011011100" );
-	array[ 11654] = assign( 20, "01110111101111101110" );	// warning: length mismatch
+	array[ 11654] = assign( 20, "01110111101111101110" );
 	array[-11654] = assign( 20, "01010111101111101110" );
 	array[ 11655] = assign( 26, "11011111110111000001111100" );
 	array[-11655] = assign( 26, "10011111110111000001111100" );
@@ -24089,7 +24101,7 @@
 	array[-11684] = assign( 26, "10011111110111001011111010" );
 	array[ 11685] = assign( 26, "11011111110111001001011100" );
 	array[-11685] = assign( 26, "10011111110111001001011100" );
-	array[ 11686] = assign( 20, "01110111101111001110" );	// warning: length mismatch
+	array[ 11686] = assign( 20, "01110111101111001110" );
 	array[-11686] = assign( 20, "01010111101111001110" );
 	array[ 11687] = assign( 26, "11011111010111000001111100" );
 	array[-11687] = assign( 26, "10011111010111000001111100" );
@@ -24155,7 +24167,7 @@
 	array[-11716] = assign( 26, "10011111010111001011111010" );
 	array[ 11717] = assign( 26, "11011111010111001001011100" );
 	array[-11717] = assign( 26, "10011111010111001001011100" );
-	array[ 11718] = assign( 20, "01110110111111111010" );	// warning: length mismatch
+	array[ 11718] = assign( 20, "01110110111111111010" );
 	array[-11718] = assign( 20, "01010110111111111010" );
 	array[ 11719] = assign( 26, "11011111111101000011111100" );
 	array[-11719] = assign( 26, "10011111111101000011111100" );
@@ -24221,7 +24233,7 @@
 	array[-11748] = assign( 26, "10011111111101001001111010" );
 	array[ 11749] = assign( 26, "11011111111101001011111000" );
 	array[-11749] = assign( 26, "10011111111101001011111000" );
-	array[ 11750] = assign( 20, "01110110111111011010" );	// warning: length mismatch
+	array[ 11750] = assign( 20, "01110110111111011010" );
 	array[-11750] = assign( 20, "01010110111111011010" );
 	array[ 11751] = assign( 26, "11011111011101000011111100" );
 	array[-11751] = assign( 26, "10011111011101000011111100" );
@@ -24287,7 +24299,7 @@
 	array[-11780] = assign( 26, "10011111011101001001111010" );
 	array[ 11781] = assign( 26, "11011111011101001011111000" );
 	array[-11781] = assign( 26, "10011111011101001011111000" );
-	array[ 11782] = assign( 20, "01110111111111101010" );	// warning: length mismatch
+	array[ 11782] = assign( 20, "01110111111111101010" );
 	array[-11782] = assign( 20, "01010111111111101010" );
 	array[ 11783] = assign( 26, "11111111011101001001011100" );
 	array[-11783] = assign( 26, "10111111011101001001011100" );
@@ -24353,7 +24365,7 @@
 	array[-11812] = assign( 26, "10011111110101001011011010" );
 	array[ 11813] = assign( 26, "11011111110101001001111000" );
 	array[-11813] = assign( 26, "10011111110101001001111000" );
-	array[ 11814] = assign( 20, "01110111111111001010" );	// warning: length mismatch
+	array[ 11814] = assign( 20, "01110111111111001010" );
 	array[-11814] = assign( 20, "01010111111111001010" );
 	array[ 11815] = assign( 26, "11111111110101001011111000" );
 	array[-11815] = assign( 26, "10111111110101001011111000" );
@@ -24419,7 +24431,7 @@
 	array[-11844] = assign( 26, "10011111010101001011011010" );
 	array[ 11845] = assign( 26, "11011111010101001001111000" );
 	array[-11845] = assign( 26, "10011111010101001001111000" );
-	array[ 11846] = assign( 20, "01111001101101001010" );	// warning: length mismatch
+	array[ 11846] = assign( 20, "01111001101101001010" );
 	array[-11846] = assign( 20, "01011001101101001010" );
 	array[ 11847] = assign( 26, "11111111010101001011111000" );
 	array[-11847] = assign( 26, "10111111010101001011111000" );
@@ -24485,7 +24497,7 @@
 	array[-11876] = assign( 24, "100111111111101001011010" );
 	array[ 11877] = assign( 24, "110111111111101011011000" );
 	array[-11877] = assign( 24, "100111111111101011011000" );
-	array[ 11878] = assign( 19, "0111100010110111110" );	// warning: length mismatch
+	array[ 11878] = assign( 19, "0111100010110111110" );
 	array[-11878] = assign( 19, "0101100010110111110" );
 	array[ 11879] = assign( 24, "111111111111101001111000" );
 	array[-11879] = assign( 24, "101111111111101001111000" );
@@ -24551,7 +24563,7 @@
 	array[-11908] = assign( 24, "100111110111101001011010" );
 	array[ 11909] = assign( 24, "110111110111101011011000" );
 	array[-11909] = assign( 24, "100111110111101011011000" );
-	array[ 11910] = assign( 19, "0111100010110101110" );	// warning: length mismatch
+	array[ 11910] = assign( 19, "0111100010110101110" );
 	array[-11910] = assign( 19, "0101100010110101110" );
 	array[ 11911] = assign( 24, "111111110111101001111000" );
 	array[-11911] = assign( 24, "101111110111101001111000" );
@@ -24617,7 +24629,7 @@
 	array[-11940] = assign( 23, "10011111110110101111010" );
 	array[ 11941] = assign( 24, "110111111101101001011000" );
 	array[-11941] = assign( 24, "100111111101101001011000" );
-	array[ 11942] = assign( 18, "011110011110110110" );	// warning: length mismatch
+	array[ 11942] = assign( 18, "011110011110110110" );
 	array[-11942] = assign( 18, "010110011110110110" );
 	array[ 11943] = assign( 24, "111111111101101011011000" );
 	array[-11943] = assign( 24, "101111111101101011011000" );
@@ -24683,7 +24695,7 @@
 	array[-11972] = assign( 23, "10011111010110101111010" );
 	array[ 11973] = assign( 24, "110111110101101001011000" );
 	array[-11973] = assign( 24, "100111110101101001011000" );
-	array[ 11974] = assign( 18, "011110011110100110" );	// warning: length mismatch
+	array[ 11974] = assign( 18, "011110011110100110" );
 	array[-11974] = assign( 18, "010110011110100110" );
 	array[ 11975] = assign( 24, "111111110101101011011000" );
 	array[-11975] = assign( 24, "101111110101101011011000" );
@@ -24749,7 +24761,7 @@
 	array[-12004] = assign( 23, "10011111111100100111010" );
 	array[ 12005] = assign( 23, "11011111111100101111000" );
 	array[-12005] = assign( 23, "10011111111100101111000" );
-	array[ 12006] = assign( 18, "011110001110111100" );	// warning: length mismatch
+	array[ 12006] = assign( 18, "011110001110111100" );
 	array[-12006] = assign( 18, "010110001110111100" );
 	array[ 12007] = assign( 24, "111111111111001001011000" );
 	array[-12007] = assign( 24, "101111111111001001011000" );
@@ -24815,7 +24827,7 @@
 	array[-12036] = assign( 23, "10011111011100100111010" );
 	array[ 12037] = assign( 23, "11011111011100101111000" );
 	array[-12037] = assign( 23, "10011111011100101111000" );
-	array[ 12038] = assign( 18, "011110001110101100" );	// warning: length mismatch
+	array[ 12038] = assign( 18, "011110001110101100" );
 	array[-12038] = assign( 18, "010110001110101100" );
 	array[ 12039] = assign( 24, "111111110111001001011000" );
 	array[-12039] = assign( 24, "101111110111001001011000" );
@@ -24881,7 +24893,7 @@
 	array[-12068] = assign( 23, "10011111110100101101010" );
 	array[ 12069] = assign( 23, "11011111110100100111000" );
 	array[-12069] = assign( 23, "10011111110100100111000" );
-	array[ 12070] = assign( 18, "011110011010110100" );	// warning: length mismatch
+	array[ 12070] = assign( 18, "011110011010110100" );
 	array[-12070] = assign( 18, "010110011010110100" );
 	array[ 12071] = assign( 23, "11111111110100101111000" );
 	array[-12071] = assign( 23, "10111111110100101111000" );
@@ -24947,7 +24959,7 @@
 	array[-12100] = assign( 23, "10011111010100101101010" );
 	array[ 12101] = assign( 23, "11011111010100100111000" );
 	array[-12101] = assign( 23, "10011111010100100111000" );
-	array[ 12102] = assign( 18, "011110011010100100" );	// warning: length mismatch
+	array[ 12102] = assign( 18, "011110011010100100" );
 	array[-12102] = assign( 18, "010110011010100100" );
 	array[ 12103] = assign( 23, "11111111010100101111000" );
 	array[-12103] = assign( 23, "10111111010100101111000" );
@@ -25013,7 +25025,7 @@
 	array[-12132] = assign( 21, "100111111110100101010" );
 	array[ 12133] = assign( 21, "110111111110101101000" );
 	array[-12133] = assign( 21, "100111111110101101000" );
-	array[ 12134] = assign( 16, "0111100010101110" );	// warning: length mismatch
+	array[ 12134] = assign( 16, "0111100010101110" );
 	array[-12134] = assign( 16, "0101100010101110" );
 	array[ 12135] = assign( 21, "111111111110100111000" );
 	array[-12135] = assign( 21, "101111111110100111000" );
@@ -25079,7 +25091,7 @@
 	array[-12164] = assign( 21, "100111110110100101010" );
 	array[ 12165] = assign( 21, "110111110110101101000" );
 	array[-12165] = assign( 21, "100111110110101101000" );
-	array[ 12166] = assign( 16, "0111100010101010" );	// warning: length mismatch
+	array[ 12166] = assign( 16, "0111100010101010" );
 	array[-12166] = assign( 16, "0101100010101010" );
 	array[ 12167] = assign( 21, "111111110110100111000" );
 	array[-12167] = assign( 21, "101111110110100111000" );
@@ -25145,7 +25157,7 @@
 	array[-12196] = assign( 20, "10011111110010111010" );
 	array[ 12197] = assign( 21, "110111111100100101000" );
 	array[-12197] = assign( 21, "100111111100100101000" );
-	array[ 12198] = assign( 15, "011110011101100" );	// warning: length mismatch
+	array[ 12198] = assign( 15, "011110011101100" );
 	array[-12198] = assign( 15, "010110011101100" );
 	array[ 12199] = assign( 21, "111111111100101101000" );
 	array[-12199] = assign( 21, "101111111100101101000" );
@@ -25211,7 +25223,7 @@
 	array[-12228] = assign( 20, "10011111010010111010" );
 	array[ 12229] = assign( 21, "110111110100100101000" );
 	array[-12229] = assign( 21, "100111110100100101000" );
-	array[ 12230] = assign( 15, "011110011101000" );	// warning: length mismatch
+	array[ 12230] = assign( 15, "011110011101000" );
 	array[-12230] = assign( 15, "010110011101000" );
 	array[ 12231] = assign( 21, "111111110100101101000" );
 	array[-12231] = assign( 21, "101111110100101101000" );
@@ -25277,7 +25289,7 @@
 	array[-12260] = assign( 18, "100111111010011010" );
 	array[ 12261] = assign( 18, "110111111010111000" );
 	array[-12261] = assign( 18, "100111111010111000" );
-	array[ 12262] = assign( 13, "0111100011001" );	// warning: length mismatch
+	array[ 12262] = assign( 13, "0111100011001" );
 	array[-12262] = assign( 13, "0101100011001" );
 	array[ 12263] = assign( 19, "1111111110100101000" );
 	array[-12263] = assign( 19, "1011111110100101000" );
@@ -25343,7 +25355,7 @@
 	array[-12292] = assign( 18, "100111110010011010" );
 	array[ 12293] = assign( 18, "100111110000111000" );
 	array[-12293] = assign( 18, "100111110010111000" );
-	array[ 12294] = assign( 13, "0101011011000" );	// warning: length mismatch
+	array[ 12294] = assign( 13, "0101011011000" );
 	array[-12294] = assign( 13, "0101100011000" );
 	array[ 12295] = assign( 19, "1011111100000101000" );
 	array[-12295] = assign( 19, "1011111100100101000" );
@@ -25409,7 +25421,7 @@
 	array[-12324] = assign( 18, "110111111000011010" );
 	array[ 12325] = assign( 18, "100111111000111000" );
 	array[-12325] = assign( 18, "110111111000111000" );
-	array[ 12326] = assign( 13, "0101011011001" );	// warning: length mismatch
+	array[ 12326] = assign( 13, "0101011011001" );
 	array[-12326] = assign( 13, "0111011011001" );
 	array[ 12327] = assign( 19, "1011111110000101000" );
 	array[-12327] = assign( 19, "1111111110000101000" );
@@ -25475,7 +25487,7 @@
 	array[-12356] = assign( 20, "11011111010000110010" );
 	array[ 12357] = assign( 20, "10011111010000011000" );
 	array[-12357] = assign( 20, "11011111010000011000" );
-	array[ 12358] = assign( 15, "010101111001000" );	// warning: length mismatch
+	array[ 12358] = assign( 15, "010101111001000" );
 	array[-12358] = assign( 15, "011101111001000" );
 	array[ 12359] = assign( 20, "10111111010000111000" );
 	array[-12359] = assign( 20, "11111111010000111000" );
@@ -25541,7 +25553,7 @@
 	array[-12388] = assign( 20, "11011111110000110010" );
 	array[ 12389] = assign( 20, "10011111110000011000" );
 	array[-12389] = assign( 20, "11011111110000011000" );
-	array[ 12390] = assign( 15, "010101111001100" );	// warning: length mismatch
+	array[ 12390] = assign( 15, "010101111001100" );
 	array[-12390] = assign( 15, "011101111001100" );
 	array[ 12391] = assign( 20, "10111111110000111000" );
 	array[-12391] = assign( 20, "11111111110000111000" );
@@ -25607,7 +25619,7 @@
 	array[-12420] = assign( 20, "11011111011000010010" );
 	array[ 12421] = assign( 20, "10011111011000110000" );
 	array[-12421] = assign( 20, "11011111011000110000" );
-	array[ 12422] = assign( 15, "010101101001010" );	// warning: length mismatch
+	array[ 12422] = assign( 15, "010101101001010" );
 	array[-12422] = assign( 15, "011101101001010" );
 	array[ 12423] = assign( 20, "10111111011000011000" );
 	array[-12423] = assign( 20, "11111111011000011000" );
@@ -25673,7 +25685,7 @@
 	array[-12452] = assign( 20, "11011111111000010010" );
 	array[ 12453] = assign( 20, "10011111111000110000" );
 	array[-12453] = assign( 20, "11011111111000110000" );
-	array[ 12454] = assign( 15, "010101101001110" );	// warning: length mismatch
+	array[ 12454] = assign( 15, "010101101001110" );
 	array[-12454] = assign( 15, "011101101001110" );
 	array[ 12455] = assign( 20, "10111111111000011000" );
 	array[-12455] = assign( 20, "11111111111000011000" );
@@ -25739,7 +25751,7 @@
 	array[-12484] = assign( 20, "11011111010100001010" );
 	array[ 12485] = assign( 22, "1001111101010000010000" );
 	array[-12485] = assign( 22, "1101111101010000010000" );
-	array[ 12486] = assign( 15, "010101110100100" );	// warning: length mismatch
+	array[ 12486] = assign( 15, "010101110100100" );
 	array[-12486] = assign( 15, "011101110100100" );
 	array[ 12487] = assign( 22, "1011111101010000110000" );
 	array[-12487] = assign( 22, "1111111101010000110000" );
@@ -25805,7 +25817,7 @@
 	array[-12516] = assign( 20, "11011111110100001010" );
 	array[ 12517] = assign( 22, "1001111111010000010000" );
 	array[-12517] = assign( 22, "1101111111010000010000" );
-	array[ 12518] = assign( 15, "010101110110100" );	// warning: length mismatch
+	array[ 12518] = assign( 15, "010101110110100" );
 	array[-12518] = assign( 15, "011101110110100" );
 	array[ 12519] = assign( 22, "1011111111010000110000" );
 	array[-12519] = assign( 22, "1111111111010000110000" );
@@ -25871,7 +25883,7 @@
 	array[-12548] = assign( 16, "1101111010101100" );
 	array[ 12549] = assign( 15, "100111011011110" );
 	array[-12549] = assign( 15, "110111011011110" );
-	array[ 12550] = assign( 15, "010101100101100" );	// warning: length mismatch
+	array[ 12550] = assign( 15, "010101100101100" );
 	array[-12550] = assign( 15, "011101100101100" );
 	array[ 12551] = assign( 22, "1011111101110000010000" );
 	array[-12551] = assign( 22, "1111111101110000010000" );
@@ -25937,7 +25949,7 @@
 	array[-12580] = assign( 16, "1101111010111100" );
 	array[ 12581] = assign( 14, "10011101011110" );
 	array[-12581] = assign( 14, "11011101011110" );
-	array[ 12582] = assign( 15, "010101100111100" );	// warning: length mismatch
+	array[ 12582] = assign( 15, "010101100111100" );
 	array[-12582] = assign( 15, "011101100111100" );
 	array[ 12583] = assign( 22, "1011111111110000010000" );
 	array[-12583] = assign( 22, "1111111111110000010000" );
@@ -26003,7 +26015,7 @@
 	array[-12612] = assign( 14, "11010111111110" );
 	array[ 12613] = assign( 12, "100101011110" );
 	array[-12613] = assign( 12, "110101011110" );
-	array[ 12614] = assign( 13, "0101101011110" );	// warning: length mismatch
+	array[ 12614] = assign( 13, "0101101011110" );
 	array[-12614] = assign( 13, "0111101011110" );
 	array[ 12615] = assign( 16, "1011110110111110" );
 	array[-12615] = assign( 16, "1111110110111110" );
@@ -26069,7 +26081,7 @@
 	array[-12644] = assign( 14, "11011100111110" );
 	array[ 12645] = assign( 11, "10010011110" );
 	array[-12645] = assign( 11, "11010011110" );
-	array[ 12646] = assign( 13, "0101101111110" );	// warning: length mismatch
+	array[ 12646] = assign( 13, "0101101111110" );
 	array[-12646] = assign( 13, "0111101111110" );
 	array[ 12647] = assign( 15, "101111010111110" );
 	array[-12647] = assign( 15, "111111010111110" );
@@ -26201,7 +26213,7 @@
 	array[-12708] = assign( 16, "1111111011111110" );
 	array[ 12709] = assign( 15, "101101101111110" );
 	array[-12709] = assign( 15, "111101101111110" );
-	array[ 12710] = assign( 12, "010100010110" );	// warning: length mismatch
+	array[ 12710] = assign( 12, "010100010110" );
 	array[-12710] = assign( 12, "011100010110" );
 	array[ 12711] = assign( 12, "101100111110" );
 	array[-12711] = assign( 12, "111100111110" );
@@ -26267,7 +26279,7 @@
 	array[-12740] = assign( 22, "1111111101010100101010" );
 	array[ 12741] = assign( 17, "10111110011111110" );
 	array[-12741] = assign( 17, "11111110011111110" );
-	array[ 12742] = assign( 12, "010100110110" );	// warning: length mismatch
+	array[ 12742] = assign( 12, "010100110110" );
 	array[-12742] = assign( 12, "011100110110" );
 	array[ 12743] = assign( 13, "1001101111110" );
 	array[-12743] = assign( 13, "1101101111110" );
@@ -26333,7 +26345,7 @@
 	array[-12772] = assign( 22, "1111111111010100101010" );
 	array[ 12773] = assign( 18, "101111011111111110" );
 	array[-12773] = assign( 18, "111111011111111110" );
-	array[ 12774] = assign( 16, "0101110011111110" );	// warning: length mismatch
+	array[ 12774] = assign( 16, "0101110011111110" );
 	array[-12774] = assign( 16, "0111110011111110" );
 	array[ 12775] = assign( 16, "1001011011111110" );
 	array[-12775] = assign( 16, "1101011011111110" );
@@ -26399,7 +26411,7 @@
 	array[-12804] = assign( 24, "111111110111010010010010" );
 	array[ 12805] = assign( 24, "101111110111010010010000" );
 	array[-12805] = assign( 24, "111111110111010010010000" );
-	array[ 12806] = assign( 16, "0101100001011010" );	// warning: length mismatch
+	array[ 12806] = assign( 16, "0101100001011010" );
 	array[-12806] = assign( 16, "0111100001011010" );
 	array[ 12807] = assign( 18, "100111100111111110" );
 	array[-12807] = assign( 18, "110111100111111110" );
@@ -26465,7 +26477,7 @@
 	array[-12836] = assign( 24, "111111111111010010010010" );
 	array[ 12837] = assign( 24, "101111111111010010010000" );
 	array[-12837] = assign( 24, "111111111111010010010000" );
-	array[ 12838] = assign( 16, "0101100001111010" );	// warning: length mismatch
+	array[ 12838] = assign( 16, "0101100001111010" );
 	array[-12838] = assign( 16, "0111100001111010" );
 	array[ 12839] = assign( 19, "1001110111111111110" );
 	array[-12839] = assign( 19, "1101110111111111110" );
@@ -26531,7 +26543,7 @@
 	array[-12868] = assign( 24, "111111110101110010110010" );
 	array[ 12869] = assign( 24, "101111110101110010110000" );
 	array[-12869] = assign( 24, "111111110101110010110000" );
-	array[ 12870] = assign( 16, "0101100101001110" );	// warning: length mismatch
+	array[ 12870] = assign( 16, "0101100101001110" );
 	array[-12870] = assign( 16, "0111100101001110" );
 	array[ 12871] = assign( 24, "100111110101110010010000" );
 	array[-12871] = assign( 24, "110111110101110010010000" );
@@ -26597,7 +26609,7 @@
 	array[-12900] = assign( 24, "111111111101110010110010" );
 	array[ 12901] = assign( 24, "101111111101110010110000" );
 	array[-12901] = assign( 24, "111111111101110010110000" );
-	array[ 12902] = assign( 16, "0101100101101110" );	// warning: length mismatch
+	array[ 12902] = assign( 16, "0101100101101110" );
 	array[-12902] = assign( 16, "0111100101101110" );
 	array[ 12903] = assign( 24, "100111111101110010010000" );
 	array[-12903] = assign( 24, "110111111101110010010000" );
@@ -26663,7 +26675,7 @@
 	array[-12932] = assign( 24, "111111110111110010011010" );
 	array[ 12933] = assign( 24, "101111110111110010011000" );
 	array[-12933] = assign( 24, "111111110111110010011000" );
-	array[ 12934] = assign( 18, "010110001001011110" );	// warning: length mismatch
+	array[ 12934] = assign( 18, "010110001001011110" );
 	array[-12934] = assign( 18, "011110001001011110" );
 	array[ 12935] = assign( 24, "100111110111110010110000" );
 	array[-12935] = assign( 24, "110111110111110010110000" );
@@ -26729,7 +26741,7 @@
 	array[-12964] = assign( 24, "111111111111110010011010" );
 	array[ 12965] = assign( 24, "101111111111110010011000" );
 	array[-12965] = assign( 24, "111111111111110010011000" );
-	array[ 12966] = assign( 18, "010110001001111110" );	// warning: length mismatch
+	array[ 12966] = assign( 18, "010110001001111110" );
 	array[-12966] = assign( 18, "011110001001111110" );
 	array[ 12967] = assign( 24, "100111111111110010110000" );
 	array[-12967] = assign( 24, "110111111111110010110000" );
@@ -26795,7 +26807,7 @@
 	array[-12996] = assign( 24, "111111110101011010111010" );
 	array[ 12997] = assign( 24, "101111110101011010111000" );
 	array[-12997] = assign( 24, "111111110101011010111000" );
-	array[ 12998] = assign( 19, "0101100110010010110" );	// warning: length mismatch
+	array[ 12998] = assign( 19, "0101100110010010110" );
 	array[-12998] = assign( 19, "0111100110010010110" );
 	array[ 12999] = assign( 24, "100111110101011010011000" );
 	array[-12999] = assign( 24, "110111110101011010011000" );
@@ -26861,7 +26873,7 @@
 	array[-13028] = assign( 24, "111111111101011010111010" );
 	array[ 13029] = assign( 24, "101111111101011010111000" );
 	array[-13029] = assign( 24, "111111111101011010111000" );
-	array[ 13030] = assign( 19, "0101100110011010110" );	// warning: length mismatch
+	array[ 13030] = assign( 19, "0101100110011010110" );
 	array[-13030] = assign( 19, "0111100110011010110" );
 	array[ 13031] = assign( 24, "100111111101011010011000" );
 	array[-13031] = assign( 24, "110111111101011010011000" );
@@ -26927,7 +26939,7 @@
 	array[-13060] = assign( 25, "1111111101110110100101010" );
 	array[ 13061] = assign( 25, "1011111101110110100101000" );
 	array[-13061] = assign( 25, "1111111101110110100101000" );
-	array[ 13062] = assign( 19, "0101100011010110110" );	// warning: length mismatch
+	array[ 13062] = assign( 19, "0101100011010110110" );
 	array[-13062] = assign( 19, "0111100011010110110" );
 	array[ 13063] = assign( 24, "100111110111011010111000" );
 	array[-13063] = assign( 24, "110111110111011010111000" );
@@ -26993,7 +27005,7 @@
 	array[-13092] = assign( 25, "1111111111110110100101010" );
 	array[ 13093] = assign( 25, "1011111111110110100101000" );
 	array[-13093] = assign( 25, "1111111111110110100101000" );
-	array[ 13094] = assign( 19, "0101100011011110110" );	// warning: length mismatch
+	array[ 13094] = assign( 19, "0101100011011110110" );
 	array[-13094] = assign( 19, "0111100011011110110" );
 	array[ 13095] = assign( 24, "100111111111011010111000" );
 	array[-13095] = assign( 24, "110111111111011010111000" );
@@ -27059,9 +27071,9 @@
 	array[-13124] = assign( 25, "1111111101011110101101010" );
 	array[ 13125] = assign( 25, "1011111101011110101101000" );
 	array[-13125] = assign( 25, "1111111101011110101101000" );
-	array[ 13126] = assign( 19, "0101100111010011110" );	// warning: length mismatch
+	array[ 13126] = assign( 19, "0101100111010011110" );
 	array[-13126] = assign( 19, "0111100111010011110" );
-	array[ 13127] = assign( 19, "0111011111011111111" );	// warning: length mismatch
+	array[ 13127] = assign( 19, "0111011111011111111" );
 	array[-13127] = assign( 19, "0101011111011111111" );
 	array[ 13128] = assign( 24, "100111110101111010111010" );
 	array[-13128] = assign( 24, "110111110101111010111010" );
@@ -27125,9 +27137,9 @@
 	array[-13156] = assign( 25, "1111111111011110101101010" );
 	array[ 13157] = assign( 25, "1011111111011110101101000" );
 	array[-13157] = assign( 25, "1111111111011110101101000" );
-	array[ 13158] = assign( 19, "0101100111011011110" );	// warning: length mismatch
+	array[ 13158] = assign( 19, "0101100111011011110" );
 	array[-13158] = assign( 19, "0111100111011011110" );
-	array[ 13159] = assign( 19, "0111011111010111111" );	// warning: length mismatch
+	array[ 13159] = assign( 19, "0111011111010111111" );
 	array[-13159] = assign( 19, "0101011111010111111" );
 	array[ 13160] = assign( 24, "100111111101111010111010" );
 	array[-13160] = assign( 24, "110111111101111010111010" );
@@ -27191,9 +27203,9 @@
 	array[-13188] = assign( 25, "1111111101111110100111010" );
 	array[ 13189] = assign( 25, "1011111101111110100111000" );
 	array[-13189] = assign( 25, "1111111101111110100111000" );
-	array[ 13190] = assign( 20, "01011000101010111110" );	// warning: length mismatch
+	array[ 13190] = assign( 20, "01011000101010111110" );
 	array[-13190] = assign( 20, "01111000101010111110" );
-	array[ 13191] = assign( 20, "01110110101011011111" );	// warning: length mismatch
+	array[ 13191] = assign( 20, "01110110101011011111" );
 	array[-13191] = assign( 20, "01010110101011011111" );
 	array[ 13192] = assign( 25, "1001111101111110100101010" );
 	array[-13192] = assign( 25, "1101111101111110100101010" );
@@ -27257,9 +27269,9 @@
 	array[-13220] = assign( 25, "1111111111111110100111010" );
 	array[ 13221] = assign( 25, "1011111111111110100111000" );
 	array[-13221] = assign( 25, "1111111111111110100111000" );
-	array[ 13222] = assign( 20, "01011000101011111110" );	// warning: length mismatch
+	array[ 13222] = assign( 20, "01011000101011111110" );
 	array[-13222] = assign( 20, "01111000101011111110" );
-	array[ 13223] = assign( 20, "01110110101010011111" );	// warning: length mismatch
+	array[ 13223] = assign( 20, "01110110101010011111" );
 	array[-13223] = assign( 20, "01010110101010011111" );
 	array[ 13224] = assign( 25, "1001111111111110100101010" );
 	array[-13224] = assign( 25, "1101111111111110100101010" );
@@ -27323,9 +27335,9 @@
 	array[-13252] = assign( 26, "11111111010101010101111010" );
 	array[ 13253] = assign( 26, "10111111010101010101111000" );
 	array[-13253] = assign( 26, "10111111111101010001111010" );
-	array[ 13254] = assign( 20, "01011001101010010111" );	// warning: length mismatch
+	array[ 13254] = assign( 20, "01011001101010010111" );
 	array[-13254] = assign( 20, "01111001101010010111" );
-	array[ 13255] = assign( 20, "01110111101011110111" );	// warning: length mismatch
+	array[ 13255] = assign( 20, "01110111101011110111" );
 	array[-13255] = assign( 20, "01010111101011110111" );
 	array[ 13256] = assign( 26, "10011111010101010101101010" );
 	array[-13256] = assign( 26, "10011111111101010000111000" );
@@ -27351,31 +27363,33 @@
 	array[-13266] = assign( 26, "10011111111101010011101010" );
 	array[ 13267] = assign( 26, "11111111111101010110111010" );
 	array[-13267] = assign( 26, "10111111111101010110111010" );
-	array[ 13268] = assign( 28, "1001111101010101011111011010" );
-	array[-13268] = assign( 28, "1001111111110101001110100110" );
-	array[ 13269] = assign( 28, "1011111101010101001111001110" );
-	array[-13269] = assign( 28, "1001111111110101001110101110" );
-	array[ 13270] = assign( 28, "1111111111110101011011101110" );
-	array[-13270] = assign( 28, "1011111111110101011011101110" );
-	array[ 13271] = assign( 29, "10011111010101010110111011010" );
-	array[-13271] = assign( 29, "10011111111101010011101011010" );
-	array[ 13272] = assign( 29, "10011111010101010111111011010" );
-	array[-13272] = assign( 29, "10011111111101010011101001110" );
-	array[ 13273] = assign( 29, "10111111010101010011111001110" );
-	array[-13273] = assign( 29, "10011111111101010011101011110" );
-	array[ 13274] = assign( 29, "11111111111101010110111011110" );
-	array[-13274] = assign( 29, "10111111111101010110111011110" );
-	array[ 13275] = assign( 29, "10111111110101010101111011110" );
-	array[-13275] = assign( 29, "11111111110101010101111011110" );
-	array[ 13276] = assign( 29, "10111111110101010101111001110" );
-	array[-13276] = assign( 29, "10111111011101010001111011110" );
-	array[ 13277] = assign( 29, "10111111110101010101111011010" );
-	array[-13277] = assign( 29, "10111111011101010001111001110" );
-	array[ 13278] = assign( 29, "10111111110101010101111001010" );
-	array[-13278] = assign( 29, "10111111011101010001111011010" );
-	array[ 13279] = assign( 28, "1011111111010101010111101110" );
-	array[-13279] = assign( 28, "1111111111010101010111101110" );
-	// decoded 31 sequences.
+	array[ 13268] = assign( 28, "1001111101010101011011011010" );
+	array[-13268] = assign( 28, "1001111111110101001110101100" );
+	array[ 13269] = assign( 28, "1001111101010101011111011010" );
+	array[-13269] = assign( 28, "1001111111110101001110100110" );
+	array[ 13270] = assign( 28, "1011111101010101001111001110" );
+	array[-13270] = assign( 28, "1001111111110101001110101110" );
+	array[ 13271] = assign( 28, "1111111111110101011011101110" );
+	array[-13271] = assign( 28, "1011111111110101011011101110" );
+	array[ 13272] = assign( 29, "10011111010101010110111011010" );
+	array[-13272] = assign( 29, "10011111111101010011101011010" );
+	array[ 13273] = assign( 29, "10011111010101010111111011010" );
+	array[-13273] = assign( 29, "10011111111101010011101001110" );
+	array[ 13274] = assign( 29, "10111111010101010011111001110" );
+	array[-13274] = assign( 29, "10011111111101010011101011110" );
+	array[ 13275] = assign( 29, "11111111111101010110111011110" );
+	array[-13275] = assign( 29, "10111111111101010110111011110" );
+	array[ 13276] = assign( 29, "10111111110101010101111011110" );
+	array[-13276] = assign( 29, "11111111110101010101111011110" );
+	array[ 13277] = assign( 29, "10111111110101010101111001110" );
+	array[-13277] = assign( 29, "10111111011101010001111011110" );
+	array[ 13278] = assign( 29, "10111111110101010101111011010" );
+	array[-13278] = assign( 29, "10111111011101010001111001110" );
+	array[ 13279] = assign( 29, "10111111110101010101111001010" );
+	array[-13279] = assign( 29, "10111111011101010001111011010" );
+	array[ 13280] = assign( 28, "1011111111010101010111101110" );
+	array[-13280] = assign( 28, "1111111111010101010111101110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13281
 	array[ 13281] = assign( 28, "1011111111010101010111100110" );
 	array[-13281] = assign( 28, "1011111101110101000111101110" );
@@ -27387,9 +27401,9 @@
 	array[-13284] = assign( 26, "11111111110101010101111010" );
 	array[ 13285] = assign( 26, "10111111110101010101111000" );
 	array[-13285] = assign( 26, "10111111011101010001111010" );
-	array[ 13286] = assign( 20, "01011001101011010111" );	// warning: length mismatch
+	array[ 13286] = assign( 20, "01011001101011010111" );
 	array[-13286] = assign( 20, "01111001101011010111" );
-	array[ 13287] = assign( 20, "01110111101010110111" );	// warning: length mismatch
+	array[ 13287] = assign( 20, "01110111101010110111" );
 	array[-13287] = assign( 20, "01010111101010110111" );
 	array[ 13288] = assign( 26, "10011111110101010101101010" );
 	array[-13288] = assign( 26, "10011111011101010000111000" );
@@ -27415,25 +27429,33 @@
 	array[-13298] = assign( 26, "10011111011101010011101010" );
 	array[ 13299] = assign( 26, "11111111011101010110111010" );
 	array[-13299] = assign( 26, "10111111011101010110111010" );
-	array[ 13300] = assign( 28, "1001111111010101011111011010" );
-	array[-13300] = assign( 28, "1001111101110101001110100110" );
-	array[ 13301] = assign( 28, "1011111111010101001111001110" );
-	array[-13301] = assign( 28, "1001111101110101001110101110" );
-	array[ 13302] = assign( 28, "1111111101110101011011101110" );
-	array[-13302] = assign( 28, "1011111101110101011011101110" );
-	array[ 13303] = assign( 29, "10011111110101010110111011010" );
-	array[-13303] = assign( 29, "10011111011101010011101011010" );
-	array[ 13304] = assign( 29, "10011111110101010111111011010" );
-	array[-13304] = assign( 29, "10011111011101010011101001110" );
-	array[ 13305] = assign( 29, "10111111110101010011111001110" );
-	array[-13305] = assign( 29, "10011111011101010011101011110" );
-	array[ 13306] = assign( 29, "11111111011101010110111011110" );
-	array[-13306] = assign( 29, "10111111011101010110111011110" );
-	array[ 13307] = assign( 30, "100111111101010100011111011110" );
-	array[-13307] = assign( 30, "100111110111010100111010110110" );
-	array[ 13308] = assign( 29, "10011111110101010001111111110" );
-	array[-13308] = assign( 29, "11011111110101010001111111110" );
-	// decoded 28 sequences.
+	array[ 13300] = assign( 28, "1001111111010101011011011010" );
+	array[-13300] = assign( 28, "1001111101110101001110101100" );
+	array[ 13301] = assign( 28, "1001111111010101011111011010" );
+	array[-13301] = assign( 28, "1001111101110101001110100110" );
+	array[ 13302] = assign( 28, "1011111111010101001111001110" );
+	array[-13302] = assign( 28, "1001111101110101001110101110" );
+	array[ 13303] = assign( 28, "1111111101110101011011101110" );
+	array[-13303] = assign( 28, "1011111101110101011011101110" );
+	array[ 13304] = assign( 29, "10011111110101010110111011010" );
+	array[-13304] = assign( 29, "10011111011101010011101011010" );
+	array[ 13305] = assign( 29, "10011111110101010111111011010" );
+	array[-13305] = assign( 29, "10011111011101010011101001110" );
+	array[ 13306] = assign( 29, "10111111110101010011111001110" );
+	array[-13306] = assign( 29, "10011111011101010011101011110" );
+	array[ 13307] = assign( 29, "11111111011101010110111011110" );
+	array[-13307] = assign( 29, "10111111011101010110111011110" );
+	array[ 13308] = assign( 30, "100111111101010100011111011110" );
+	array[-13308] = assign( 30, "100111110111010100111010110110" );
+	array[ 13309] = assign( 30, "100111111101010100001011101110" );
+	array[-13309] = assign( 30, "100111110111010100111010011110" );
+	array[ 13310] = assign( 30, "100111111101010100011011111010" );
+	array[-13310] = assign( 30, "100111110111010100111010111110" );
+	array[ 13311] = assign( 30, "100111111101010100001111101010" );
+	array[-13311] = assign( 30, "100111110111010100111010010111" );
+	array[ 13312] = assign( 29, "10011111110101010001111111110" );
+	array[-13312] = assign( 29, "11011111110101010001111111110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13313
 	array[ 13313] = assign( 29, "10111111011101010100101100110" );
 	array[-13313] = assign( 29, "10011111011101010101111111110" );
@@ -27445,9 +27467,9 @@
 	array[-13316] = assign( 27, "111111110111010101001011010" );
 	array[ 13317] = assign( 27, "101111110111010101001011000" );
 	array[-13317] = assign( 27, "101111111101010100001011010" );
-	array[ 13318] = assign( 20, "01011000111010110111" );	// warning: length mismatch
+	array[ 13318] = assign( 20, "01011000111010110111" );
 	array[-13318] = assign( 20, "01111000111010110111" );
-	array[ 13319] = assign( 20, "01110110111011010111" );	// warning: length mismatch
+	array[ 13319] = assign( 20, "01110110111011010111" );
 	array[-13319] = assign( 20, "01010110111011010111" );
 	array[ 13320] = assign( 26, "10011111011101010100111010" );
 	array[-13320] = assign( 26, "10011111110101010001111000" );
@@ -27475,25 +27497,31 @@
 	array[-13331] = assign( 26, "10011111110101010010111010" );
 	array[ 13332] = assign( 26, "11111111110101010111111010" );
 	array[-13332] = assign( 26, "10111111110101010111111010" );
-	array[ 13333] = assign( 28, "1001111101110101011111001110" );
-	array[-13333] = assign( 28, "1001111111010101001011100110" );
-	array[ 13334] = assign( 28, "1011111101110101001111011110" );
-	array[-13334] = assign( 28, "1001111111010101001011101110" );
-	array[ 13335] = assign( 28, "1111111111010101011111101110" );
-	array[-13335] = assign( 28, "1011111111010101011111101110" );
-	array[ 13336] = assign( 29, "10011111011101010110111001110" );
-	array[-13336] = assign( 29, "10011111110101010010111011010" );
-	array[ 13337] = assign( 29, "10011111011101010111111001110" );
-	array[-13337] = assign( 29, "10011111110101010010111001110" );
-	array[ 13338] = assign( 29, "10111111011101010011111011110" );
-	array[-13338] = assign( 29, "10011111110101010010111011110" );
-	array[ 13339] = assign( 29, "11111111110101010111111011110" );
-	array[-13339] = assign( 29, "10111111110101010111111011110" );
-	array[ 13340] = assign( 30, "100111110111010100011111001110" );
-	array[-13340] = assign( 30, "100111111101010100101110110110" );
-	array[ 13341] = assign( 29, "10011111011101010000111111110" );
-	array[-13341] = assign( 29, "11011111011101010000111111110" );
-	// decoded 29 sequences.
+	array[ 13333] = assign( 28, "1001111101110101011011001110" );
+	array[-13333] = assign( 28, "1001111111010101001011101100" );
+	array[ 13334] = assign( 28, "1001111101110101011111001110" );
+	array[-13334] = assign( 28, "1001111111010101001011100110" );
+	array[ 13335] = assign( 28, "1011111101110101001111011110" );
+	array[-13335] = assign( 28, "1001111111010101001011101110" );
+	array[ 13336] = assign( 28, "1111111111010101011111101110" );
+	array[-13336] = assign( 28, "1011111111010101011111101110" );
+	array[ 13337] = assign( 29, "10011111011101010110111001110" );
+	array[-13337] = assign( 29, "10011111110101010010111011010" );
+	array[ 13338] = assign( 29, "10011111011101010111111001110" );
+	array[-13338] = assign( 29, "10011111110101010010111001110" );
+	array[ 13339] = assign( 29, "10111111011101010011111011110" );
+	array[-13339] = assign( 29, "10011111110101010010111011110" );
+	array[ 13340] = assign( 29, "11111111110101010111111011110" );
+	array[-13340] = assign( 29, "10111111110101010111111011110" );
+	array[ 13341] = assign( 30, "100111110111010100011111001110" );
+	array[-13341] = assign( 30, "100111111101010100101110110110" );
+	array[ 13342] = assign( 30, "100111110111010100001011111010" );
+	array[-13342] = assign( 30, "100111111101010100101110011110" );
+	array[ 13343] = assign( 30, "100111110111010100011011101010" );
+	array[-13343] = assign( 30, "100111111101010100101110111110" );
+	array[ 13344] = assign( 29, "10011111011101010000111111110" );
+	array[-13344] = assign( 29, "11011111011101010000111111110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13345
 	array[ 13345] = assign( 29, "10011111011101010001111110110" );
 	array[-13345] = assign( 29, "10011111110101010100111111110" );
@@ -27505,9 +27533,9 @@
 	array[-13348] = assign( 27, "111111111111010101001011010" );
 	array[ 13349] = assign( 27, "101111111111010101001011000" );
 	array[-13349] = assign( 27, "101111110101010100001011010" );
-	array[ 13350] = assign( 20, "01011000111011110111" );	// warning: length mismatch
+	array[ 13350] = assign( 20, "01011000111011110111" );
 	array[-13350] = assign( 20, "01111000111011110111" );
-	array[ 13351] = assign( 20, "01110110111010010111" );	// warning: length mismatch
+	array[ 13351] = assign( 20, "01110110111010010111" );
 	array[-13351] = assign( 20, "01010110111010010111" );
 	array[ 13352] = assign( 26, "10011111111101010100111010" );
 	array[-13352] = assign( 26, "10011111010101010001111000" );
@@ -27535,29 +27563,31 @@
 	array[-13363] = assign( 26, "10011111010101010010111010" );
 	array[ 13364] = assign( 26, "11111111010101010111111010" );
 	array[-13364] = assign( 26, "10111111010101010111111010" );
-	array[ 13365] = assign( 28, "1001111111110101011111001110" );
-	array[-13365] = assign( 28, "1001111101010101001011100110" );
-	array[ 13366] = assign( 28, "1011111111110101001111011110" );
-	array[-13366] = assign( 28, "1001111101010101001011101110" );
-	array[ 13367] = assign( 28, "1111111101010101011111101110" );
-	array[-13367] = assign( 28, "1011111101010101011111101110" );
-	array[ 13368] = assign( 29, "10011111111101010110111001110" );
-	array[-13368] = assign( 29, "10011111010101010010111011010" );
-	array[ 13369] = assign( 29, "10011111111101010111111001110" );
-	array[-13369] = assign( 29, "10011111010101010010111001110" );
-	array[ 13370] = assign( 29, "10111111111101010011111011110" );
-	array[-13370] = assign( 29, "10011111010101010010111011110" );
-	array[ 13371] = assign( 29, "11111111010101010111111011110" );
-	array[-13371] = assign( 29, "10111111010101010111111011110" );
-	array[ 13372] = assign( 29, "11111111111111100011011011110" );
-	array[-13372] = assign( 29, "10111111111111100011011011110" );
-	array[ 13373] = assign( 29, "11111111111111100011011001110" );
-	array[-13373] = assign( 29, "10111111111111100011011001110" );
-	array[ 13374] = assign( 29, "11111111111111100011011011010" );
-	array[-13374] = assign( 29, "10111111111111100011011011010" );
-	array[ 13375] = assign( 29, "10011111111101010000111111110" );
-	array[-13375] = assign( 29, "10111111111111100011011001010" );
-	// decoded 31 sequences.
+	array[ 13365] = assign( 28, "1001111111110101011011001110" );
+	array[-13365] = assign( 28, "1001111101010101001011101100" );
+	array[ 13366] = assign( 28, "1001111111110101011111001110" );
+	array[-13366] = assign( 28, "1001111101010101001011100110" );
+	array[ 13367] = assign( 28, "1011111111110101001111011110" );
+	array[-13367] = assign( 28, "1001111101010101001011101110" );
+	array[ 13368] = assign( 28, "1111111101010101011111101110" );
+	array[-13368] = assign( 28, "1011111101010101011111101110" );
+	array[ 13369] = assign( 29, "10011111111101010110111001110" );
+	array[-13369] = assign( 29, "10011111010101010010111011010" );
+	array[ 13370] = assign( 29, "10011111111101010111111001110" );
+	array[-13370] = assign( 29, "10011111010101010010111001110" );
+	array[ 13371] = assign( 29, "10111111111101010011111011110" );
+	array[-13371] = assign( 29, "10011111010101010010111011110" );
+	array[ 13372] = assign( 29, "11111111010101010111111011110" );
+	array[-13372] = assign( 29, "10111111010101010111111011110" );
+	array[ 13373] = assign( 29, "11111111111111100011011011110" );
+	array[-13373] = assign( 29, "10111111111111100011011011110" );
+	array[ 13374] = assign( 29, "11111111111111100011011001110" );
+	array[-13374] = assign( 29, "10111111111111100011011001110" );
+	array[ 13375] = assign( 29, "11111111111111100011011011010" );
+	array[-13375] = assign( 29, "10111111111111100011011011010" );
+	array[ 13376] = assign( 29, "10011111111101010000111111110" );
+	array[-13376] = assign( 29, "10111111111111100011011001010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13377
 	array[ 13377] = assign( 28, "1111111111111110001101101110" );
 	array[-13377] = assign( 28, "1011111111111110001101101110" );
@@ -27569,9 +27599,9 @@
 	array[-13380] = assign( 27, "111111110101110101011011010" );
 	array[ 13381] = assign( 26, "11111111111111100011011010" );
 	array[-13381] = assign( 26, "10111111111111100011011010" );
-	array[ 13382] = assign( 20, "01011001111010011111" );	// warning: length mismatch
+	array[ 13382] = assign( 20, "01011001111010011111" );
 	array[-13382] = assign( 20, "01111001111010011111" );
-	array[ 13383] = assign( 20, "01110111111011111110" );	// warning: length mismatch
+	array[ 13383] = assign( 20, "01110111111011111110" );
 	array[-13383] = assign( 20, "01010111111011111110" );
 	array[ 13384] = assign( 26, "10011111010111010101111010" );
 	array[-13384] = assign( 26, "10011111111111100001011000" );
@@ -27635,9 +27665,9 @@
 	array[-13412] = assign( 27, "111111111101110101011011010" );
 	array[ 13413] = assign( 26, "11111111011111100011011010" );
 	array[-13413] = assign( 26, "10111111011111100011011010" );
-	array[ 13414] = assign( 20, "01011001111011011111" );	// warning: length mismatch
+	array[ 13414] = assign( 20, "01011001111011011111" );
 	array[-13414] = assign( 20, "01111001111011011111" );
-	array[ 13415] = assign( 20, "01110111111010111110" );	// warning: length mismatch
+	array[ 13415] = assign( 20, "01110111111010111110" );
 	array[-13415] = assign( 20, "01010111111010111110" );
 	array[ 13416] = assign( 26, "10011111110111010101111010" );
 	array[-13416] = assign( 26, "10011111011111100001011000" );
@@ -27701,9 +27731,9 @@
 	array[-13444] = assign( 27, "111111110111110101001111010" );
 	array[ 13445] = assign( 26, "11111111110111100001111010" );
 	array[-13445] = assign( 26, "10111111110111100001111010" );
-	array[ 13446] = assign( 21, "010110001011010111111" );	// warning: length mismatch
+	array[ 13446] = assign( 21, "010110001011010111111" );
 	array[-13446] = assign( 21, "011110001011010111111" );
-	array[ 13447] = assign( 21, "011101101011011011110" );	// warning: length mismatch
+	array[ 13447] = assign( 21, "011101101011011011110" );
 	array[-13447] = assign( 21, "010101101011011011110" );
 	array[ 13448] = assign( 26, "11011111110111100011011000" );
 	array[-13448] = assign( 26, "10011111110111100011011000" );
@@ -27767,9 +27797,9 @@
 	array[-13476] = assign( 27, "111111111111110101001111010" );
 	array[ 13477] = assign( 26, "11111111010111100001111010" );
 	array[-13477] = assign( 26, "10111111010111100001111010" );
-	array[ 13478] = assign( 21, "010110001011011111111" );	// warning: length mismatch
+	array[ 13478] = assign( 21, "010110001011011111111" );
 	array[-13478] = assign( 21, "011110001011011111111" );
-	array[ 13479] = assign( 21, "011101101011010011110" );	// warning: length mismatch
+	array[ 13479] = assign( 21, "011101101011010011110" );
 	array[-13479] = assign( 21, "010101101011010011110" );
 	array[ 13480] = assign( 26, "11011111010111100011011000" );
 	array[-13480] = assign( 26, "10011111010111100011011000" );
@@ -27835,7 +27865,7 @@
 	array[-13509] = assign( 26, "10111111111101100011111010" );
 	array[ 13510] = assign( 26, "11111111111101100011111000" );
 	array[-13510] = assign( 26, "10111111111101100011111000" );
-	array[ 13511] = assign( 21, "011101111011011110110" );	// warning: length mismatch
+	array[ 13511] = assign( 21, "011101111011011110110" );
 	array[-13511] = assign( 21, "010101111011011110110" );
 	array[ 13512] = assign( 26, "11011111111101100001111000" );
 	array[-13512] = assign( 26, "10011111111101100001111000" );
@@ -27869,23 +27899,25 @@
 	array[-13526] = assign( 26, "10011111111101100111011010" );
 	array[ 13527] = assign( 26, "11111111111101101101111010" );
 	array[-13527] = assign( 26, "10111111111101101101111010" );
-	array[ 13528] = assign( 28, "1101111111110110011101100110" );
-	array[-13528] = assign( 28, "1001111111110110011101100110" );
-	array[ 13529] = assign( 28, "1101111111110110011101101110" );
-	array[-13529] = assign( 28, "1001111111110110011101101110" );
-	array[ 13530] = assign( 28, "1111111111110110110111101110" );
-	array[-13530] = assign( 28, "1011111111110110110111101110" );
-	array[ 13531] = assign( 29, "10011111010101110001111011110" );
-	array[-13531] = assign( 29, "10011111111101100111011011010" );
-	array[ 13532] = assign( 28, "1101111111110110101111011110" );
-	array[-13532] = assign( 28, "1001111111110110101111011110" );
-	array[ 13533] = assign( 29, "11011111111101100111011011110" );
-	array[-13533] = assign( 29, "10011111111101100111011011110" );
-	array[ 13534] = assign( 29, "11011111111101101011011011010" );
-	array[-13534] = assign( 29, "10011111111101101011011011010" );
-	array[ 13535] = assign( 29, "10011111010101110001111101110" );
-	array[-13535] = assign( 29, "10011111111101101001111001010" );
-	// decoded 31 sequences.
+	array[ 13528] = assign( 28, "1101111111110110011101101100" );
+	array[-13528] = assign( 28, "1001111111110110011101101100" );
+	array[ 13529] = assign( 28, "1101111111110110011101100110" );
+	array[-13529] = assign( 28, "1001111111110110011101100110" );
+	array[ 13530] = assign( 28, "1101111111110110011101101110" );
+	array[-13530] = assign( 28, "1001111111110110011101101110" );
+	array[ 13531] = assign( 28, "1111111111110110110111101110" );
+	array[-13531] = assign( 28, "1011111111110110110111101110" );
+	array[ 13532] = assign( 29, "10011111010101110001111011110" );
+	array[-13532] = assign( 29, "10011111111101100111011011010" );
+	array[ 13533] = assign( 28, "1101111111110110101111011110" );
+	array[-13533] = assign( 28, "1001111111110110101111011110" );
+	array[ 13534] = assign( 29, "11011111111101100111011011110" );
+	array[-13534] = assign( 29, "10011111111101100111011011110" );
+	array[ 13535] = assign( 29, "11011111111101101011011011010" );
+	array[-13535] = assign( 29, "10011111111101101011011011010" );
+	array[ 13536] = assign( 29, "10011111010101110001111101110" );
+	array[-13536] = assign( 29, "10011111111101101001111001010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13537
 	array[ 13537] = assign( 28, "1101111111110110101111101110" );
 	array[-13537] = assign( 28, "1001111111110110101111101110" );
@@ -27899,7 +27931,7 @@
 	array[-13541] = assign( 26, "10011111111101101011111110" );
 	array[ 13542] = assign( 26, "11111111011101100011111000" );
 	array[-13542] = assign( 26, "10111111011101100011111000" );
-	array[ 13543] = assign( 21, "011101111011010110110" );	// warning: length mismatch
+	array[ 13543] = assign( 21, "011101111011010110110" );
 	array[-13543] = assign( 21, "010101111011010110110" );
 	array[ 13544] = assign( 26, "11011111011101100001111000" );
 	array[-13544] = assign( 26, "10011111011101100001111000" );
@@ -27933,23 +27965,25 @@
 	array[-13558] = assign( 26, "10011111011101100111011010" );
 	array[ 13559] = assign( 26, "11111111011101101101111010" );
 	array[-13559] = assign( 26, "10111111011101101101111010" );
-	array[ 13560] = assign( 28, "1101111101110110011101100110" );
-	array[-13560] = assign( 28, "1001111101110110011101100110" );
-	array[ 13561] = assign( 28, "1101111101110110011101101110" );
-	array[-13561] = assign( 28, "1001111101110110011101101110" );
-	array[ 13562] = assign( 28, "1111111101110110110111101110" );
-	array[-13562] = assign( 28, "1011111101110110110111101110" );
-	array[ 13563] = assign( 29, "10011111110101110001111011110" );
-	array[-13563] = assign( 29, "10011111011101100111011011010" );
-	array[ 13564] = assign( 28, "1101111101110110101111011110" );
-	array[-13564] = assign( 28, "1001111101110110101111011110" );
-	array[ 13565] = assign( 29, "11011111011101100111011011110" );
-	array[-13565] = assign( 29, "10011111011101100111011011110" );
-	array[ 13566] = assign( 29, "11011111011101101011011011010" );
-	array[-13566] = assign( 29, "10011111011101101011011011010" );
-	array[ 13567] = assign( 29, "10011111110101110001111101110" );
-	array[-13567] = assign( 29, "10011111011101101001111001010" );
-	// decoded 31 sequences.
+	array[ 13560] = assign( 28, "1101111101110110011101101100" );
+	array[-13560] = assign( 28, "1001111101110110011101101100" );
+	array[ 13561] = assign( 28, "1101111101110110011101100110" );
+	array[-13561] = assign( 28, "1001111101110110011101100110" );
+	array[ 13562] = assign( 28, "1101111101110110011101101110" );
+	array[-13562] = assign( 28, "1001111101110110011101101110" );
+	array[ 13563] = assign( 28, "1111111101110110110111101110" );
+	array[-13563] = assign( 28, "1011111101110110110111101110" );
+	array[ 13564] = assign( 29, "10011111110101110001111011110" );
+	array[-13564] = assign( 29, "10011111011101100111011011010" );
+	array[ 13565] = assign( 28, "1101111101110110101111011110" );
+	array[-13565] = assign( 28, "1001111101110110101111011110" );
+	array[ 13566] = assign( 29, "11011111011101100111011011110" );
+	array[-13566] = assign( 29, "10011111011101100111011011110" );
+	array[ 13567] = assign( 29, "11011111011101101011011011010" );
+	array[-13567] = assign( 29, "10011111011101101011011011010" );
+	array[ 13568] = assign( 29, "10011111110101110001111101110" );
+	array[-13568] = assign( 29, "10011111011101101001111001010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13569
 	array[ 13569] = assign( 28, "1101111101110110101111101110" );
 	array[-13569] = assign( 28, "1001111101110110101111101110" );
@@ -27963,7 +27997,7 @@
 	array[-13573] = assign( 26, "10011111011101101011111110" );
 	array[ 13574] = assign( 26, "11111111110101100001011100" );
 	array[-13574] = assign( 26, "10111111110101100001011100" );
-	array[ 13575] = assign( 21, "011101101111011010110" );	// warning: length mismatch
+	array[ 13575] = assign( 21, "011101101111011010110" );
 	array[-13575] = assign( 21, "010101101111011010110" );
 	array[ 13576] = assign( 26, "11011111110101100011111000" );
 	array[-13576] = assign( 26, "10011111110101100011111000" );
@@ -27999,21 +28033,23 @@
 	array[-13591] = assign( 26, "10011111110101100101111010" );
 	array[ 13592] = assign( 26, "11111111110101101111111010" );
 	array[-13592] = assign( 26, "10111111110101101111111010" );
-	array[ 13593] = assign( 28, "1101111111010110010111100110" );
-	array[-13593] = assign( 28, "1001111111010110010111100110" );
-	array[ 13594] = assign( 28, "1101111111010110010111101110" );
-	array[-13594] = assign( 28, "1001111111010110010111101110" );
-	array[ 13595] = assign( 28, "1111111111010110111111101110" );
-	array[-13595] = assign( 28, "1011111111010110111111101110" );
-	array[ 13596] = assign( 28, "1101111111010110100111011110" );
-	array[-13596] = assign( 28, "1001111111010110100111011110" );
-	array[ 13597] = assign( 28, "1101111111010110101111001110" );
-	array[-13597] = assign( 28, "1001111111010110101111001110" );
-	array[ 13598] = assign( 29, "11011111110101100101111011110" );
-	array[-13598] = assign( 29, "10011111110101100101111011110" );
-	array[ 13599] = assign( 29, "10011111011101110000111101110" );
-	array[-13599] = assign( 29, "10011111110101101011011001010" );
-	// decoded 31 sequences.
+	array[ 13593] = assign( 28, "1101111111010110010111101100" );
+	array[-13593] = assign( 28, "1001111111010110010111101100" );
+	array[ 13594] = assign( 28, "1101111111010110010111100110" );
+	array[-13594] = assign( 28, "1001111111010110010111100110" );
+	array[ 13595] = assign( 28, "1101111111010110010111101110" );
+	array[-13595] = assign( 28, "1001111111010110010111101110" );
+	array[ 13596] = assign( 28, "1111111111010110111111101110" );
+	array[-13596] = assign( 28, "1011111111010110111111101110" );
+	array[ 13597] = assign( 28, "1101111111010110100111011110" );
+	array[-13597] = assign( 28, "1001111111010110100111011110" );
+	array[ 13598] = assign( 28, "1101111111010110101111001110" );
+	array[-13598] = assign( 28, "1001111111010110101111001110" );
+	array[ 13599] = assign( 29, "11011111110101100101111011110" );
+	array[-13599] = assign( 29, "10011111110101100101111011110" );
+	array[ 13600] = assign( 29, "10011111011101110000111101110" );
+	array[-13600] = assign( 29, "10011111110101101011011001010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13601
 	array[ 13601] = assign( 28, "1101111111010110100111101110" );
 	array[-13601] = assign( 28, "1001111111010110100111101110" );
@@ -28027,7 +28063,7 @@
 	array[-13605] = assign( 26, "10011111110101101001111110" );
 	array[ 13606] = assign( 26, "11011111110101101011111100" );
 	array[-13606] = assign( 26, "10011111110101101011111100" );
-	array[ 13607] = assign( 21, "011101101111010010110" );	// warning: length mismatch
+	array[ 13607] = assign( 21, "011101101111010010110" );
 	array[-13607] = assign( 21, "010101101111010010110" );
 	array[ 13608] = assign( 26, "11011111010101100011111000" );
 	array[-13608] = assign( 26, "10011111010101100011111000" );
@@ -28063,21 +28099,23 @@
 	array[-13623] = assign( 26, "10011111010101100101111010" );
 	array[ 13624] = assign( 26, "11111111010101101111111010" );
 	array[-13624] = assign( 26, "10111111010101101111111010" );
-	array[ 13625] = assign( 28, "1101111101010110010111100110" );
-	array[-13625] = assign( 28, "1001111101010110010111100110" );
-	array[ 13626] = assign( 28, "1101111101010110010111101110" );
-	array[-13626] = assign( 28, "1001111101010110010111101110" );
-	array[ 13627] = assign( 28, "1111111101010110111111101110" );
-	array[-13627] = assign( 28, "1011111101010110111111101110" );
-	array[ 13628] = assign( 28, "1101111101010110100111011110" );
-	array[-13628] = assign( 28, "1001111101010110100111011110" );
-	array[ 13629] = assign( 28, "1101111101010110101111001110" );
-	array[-13629] = assign( 28, "1001111101010110101111001110" );
-	array[ 13630] = assign( 29, "11011111010101100101111011110" );
-	array[-13630] = assign( 29, "10011111010101100101111011110" );
-	array[ 13631] = assign( 29, "10011111111101110000111101110" );
-	array[-13631] = assign( 29, "10011111010101101011011001010" );
-	// decoded 31 sequences.
+	array[ 13625] = assign( 28, "1101111101010110010111101100" );
+	array[-13625] = assign( 28, "1001111101010110010111101100" );
+	array[ 13626] = assign( 28, "1101111101010110010111100110" );
+	array[-13626] = assign( 28, "1001111101010110010111100110" );
+	array[ 13627] = assign( 28, "1101111101010110010111101110" );
+	array[-13627] = assign( 28, "1001111101010110010111101110" );
+	array[ 13628] = assign( 28, "1111111101010110111111101110" );
+	array[-13628] = assign( 28, "1011111101010110111111101110" );
+	array[ 13629] = assign( 28, "1101111101010110100111011110" );
+	array[-13629] = assign( 28, "1001111101010110100111011110" );
+	array[ 13630] = assign( 28, "1101111101010110101111001110" );
+	array[-13630] = assign( 28, "1001111101010110101111001110" );
+	array[ 13631] = assign( 29, "11011111010101100101111011110" );
+	array[-13631] = assign( 29, "10011111010101100101111011110" );
+	array[ 13632] = assign( 29, "10011111111101110000111101110" );
+	array[-13632] = assign( 29, "10011111010101101011011001010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 13633
 	array[ 13633] = assign( 28, "1101111101010110100111101110" );
 	array[-13633] = assign( 28, "1001111101010110100111101110" );
@@ -28091,7 +28129,7 @@
 	array[-13637] = assign( 26, "10011111010101101001111110" );
 	array[ 13638] = assign( 26, "11011111010101101011111100" );
 	array[-13638] = assign( 26, "10011111010101101011111100" );
-	array[ 13639] = assign( 20, "01110111111101111110" );	// warning: length mismatch
+	array[ 13639] = assign( 20, "01110111111101111110" );
 	array[-13639] = assign( 20, "01010111111101111110" );
 	array[ 13640] = assign( 26, "11011111111111000001011100" );
 	array[-13640] = assign( 26, "10011111111111000001011100" );
@@ -28157,7 +28195,7 @@
 	array[-13669] = assign( 26, "10011111111111001011011110" );
 	array[ 13670] = assign( 26, "11011111111111001001111100" );
 	array[-13670] = assign( 26, "10011111111111001001111100" );
-	array[ 13671] = assign( 20, "01110111111101011110" );	// warning: length mismatch
+	array[ 13671] = assign( 20, "01110111111101011110" );
 	array[-13671] = assign( 20, "01010111111101011110" );
 	array[ 13672] = assign( 26, "11011111011111000001011100" );
 	array[-13672] = assign( 26, "10011111011111000001011100" );
@@ -28223,7 +28261,7 @@
 	array[-13701] = assign( 26, "10011111011111001011011110" );
 	array[ 13702] = assign( 26, "11011111011111001001111100" );
 	array[-13702] = assign( 26, "10011111011111001001111100" );
-	array[ 13703] = assign( 20, "01110110101111101110" );	// warning: length mismatch
+	array[ 13703] = assign( 20, "01110110101111101110" );
 	array[-13703] = assign( 20, "01010110101111101110" );
 	array[ 13704] = assign( 26, "11011111110111000011011100" );
 	array[-13704] = assign( 26, "10011111110111000011011100" );
@@ -28289,7 +28327,7 @@
 	array[-13733] = assign( 26, "10011111110111001001011110" );
 	array[ 13734] = assign( 26, "11011111110111001011011100" );
 	array[-13734] = assign( 26, "10011111110111001011011100" );
-	array[ 13735] = assign( 20, "01110110101111001110" );	// warning: length mismatch
+	array[ 13735] = assign( 20, "01110110101111001110" );
 	array[-13735] = assign( 20, "01010110101111001110" );
 	array[ 13736] = assign( 26, "11011111010111000011011100" );
 	array[-13736] = assign( 26, "10011111010111000011011100" );
@@ -28355,7 +28393,7 @@
 	array[-13765] = assign( 26, "10011111010111001001011110" );
 	array[ 13766] = assign( 26, "11011111010111001011011100" );
 	array[-13766] = assign( 26, "10011111010111001011011100" );
-	array[ 13767] = assign( 20, "01110111101111111010" );	// warning: length mismatch
+	array[ 13767] = assign( 20, "01110111101111111010" );
 	array[-13767] = assign( 20, "01010111101111111010" );
 	array[ 13768] = assign( 26, "11011111111101000001111100" );
 	array[-13768] = assign( 26, "10011111111101000001111100" );
@@ -28421,7 +28459,7 @@
 	array[-13797] = assign( 26, "10011111111101001011111010" );
 	array[ 13798] = assign( 26, "11011111111101001001011100" );
 	array[-13798] = assign( 26, "10011111111101001001011100" );
-	array[ 13799] = assign( 20, "01110111101111011010" );	// warning: length mismatch
+	array[ 13799] = assign( 20, "01110111101111011010" );
 	array[-13799] = assign( 20, "01010111101111011010" );
 	array[ 13800] = assign( 26, "11011111011101000001111100" );
 	array[-13800] = assign( 26, "10011111011101000001111100" );
@@ -28487,7 +28525,7 @@
 	array[-13829] = assign( 26, "10011111011101001011111010" );
 	array[ 13830] = assign( 26, "11011111011101001001011100" );
 	array[-13830] = assign( 26, "10011111011101001001011100" );
-	array[ 13831] = assign( 20, "01110110111111101010" );	// warning: length mismatch
+	array[ 13831] = assign( 20, "01110110111111101010" );
 	array[-13831] = assign( 20, "01010110111111101010" );
 	array[ 13832] = assign( 26, "11011111110101000011111100" );
 	array[-13832] = assign( 26, "10011111110101000011111100" );
@@ -28553,7 +28591,7 @@
 	array[-13861] = assign( 26, "10011111110101001001111010" );
 	array[ 13862] = assign( 26, "11011111110101001011111000" );
 	array[-13862] = assign( 26, "10011111110101001011111000" );
-	array[ 13863] = assign( 20, "01110110111111001010" );	// warning: length mismatch
+	array[ 13863] = assign( 20, "01110110111111001010" );
 	array[-13863] = assign( 20, "01010110111111001010" );
 	array[ 13864] = assign( 26, "11011111010101000011111100" );
 	array[-13864] = assign( 26, "10011111010101000011111100" );
@@ -28619,7 +28657,7 @@
 	array[-13893] = assign( 26, "10011111010101001001111010" );
 	array[ 13894] = assign( 26, "11011111010101001011111000" );
 	array[-13894] = assign( 26, "10011111010101001011111000" );
-	array[ 13895] = assign( 19, "0111011111111111110" );	// warning: length mismatch
+	array[ 13895] = assign( 19, "0111011111111111110" );
 	array[-13895] = assign( 19, "0101011111111111110" );
 	array[ 13896] = assign( 26, "11111111010101001001011100" );
 	array[-13896] = assign( 26, "10111111010101001001011100" );
@@ -28685,7 +28723,7 @@
 	array[-13925] = assign( 24, "100111111111101011011010" );
 	array[ 13926] = assign( 24, "110111111111101001111000" );
 	array[-13926] = assign( 24, "100111111111101001111000" );
-	array[ 13927] = assign( 19, "0111011111111101110" );	// warning: length mismatch
+	array[ 13927] = assign( 19, "0111011111111101110" );
 	array[-13927] = assign( 19, "0101011111111101110" );
 	array[ 13928] = assign( 24, "111111111111101011111000" );
 	array[-13928] = assign( 24, "101111111111101011111000" );
@@ -28751,7 +28789,7 @@
 	array[-13957] = assign( 24, "100111110111101011011010" );
 	array[ 13958] = assign( 24, "110111110111101001111000" );
 	array[-13958] = assign( 24, "100111110111101001111000" );
-	array[ 13959] = assign( 19, "0111100110110101110" );	// warning: length mismatch
+	array[ 13959] = assign( 19, "0111100110110101110" );
 	array[-13959] = assign( 19, "0101100110110101110" );
 	array[ 13960] = assign( 24, "111111110111101011111000" );
 	array[-13960] = assign( 24, "101111110111101011111000" );
@@ -28817,7 +28855,7 @@
 	array[-13989] = assign( 24, "100111111101101001011010" );
 	array[ 13990] = assign( 24, "110111111101101011011000" );
 	array[-13990] = assign( 24, "100111111101101011011000" );
-	array[ 13991] = assign( 19, "0111100010110110110" );	// warning: length mismatch
+	array[ 13991] = assign( 19, "0111100010110110110" );
 	array[-13991] = assign( 19, "0101100010110110110" );
 	array[ 13992] = assign( 24, "111111111101101001111000" );
 	array[-13992] = assign( 24, "101111111101101001111000" );
@@ -28883,7 +28921,7 @@
 	array[-14021] = assign( 24, "100111110101101001011010" );
 	array[ 14022] = assign( 24, "110111110101101011011000" );
 	array[-14022] = assign( 24, "100111110101101011011000" );
-	array[ 14023] = assign( 19, "0111100010110100110" );	// warning: length mismatch
+	array[ 14023] = assign( 19, "0111100010110100110" );
 	array[-14023] = assign( 19, "0101100010110100110" );
 	array[ 14024] = assign( 24, "111111110101101001111000" );
 	array[-14024] = assign( 24, "101111110101101001111000" );
@@ -28949,7 +28987,7 @@
 	array[-14053] = assign( 23, "10011111111100101111010" );
 	array[ 14054] = assign( 24, "110111111111001001011000" );
 	array[-14054] = assign( 24, "100111111111001001011000" );
-	array[ 14055] = assign( 18, "011110011110111100" );	// warning: length mismatch
+	array[ 14055] = assign( 18, "011110011110111100" );
 	array[-14055] = assign( 18, "010110011110111100" );
 	array[ 14056] = assign( 24, "111111111111001011011000" );
 	array[-14056] = assign( 24, "101111111111001011011000" );
@@ -29015,7 +29053,7 @@
 	array[-14085] = assign( 23, "10011111011100101111010" );
 	array[ 14086] = assign( 24, "110111110111001001011000" );
 	array[-14086] = assign( 24, "100111110111001001011000" );
-	array[ 14087] = assign( 18, "011110011110101100" );	// warning: length mismatch
+	array[ 14087] = assign( 18, "011110011110101100" );
 	array[-14087] = assign( 18, "010110011110101100" );
 	array[ 14088] = assign( 24, "111111110111001011011000" );
 	array[-14088] = assign( 24, "101111110111001011011000" );
@@ -29081,7 +29119,7 @@
 	array[-14117] = assign( 23, "10011111110100100111010" );
 	array[ 14118] = assign( 23, "11011111110100101111000" );
 	array[-14118] = assign( 23, "10011111110100101111000" );
-	array[ 14119] = assign( 18, "011110001110110100" );	// warning: length mismatch
+	array[ 14119] = assign( 18, "011110001110110100" );
 	array[-14119] = assign( 18, "010110001110110100" );
 	array[ 14120] = assign( 24, "111111111101001001011000" );
 	array[-14120] = assign( 24, "101111111101001001011000" );
@@ -29147,7 +29185,7 @@
 	array[-14149] = assign( 23, "10011111010100100111010" );
 	array[ 14150] = assign( 23, "11011111010100101111000" );
 	array[-14150] = assign( 23, "10011111010100101111000" );
-	array[ 14151] = assign( 18, "011110001110100100" );	// warning: length mismatch
+	array[ 14151] = assign( 18, "011110001110100100" );
 	array[-14151] = assign( 18, "010110001110100100" );
 	array[ 14152] = assign( 24, "111111110101001001011000" );
 	array[-14152] = assign( 24, "101111110101001001011000" );
@@ -29213,7 +29251,7 @@
 	array[-14181] = assign( 21, "100111111110101101010" );
 	array[ 14182] = assign( 21, "110111111110100111000" );
 	array[-14182] = assign( 21, "100111111110100111000" );
-	array[ 14183] = assign( 16, "0111100110101110" );	// warning: length mismatch
+	array[ 14183] = assign( 16, "0111100110101110" );
 	array[-14183] = assign( 16, "0101100110101110" );
 	array[ 14184] = assign( 21, "111111111110101111000" );
 	array[-14184] = assign( 21, "101111111110101111000" );
@@ -29279,7 +29317,7 @@
 	array[-14213] = assign( 21, "100111110110101101010" );
 	array[ 14214] = assign( 21, "110111110110100111000" );
 	array[-14214] = assign( 21, "100111110110100111000" );
-	array[ 14215] = assign( 16, "0111100110101010" );	// warning: length mismatch
+	array[ 14215] = assign( 16, "0111100110101010" );
 	array[-14215] = assign( 16, "0101100110101010" );
 	array[ 14216] = assign( 21, "111111110110101111000" );
 	array[-14216] = assign( 21, "101111110110101111000" );
@@ -29345,7 +29383,7 @@
 	array[-14245] = assign( 21, "100111111100100101010" );
 	array[ 14246] = assign( 21, "110111111100101101000" );
 	array[-14246] = assign( 21, "100111111100101101000" );
-	array[ 14247] = assign( 16, "0111100010101100" );	// warning: length mismatch
+	array[ 14247] = assign( 16, "0111100010101100" );
 	array[-14247] = assign( 16, "0101100010101100" );
 	array[ 14248] = assign( 21, "111111111100100111000" );
 	array[-14248] = assign( 21, "101111111100100111000" );
@@ -29411,7 +29449,7 @@
 	array[-14277] = assign( 21, "100111110100100101010" );
 	array[ 14278] = assign( 21, "110111110100101101000" );
 	array[-14278] = assign( 21, "100111110100101101000" );
-	array[ 14279] = assign( 16, "0111100010101000" );	// warning: length mismatch
+	array[ 14279] = assign( 16, "0111100010101000" );
 	array[-14279] = assign( 16, "0101100010101000" );
 	array[ 14280] = assign( 21, "111111110100100111000" );
 	array[-14280] = assign( 21, "101111110100100111000" );
@@ -29477,7 +29515,7 @@
 	array[-14309] = assign( 18, "100111111010111010" );
 	array[ 14310] = assign( 19, "1101111110100101000" );
 	array[-14310] = assign( 19, "1001111110100101000" );
-	array[ 14311] = assign( 13, "0111100111001" );	// warning: length mismatch
+	array[ 14311] = assign( 13, "0111100111001" );
 	array[-14311] = assign( 13, "0101100111001" );
 	array[ 14312] = assign( 19, "1111111110101101000" );
 	array[-14312] = assign( 19, "1011111110101101000" );
@@ -29543,7 +29581,7 @@
 	array[-14341] = assign( 18, "100111110010111010" );
 	array[ 14342] = assign( 19, "1001111100000101000" );
 	array[-14342] = assign( 19, "1001111100100101000" );
-	array[ 14343] = assign( 13, "0101011111000" );	// warning: length mismatch
+	array[ 14343] = assign( 13, "0101011111000" );
 	array[-14343] = assign( 13, "0101100111000" );
 	array[ 14344] = assign( 19, "1011111100001101000" );
 	array[-14344] = assign( 19, "1011111100101101000" );
@@ -29609,7 +29647,7 @@
 	array[-14373] = assign( 18, "110111111000111010" );
 	array[ 14374] = assign( 19, "1001111110000101000" );
 	array[-14374] = assign( 19, "1101111110000101000" );
-	array[ 14375] = assign( 13, "0101011111001" );	// warning: length mismatch
+	array[ 14375] = assign( 13, "0101011111001" );
 	array[-14375] = assign( 13, "0111011111001" );
 	array[ 14376] = assign( 19, "1011111110001101000" );
 	array[-14376] = assign( 19, "1111111110001101000" );
@@ -29675,7 +29713,7 @@
 	array[-14405] = assign( 20, "11011111010000011010" );
 	array[ 14406] = assign( 20, "10011111010000111000" );
 	array[-14406] = assign( 20, "11011111010000111000" );
-	array[ 14407] = assign( 15, "010101101101000" );	// warning: length mismatch
+	array[ 14407] = assign( 15, "010101101101000" );
 	array[-14407] = assign( 15, "011101101101000" );
 	array[ 14408] = assign( 21, "101111110100000101000" );
 	array[-14408] = assign( 21, "111111110100000101000" );
@@ -29741,7 +29779,7 @@
 	array[-14437] = assign( 20, "11011111110000011010" );
 	array[ 14438] = assign( 20, "10011111110000111000" );
 	array[-14438] = assign( 20, "11011111110000111000" );
-	array[ 14439] = assign( 15, "010101101101100" );	// warning: length mismatch
+	array[ 14439] = assign( 15, "010101101101100" );
 	array[-14439] = assign( 15, "011101101101100" );
 	array[ 14440] = assign( 21, "101111111100000101000" );
 	array[-14440] = assign( 21, "111111111100000101000" );
@@ -29807,7 +29845,7 @@
 	array[-14469] = assign( 20, "11011111011000110010" );
 	array[ 14470] = assign( 20, "10011111011000011000" );
 	array[-14470] = assign( 20, "11011111011000011000" );
-	array[ 14471] = assign( 15, "010101111001010" );	// warning: length mismatch
+	array[ 14471] = assign( 15, "010101111001010" );
 	array[-14471] = assign( 15, "011101111001010" );
 	array[ 14472] = assign( 20, "10111111011000111000" );
 	array[-14472] = assign( 20, "11111111011000111000" );
@@ -29873,7 +29911,7 @@
 	array[-14501] = assign( 20, "11011111111000110010" );
 	array[ 14502] = assign( 20, "10011111111000011000" );
 	array[-14502] = assign( 20, "11011111111000011000" );
-	array[ 14503] = assign( 15, "010101111001110" );	// warning: length mismatch
+	array[ 14503] = assign( 15, "010101111001110" );
 	array[-14503] = assign( 15, "011101111001110" );
 	array[ 14504] = assign( 20, "10111111111000111000" );
 	array[-14504] = assign( 20, "11111111111000111000" );
@@ -29939,7 +29977,7 @@
 	array[-14533] = assign( 22, "1101111101010000010010" );
 	array[ 14534] = assign( 22, "1001111101010000110000" );
 	array[-14534] = assign( 22, "1101111101010000110000" );
-	array[ 14535] = assign( 17, "01010110100100100" );	// warning: length mismatch
+	array[ 14535] = assign( 17, "01010110100100100" );
 	array[-14535] = assign( 17, "01110110100100100" );
 	array[ 14536] = assign( 22, "1011111101010000011000" );
 	array[-14536] = assign( 22, "1111111101010000011000" );
@@ -30005,7 +30043,7 @@
 	array[-14565] = assign( 22, "1101111111010000010010" );
 	array[ 14566] = assign( 22, "1001111111010000110000" );
 	array[-14566] = assign( 22, "1101111111010000110000" );
-	array[ 14567] = assign( 17, "01010110100110100" );	// warning: length mismatch
+	array[ 14567] = assign( 17, "01010110100110100" );
 	array[-14567] = assign( 17, "01110110100110100" );
 	array[ 14568] = assign( 22, "1011111111010000011000" );
 	array[-14568] = assign( 22, "1111111111010000011000" );
@@ -30071,7 +30109,7 @@
 	array[-14597] = assign( 20, "11011111011100001010" );
 	array[ 14598] = assign( 22, "1001111101110000010000" );
 	array[-14598] = assign( 22, "1101111101110000010000" );
-	array[ 14599] = assign( 15, "010101110101100" );	// warning: length mismatch
+	array[ 14599] = assign( 15, "010101110101100" );
 	array[-14599] = assign( 15, "011101110101100" );
 	array[ 14600] = assign( 22, "1011111101110000110000" );
 	array[-14600] = assign( 22, "1111111101110000110000" );
@@ -30137,7 +30175,7 @@
 	array[-14629] = assign( 20, "11011111111100001010" );
 	array[ 14630] = assign( 22, "1001111111110000010000" );
 	array[-14630] = assign( 22, "1101111111110000010000" );
-	array[ 14631] = assign( 15, "010101110111100" );	// warning: length mismatch
+	array[ 14631] = assign( 15, "010101110111100" );
 	array[-14631] = assign( 15, "011101110111100" );
 	array[ 14632] = assign( 22, "1011111111110000110000" );
 	array[-14632] = assign( 22, "1111111111110000110000" );
@@ -30203,7 +30241,7 @@
 	array[-14661] = assign( 16, "1101111010100110" );
 	array[ 14662] = assign( 16, "1001110110111110" );
 	array[-14662] = assign( 16, "1101110110111110" );
-	array[ 14663] = assign( 15, "010101100100110" );	// warning: length mismatch
+	array[ 14663] = assign( 15, "010101100100110" );
 	array[-14663] = assign( 15, "011101100100110" );
 	array[ 14664] = assign( 22, "1011111101011000010000" );
 	array[-14664] = assign( 22, "1111111101011000010000" );
@@ -30269,7 +30307,7 @@
 	array[-14693] = assign( 16, "1101111010110110" );
 	array[ 14694] = assign( 15, "100111010111110" );
 	array[-14694] = assign( 15, "110111010111110" );
-	array[ 14695] = assign( 15, "010101100110110" );	// warning: length mismatch
+	array[ 14695] = assign( 15, "010101100110110" );
 	array[-14695] = assign( 15, "011101100110110" );
 	array[ 14696] = assign( 22, "1011111111011000010000" );
 	array[-14696] = assign( 22, "1111111111011000010000" );
@@ -30335,7 +30373,7 @@
 	array[-14725] = assign( 15, "110101111111110" );
 	array[ 14726] = assign( 13, "1001010111110" );
 	array[-14726] = assign( 13, "1101010111110" );
-	array[ 14727] = assign( 14, "01011010111110" );	// warning: length mismatch
+	array[ 14727] = assign( 14, "01011010111110" );
 	array[-14727] = assign( 14, "01111010111110" );
 	array[ 14728] = assign( 17, "10111101101111110" );
 	array[-14728] = assign( 17, "11111101101111110" );
@@ -30401,7 +30439,7 @@
 	array[-14757] = assign( 15, "110111001111110" );
 	array[ 14758] = assign( 12, "100100111110" );
 	array[-14758] = assign( 12, "110100111110" );
-	array[ 14759] = assign( 14, "01011011111110" );	// warning: length mismatch
+	array[ 14759] = assign( 14, "01011011111110" );
 	array[-14759] = assign( 14, "01111011111110" );
 	array[ 14760] = assign( 16, "1011110101111110" );
 	array[-14760] = assign( 16, "1111110101111110" );
@@ -30533,7 +30571,7 @@
 	array[-14821] = assign( 17, "11111110111101010" );
 	array[ 14822] = assign( 16, "1011011011111110" );
 	array[-14822] = assign( 16, "1111011011111110" );
-	array[ 14823] = assign( 12, "010100011110" );	// warning: length mismatch
+	array[ 14823] = assign( 12, "010100011110" );
 	array[-14823] = assign( 12, "011100011110" );
 	array[ 14824] = assign( 13, "1011001111110" );
 	array[-14824] = assign( 13, "1111001111110" );
@@ -30599,7 +30637,7 @@
 	array[-14853] = assign( 22, "1111111101110100101010" );
 	array[ 14854] = assign( 18, "101111100111111110" );
 	array[-14854] = assign( 18, "111111100111111110" );
-	array[ 14855] = assign( 12, "010100111110" );	// warning: length mismatch
+	array[ 14855] = assign( 12, "010100111110" );
 	array[-14855] = assign( 12, "011100111110" );
 	array[ 14856] = assign( 14, "10011011111110" );
 	array[-14856] = assign( 14, "11011011111110" );
@@ -30665,7 +30703,7 @@
 	array[-14885] = assign( 22, "1111111111110100101010" );
 	array[ 14886] = assign( 19, "1011110111111111110" );
 	array[-14886] = assign( 19, "1111110111111111110" );
-	array[ 14887] = assign( 17, "01011100111111110" );	// warning: length mismatch
+	array[ 14887] = assign( 17, "01011100111111110" );
 	array[-14887] = assign( 17, "01111100111111110" );
 	array[ 14888] = assign( 17, "10010110111111110" );
 	array[-14888] = assign( 17, "11010110111111110" );
@@ -30731,7 +30769,7 @@
 	array[-14917] = assign( 24, "111111110101110010010010" );
 	array[ 14918] = assign( 24, "101111110101110010010000" );
 	array[-14918] = assign( 24, "111111110101110010010000" );
-	array[ 14919] = assign( 16, "0101100001001110" );	// warning: length mismatch
+	array[ 14919] = assign( 16, "0101100001001110" );
 	array[-14919] = assign( 16, "0111100001001110" );
 	array[ 14920] = assign( 19, "1001111001111111110" );
 	array[-14920] = assign( 19, "1101111001111111110" );
@@ -30797,7 +30835,7 @@
 	array[-14949] = assign( 24, "111111111101110010010010" );
 	array[ 14950] = assign( 24, "101111111101110010010000" );
 	array[-14950] = assign( 24, "111111111101110010010000" );
-	array[ 14951] = assign( 16, "0101100001101110" );	// warning: length mismatch
+	array[ 14951] = assign( 16, "0101100001101110" );
 	array[-14951] = assign( 16, "0111100001101110" );
 	array[ 14952] = assign( 20, "10011101111111111110" );
 	array[-14952] = assign( 20, "11011101111111111110" );
@@ -30863,7 +30901,7 @@
 	array[-14981] = assign( 24, "111111110111110010110010" );
 	array[ 14982] = assign( 24, "101111110111110010110000" );
 	array[-14982] = assign( 24, "111111110111110010110000" );
-	array[ 14983] = assign( 16, "0101100101011110" );	// warning: length mismatch
+	array[ 14983] = assign( 16, "0101100101011110" );
 	array[-14983] = assign( 16, "0111100101011110" );
 	array[ 14984] = assign( 24, "100111110111110010010000" );
 	array[-14984] = assign( 24, "110111110111110010010000" );
@@ -30929,7 +30967,7 @@
 	array[-15013] = assign( 24, "111111111111110010110010" );
 	array[ 15014] = assign( 24, "101111111111110010110000" );
 	array[-15014] = assign( 24, "111111111111110010110000" );
-	array[ 15015] = assign( 16, "0101100101111110" );	// warning: length mismatch
+	array[ 15015] = assign( 16, "0101100101111110" );
 	array[-15015] = assign( 16, "0111100101111110" );
 	array[ 15016] = assign( 24, "100111111111110010010000" );
 	array[-15016] = assign( 24, "110111111111110010010000" );
@@ -30995,7 +31033,7 @@
 	array[-15045] = assign( 24, "111111110101011010011010" );
 	array[ 15046] = assign( 24, "101111110101011010011000" );
 	array[-15046] = assign( 24, "111111110101011010011000" );
-	array[ 15047] = assign( 19, "0101100010010010110" );	// warning: length mismatch
+	array[ 15047] = assign( 19, "0101100010010010110" );
 	array[-15047] = assign( 19, "0111100010010010110" );
 	array[ 15048] = assign( 24, "100111110101011010110000" );
 	array[-15048] = assign( 24, "110111110101011010110000" );
@@ -31061,7 +31099,7 @@
 	array[-15077] = assign( 24, "111111111101011010011010" );
 	array[ 15078] = assign( 24, "101111111101011010011000" );
 	array[-15078] = assign( 24, "111111111101011010011000" );
-	array[ 15079] = assign( 19, "0101100010011010110" );	// warning: length mismatch
+	array[ 15079] = assign( 19, "0101100010011010110" );
 	array[-15079] = assign( 19, "0111100010011010110" );
 	array[ 15080] = assign( 24, "100111111101011010110000" );
 	array[-15080] = assign( 24, "110111111101011010110000" );
@@ -31127,7 +31165,7 @@
 	array[-15109] = assign( 24, "111111110111011010111010" );
 	array[ 15110] = assign( 24, "101111110111011010111000" );
 	array[-15110] = assign( 24, "111111110111011010111000" );
-	array[ 15111] = assign( 19, "0101100110010110110" );	// warning: length mismatch
+	array[ 15111] = assign( 19, "0101100110010110110" );
 	array[-15111] = assign( 19, "0111100110010110110" );
 	array[ 15112] = assign( 24, "100111110111011010011000" );
 	array[-15112] = assign( 24, "110111110111011010011000" );
@@ -31193,7 +31231,7 @@
 	array[-15141] = assign( 24, "111111111111011010111010" );
 	array[ 15142] = assign( 24, "101111111111011010111000" );
 	array[-15142] = assign( 24, "111111111111011010111000" );
-	array[ 15143] = assign( 19, "0101100110011110110" );	// warning: length mismatch
+	array[ 15143] = assign( 19, "0101100110011110110" );
 	array[-15143] = assign( 19, "0111100110011110110" );
 	array[ 15144] = assign( 24, "100111111111011010011000" );
 	array[-15144] = assign( 24, "110111111111011010011000" );
@@ -31259,9 +31297,9 @@
 	array[-15173] = assign( 25, "1111111101011110100101010" );
 	array[ 15174] = assign( 25, "1011111101011110100101000" );
 	array[-15174] = assign( 25, "1111111101011110100101000" );
-	array[ 15175] = assign( 19, "0101100011010011110" );	// warning: length mismatch
+	array[ 15175] = assign( 19, "0101100011010011110" );
 	array[-15175] = assign( 19, "0111100011010011110" );
-	array[ 15176] = assign( 19, "0111011011011111111" );	// warning: length mismatch
+	array[ 15176] = assign( 19, "0111011011011111111" );
 	array[-15176] = assign( 19, "0101011011011111111" );
 	array[ 15177] = assign( 24, "100111110101111010011010" );
 	array[-15177] = assign( 24, "110111110101111010011010" );
@@ -31325,9 +31363,9 @@
 	array[-15205] = assign( 25, "1111111111011110100101010" );
 	array[ 15206] = assign( 25, "1011111111011110100101000" );
 	array[-15206] = assign( 25, "1111111111011110100101000" );
-	array[ 15207] = assign( 19, "0101100011011011110" );	// warning: length mismatch
+	array[ 15207] = assign( 19, "0101100011011011110" );
 	array[-15207] = assign( 19, "0111100011011011110" );
-	array[ 15208] = assign( 19, "0111011011010111111" );	// warning: length mismatch
+	array[ 15208] = assign( 19, "0111011011010111111" );
 	array[-15208] = assign( 19, "0101011011010111111" );
 	array[ 15209] = assign( 24, "100111111101111010011010" );
 	array[-15209] = assign( 24, "110111111101111010011010" );
@@ -31391,9 +31429,9 @@
 	array[-15237] = assign( 25, "1111111101111110101101010" );
 	array[ 15238] = assign( 25, "1011111101111110101101000" );
 	array[-15238] = assign( 25, "1111111101111110101101000" );
-	array[ 15239] = assign( 19, "0101100111010111110" );	// warning: length mismatch
+	array[ 15239] = assign( 19, "0101100111010111110" );
 	array[-15239] = assign( 19, "0111100111010111110" );
-	array[ 15240] = assign( 19, "0111011111011011111" );	// warning: length mismatch
+	array[ 15240] = assign( 19, "0111011111011011111" );
 	array[-15240] = assign( 19, "0101011111011011111" );
 	array[ 15241] = assign( 24, "100111110111111010111010" );
 	array[-15241] = assign( 24, "110111110111111010111010" );
@@ -31457,9 +31495,9 @@
 	array[-15269] = assign( 25, "1111111111111110101101010" );
 	array[ 15270] = assign( 25, "1011111111111110101101000" );
 	array[-15270] = assign( 25, "1111111111111110101101000" );
-	array[ 15271] = assign( 19, "0101100111011111110" );	// warning: length mismatch
+	array[ 15271] = assign( 19, "0101100111011111110" );
 	array[-15271] = assign( 19, "0111100111011111110" );
-	array[ 15272] = assign( 19, "0111011111010011111" );	// warning: length mismatch
+	array[ 15272] = assign( 19, "0111011111010011111" );
 	array[-15272] = assign( 19, "0101011111010011111" );
 	array[ 15273] = assign( 24, "100111111111111010111010" );
 	array[-15273] = assign( 24, "110111111111111010111010" );
@@ -31523,9 +31561,9 @@
 	array[-15301] = assign( 26, "11111111010101010100111010" );
 	array[ 15302] = assign( 26, "10111111010101010100111000" );
 	array[-15302] = assign( 26, "10111111111101010000111010" );
-	array[ 15303] = assign( 20, "01011000101010010111" );	// warning: length mismatch
+	array[ 15303] = assign( 20, "01011000101010010111" );
 	array[-15303] = assign( 20, "01111000101010010111" );
-	array[ 15304] = assign( 20, "01110110101011110111" );	// warning: length mismatch
+	array[ 15304] = assign( 20, "01110110101011110111" );
 	array[-15304] = assign( 20, "01010110101011110111" );
 	array[ 15305] = assign( 26, "10011111010101010100101010" );
 	array[-15305] = assign( 26, "10011111111101010001101000" );
@@ -31549,31 +31587,33 @@
 	array[-15314] = assign( 26, "10011111111101010010101010" );
 	array[ 15315] = assign( 26, "11111111111101010111101010" );
 	array[-15315] = assign( 26, "10111111111101010111101010" );
-	array[ 15316] = assign( 28, "1001111101010101011111001010" );
-	array[-15316] = assign( 28, "1001111111110101001010100110" );
-	array[ 15317] = assign( 28, "1011111101010101001111011010" );
-	array[-15317] = assign( 28, "1001111111110101001010101110" );
-	array[ 15318] = assign( 28, "1111111111110101011110101110" );
-	array[-15318] = assign( 28, "1011111111110101011110101110" );
-	array[ 15319] = assign( 29, "10011111010101010110111001010" );
-	array[-15319] = assign( 29, "10011111111101010010101011010" );
-	array[ 15320] = assign( 29, "10011111010101010111111001010" );
-	array[-15320] = assign( 29, "10011111111101010010101001110" );
-	array[ 15321] = assign( 29, "10111111010101010011111011010" );
-	array[-15321] = assign( 29, "10011111111101010010101011110" );
-	array[ 15322] = assign( 29, "11111111111101010111101011110" );
-	array[-15322] = assign( 29, "10111111111101010111101011110" );
-	array[ 15323] = assign( 30, "100111110101010101101111001010" );
-	array[-15323] = assign( 30, "100111111111010100101010110110" );
-	array[ 15324] = assign( 29, "10111111110101010100111011110" );
-	array[-15324] = assign( 29, "11111111110101010100111011110" );
-	array[ 15325] = assign( 29, "10111111110101010100111001110" );
-	array[-15325] = assign( 29, "10111111011101010000111011110" );
-	array[ 15326] = assign( 29, "10111111110101010100111011010" );
-	array[-15326] = assign( 29, "10111111011101010000111001110" );
-	array[ 15327] = assign( 29, "10111111110101010100111001010" );
-	array[-15327] = assign( 29, "10111111011101010000111011010" );
-	// decoded 31 sequences.
+	array[ 15316] = assign( 28, "1001111101010101011011001010" );
+	array[-15316] = assign( 28, "1001111111110101001010101100" );
+	array[ 15317] = assign( 28, "1001111101010101011111001010" );
+	array[-15317] = assign( 28, "1001111111110101001010100110" );
+	array[ 15318] = assign( 28, "1011111101010101001111011010" );
+	array[-15318] = assign( 28, "1001111111110101001010101110" );
+	array[ 15319] = assign( 28, "1111111111110101011110101110" );
+	array[-15319] = assign( 28, "1011111111110101011110101110" );
+	array[ 15320] = assign( 29, "10011111010101010110111001010" );
+	array[-15320] = assign( 29, "10011111111101010010101011010" );
+	array[ 15321] = assign( 29, "10011111010101010111111001010" );
+	array[-15321] = assign( 29, "10011111111101010010101001110" );
+	array[ 15322] = assign( 29, "10111111010101010011111011010" );
+	array[-15322] = assign( 29, "10011111111101010010101011110" );
+	array[ 15323] = assign( 29, "11111111111101010111101011110" );
+	array[-15323] = assign( 29, "10111111111101010111101011110" );
+	array[ 15324] = assign( 30, "100111110101010101101111001010" );
+	array[-15324] = assign( 30, "100111111111010100101010110110" );
+	array[ 15325] = assign( 29, "10111111110101010100111011110" );
+	array[-15325] = assign( 29, "11111111110101010100111011110" );
+	array[ 15326] = assign( 29, "10111111110101010100111001110" );
+	array[-15326] = assign( 29, "10111111011101010000111011110" );
+	array[ 15327] = assign( 29, "10111111110101010100111011010" );
+	array[-15327] = assign( 29, "10111111011101010000111001110" );
+	array[ 15328] = assign( 29, "10111111110101010100111001010" );
+	array[-15328] = assign( 29, "10111111011101010000111011010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 15329
 	array[ 15329] = assign( 28, "1011111111010101010011101110" );
 	array[-15329] = assign( 28, "1111111111010101010011101110" );
@@ -31587,9 +31627,9 @@
 	array[-15333] = assign( 26, "11111111110101010100111010" );
 	array[ 15334] = assign( 26, "10111111110101010100111000" );
 	array[-15334] = assign( 26, "10111111011101010000111010" );
-	array[ 15335] = assign( 20, "01011000101011010111" );	// warning: length mismatch
+	array[ 15335] = assign( 20, "01011000101011010111" );
 	array[-15335] = assign( 20, "01111000101011010111" );
-	array[ 15336] = assign( 20, "01110110101010110111" );	// warning: length mismatch
+	array[ 15336] = assign( 20, "01110110101010110111" );
 	array[-15336] = assign( 20, "01010110101010110111" );
 	array[ 15337] = assign( 26, "10011111110101010100101010" );
 	array[-15337] = assign( 26, "10011111011101010001101000" );
@@ -31613,31 +31653,33 @@
 	array[-15346] = assign( 26, "10011111011101010010101010" );
 	array[ 15347] = assign( 26, "11111111011101010111101010" );
 	array[-15347] = assign( 26, "10111111011101010111101010" );
-	array[ 15348] = assign( 28, "1001111111010101011111001010" );
-	array[-15348] = assign( 28, "1001111101110101001010100110" );
-	array[ 15349] = assign( 28, "1011111111010101001111011010" );
-	array[-15349] = assign( 28, "1001111101110101001010101110" );
-	array[ 15350] = assign( 28, "1111111101110101011110101110" );
-	array[-15350] = assign( 28, "1011111101110101011110101110" );
-	array[ 15351] = assign( 29, "10011111110101010110111001010" );
-	array[-15351] = assign( 29, "10011111011101010010101011010" );
-	array[ 15352] = assign( 29, "10011111110101010111111001010" );
-	array[-15352] = assign( 29, "10011111011101010010101001110" );
-	array[ 15353] = assign( 29, "10111111110101010011111011010" );
-	array[-15353] = assign( 29, "10011111011101010010101011110" );
-	array[ 15354] = assign( 29, "11111111011101010111101011110" );
-	array[-15354] = assign( 29, "10111111011101010111101011110" );
-	array[ 15355] = assign( 30, "100111111101010101101111001010" );
-	array[-15355] = assign( 30, "100111110111010100101010110110" );
-	array[ 15356] = assign( 29, "10111111011101010101111011110" );
-	array[-15356] = assign( 29, "11111111011101010101111011110" );
-	array[ 15357] = assign( 29, "10111111011101010101111001110" );
-	array[-15357] = assign( 29, "10111111110101010001111011110" );
-	array[ 15358] = assign( 29, "10111111011101010101111011010" );
-	array[-15358] = assign( 29, "10111111110101010001111001110" );
-	array[ 15359] = assign( 29, "10111111011101010101111001010" );
-	array[-15359] = assign( 29, "10111111110101010001111011010" );
-	// decoded 31 sequences.
+	array[ 15348] = assign( 28, "1001111111010101011011001010" );
+	array[-15348] = assign( 28, "1001111101110101001010101100" );
+	array[ 15349] = assign( 28, "1001111111010101011111001010" );
+	array[-15349] = assign( 28, "1001111101110101001010100110" );
+	array[ 15350] = assign( 28, "1011111111010101001111011010" );
+	array[-15350] = assign( 28, "1001111101110101001010101110" );
+	array[ 15351] = assign( 28, "1111111101110101011110101110" );
+	array[-15351] = assign( 28, "1011111101110101011110101110" );
+	array[ 15352] = assign( 29, "10011111110101010110111001010" );
+	array[-15352] = assign( 29, "10011111011101010010101011010" );
+	array[ 15353] = assign( 29, "10011111110101010111111001010" );
+	array[-15353] = assign( 29, "10011111011101010010101001110" );
+	array[ 15354] = assign( 29, "10111111110101010011111011010" );
+	array[-15354] = assign( 29, "10011111011101010010101011110" );
+	array[ 15355] = assign( 29, "11111111011101010111101011110" );
+	array[-15355] = assign( 29, "10111111011101010111101011110" );
+	array[ 15356] = assign( 30, "100111111101010101101111001010" );
+	array[-15356] = assign( 30, "100111110111010100101010110110" );
+	array[ 15357] = assign( 29, "10111111011101010101111011110" );
+	array[-15357] = assign( 29, "11111111011101010101111011110" );
+	array[ 15358] = assign( 29, "10111111011101010101111001110" );
+	array[-15358] = assign( 29, "10111111110101010001111011110" );
+	array[ 15359] = assign( 29, "10111111011101010101111011010" );
+	array[-15359] = assign( 29, "10111111110101010001111001110" );
+	array[ 15360] = assign( 29, "10111111011101010101111001010" );
+	array[-15360] = assign( 29, "10111111110101010001111011010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 15361
 	array[ 15361] = assign( 28, "1011111101110101010111101110" );
 	array[-15361] = assign( 28, "1111111101110101010111101110" );
@@ -31651,9 +31693,9 @@
 	array[-15365] = assign( 26, "11111111011101010101111010" );
 	array[ 15366] = assign( 26, "10111111011101010101111000" );
 	array[-15366] = assign( 26, "10111111110101010001111010" );
-	array[ 15367] = assign( 20, "01011001101010110111" );	// warning: length mismatch
+	array[ 15367] = assign( 20, "01011001101010110111" );
 	array[-15367] = assign( 20, "01111001101010110111" );
-	array[ 15368] = assign( 20, "01110111101011010111" );	// warning: length mismatch
+	array[ 15368] = assign( 20, "01110111101011010111" );
 	array[-15368] = assign( 20, "01010111101011010111" );
 	array[ 15369] = assign( 26, "10011111011101010101101010" );
 	array[-15369] = assign( 26, "10011111110101010000111000" );
@@ -31717,9 +31759,9 @@
 	array[-15397] = assign( 26, "11111111111101010101111010" );
 	array[ 15398] = assign( 26, "10111111111101010101111000" );
 	array[-15398] = assign( 26, "10111111010101010001111010" );
-	array[ 15399] = assign( 20, "01011001101011110111" );	// warning: length mismatch
+	array[ 15399] = assign( 20, "01011001101011110111" );
 	array[-15399] = assign( 20, "01111001101011110111" );
-	array[ 15400] = assign( 20, "01110111101010010111" );	// warning: length mismatch
+	array[ 15400] = assign( 20, "01110111101010010111" );
 	array[-15400] = assign( 20, "01010111101010010111" );
 	array[ 15401] = assign( 26, "10011111111101010101101010" );
 	array[-15401] = assign( 26, "10011111010101010000111000" );
@@ -31783,9 +31825,9 @@
 	array[-15429] = assign( 27, "111111110101110101001011010" );
 	array[ 15430] = assign( 26, "11111111111111100001011010" );
 	array[-15430] = assign( 26, "10111111111111100001011010" );
-	array[ 15431] = assign( 20, "01011000111010011111" );	// warning: length mismatch
+	array[ 15431] = assign( 20, "01011000111010011111" );
 	array[-15431] = assign( 20, "01111000111010011111" );
-	array[ 15432] = assign( 20, "01110110111011111110" );	// warning: length mismatch
+	array[ 15432] = assign( 20, "01110110111011111110" );
 	array[-15432] = assign( 20, "01010110111011111110" );
 	array[ 15433] = assign( 25, "1101111111111110001111000" );
 	array[-15433] = assign( 25, "1001111111111110001111000" );
@@ -31849,9 +31891,9 @@
 	array[-15461] = assign( 27, "111111111101110101001011010" );
 	array[ 15462] = assign( 26, "11111111011111100001011010" );
 	array[-15462] = assign( 26, "10111111011111100001011010" );
-	array[ 15463] = assign( 20, "01011000111011011111" );	// warning: length mismatch
+	array[ 15463] = assign( 20, "01011000111011011111" );
 	array[-15463] = assign( 20, "01111000111011011111" );
-	array[ 15464] = assign( 20, "01110110111010111110" );	// warning: length mismatch
+	array[ 15464] = assign( 20, "01110110111010111110" );
 	array[-15464] = assign( 20, "01010110111010111110" );
 	array[ 15465] = assign( 25, "1101111101111110001111000" );
 	array[-15465] = assign( 25, "1001111101111110001111000" );
@@ -31915,9 +31957,9 @@
 	array[-15493] = assign( 27, "111111110111110101011011010" );
 	array[ 15494] = assign( 26, "11111111110111100011011010" );
 	array[-15494] = assign( 26, "10111111110111100011011010" );
-	array[ 15495] = assign( 20, "01011001111010111111" );	// warning: length mismatch
+	array[ 15495] = assign( 20, "01011001111010111111" );
 	array[-15495] = assign( 20, "01111001111010111111" );
-	array[ 15496] = assign( 20, "01110111111011011110" );	// warning: length mismatch
+	array[ 15496] = assign( 20, "01110111111011011110" );
 	array[-15496] = assign( 20, "01010111111011011110" );
 	array[ 15497] = assign( 26, "10011111011111010101111010" );
 	array[-15497] = assign( 26, "10011111110111100001011000" );
@@ -31981,9 +32023,9 @@
 	array[-15525] = assign( 27, "111111111111110101011011010" );
 	array[ 15526] = assign( 26, "11111111010111100011011010" );
 	array[-15526] = assign( 26, "10111111010111100011011010" );
-	array[ 15527] = assign( 20, "01011001111011111111" );	// warning: length mismatch
+	array[ 15527] = assign( 20, "01011001111011111111" );
 	array[-15527] = assign( 20, "01111001111011111111" );
-	array[ 15528] = assign( 20, "01110111111010011110" );	// warning: length mismatch
+	array[ 15528] = assign( 20, "01110111111010011110" );
 	array[-15528] = assign( 20, "01010111111010011110" );
 	array[ 15529] = assign( 26, "10011111111111010101111010" );
 	array[-15529] = assign( 26, "10011111010111100001011000" );
@@ -32049,7 +32091,7 @@
 	array[-15558] = assign( 26, "10111111111101100001111010" );
 	array[ 15559] = assign( 26, "11111111111101100001111000" );
 	array[-15559] = assign( 26, "10111111111101100001111000" );
-	array[ 15560] = assign( 21, "011101101011011110110" );	// warning: length mismatch
+	array[ 15560] = assign( 21, "011101101011011110110" );
 	array[-15560] = assign( 21, "010101101011011110110" );
 	array[ 15561] = assign( 26, "11011111111101100011011000" );
 	array[-15561] = assign( 26, "10011111111101100011011000" );
@@ -32115,7 +32157,7 @@
 	array[-15590] = assign( 26, "10111111011101100001111010" );
 	array[ 15591] = assign( 26, "11111111011101100001111000" );
 	array[-15591] = assign( 26, "10111111011101100001111000" );
-	array[ 15592] = assign( 21, "011101101011010110110" );	// warning: length mismatch
+	array[ 15592] = assign( 21, "011101101011010110110" );
 	array[-15592] = assign( 21, "010101101011010110110" );
 	array[ 15593] = assign( 26, "11011111011101100011011000" );
 	array[-15593] = assign( 26, "10011111011101100011011000" );
@@ -32181,7 +32223,7 @@
 	array[-15622] = assign( 26, "10111111110101100011111010" );
 	array[ 15623] = assign( 26, "11111111110101100011111000" );
 	array[-15623] = assign( 26, "10111111110101100011111000" );
-	array[ 15624] = assign( 21, "011101111011011010110" );	// warning: length mismatch
+	array[ 15624] = assign( 21, "011101111011011010110" );
 	array[-15624] = assign( 21, "010101111011011010110" );
 	array[ 15625] = assign( 26, "11011111110101100001111000" );
 	array[-15625] = assign( 26, "10011111110101100001111000" );
@@ -32247,7 +32289,7 @@
 	array[-15654] = assign( 26, "10011111110101101011111110" );
 	array[ 15655] = assign( 26, "11111111010101100011111000" );
 	array[-15655] = assign( 26, "10111111010101100011111000" );
-	array[ 15656] = assign( 21, "011101111011010010110" );	// warning: length mismatch
+	array[ 15656] = assign( 21, "011101111011010010110" );
 	array[-15656] = assign( 21, "010101111011010010110" );
 	array[ 15657] = assign( 26, "11011111010101100001111000" );
 	array[-15657] = assign( 26, "10011111010101100001111000" );
@@ -32313,7 +32355,7 @@
 	array[-15686] = assign( 26, "10011111010101101011111110" );
 	array[ 15687] = assign( 26, "11111111111111000001011100" );
 	array[-15687] = assign( 26, "10111111111111000001011100" );
-	array[ 15688] = assign( 20, "01110110111101111110" );	// warning: length mismatch
+	array[ 15688] = assign( 20, "01110110111101111110" );
 	array[-15688] = assign( 20, "01010110111101111110" );
 	array[ 15689] = assign( 26, "11011111111111000011111000" );
 	array[-15689] = assign( 26, "10011111111111000011111000" );
@@ -32379,7 +32421,7 @@
 	array[-15718] = assign( 26, "10011111111111001001111110" );
 	array[ 15719] = assign( 26, "11011111111111001011111100" );
 	array[-15719] = assign( 26, "10011111111111001011111100" );
-	array[ 15720] = assign( 20, "01110110111101011110" );	// warning: length mismatch
+	array[ 15720] = assign( 20, "01110110111101011110" );
 	array[-15720] = assign( 20, "01010110111101011110" );
 	array[ 15721] = assign( 26, "11011111011111000011111000" );
 	array[-15721] = assign( 26, "10011111011111000011111000" );
@@ -32445,7 +32487,7 @@
 	array[-15750] = assign( 26, "10011111011111001001111110" );
 	array[ 15751] = assign( 26, "11011111011111001011111100" );
 	array[-15751] = assign( 26, "10011111011111001011111100" );
-	array[ 15752] = assign( 20, "01110111111101101110" );	// warning: length mismatch
+	array[ 15752] = assign( 20, "01110111111101101110" );
 	array[-15752] = assign( 20, "01010111111101101110" );
 	array[ 15753] = assign( 26, "11011111110111000001011100" );
 	array[-15753] = assign( 26, "10011111110111000001011100" );
@@ -32511,7 +32553,7 @@
 	array[-15782] = assign( 26, "10011111110111001011011110" );
 	array[ 15783] = assign( 26, "11011111110111001001111100" );
 	array[-15783] = assign( 26, "10011111110111001001111100" );
-	array[ 15784] = assign( 20, "01110111111101001110" );	// warning: length mismatch
+	array[ 15784] = assign( 20, "01110111111101001110" );
 	array[-15784] = assign( 20, "01010111111101001110" );
 	array[ 15785] = assign( 26, "11011111010111000001011100" );
 	array[-15785] = assign( 26, "10011111010111000001011100" );
@@ -32577,7 +32619,7 @@
 	array[-15814] = assign( 26, "10011111010111001011011110" );
 	array[ 15815] = assign( 26, "11011111010111001001111100" );
 	array[-15815] = assign( 26, "10011111010111001001111100" );
-	array[ 15816] = assign( 20, "01110110101111111010" );	// warning: length mismatch
+	array[ 15816] = assign( 20, "01110110101111111010" );
 	array[-15816] = assign( 20, "01010110101111111010" );
 	array[ 15817] = assign( 26, "11011111111101000011011100" );
 	array[-15817] = assign( 26, "10011111111101000011011100" );
@@ -32643,7 +32685,7 @@
 	array[-15846] = assign( 26, "10011111111101001001011110" );
 	array[ 15847] = assign( 26, "11011111111101001011011100" );
 	array[-15847] = assign( 26, "10011111111101001011011100" );
-	array[ 15848] = assign( 20, "01110110101111011010" );	// warning: length mismatch
+	array[ 15848] = assign( 20, "01110110101111011010" );
 	array[-15848] = assign( 20, "01010110101111011010" );
 	array[ 15849] = assign( 26, "11011111011101000011011100" );
 	array[-15849] = assign( 26, "10011111011101000011011100" );
@@ -32709,7 +32751,7 @@
 	array[-15878] = assign( 26, "10011111011101001001011110" );
 	array[ 15879] = assign( 26, "11011111011101001011011100" );
 	array[-15879] = assign( 26, "10011111011101001011011100" );
-	array[ 15880] = assign( 20, "01110111101111101010" );	// warning: length mismatch
+	array[ 15880] = assign( 20, "01110111101111101010" );
 	array[-15880] = assign( 20, "01010111101111101010" );
 	array[ 15881] = assign( 26, "11011111110101000001111100" );
 	array[-15881] = assign( 26, "10011111110101000001111100" );
@@ -32775,7 +32817,7 @@
 	array[-15910] = assign( 26, "10011111110101001011111010" );
 	array[ 15911] = assign( 26, "11011111110101001001011100" );
 	array[-15911] = assign( 26, "10011111110101001001011100" );
-	array[ 15912] = assign( 20, "01110111101111001010" );	// warning: length mismatch
+	array[ 15912] = assign( 20, "01110111101111001010" );
 	array[-15912] = assign( 20, "01010111101111001010" );
 	array[ 15913] = assign( 26, "11011111010101000001111100" );
 	array[-15913] = assign( 26, "10011111010101000001111100" );
@@ -32841,7 +32883,7 @@
 	array[-15942] = assign( 26, "10011111010101001011111010" );
 	array[ 15943] = assign( 26, "11011111010101001001011100" );
 	array[-15943] = assign( 26, "10011111010101001001011100" );
-	array[ 15944] = assign( 19, "0111011011111111110" );	// warning: length mismatch
+	array[ 15944] = assign( 19, "0111011011111111110" );
 	array[-15944] = assign( 19, "0101011011111111110" );
 	array[ 15945] = assign( 24, "110111111111100011111100" );
 	array[-15945] = assign( 24, "100111111111100011111100" );
@@ -32907,7 +32949,7 @@
 	array[-15974] = assign( 24, "100111111111101001111010" );
 	array[ 15975] = assign( 24, "110111111111101011111000" );
 	array[-15975] = assign( 24, "100111111111101011111000" );
-	array[ 15976] = assign( 19, "0111011011111101110" );	// warning: length mismatch
+	array[ 15976] = assign( 19, "0111011011111101110" );
 	array[-15976] = assign( 19, "0101011011111101110" );
 	array[ 15977] = assign( 24, "110111110111100011111100" );
 	array[-15977] = assign( 24, "100111110111100011111100" );
@@ -32973,7 +33015,7 @@
 	array[-16006] = assign( 24, "100111110111101001111010" );
 	array[ 16007] = assign( 24, "110111110111101011111000" );
 	array[-16007] = assign( 24, "100111110111101011111000" );
-	array[ 16008] = assign( 19, "0111011111111110110" );	// warning: length mismatch
+	array[ 16008] = assign( 19, "0111011111111110110" );
 	array[-16008] = assign( 19, "0101011111111110110" );
 	array[ 16009] = assign( 24, "111111110111101001011100" );
 	array[-16009] = assign( 24, "101111110111101001011100" );
@@ -33039,7 +33081,7 @@
 	array[-16038] = assign( 24, "100111111101101011011010" );
 	array[ 16039] = assign( 24, "110111111101101001111000" );
 	array[-16039] = assign( 24, "100111111101101001111000" );
-	array[ 16040] = assign( 19, "0111011111111100110" );	// warning: length mismatch
+	array[ 16040] = assign( 19, "0111011111111100110" );
 	array[-16040] = assign( 19, "0101011111111100110" );
 	array[ 16041] = assign( 24, "111111111101101011111000" );
 	array[-16041] = assign( 24, "101111111101101011111000" );
@@ -33105,7 +33147,7 @@
 	array[-16070] = assign( 24, "100111110101101011011010" );
 	array[ 16071] = assign( 24, "110111110101101001111000" );
 	array[-16071] = assign( 24, "100111110101101001111000" );
-	array[ 16072] = assign( 19, "0111100110110100110" );	// warning: length mismatch
+	array[ 16072] = assign( 19, "0111100110110100110" );
 	array[-16072] = assign( 19, "0101100110110100110" );
 	array[ 16073] = assign( 24, "111111110101101011111000" );
 	array[-16073] = assign( 24, "101111110101101011111000" );
@@ -33171,7 +33213,7 @@
 	array[-16102] = assign( 24, "100111111111001001011010" );
 	array[ 16103] = assign( 24, "110111111111001011011000" );
 	array[-16103] = assign( 24, "100111111111001011011000" );
-	array[ 16104] = assign( 19, "0111100010110111100" );	// warning: length mismatch
+	array[ 16104] = assign( 19, "0111100010110111100" );
 	array[-16104] = assign( 19, "0101100010110111100" );
 	array[ 16105] = assign( 24, "111111111111001001111000" );
 	array[-16105] = assign( 24, "101111111111001001111000" );
@@ -33237,7 +33279,7 @@
 	array[-16134] = assign( 24, "100111110111001001011010" );
 	array[ 16135] = assign( 24, "110111110111001011011000" );
 	array[-16135] = assign( 24, "100111110111001011011000" );
-	array[ 16136] = assign( 19, "0111100010110101100" );	// warning: length mismatch
+	array[ 16136] = assign( 19, "0111100010110101100" );
 	array[-16136] = assign( 19, "0101100010110101100" );
 	array[ 16137] = assign( 24, "111111110111001001111000" );
 	array[-16137] = assign( 24, "101111110111001001111000" );
@@ -33303,7 +33345,7 @@
 	array[-16166] = assign( 23, "10011111110100101111010" );
 	array[ 16167] = assign( 24, "110111111101001001011000" );
 	array[-16167] = assign( 24, "100111111101001001011000" );
-	array[ 16168] = assign( 18, "011110011110110100" );	// warning: length mismatch
+	array[ 16168] = assign( 18, "011110011110110100" );
 	array[-16168] = assign( 18, "010110011110110100" );
 	array[ 16169] = assign( 24, "111111111101001011011000" );
 	array[-16169] = assign( 24, "101111111101001011011000" );
@@ -33369,7 +33411,7 @@
 	array[-16198] = assign( 23, "10011111010100101111010" );
 	array[ 16199] = assign( 24, "110111110101001001011000" );
 	array[-16199] = assign( 24, "100111110101001001011000" );
-	array[ 16200] = assign( 18, "011110011110100100" );	// warning: length mismatch
+	array[ 16200] = assign( 18, "011110011110100100" );
 	array[-16200] = assign( 18, "010110011110100100" );
 	array[ 16201] = assign( 24, "111111110101001011011000" );
 	array[-16201] = assign( 24, "101111110101001011011000" );
@@ -33435,7 +33477,7 @@
 	array[-16230] = assign( 21, "100111111110100111010" );
 	array[ 16231] = assign( 21, "110111111110101111000" );
 	array[-16231] = assign( 21, "100111111110101111000" );
-	array[ 16232] = assign( 16, "0111100011101110" );	// warning: length mismatch
+	array[ 16232] = assign( 16, "0111100011101110" );
 	array[-16232] = assign( 16, "0101100011101110" );
 	array[ 16233] = assign( 22, "1111111111101001011000" );
 	array[-16233] = assign( 22, "1011111111101001011000" );
@@ -33501,7 +33543,7 @@
 	array[-16262] = assign( 21, "100111110110100111010" );
 	array[ 16263] = assign( 21, "110111110110101111000" );
 	array[-16263] = assign( 21, "100111110110101111000" );
-	array[ 16264] = assign( 16, "0111100011101010" );	// warning: length mismatch
+	array[ 16264] = assign( 16, "0111100011101010" );
 	array[-16264] = assign( 16, "0101100011101010" );
 	array[ 16265] = assign( 22, "1111111101101001011000" );
 	array[-16265] = assign( 22, "1011111101101001011000" );
@@ -33567,7 +33609,7 @@
 	array[-16294] = assign( 21, "100111111100101101010" );
 	array[ 16295] = assign( 21, "110111111100100111000" );
 	array[-16295] = assign( 21, "100111111100100111000" );
-	array[ 16296] = assign( 16, "0111100110101100" );	// warning: length mismatch
+	array[ 16296] = assign( 16, "0111100110101100" );
 	array[-16296] = assign( 16, "0101100110101100" );
 	array[ 16297] = assign( 21, "111111111100101111000" );
 	array[-16297] = assign( 21, "101111111100101111000" );
@@ -33633,7 +33675,7 @@
 	array[-16326] = assign( 21, "100111110100101101010" );
 	array[ 16327] = assign( 21, "110111110100100111000" );
 	array[-16327] = assign( 21, "100111110100100111000" );
-	array[ 16328] = assign( 16, "0111100110101000" );	// warning: length mismatch
+	array[ 16328] = assign( 16, "0111100110101000" );
 	array[-16328] = assign( 16, "0101100110101000" );
 	array[ 16329] = assign( 21, "111111110100101111000" );
 	array[-16329] = assign( 21, "101111110100101111000" );
@@ -33699,7 +33741,7 @@
 	array[-16358] = assign( 19, "1001111110100101010" );
 	array[ 16359] = assign( 19, "1101111110101101000" );
 	array[-16359] = assign( 19, "1001111110101101000" );
-	array[ 16360] = assign( 14, "01111000101001" );	// warning: length mismatch
+	array[ 16360] = assign( 14, "01111000101001" );
 	array[-16360] = assign( 14, "01011000101001" );
 	array[ 16361] = assign( 19, "1111111110100111000" );
 	array[-16361] = assign( 19, "1011111110100111000" );
@@ -33765,7 +33807,7 @@
 	array[-16390] = assign( 19, "1001111100100101010" );
 	array[ 16391] = assign( 19, "1001111100001101000" );
 	array[-16391] = assign( 19, "1001111100101101000" );
-	array[ 16392] = assign( 14, "01010110101000" );	// warning: length mismatch
+	array[ 16392] = assign( 14, "01010110101000" );
 	array[-16392] = assign( 14, "01011000101000" );
 	array[ 16393] = assign( 19, "1011111100000111000" );
 	array[-16393] = assign( 19, "1011111100100111000" );
@@ -33831,7 +33873,7 @@
 	array[-16422] = assign( 19, "1101111110000101010" );
 	array[ 16423] = assign( 19, "1001111110001101000" );
 	array[-16423] = assign( 19, "1101111110001101000" );
-	array[ 16424] = assign( 14, "01010110101001" );	// warning: length mismatch
+	array[ 16424] = assign( 14, "01010110101001" );
 	array[-16424] = assign( 14, "01110110101001" );
 	array[ 16425] = assign( 19, "1011111110000111000" );
 	array[-16425] = assign( 19, "1111111110000111000" );
@@ -33897,7 +33939,7 @@
 	array[-16454] = assign( 20, "11011111010000111010" );
 	array[ 16455] = assign( 21, "100111110100000101000" );
 	array[-16455] = assign( 21, "110111110100000101000" );
-	array[ 16456] = assign( 15, "010101111101000" );	// warning: length mismatch
+	array[ 16456] = assign( 15, "010101111101000" );
 	array[-16456] = assign( 15, "011101111101000" );
 	array[ 16457] = assign( 21, "101111110100001101000" );
 	array[-16457] = assign( 21, "111111110100001101000" );
@@ -33963,7 +34005,7 @@
 	array[-16486] = assign( 20, "11011111110000111010" );
 	array[ 16487] = assign( 21, "100111111100000101000" );
 	array[-16487] = assign( 21, "110111111100000101000" );
-	array[ 16488] = assign( 15, "010101111101100" );	// warning: length mismatch
+	array[ 16488] = assign( 15, "010101111101100" );
 	array[-16488] = assign( 15, "011101111101100" );
 	array[ 16489] = assign( 21, "101111111100001101000" );
 	array[-16489] = assign( 21, "111111111100001101000" );
@@ -34029,7 +34071,7 @@
 	array[-16518] = assign( 20, "11011111011000011010" );
 	array[ 16519] = assign( 20, "10011111011000111000" );
 	array[-16519] = assign( 20, "11011111011000111000" );
-	array[ 16520] = assign( 15, "010101101101010" );	// warning: length mismatch
+	array[ 16520] = assign( 15, "010101101101010" );
 	array[-16520] = assign( 15, "011101101101010" );
 	array[ 16521] = assign( 21, "101111110110000101000" );
 	array[-16521] = assign( 21, "111111110110000101000" );
@@ -34095,7 +34137,7 @@
 	array[-16550] = assign( 20, "11011111111000011010" );
 	array[ 16551] = assign( 20, "10011111111000111000" );
 	array[-16551] = assign( 20, "11011111111000111000" );
-	array[ 16552] = assign( 15, "010101101101110" );	// warning: length mismatch
+	array[ 16552] = assign( 15, "010101101101110" );
 	array[-16552] = assign( 15, "011101101101110" );
 	array[ 16553] = assign( 21, "101111111110000101000" );
 	array[-16553] = assign( 21, "111111111110000101000" );
@@ -34161,7 +34203,7 @@
 	array[-16582] = assign( 22, "1101111101010000110010" );
 	array[ 16583] = assign( 22, "1001111101010000011000" );
 	array[-16583] = assign( 22, "1101111101010000011000" );
-	array[ 16584] = assign( 17, "01010111100100100" );	// warning: length mismatch
+	array[ 16584] = assign( 17, "01010111100100100" );
 	array[-16584] = assign( 17, "01110111100100100" );
 	array[ 16585] = assign( 22, "1011111101010000111000" );
 	array[-16585] = assign( 22, "1111111101010000111000" );
@@ -34227,7 +34269,7 @@
 	array[-16614] = assign( 22, "1101111111010000110010" );
 	array[ 16615] = assign( 22, "1001111111010000011000" );
 	array[-16615] = assign( 22, "1101111111010000011000" );
-	array[ 16616] = assign( 17, "01010111100110100" );	// warning: length mismatch
+	array[ 16616] = assign( 17, "01010111100110100" );
 	array[-16616] = assign( 17, "01110111100110100" );
 	array[ 16617] = assign( 22, "1011111111010000111000" );
 	array[-16617] = assign( 22, "1111111111010000111000" );
@@ -34293,7 +34335,7 @@
 	array[-16646] = assign( 22, "1101111101110000010010" );
 	array[ 16647] = assign( 22, "1001111101110000110000" );
 	array[-16647] = assign( 22, "1101111101110000110000" );
-	array[ 16648] = assign( 17, "01010110100101100" );	// warning: length mismatch
+	array[ 16648] = assign( 17, "01010110100101100" );
 	array[-16648] = assign( 17, "01110110100101100" );
 	array[ 16649] = assign( 22, "1011111101110000011000" );
 	array[-16649] = assign( 22, "1111111101110000011000" );
@@ -34359,7 +34401,7 @@
 	array[-16678] = assign( 22, "1101111111110000010010" );
 	array[ 16679] = assign( 22, "1001111111110000110000" );
 	array[-16679] = assign( 22, "1101111111110000110000" );
-	array[ 16680] = assign( 17, "01010110100111100" );	// warning: length mismatch
+	array[ 16680] = assign( 17, "01010110100111100" );
 	array[-16680] = assign( 17, "01110110100111100" );
 	array[ 16681] = assign( 22, "1011111111110000011000" );
 	array[-16681] = assign( 22, "1111111111110000011000" );
@@ -34425,7 +34467,7 @@
 	array[-16710] = assign( 20, "11011111010110001010" );
 	array[ 16711] = assign( 22, "1001111101011000010000" );
 	array[-16711] = assign( 22, "1101111101011000010000" );
-	array[ 16712] = assign( 15, "010101110100110" );	// warning: length mismatch
+	array[ 16712] = assign( 15, "010101110100110" );
 	array[-16712] = assign( 15, "011101110100110" );
 	array[ 16713] = assign( 22, "1011111101011000110000" );
 	array[-16713] = assign( 22, "1111111101011000110000" );
@@ -34491,7 +34533,7 @@
 	array[-16742] = assign( 20, "11011111110110001010" );
 	array[ 16743] = assign( 22, "1001111111011000010000" );
 	array[-16743] = assign( 22, "1101111111011000010000" );
-	array[ 16744] = assign( 15, "010101110110110" );	// warning: length mismatch
+	array[ 16744] = assign( 15, "010101110110110" );
 	array[-16744] = assign( 15, "011101110110110" );
 	array[ 16745] = assign( 22, "1011111111011000110000" );
 	array[-16745] = assign( 22, "1111111111011000110000" );
@@ -34557,7 +34599,7 @@
 	array[-16774] = assign( 16, "1101111010101110" );
 	array[ 16775] = assign( 17, "10011101101111110" );
 	array[-16775] = assign( 17, "11011101101111110" );
-	array[ 16776] = assign( 15, "010101100101110" );	// warning: length mismatch
+	array[ 16776] = assign( 15, "010101100101110" );
 	array[-16776] = assign( 15, "011101100101110" );
 	array[ 16777] = assign( 22, "1011111101111000010000" );
 	array[-16777] = assign( 22, "1111111101111000010000" );
@@ -34623,7 +34665,7 @@
 	array[-16806] = assign( 16, "1101111010111110" );
 	array[ 16807] = assign( 16, "1001110101111110" );
 	array[-16807] = assign( 16, "1101110101111110" );
-	array[ 16808] = assign( 15, "010101100111110" );	// warning: length mismatch
+	array[ 16808] = assign( 15, "010101100111110" );
 	array[-16808] = assign( 15, "011101100111110" );
 	array[ 16809] = assign( 22, "1011111111111000010000" );
 	array[-16809] = assign( 22, "1111111111111000010000" );
@@ -34689,7 +34731,7 @@
 	array[-16838] = assign( 16, "1101011111111110" );
 	array[ 16839] = assign( 14, "10010101111110" );
 	array[-16839] = assign( 14, "11010101111110" );
-	array[ 16840] = assign( 15, "010110101111110" );	// warning: length mismatch
+	array[ 16840] = assign( 15, "010110101111110" );
 	array[-16840] = assign( 15, "011110101111110" );
 	array[ 16841] = assign( 18, "101111011011111110" );
 	array[-16841] = assign( 18, "111111011011111110" );
@@ -34755,7 +34797,7 @@
 	array[-16870] = assign( 16, "1101110011111110" );
 	array[ 16871] = assign( 13, "1001001111110" );
 	array[-16871] = assign( 13, "1101001111110" );
-	array[ 16872] = assign( 15, "010110111111110" );	// warning: length mismatch
+	array[ 16872] = assign( 15, "010110111111110" );
 	array[-16872] = assign( 15, "011110111111110" );
 	array[ 16873] = assign( 17, "10111101011111110" );
 	array[-16873] = assign( 17, "11111101011111110" );
@@ -34887,7 +34929,7 @@
 	array[-16934] = assign( 17, "11111110111111010" );
 	array[ 16935] = assign( 17, "10110110111111110" );
 	array[-16935] = assign( 17, "11110110111111110" );
-	array[ 16936] = assign( 13, "0101000101010" );	// warning: length mismatch
+	array[ 16936] = assign( 13, "0101000101010" );
 	array[-16936] = assign( 13, "0111000101010" );
 	array[ 16937] = assign( 14, "10110011111110" );
 	array[-16937] = assign( 14, "11110011111110" );
@@ -34953,7 +34995,7 @@
 	array[-16966] = assign( 22, "1111111101011100101010" );
 	array[ 16967] = assign( 19, "1011111001111111110" );
 	array[-16967] = assign( 19, "1111111001111111110" );
-	array[ 16968] = assign( 13, "0101001101010" );	// warning: length mismatch
+	array[ 16968] = assign( 13, "0101001101010" );
 	array[-16968] = assign( 13, "0111001101010" );
 	array[ 16969] = assign( 15, "100110111111110" );
 	array[-16969] = assign( 15, "110110111111110" );
@@ -35019,7 +35061,7 @@
 	array[-16998] = assign( 22, "1111111111011100101010" );
 	array[ 16999] = assign( 20, "10111101111111111110" );
 	array[-16999] = assign( 20, "11111101111111111110" );
-	array[ 17000] = assign( 18, "010111001111111110" );	// warning: length mismatch
+	array[ 17000] = assign( 18, "010111001111111110" );
 	array[-17000] = assign( 18, "011111001111111110" );
 	array[ 17001] = assign( 18, "100101101111111110" );
 	array[-17001] = assign( 18, "110101101111111110" );
@@ -35061,13 +35103,15 @@
 	array[-17019] = assign( 26, "11111111110111000101111100" );
 	array[ 17020] = assign( 26, "10111111110111000111111100" );
 	array[-17020] = assign( 26, "11111111110111000111111100" );
-	array[ 17021] = assign( 27, "101111110111110010010011110" );
-	array[-17021] = assign( 27, "111111110111110010010011110" );
-	array[ 17022] = assign( 27, "101111110111110010010001110" );
-	array[-17022] = assign( 27, "111111110111110010010001110" );
-	array[ 17023] = assign( 27, "101111110111110010010011010" );
-	array[-17023] = assign( 27, "111111110111110010010011010" );
-	// decoded 31 sequences.
+	array[ 17021] = assign( 27, "111111110111111101100111111" );
+	array[-17021] = assign( 27, "101111110111111101100111111" );
+	array[ 17022] = assign( 27, "101111110111110010010011110" );
+	array[-17022] = assign( 27, "111111110111110010010011110" );
+	array[ 17023] = assign( 27, "101111110111110010010001110" );
+	array[-17023] = assign( 27, "111111110111110010010001110" );
+	array[ 17024] = assign( 27, "101111110111110010010011010" );
+	array[-17024] = assign( 27, "111111110111110010010011010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 17025
 	array[ 17025] = assign( 27, "101111110111110010010001010" );
 	array[-17025] = assign( 27, "111111110111110010010001010" );
@@ -35083,7 +35127,7 @@
 	array[-17030] = assign( 24, "111111110111110010010010" );
 	array[ 17031] = assign( 24, "101111110111110010010000" );
 	array[-17031] = assign( 24, "111111110111110010010000" );
-	array[ 17032] = assign( 16, "0101100001011110" );	// warning: length mismatch
+	array[ 17032] = assign( 16, "0101100001011110" );
 	array[-17032] = assign( 16, "0111100001011110" );
 	array[ 17033] = assign( 20, "10011110011111111110" );
 	array[-17033] = assign( 20, "11011110011111111110" );
@@ -35127,11 +35171,13 @@
 	array[-17052] = assign( 26, "11011111011111001111111100" );
 	array[ 17053] = assign( 26, "10111111011111000111111110" );
 	array[-17053] = assign( 26, "11111111011111000111111110" );
-	array[ 17054] = assign( 27, "101111111111110010010001110" );
-	array[-17054] = assign( 27, "111111111111110010010001110" );
-	array[ 17055] = assign( 27, "101111111111110010010011010" );
-	array[-17055] = assign( 27, "111111111111110010010011010" );
-	// decoded 31 sequences.
+	array[ 17054] = assign( 27, "101111111111110010010011110" );
+	array[-17054] = assign( 27, "101111111101111101110111111" );
+	array[ 17055] = assign( 27, "101111111111110010010001110" );
+	array[-17055] = assign( 27, "111111111111110010010001110" );
+	array[ 17056] = assign( 27, "101111111111110010010011010" );
+	array[-17056] = assign( 27, "111111111111110010010011010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 17057
 	array[ 17057] = assign( 27, "101111111111110010010001010" );
 	array[-17057] = assign( 27, "111111111111110010010001010" );
@@ -35147,7 +35193,7 @@
 	array[-17062] = assign( 24, "111111111111110010010010" );
 	array[ 17063] = assign( 24, "101111111111110010010000" );
 	array[-17063] = assign( 24, "111111111111110010010000" );
-	array[ 17064] = assign( 16, "0101100001111110" );	// warning: length mismatch
+	array[ 17064] = assign( 16, "0101100001111110" );
 	array[-17064] = assign( 16, "0111100001111110" );
 	array[ 17065] = assign( 21, "100111011111111111110" );
 	array[-17065] = assign( 21, "110111011111111111110" );
@@ -35191,11 +35237,13 @@
 	array[-17084] = assign( 26, "11011111111111001111111100" );
 	array[ 17085] = assign( 26, "10111111111111000111111110" );
 	array[-17085] = assign( 26, "11111111111111000111111110" );
-	array[ 17086] = assign( 27, "101111110101011010110001110" );
-	array[-17086] = assign( 27, "111111110101011010110001110" );
-	array[ 17087] = assign( 27, "101111110101011010110011010" );
-	array[-17087] = assign( 27, "111111110101011010110011010" );
-	// decoded 31 sequences.
+	array[ 17086] = assign( 27, "101111110101011010110011110" );
+	array[-17086] = assign( 27, "101111110101111101110111111" );
+	array[ 17087] = assign( 27, "101111110101011010110001110" );
+	array[-17087] = assign( 27, "111111110101011010110001110" );
+	array[ 17088] = assign( 27, "101111110101011010110011010" );
+	array[-17088] = assign( 27, "111111110101011010110011010" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 17089
 	array[ 17089] = assign( 27, "101111110101011010110001010" );
 	array[-17089] = assign( 27, "111111110101011010110001010" );
@@ -35211,7 +35259,7 @@
 	array[-17094] = assign( 24, "111111110101011010110010" );
 	array[ 17095] = assign( 24, "101111110101011010110000" );
 	array[-17095] = assign( 24, "111111110101011010110000" );
-	array[ 17096] = assign( 17, "01011001010010110" );	// warning: length mismatch
+	array[ 17096] = assign( 17, "01011001010010110" );
 	array[-17096] = assign( 17, "01111001010010110" );
 	array[ 17097] = assign( 24, "100111110101011010010000" );
 	array[-17097] = assign( 24, "110111110101011010010000" );
@@ -35277,7 +35325,7 @@
 	array[-17126] = assign( 24, "111111111101011010110010" );
 	array[ 17127] = assign( 24, "101111111101011010110000" );
 	array[-17127] = assign( 24, "111111111101011010110000" );
-	array[ 17128] = assign( 17, "01011001011010110" );	// warning: length mismatch
+	array[ 17128] = assign( 17, "01011001011010110" );
 	array[-17128] = assign( 17, "01111001011010110" );
 	array[ 17129] = assign( 24, "100111111101011010010000" );
 	array[-17129] = assign( 24, "110111111101011010010000" );
@@ -35343,7 +35391,7 @@
 	array[-17158] = assign( 24, "111111110111011010011010" );
 	array[ 17159] = assign( 24, "101111110111011010011000" );
 	array[-17159] = assign( 24, "111111110111011010011000" );
-	array[ 17160] = assign( 19, "0101100010010110110" );	// warning: length mismatch
+	array[ 17160] = assign( 19, "0101100010010110110" );
 	array[-17160] = assign( 19, "0111100010010110110" );
 	array[ 17161] = assign( 24, "100111110111011010110000" );
 	array[-17161] = assign( 24, "110111110111011010110000" );
@@ -35409,7 +35457,7 @@
 	array[-17190] = assign( 24, "111111111111011010011010" );
 	array[ 17191] = assign( 24, "101111111111011010011000" );
 	array[-17191] = assign( 24, "111111111111011010011000" );
-	array[ 17192] = assign( 19, "0101100010011110110" );	// warning: length mismatch
+	array[ 17192] = assign( 19, "0101100010011110110" );
 	array[-17192] = assign( 19, "0111100010011110110" );
 	array[ 17193] = assign( 24, "100111111111011010110000" );
 	array[-17193] = assign( 24, "110111111111011010110000" );
@@ -35475,9 +35523,9 @@
 	array[-17222] = assign( 24, "111111110101111010111010" );
 	array[ 17223] = assign( 24, "101111110101111010111000" );
 	array[-17223] = assign( 24, "111111110101111010111000" );
-	array[ 17224] = assign( 19, "0101100110010011110" );	// warning: length mismatch
+	array[ 17224] = assign( 19, "0101100110010011110" );
 	array[-17224] = assign( 19, "0111100110010011110" );
-	array[ 17225] = assign( 19, "0111011110011111111" );	// warning: length mismatch
+	array[ 17225] = assign( 19, "0111011110011111111" );
 	array[-17225] = assign( 19, "0101011110011111111" );
 	array[ 17226] = assign( 24, "100111110101111010110010" );
 	array[-17226] = assign( 24, "110111110101111010110010" );
@@ -35541,9 +35589,9 @@
 	array[-17254] = assign( 24, "111111111101111010111010" );
 	array[ 17255] = assign( 24, "101111111101111010111000" );
 	array[-17255] = assign( 24, "111111111101111010111000" );
-	array[ 17256] = assign( 19, "0101100110011011110" );	// warning: length mismatch
+	array[ 17256] = assign( 19, "0101100110011011110" );
 	array[-17256] = assign( 19, "0111100110011011110" );
-	array[ 17257] = assign( 19, "0111011110010111111" );	// warning: length mismatch
+	array[ 17257] = assign( 19, "0111011110010111111" );
 	array[-17257] = assign( 19, "0101011110010111111" );
 	array[ 17258] = assign( 24, "100111111101111010110010" );
 	array[-17258] = assign( 24, "110111111101111010110010" );
@@ -35607,9 +35655,9 @@
 	array[-17286] = assign( 25, "1111111101111110100101010" );
 	array[ 17287] = assign( 25, "1011111101111110100101000" );
 	array[-17287] = assign( 25, "1111111101111110100101000" );
-	array[ 17288] = assign( 19, "0101100011010111110" );	// warning: length mismatch
+	array[ 17288] = assign( 19, "0101100011010111110" );
 	array[-17288] = assign( 19, "0111100011010111110" );
-	array[ 17289] = assign( 19, "0111011011011011111" );	// warning: length mismatch
+	array[ 17289] = assign( 19, "0111011011011011111" );
 	array[-17289] = assign( 19, "0101011011011011111" );
 	array[ 17290] = assign( 24, "100111110111111010011010" );
 	array[-17290] = assign( 24, "110111110111111010011010" );
@@ -35673,9 +35721,9 @@
 	array[-17318] = assign( 25, "1111111111111110100101010" );
 	array[ 17319] = assign( 25, "1011111111111110100101000" );
 	array[-17319] = assign( 25, "1111111111111110100101000" );
-	array[ 17320] = assign( 19, "0101100011011111110" );	// warning: length mismatch
+	array[ 17320] = assign( 19, "0101100011011111110" );
 	array[-17320] = assign( 19, "0111100011011111110" );
-	array[ 17321] = assign( 19, "0111011011010011111" );	// warning: length mismatch
+	array[ 17321] = assign( 19, "0111011011010011111" );
 	array[-17321] = assign( 19, "0101011011010011111" );
 	array[ 17322] = assign( 24, "100111111111111010011010" );
 	array[-17322] = assign( 24, "110111111111111010011010" );
@@ -35739,9 +35787,9 @@
 	array[-17350] = assign( 26, "11111111010101010101101010" );
 	array[ 17351] = assign( 26, "10111111010101010101101000" );
 	array[-17351] = assign( 26, "10111111111101010001101010" );
-	array[ 17352] = assign( 19, "0101100111010010111" );	// warning: length mismatch
+	array[ 17352] = assign( 19, "0101100111010010111" );
 	array[-17352] = assign( 19, "0111100111010010111" );
-	array[ 17353] = assign( 19, "0111011111011110111" );	// warning: length mismatch
+	array[ 17353] = assign( 19, "0111011111011110111" );
 	array[-17353] = assign( 19, "0101011111011110111" );
 	array[ 17354] = assign( 25, "1001111101010101010111010" );
 	array[-17354] = assign( 25, "1101111101010101010111010" );
@@ -35805,9 +35853,9 @@
 	array[-17382] = assign( 26, "11111111110101010101101010" );
 	array[ 17383] = assign( 26, "10111111110101010101101000" );
 	array[-17383] = assign( 26, "10111111011101010001101010" );
-	array[ 17384] = assign( 19, "0101100111011010111" );	// warning: length mismatch
+	array[ 17384] = assign( 19, "0101100111011010111" );
 	array[-17384] = assign( 19, "0111100111011010111" );
-	array[ 17385] = assign( 19, "0111011111010110111" );	// warning: length mismatch
+	array[ 17385] = assign( 19, "0111011111010110111" );
 	array[-17385] = assign( 19, "0101011111010110111" );
 	array[ 17386] = assign( 25, "1001111111010101010111010" );
 	array[-17386] = assign( 25, "1101111111010101010111010" );
@@ -35871,9 +35919,9 @@
 	array[-17414] = assign( 26, "11111111011101010100111010" );
 	array[ 17415] = assign( 26, "10111111011101010100111000" );
 	array[-17415] = assign( 26, "10111111110101010000111010" );
-	array[ 17416] = assign( 20, "01011000101010110111" );	// warning: length mismatch
+	array[ 17416] = assign( 20, "01011000101010110111" );
 	array[-17416] = assign( 20, "01111000101010110111" );
-	array[ 17417] = assign( 20, "01110110101011010111" );	// warning: length mismatch
+	array[ 17417] = assign( 20, "01110110101011010111" );
 	array[-17417] = assign( 20, "01010110101011010111" );
 	array[ 17418] = assign( 26, "10011111011101010100101010" );
 	array[-17418] = assign( 26, "10011111110101010001101000" );
@@ -35897,29 +35945,31 @@
 	array[-17427] = assign( 26, "10011111110101010010101010" );
 	array[ 17428] = assign( 26, "11111111110101010111101010" );
 	array[-17428] = assign( 26, "10111111110101010111101010" );
-	array[ 17429] = assign( 28, "1001111101110101011111001010" );
-	array[-17429] = assign( 28, "1001111111010101001010100110" );
-	array[ 17430] = assign( 28, "1011111101110101001111011010" );
-	array[-17430] = assign( 28, "1001111111010101001010101110" );
-	array[ 17431] = assign( 28, "1111111111010101011110101110" );
-	array[-17431] = assign( 28, "1011111111010101011110101110" );
-	array[ 17432] = assign( 29, "10011111011101010110111001010" );
-	array[-17432] = assign( 29, "10011111110101010010101011010" );
-	array[ 17433] = assign( 29, "10011111011101010111111001010" );
-	array[-17433] = assign( 29, "10011111110101010010101001110" );
-	array[ 17434] = assign( 29, "10111111011101010011111011010" );
-	array[-17434] = assign( 29, "10011111110101010010101011110" );
-	array[ 17435] = assign( 29, "11111111110101010111101011110" );
-	array[-17435] = assign( 29, "10111111110101010111101011110" );
-	array[ 17436] = assign( 30, "100111110111010101101111001010" );
-	array[-17436] = assign( 30, "100111111101010100101010110110" );
-	array[ 17437] = assign( 29, "10111111111101010100111011110" );
-	array[-17437] = assign( 29, "11111111111101010100111011110" );
-	array[ 17438] = assign( 29, "10111111111101010100111001110" );
-	array[-17438] = assign( 29, "10111111010101010000111011110" );
-	array[ 17439] = assign( 29, "10111111111101010100111011010" );
-	array[-17439] = assign( 29, "10111111010101010000111001110" );
-	// decoded 31 sequences.
+	array[ 17429] = assign( 28, "1001111101110101011011001010" );
+	array[-17429] = assign( 28, "1001111111010101001010101100" );
+	array[ 17430] = assign( 28, "1001111101110101011111001010" );
+	array[-17430] = assign( 28, "1001111111010101001010100110" );
+	array[ 17431] = assign( 28, "1011111101110101001111011010" );
+	array[-17431] = assign( 28, "1001111111010101001010101110" );
+	array[ 17432] = assign( 28, "1111111111010101011110101110" );
+	array[-17432] = assign( 28, "1011111111010101011110101110" );
+	array[ 17433] = assign( 29, "10011111011101010110111001010" );
+	array[-17433] = assign( 29, "10011111110101010010101011010" );
+	array[ 17434] = assign( 29, "10011111011101010111111001010" );
+	array[-17434] = assign( 29, "10011111110101010010101001110" );
+	array[ 17435] = assign( 29, "10111111011101010011111011010" );
+	array[-17435] = assign( 29, "10011111110101010010101011110" );
+	array[ 17436] = assign( 29, "11111111110101010111101011110" );
+	array[-17436] = assign( 29, "10111111110101010111101011110" );
+	array[ 17437] = assign( 30, "100111110111010101101111001010" );
+	array[-17437] = assign( 30, "100111111101010100101010110110" );
+	array[ 17438] = assign( 29, "10111111111101010100111011110" );
+	array[-17438] = assign( 29, "11111111111101010100111011110" );
+	array[ 17439] = assign( 29, "10111111111101010100111001110" );
+	array[-17439] = assign( 29, "10111111010101010000111011110" );
+	array[ 17440] = assign( 29, "10111111111101010100111011010" );
+	array[-17440] = assign( 29, "10111111010101010000111001110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 17441
 	array[ 17441] = assign( 29, "10111111111101010100111001010" );
 	array[-17441] = assign( 29, "10111111010101010000111011010" );
@@ -35935,9 +35985,9 @@
 	array[-17446] = assign( 26, "11111111111101010100111010" );
 	array[ 17447] = assign( 26, "10111111111101010100111000" );
 	array[-17447] = assign( 26, "10111111010101010000111010" );
-	array[ 17448] = assign( 20, "01011000101011110111" );	// warning: length mismatch
+	array[ 17448] = assign( 20, "01011000101011110111" );
 	array[-17448] = assign( 20, "01111000101011110111" );
-	array[ 17449] = assign( 20, "01110110101010010111" );	// warning: length mismatch
+	array[ 17449] = assign( 20, "01110110101010010111" );
 	array[-17449] = assign( 20, "01010110101010010111" );
 	array[ 17450] = assign( 26, "10011111111101010100101010" );
 	array[-17450] = assign( 26, "10011111010101010001101000" );
@@ -35961,29 +36011,31 @@
 	array[-17459] = assign( 26, "10011111010101010010101010" );
 	array[ 17460] = assign( 26, "11111111010101010111101010" );
 	array[-17460] = assign( 26, "10111111010101010111101010" );
-	array[ 17461] = assign( 28, "1001111111110101011111001010" );
-	array[-17461] = assign( 28, "1001111101010101001010100110" );
-	array[ 17462] = assign( 28, "1011111111110101001111011010" );
-	array[-17462] = assign( 28, "1001111101010101001010101110" );
-	array[ 17463] = assign( 28, "1111111101010101011110101110" );
-	array[-17463] = assign( 28, "1011111101010101011110101110" );
-	array[ 17464] = assign( 29, "10011111111101010110111001010" );
-	array[-17464] = assign( 29, "10011111010101010010101011010" );
-	array[ 17465] = assign( 29, "10011111111101010111111001010" );
-	array[-17465] = assign( 29, "10011111010101010010101001110" );
-	array[ 17466] = assign( 29, "10111111111101010011111011010" );
-	array[-17466] = assign( 29, "10011111010101010010101011110" );
-	array[ 17467] = assign( 29, "11111111010101010111101011110" );
-	array[-17467] = assign( 29, "10111111010101010111101011110" );
-	array[ 17468] = assign( 29, "11111111111111100011110110110" );
-	array[-17468] = assign( 29, "10111111111111100011110110110" );
-	array[ 17469] = assign( 29, "10111111010111010101111011110" );
-	array[-17469] = assign( 29, "10111111111111100011110010110" );
-	array[ 17470] = assign( 28, "1111111111111110001111011110" );
-	array[-17470] = assign( 28, "1011111111111110001111011110" );
-	array[ 17471] = assign( 28, "1111111111111110001111001110" );
-	array[-17471] = assign( 28, "1011111111111110001111001110" );
-	// decoded 31 sequences.
+	array[ 17461] = assign( 28, "1001111111110101011011001010" );
+	array[-17461] = assign( 28, "1001111101010101001010101100" );
+	array[ 17462] = assign( 28, "1001111111110101011111001010" );
+	array[-17462] = assign( 28, "1001111101010101001010100110" );
+	array[ 17463] = assign( 28, "1011111111110101001111011010" );
+	array[-17463] = assign( 28, "1001111101010101001010101110" );
+	array[ 17464] = assign( 28, "1111111101010101011110101110" );
+	array[-17464] = assign( 28, "1011111101010101011110101110" );
+	array[ 17465] = assign( 29, "10011111111101010110111001010" );
+	array[-17465] = assign( 29, "10011111010101010010101011010" );
+	array[ 17466] = assign( 29, "10011111111101010111111001010" );
+	array[-17466] = assign( 29, "10011111010101010010101001110" );
+	array[ 17467] = assign( 29, "10111111111101010011111011010" );
+	array[-17467] = assign( 29, "10011111010101010010101011110" );
+	array[ 17468] = assign( 29, "11111111010101010111101011110" );
+	array[-17468] = assign( 29, "10111111010101010111101011110" );
+	array[ 17469] = assign( 29, "11111111111111100011110110110" );
+	array[-17469] = assign( 29, "10111111111111100011110110110" );
+	array[ 17470] = assign( 29, "10111111010111010101111011110" );
+	array[-17470] = assign( 29, "10111111111111100011110010110" );
+	array[ 17471] = assign( 28, "1111111111111110001111011110" );
+	array[-17471] = assign( 28, "1011111111111110001111011110" );
+	array[ 17472] = assign( 28, "1111111111111110001111001110" );
+	array[-17472] = assign( 28, "1011111111111110001111001110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 17473
 	array[ 17473] = assign( 28, "1111111111111110001111011010" );
 	array[-17473] = assign( 28, "1011111111111110001111011010" );
@@ -35999,9 +36051,9 @@
 	array[-17478] = assign( 26, "11111111010111010101111010" );
 	array[ 17479] = assign( 25, "1111111111111110001111010" );
 	array[-17479] = assign( 25, "1011111111111110001111010" );
-	array[ 17480] = assign( 20, "01011001101010011111" );	// warning: length mismatch
+	array[ 17480] = assign( 20, "01011001101010011111" );
 	array[-17480] = assign( 20, "01111001101010011111" );
-	array[ 17481] = assign( 20, "01110111101011111110" );	// warning: length mismatch
+	array[ 17481] = assign( 20, "01110111101011111110" );
 	array[-17481] = assign( 20, "01010111101011111110" );
 	array[ 17482] = assign( 25, "1101111111111110000111000" );
 	array[-17482] = assign( 25, "1001111111111110000111000" );
@@ -36065,9 +36117,9 @@
 	array[-17510] = assign( 26, "11111111110111010101111010" );
 	array[ 17511] = assign( 25, "1111111101111110001111010" );
 	array[-17511] = assign( 25, "1011111101111110001111010" );
-	array[ 17512] = assign( 20, "01011001101011011111" );	// warning: length mismatch
+	array[ 17512] = assign( 20, "01011001101011011111" );
 	array[-17512] = assign( 20, "01111001101011011111" );
-	array[ 17513] = assign( 20, "01110111101010111110" );	// warning: length mismatch
+	array[ 17513] = assign( 20, "01110111101010111110" );
 	array[-17513] = assign( 20, "01010111101010111110" );
 	array[ 17514] = assign( 25, "1101111101111110000111000" );
 	array[-17514] = assign( 25, "1001111101111110000111000" );
@@ -36131,9 +36183,9 @@
 	array[-17542] = assign( 27, "111111110111110101001011010" );
 	array[ 17543] = assign( 26, "11111111110111100001011010" );
 	array[-17543] = assign( 26, "10111111110111100001011010" );
-	array[ 17544] = assign( 20, "01011000111010111111" );	// warning: length mismatch
+	array[ 17544] = assign( 20, "01011000111010111111" );
 	array[-17544] = assign( 20, "01111000111010111111" );
-	array[ 17545] = assign( 20, "01110110111011011110" );	// warning: length mismatch
+	array[ 17545] = assign( 20, "01110110111011011110" );
 	array[-17545] = assign( 20, "01010110111011011110" );
 	array[ 17546] = assign( 25, "1101111111011110001111000" );
 	array[-17546] = assign( 25, "1001111111011110001111000" );
@@ -36197,9 +36249,9 @@
 	array[-17574] = assign( 27, "111111111111110101001011010" );
 	array[ 17575] = assign( 26, "11111111010111100001011010" );
 	array[-17575] = assign( 26, "10111111010111100001011010" );
-	array[ 17576] = assign( 20, "01011000111011111111" );	// warning: length mismatch
+	array[ 17576] = assign( 20, "01011000111011111111" );
 	array[-17576] = assign( 20, "01111000111011111111" );
-	array[ 17577] = assign( 20, "01110110111010011110" );	// warning: length mismatch
+	array[ 17577] = assign( 20, "01110110111010011110" );
 	array[-17577] = assign( 20, "01010110111010011110" );
 	array[ 17578] = assign( 25, "1101111101011110001111000" );
 	array[-17578] = assign( 25, "1001111101011110001111000" );
@@ -36265,7 +36317,7 @@
 	array[-17607] = assign( 26, "10111111111101100011011010" );
 	array[ 17608] = assign( 26, "11111111111101100011011000" );
 	array[-17608] = assign( 26, "10111111111101100011011000" );
-	array[ 17609] = assign( 20, "01110111111011110110" );	// warning: length mismatch
+	array[ 17609] = assign( 20, "01110111111011110110" );
 	array[-17609] = assign( 20, "01010111111011110110" );
 	array[ 17610] = assign( 26, "10011111010101110101111010" );
 	array[-17610] = assign( 26, "10011111111101100001011000" );
@@ -36331,7 +36383,7 @@
 	array[-17639] = assign( 26, "10111111011101100011011010" );
 	array[ 17640] = assign( 26, "11111111011101100011011000" );
 	array[-17640] = assign( 26, "10111111011101100011011000" );
-	array[ 17641] = assign( 20, "01110111111010110110" );	// warning: length mismatch
+	array[ 17641] = assign( 20, "01110111111010110110" );
 	array[-17641] = assign( 20, "01010111111010110110" );
 	array[ 17642] = assign( 26, "10011111110101110101111010" );
 	array[-17642] = assign( 26, "10011111011101100001011000" );
@@ -36397,7 +36449,7 @@
 	array[-17671] = assign( 26, "10111111110101100001111010" );
 	array[ 17672] = assign( 26, "11111111110101100001111000" );
 	array[-17672] = assign( 26, "10111111110101100001111000" );
-	array[ 17673] = assign( 21, "011101101011011010110" );	// warning: length mismatch
+	array[ 17673] = assign( 21, "011101101011011010110" );
 	array[-17673] = assign( 21, "010101101011011010110" );
 	array[ 17674] = assign( 26, "11011111110101100011011000" );
 	array[-17674] = assign( 26, "10011111110101100011011000" );
@@ -36463,7 +36515,7 @@
 	array[-17703] = assign( 26, "10111111010101100001111010" );
 	array[ 17704] = assign( 26, "11111111010101100001111000" );
 	array[-17704] = assign( 26, "10111111010101100001111000" );
-	array[ 17705] = assign( 21, "011101101011010010110" );	// warning: length mismatch
+	array[ 17705] = assign( 21, "011101101011010010110" );
 	array[-17705] = assign( 21, "010101101011010010110" );
 	array[ 17706] = assign( 26, "11011111010101100011011000" );
 	array[-17706] = assign( 26, "10011111010101100011011000" );
@@ -36529,7 +36581,7 @@
 	array[-17735] = assign( 26, "10111111111111000011111010" );
 	array[ 17736] = assign( 26, "11111111111111000011111000" );
 	array[-17736] = assign( 26, "10111111111111000011111000" );
-	array[ 17737] = assign( 20, "01110111101101111110" );	// warning: length mismatch
+	array[ 17737] = assign( 20, "01110111101101111110" );
 	array[-17737] = assign( 20, "01010111101101111110" );
 	array[ 17738] = assign( 26, "11011111111111000001111000" );
 	array[-17738] = assign( 26, "10011111111111000001111000" );
@@ -36595,7 +36647,7 @@
 	array[-17767] = assign( 26, "10011111111111001011111110" );
 	array[ 17768] = assign( 26, "11111111011111000011111000" );
 	array[-17768] = assign( 26, "10111111011111000011111000" );
-	array[ 17769] = assign( 20, "01110111101101011110" );	// warning: length mismatch
+	array[ 17769] = assign( 20, "01110111101101011110" );
 	array[-17769] = assign( 20, "01010111101101011110" );
 	array[ 17770] = assign( 26, "11011111011111000001111000" );
 	array[-17770] = assign( 26, "10011111011111000001111000" );
@@ -36661,7 +36713,7 @@
 	array[-17799] = assign( 26, "10011111011111001011111110" );
 	array[ 17800] = assign( 26, "11111111110111000001011100" );
 	array[-17800] = assign( 26, "10111111110111000001011100" );
-	array[ 17801] = assign( 20, "01110110111101101110" );	// warning: length mismatch
+	array[ 17801] = assign( 20, "01110110111101101110" );
 	array[-17801] = assign( 20, "01010110111101101110" );
 	array[ 17802] = assign( 26, "11011111110111000011111000" );
 	array[-17802] = assign( 26, "10011111110111000011111000" );
@@ -36727,7 +36779,7 @@
 	array[-17831] = assign( 26, "10011111110111001001111110" );
 	array[ 17832] = assign( 26, "11011111110111001011111100" );
 	array[-17832] = assign( 26, "10011111110111001011111100" );
-	array[ 17833] = assign( 20, "01110110111101001110" );	// warning: length mismatch
+	array[ 17833] = assign( 20, "01110110111101001110" );
 	array[-17833] = assign( 20, "01010110111101001110" );
 	array[ 17834] = assign( 26, "11011111010111000011111000" );
 	array[-17834] = assign( 26, "10011111010111000011111000" );
@@ -36793,7 +36845,7 @@
 	array[-17863] = assign( 26, "10011111010111001001111110" );
 	array[ 17864] = assign( 26, "11011111010111001011111100" );
 	array[-17864] = assign( 26, "10011111010111001011111100" );
-	array[ 17865] = assign( 20, "01110111111101111010" );	// warning: length mismatch
+	array[ 17865] = assign( 20, "01110111111101111010" );
 	array[-17865] = assign( 20, "01010111111101111010" );
 	array[ 17866] = assign( 26, "11011111111101000001011100" );
 	array[-17866] = assign( 26, "10011111111101000001011100" );
@@ -36859,7 +36911,7 @@
 	array[-17895] = assign( 26, "10011111111101001011011110" );
 	array[ 17896] = assign( 26, "11011111111101001001111100" );
 	array[-17896] = assign( 26, "10011111111101001001111100" );
-	array[ 17897] = assign( 20, "01110111111101011010" );	// warning: length mismatch
+	array[ 17897] = assign( 20, "01110111111101011010" );
 	array[-17897] = assign( 20, "01010111111101011010" );
 	array[ 17898] = assign( 26, "11011111011101000001011100" );
 	array[-17898] = assign( 26, "10011111011101000001011100" );
@@ -36925,7 +36977,7 @@
 	array[-17927] = assign( 26, "10011111011101001011011110" );
 	array[ 17928] = assign( 26, "11011111011101001001111100" );
 	array[-17928] = assign( 26, "10011111011101001001111100" );
-	array[ 17929] = assign( 20, "01110110101111101010" );	// warning: length mismatch
+	array[ 17929] = assign( 20, "01110110101111101010" );
 	array[-17929] = assign( 20, "01010110101111101010" );
 	array[ 17930] = assign( 26, "11011111110101000011011100" );
 	array[-17930] = assign( 26, "10011111110101000011011100" );
@@ -36991,7 +37043,7 @@
 	array[-17959] = assign( 26, "10011111110101001001011110" );
 	array[ 17960] = assign( 26, "11011111110101001011011100" );
 	array[-17960] = assign( 26, "10011111110101001011011100" );
-	array[ 17961] = assign( 20, "01110110101111001010" );	// warning: length mismatch
+	array[ 17961] = assign( 20, "01110110101111001010" );
 	array[-17961] = assign( 20, "01010110101111001010" );
 	array[ 17962] = assign( 26, "11011111010101000011011100" );
 	array[-17962] = assign( 26, "10011111010101000011011100" );
@@ -37057,7 +37109,7 @@
 	array[-17991] = assign( 24, "101111111111100011111110" );
 	array[ 17992] = assign( 24, "111111111111100011111100" );
 	array[-17992] = assign( 24, "101111111111100011111100" );
-	array[ 17993] = assign( 19, "0111011110111111110" );	// warning: length mismatch
+	array[ 17993] = assign( 19, "0111011110111111110" );
 	array[-17993] = assign( 19, "0101011110111111110" );
 	array[ 17994] = assign( 24, "110111111111100001111100" );
 	array[-17994] = assign( 24, "100111111111100001111100" );
@@ -37123,7 +37175,7 @@
 	array[-18023] = assign( 24, "100111111111101011111010" );
 	array[ 18024] = assign( 24, "110111111111101001011100" );
 	array[-18024] = assign( 24, "100111111111101001011100" );
-	array[ 18025] = assign( 19, "0111011110111101110" );	// warning: length mismatch
+	array[ 18025] = assign( 19, "0111011110111101110" );
 	array[-18025] = assign( 19, "0101011110111101110" );
 	array[ 18026] = assign( 24, "110111110111100001111100" );
 	array[-18026] = assign( 24, "100111110111100001111100" );
@@ -37189,7 +37241,7 @@
 	array[-18055] = assign( 24, "100111110111101011111010" );
 	array[ 18056] = assign( 24, "110111110111101001011100" );
 	array[-18056] = assign( 24, "100111110111101001011100" );
-	array[ 18057] = assign( 19, "0111011011111110110" );	// warning: length mismatch
+	array[ 18057] = assign( 19, "0111011011111110110" );
 	array[-18057] = assign( 19, "0101011011111110110" );
 	array[ 18058] = assign( 24, "110111111101100011111100" );
 	array[-18058] = assign( 24, "100111111101100011111100" );
@@ -37255,7 +37307,7 @@
 	array[-18087] = assign( 24, "100111111101101001111010" );
 	array[ 18088] = assign( 24, "110111111101101011111000" );
 	array[-18088] = assign( 24, "100111111101101011111000" );
-	array[ 18089] = assign( 19, "0111011011111100110" );	// warning: length mismatch
+	array[ 18089] = assign( 19, "0111011011111100110" );
 	array[-18089] = assign( 19, "0101011011111100110" );
 	array[ 18090] = assign( 24, "110111110101100011111100" );
 	array[-18090] = assign( 24, "100111110101100011111100" );
@@ -37321,7 +37373,7 @@
 	array[-18119] = assign( 24, "100111110101101001111010" );
 	array[ 18120] = assign( 24, "110111110101101011111000" );
 	array[-18120] = assign( 24, "100111110101101011111000" );
-	array[ 18121] = assign( 19, "0111011111111111100" );	// warning: length mismatch
+	array[ 18121] = assign( 19, "0111011111111111100" );
 	array[-18121] = assign( 19, "0101011111111111100" );
 	array[ 18122] = assign( 24, "111111110101101001011100" );
 	array[-18122] = assign( 24, "101111110101101001011100" );
@@ -37387,7 +37439,7 @@
 	array[-18151] = assign( 24, "100111111111001011011010" );
 	array[ 18152] = assign( 24, "110111111111001001111000" );
 	array[-18152] = assign( 24, "100111111111001001111000" );
-	array[ 18153] = assign( 19, "0111011111111101100" );	// warning: length mismatch
+	array[ 18153] = assign( 19, "0111011111111101100" );
 	array[-18153] = assign( 19, "0101011111111101100" );
 	array[ 18154] = assign( 24, "111111111111001011111000" );
 	array[-18154] = assign( 24, "101111111111001011111000" );
@@ -37453,7 +37505,7 @@
 	array[-18183] = assign( 24, "100111110111001011011010" );
 	array[ 18184] = assign( 24, "110111110111001001111000" );
 	array[-18184] = assign( 24, "100111110111001001111000" );
-	array[ 18185] = assign( 19, "0111100110110101100" );	// warning: length mismatch
+	array[ 18185] = assign( 19, "0111100110110101100" );
 	array[-18185] = assign( 19, "0101100110110101100" );
 	array[ 18186] = assign( 24, "111111110111001011111000" );
 	array[-18186] = assign( 24, "101111110111001011111000" );
@@ -37519,7 +37571,7 @@
 	array[-18215] = assign( 24, "100111111101001001011010" );
 	array[ 18216] = assign( 24, "110111111101001011011000" );
 	array[-18216] = assign( 24, "100111111101001011011000" );
-	array[ 18217] = assign( 19, "0111100010110110100" );	// warning: length mismatch
+	array[ 18217] = assign( 19, "0111100010110110100" );
 	array[-18217] = assign( 19, "0101100010110110100" );
 	array[ 18218] = assign( 24, "111111111101001001111000" );
 	array[-18218] = assign( 24, "101111111101001001111000" );
@@ -37585,7 +37637,7 @@
 	array[-18247] = assign( 24, "100111110101001001011010" );
 	array[ 18248] = assign( 24, "110111110101001011011000" );
 	array[-18248] = assign( 24, "100111110101001011011000" );
-	array[ 18249] = assign( 19, "0111100010110100100" );	// warning: length mismatch
+	array[ 18249] = assign( 19, "0111100010110100100" );
 	array[-18249] = assign( 19, "0101100010110100100" );
 	array[ 18250] = assign( 24, "111111110101001001111000" );
 	array[-18250] = assign( 24, "101111110101001001111000" );
@@ -37651,7 +37703,7 @@
 	array[-18279] = assign( 21, "100111111110101111010" );
 	array[ 18280] = assign( 22, "1101111111101001011000" );
 	array[-18280] = assign( 22, "1001111111101001011000" );
-	array[ 18281] = assign( 16, "0111100111101110" );	// warning: length mismatch
+	array[ 18281] = assign( 16, "0111100111101110" );
 	array[-18281] = assign( 16, "0101100111101110" );
 	array[ 18282] = assign( 22, "1111111111101011011000" );
 	array[-18282] = assign( 22, "1011111111101011011000" );
@@ -37717,7 +37769,7 @@
 	array[-18311] = assign( 21, "100111110110101111010" );
 	array[ 18312] = assign( 22, "1101111101101001011000" );
 	array[-18312] = assign( 22, "1001111101101001011000" );
-	array[ 18313] = assign( 16, "0111100111101010" );	// warning: length mismatch
+	array[ 18313] = assign( 16, "0111100111101010" );
 	array[-18313] = assign( 16, "0101100111101010" );
 	array[ 18314] = assign( 22, "1111111101101011011000" );
 	array[-18314] = assign( 22, "1011111101101011011000" );
@@ -37783,7 +37835,7 @@
 	array[-18343] = assign( 21, "100111111100100111010" );
 	array[ 18344] = assign( 21, "110111111100101111000" );
 	array[-18344] = assign( 21, "100111111100101111000" );
-	array[ 18345] = assign( 16, "0111100011101100" );	// warning: length mismatch
+	array[ 18345] = assign( 16, "0111100011101100" );
 	array[-18345] = assign( 16, "0101100011101100" );
 	array[ 18346] = assign( 22, "1111111111001001011000" );
 	array[-18346] = assign( 22, "1011111111001001011000" );
@@ -37849,7 +37901,7 @@
 	array[-18375] = assign( 21, "100111110100100111010" );
 	array[ 18376] = assign( 21, "110111110100101111000" );
 	array[-18376] = assign( 21, "100111110100101111000" );
-	array[ 18377] = assign( 16, "0111100011101000" );	// warning: length mismatch
+	array[ 18377] = assign( 16, "0111100011101000" );
 	array[-18377] = assign( 16, "0101100011101000" );
 	array[ 18378] = assign( 22, "1111111101001001011000" );
 	array[-18378] = assign( 22, "1011111101001001011000" );
@@ -37915,7 +37967,7 @@
 	array[-18407] = assign( 19, "1001111110101101010" );
 	array[ 18408] = assign( 19, "1101111110100111000" );
 	array[-18408] = assign( 19, "1001111110100111000" );
-	array[ 18409] = assign( 14, "01111001101001" );	// warning: length mismatch
+	array[ 18409] = assign( 14, "01111001101001" );
 	array[-18409] = assign( 14, "01011001101001" );
 	array[ 18410] = assign( 19, "1111111110101111000" );
 	array[-18410] = assign( 19, "1011111110101111000" );
@@ -37981,7 +38033,7 @@
 	array[-18439] = assign( 19, "1001111100101101010" );
 	array[ 18440] = assign( 19, "1001111100000111000" );
 	array[-18440] = assign( 19, "1001111100100111000" );
-	array[ 18441] = assign( 14, "01010111101000" );	// warning: length mismatch
+	array[ 18441] = assign( 14, "01010111101000" );
 	array[-18441] = assign( 14, "01011001101000" );
 	array[ 18442] = assign( 19, "1011111100001111000" );
 	array[-18442] = assign( 19, "1011111100101111000" );
@@ -38047,7 +38099,7 @@
 	array[-18471] = assign( 19, "1101111110001101010" );
 	array[ 18472] = assign( 19, "1001111110000111000" );
 	array[-18472] = assign( 19, "1101111110000111000" );
-	array[ 18473] = assign( 14, "01010111101001" );	// warning: length mismatch
+	array[ 18473] = assign( 14, "01010111101001" );
 	array[-18473] = assign( 14, "01110111101001" );
 	array[ 18474] = assign( 19, "1011111110001111000" );
 	array[-18474] = assign( 19, "1111111110001111000" );
@@ -38113,7 +38165,7 @@
 	array[-18503] = assign( 21, "110111110100000101010" );
 	array[ 18504] = assign( 21, "100111110100001101000" );
 	array[-18504] = assign( 21, "110111110100001101000" );
-	array[ 18505] = assign( 16, "0101011010101000" );	// warning: length mismatch
+	array[ 18505] = assign( 16, "0101011010101000" );
 	array[-18505] = assign( 16, "0111011010101000" );
 	array[ 18506] = assign( 21, "101111110100000111000" );
 	array[-18506] = assign( 21, "111111110100000111000" );
@@ -38179,7 +38231,7 @@
 	array[-18535] = assign( 21, "110111111100000101010" );
 	array[ 18536] = assign( 21, "100111111100001101000" );
 	array[-18536] = assign( 21, "110111111100001101000" );
-	array[ 18537] = assign( 16, "0101011010101100" );	// warning: length mismatch
+	array[ 18537] = assign( 16, "0101011010101100" );
 	array[-18537] = assign( 16, "0111011010101100" );
 	array[ 18538] = assign( 21, "101111111100000111000" );
 	array[-18538] = assign( 21, "111111111100000111000" );
@@ -38245,7 +38297,7 @@
 	array[-18567] = assign( 20, "11011111011000111010" );
 	array[ 18568] = assign( 21, "100111110110000101000" );
 	array[-18568] = assign( 21, "110111110110000101000" );
-	array[ 18569] = assign( 15, "010101111101010" );	// warning: length mismatch
+	array[ 18569] = assign( 15, "010101111101010" );
 	array[-18569] = assign( 15, "011101111101010" );
 	array[ 18570] = assign( 21, "101111110110001101000" );
 	array[-18570] = assign( 21, "111111110110001101000" );
@@ -38311,7 +38363,7 @@
 	array[-18599] = assign( 20, "11011111111000111010" );
 	array[ 18600] = assign( 21, "100111111110000101000" );
 	array[-18600] = assign( 21, "110111111110000101000" );
-	array[ 18601] = assign( 15, "010101111101110" );	// warning: length mismatch
+	array[ 18601] = assign( 15, "010101111101110" );
 	array[-18601] = assign( 15, "011101111101110" );
 	array[ 18602] = assign( 21, "101111111110001101000" );
 	array[-18602] = assign( 21, "111111111110001101000" );
@@ -38377,7 +38429,7 @@
 	array[-18631] = assign( 22, "1101111101010000011010" );
 	array[ 18632] = assign( 22, "1001111101010000111000" );
 	array[-18632] = assign( 22, "1101111101010000111000" );
-	array[ 18633] = assign( 17, "01010110110100100" );	// warning: length mismatch
+	array[ 18633] = assign( 17, "01010110110100100" );
 	array[-18633] = assign( 17, "01110110110100100" );
 	array[ 18634] = assign( 23, "10111111010100000101000" );
 	array[-18634] = assign( 23, "11111111010100000101000" );
@@ -38443,7 +38495,7 @@
 	array[-18663] = assign( 22, "1101111111010000011010" );
 	array[ 18664] = assign( 22, "1001111111010000111000" );
 	array[-18664] = assign( 22, "1101111111010000111000" );
-	array[ 18665] = assign( 17, "01010110110110100" );	// warning: length mismatch
+	array[ 18665] = assign( 17, "01010110110110100" );
 	array[-18665] = assign( 17, "01110110110110100" );
 	array[ 18666] = assign( 23, "10111111110100000101000" );
 	array[-18666] = assign( 23, "11111111110100000101000" );
@@ -38509,7 +38561,7 @@
 	array[-18695] = assign( 22, "1101111101110000110010" );
 	array[ 18696] = assign( 22, "1001111101110000011000" );
 	array[-18696] = assign( 22, "1101111101110000011000" );
-	array[ 18697] = assign( 17, "01010111100101100" );	// warning: length mismatch
+	array[ 18697] = assign( 17, "01010111100101100" );
 	array[-18697] = assign( 17, "01110111100101100" );
 	array[ 18698] = assign( 22, "1011111101110000111000" );
 	array[-18698] = assign( 22, "1111111101110000111000" );
@@ -38575,7 +38627,7 @@
 	array[-18727] = assign( 22, "1101111111110000110010" );
 	array[ 18728] = assign( 22, "1001111111110000011000" );
 	array[-18728] = assign( 22, "1101111111110000011000" );
-	array[ 18729] = assign( 17, "01010111100111100" );	// warning: length mismatch
+	array[ 18729] = assign( 17, "01010111100111100" );
 	array[-18729] = assign( 17, "01110111100111100" );
 	array[ 18730] = assign( 22, "1011111111110000111000" );
 	array[-18730] = assign( 22, "1111111111110000111000" );
@@ -38641,7 +38693,7 @@
 	array[-18759] = assign( 22, "1101111101011000010010" );
 	array[ 18760] = assign( 22, "1001111101011000110000" );
 	array[-18760] = assign( 22, "1101111101011000110000" );
-	array[ 18761] = assign( 17, "01010110100100110" );	// warning: length mismatch
+	array[ 18761] = assign( 17, "01010110100100110" );
 	array[-18761] = assign( 17, "01110110100100110" );
 	array[ 18762] = assign( 22, "1011111101011000011000" );
 	array[-18762] = assign( 22, "1111111101011000011000" );
@@ -38707,7 +38759,7 @@
 	array[-18791] = assign( 22, "1101111111011000010010" );
 	array[ 18792] = assign( 22, "1001111111011000110000" );
 	array[-18792] = assign( 22, "1101111111011000110000" );
-	array[ 18793] = assign( 17, "01010110100110110" );	// warning: length mismatch
+	array[ 18793] = assign( 17, "01010110100110110" );
 	array[-18793] = assign( 17, "01110110100110110" );
 	array[ 18794] = assign( 22, "1011111111011000011000" );
 	array[-18794] = assign( 22, "1111111111011000011000" );
@@ -38773,7 +38825,7 @@
 	array[-18823] = assign( 20, "11011111011110001010" );
 	array[ 18824] = assign( 22, "1001111101111000010000" );
 	array[-18824] = assign( 22, "1101111101111000010000" );
-	array[ 18825] = assign( 15, "010101110101110" );	// warning: length mismatch
+	array[ 18825] = assign( 15, "010101110101110" );
 	array[-18825] = assign( 15, "011101110101110" );
 	array[ 18826] = assign( 22, "1011111101111000110000" );
 	array[-18826] = assign( 22, "1111111101111000110000" );
@@ -38839,7 +38891,7 @@
 	array[-18855] = assign( 20, "11011111111110001010" );
 	array[ 18856] = assign( 22, "1001111111111000010000" );
 	array[-18856] = assign( 22, "1101111111111000010000" );
-	array[ 18857] = assign( 15, "010101110111110" );	// warning: length mismatch
+	array[ 18857] = assign( 15, "010101110111110" );
 	array[-18857] = assign( 15, "011101110111110" );
 	array[ 18858] = assign( 22, "1011111111111000110000" );
 	array[-18858] = assign( 22, "1111111111111000110000" );
@@ -38905,7 +38957,7 @@
 	array[-18887] = assign( 17, "11011110101001010" );
 	array[ 18888] = assign( 18, "100111011011111110" );
 	array[-18888] = assign( 18, "110111011011111110" );
-	array[ 18889] = assign( 16, "0101011001001010" );	// warning: length mismatch
+	array[ 18889] = assign( 16, "0101011001001010" );
 	array[-18889] = assign( 16, "0111011001001010" );
 	array[ 18890] = assign( 24, "101111110101010000010000" );
 	array[-18890] = assign( 24, "111111110101010000010000" );
@@ -38971,7 +39023,7 @@
 	array[-18919] = assign( 17, "11011110101101010" );
 	array[ 18920] = assign( 17, "10011101011111110" );
 	array[-18920] = assign( 17, "11011101011111110" );
-	array[ 18921] = assign( 16, "0101011001101010" );	// warning: length mismatch
+	array[ 18921] = assign( 16, "0101011001101010" );
 	array[-18921] = assign( 16, "0111011001101010" );
 	array[ 18922] = assign( 24, "101111111101010000010000" );
 	array[-18922] = assign( 24, "111111111101010000010000" );
@@ -39037,7 +39089,7 @@
 	array[-18951] = assign( 17, "11010111111111110" );
 	array[ 18952] = assign( 15, "100101011111110" );
 	array[-18952] = assign( 15, "110101011111110" );
-	array[ 18953] = assign( 16, "0101101011111110" );	// warning: length mismatch
+	array[ 18953] = assign( 16, "0101101011111110" );
 	array[-18953] = assign( 16, "0111101011111110" );
 	array[ 18954] = assign( 19, "1011110110111111110" );
 	array[-18954] = assign( 19, "1111110110111111110" );
@@ -39103,7 +39155,7 @@
 	array[-18983] = assign( 17, "11011100111111110" );
 	array[ 18984] = assign( 14, "10010011111110" );
 	array[-18984] = assign( 14, "11010011111110" );
-	array[ 18985] = assign( 16, "0101101111111110" );	// warning: length mismatch
+	array[ 18985] = assign( 16, "0101101111111110" );
 	array[-18985] = assign( 16, "0111101111111110" );
 	array[ 18986] = assign( 18, "101111010111111110" );
 	array[-18986] = assign( 18, "111111010111111110" );
@@ -39235,7 +39287,7 @@
 	array[-19047] = assign( 17, "11111110111101110" );
 	array[ 19048] = assign( 18, "101101101111111110" );
 	array[-19048] = assign( 18, "111101101111111110" );
-	array[ 19049] = assign( 13, "0101000111010" );	// warning: length mismatch
+	array[ 19049] = assign( 13, "0101000111010" );
 	array[-19049] = assign( 13, "0111000111010" );
 	array[ 19050] = assign( 15, "101100111111110" );
 	array[-19050] = assign( 15, "111100111111110" );
@@ -39301,7 +39353,7 @@
 	array[-19079] = assign( 22, "1111111101111100101010" );
 	array[ 19080] = assign( 20, "10111110011111111110" );
 	array[-19080] = assign( 20, "11111110011111111110" );
-	array[ 19081] = assign( 13, "0101001111010" );	// warning: length mismatch
+	array[ 19081] = assign( 13, "0101001111010" );
 	array[-19081] = assign( 13, "0111001111010" );
 	array[ 19082] = assign( 16, "1001101111111110" );
 	array[-19082] = assign( 16, "1101101111111110" );
@@ -39367,7 +39419,7 @@
 	array[-19111] = assign( 22, "1111111111111100101010" );
 	array[ 19112] = assign( 21, "101111011111111111110" );
 	array[-19112] = assign( 21, "111111011111111111110" );
-	array[ 19113] = assign( 19, "0101110011111111110" );	// warning: length mismatch
+	array[ 19113] = assign( 19, "0101110011111111110" );
 	array[-19113] = assign( 19, "0111110011111111110" );
 	array[ 19114] = assign( 19, "1001011011111111110" );
 	array[-19114] = assign( 19, "1101011011111111110" );
@@ -39433,7 +39485,7 @@
 	array[-19143] = assign( 24, "111111110101011010010010" );
 	array[ 19144] = assign( 24, "101111110101011010010000" );
 	array[-19144] = assign( 24, "111111110101011010010000" );
-	array[ 19145] = assign( 17, "01011000010010110" );	// warning: length mismatch
+	array[ 19145] = assign( 17, "01011000010010110" );
 	array[-19145] = assign( 17, "01111000010010110" );
 	array[ 19146] = assign( 21, "100111100111111111110" );
 	array[-19146] = assign( 21, "110111100111111111110" );
@@ -39477,9 +39529,11 @@
 	array[-19165] = assign( 26, "11011111010101101111111100" );
 	array[ 19166] = assign( 26, "10111111010101100111111110" );
 	array[-19166] = assign( 26, "11111111010101100111111110" );
-	array[ 19167] = assign( 27, "101111111101011010010001110" );
-	array[-19167] = assign( 27, "111111111101011010010001110" );
-	// decoded 31 sequences.
+	array[ 19167] = assign( 27, "101111111101011010010011110" );
+	array[-19167] = assign( 27, "101111111111011101110111111" );
+	array[ 19168] = assign( 27, "101111111101011010010001110" );
+	array[-19168] = assign( 27, "111111111101011010010001110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 19169
 	array[ 19169] = assign( 27, "101111111101011010010011010" );
 	array[-19169] = assign( 27, "111111111101011010010011010" );
@@ -39497,7 +39551,7 @@
 	array[-19175] = assign( 24, "111111111101011010010010" );
 	array[ 19176] = assign( 24, "101111111101011010010000" );
 	array[-19176] = assign( 24, "111111111101011010010000" );
-	array[ 19177] = assign( 17, "01011000011010110" );	// warning: length mismatch
+	array[ 19177] = assign( 17, "01011000011010110" );
 	array[-19177] = assign( 17, "01111000011010110" );
 	array[ 19178] = assign( 22, "1001110111111111111110" );
 	array[-19178] = assign( 22, "1101110111111111111110" );
@@ -39541,9 +39595,11 @@
 	array[-19197] = assign( 26, "11011111110101101111111100" );
 	array[ 19198] = assign( 26, "10111111110101100111111110" );
 	array[-19198] = assign( 26, "11111111110101100111111110" );
-	array[ 19199] = assign( 27, "101111110111011010110001110" );
-	array[-19199] = assign( 27, "111111110111011010110001110" );
-	// decoded 31 sequences.
+	array[ 19199] = assign( 27, "101111110111011010110011110" );
+	array[-19199] = assign( 27, "101111110111011101110111111" );
+	array[ 19200] = assign( 27, "101111110111011010110001110" );
+	array[-19200] = assign( 27, "111111110111011010110001110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 19201
 	array[ 19201] = assign( 27, "101111110111011010110011010" );
 	array[-19201] = assign( 27, "111111110111011010110011010" );
@@ -39561,7 +39617,7 @@
 	array[-19207] = assign( 24, "111111110111011010110010" );
 	array[ 19208] = assign( 24, "101111110111011010110000" );
 	array[-19208] = assign( 24, "111111110111011010110000" );
-	array[ 19209] = assign( 17, "01011001010110110" );	// warning: length mismatch
+	array[ 19209] = assign( 17, "01011001010110110" );
 	array[-19209] = assign( 17, "01111001010110110" );
 	array[ 19210] = assign( 24, "100111110111011010010000" );
 	array[-19210] = assign( 24, "110111110111011010010000" );
@@ -39627,7 +39683,7 @@
 	array[-19239] = assign( 24, "111111111111011010110010" );
 	array[ 19240] = assign( 24, "101111111111011010110000" );
 	array[-19240] = assign( 24, "111111111111011010110000" );
-	array[ 19241] = assign( 17, "01011001011110110" );	// warning: length mismatch
+	array[ 19241] = assign( 17, "01011001011110110" );
 	array[-19241] = assign( 17, "01111001011110110" );
 	array[ 19242] = assign( 24, "100111111111011010010000" );
 	array[-19242] = assign( 24, "110111111111011010010000" );
@@ -39693,9 +39749,9 @@
 	array[-19271] = assign( 24, "111111110101111010011010" );
 	array[ 19272] = assign( 24, "101111110101111010011000" );
 	array[-19272] = assign( 24, "111111110101111010011000" );
-	array[ 19273] = assign( 19, "0101100010010011110" );	// warning: length mismatch
+	array[ 19273] = assign( 19, "0101100010010011110" );
 	array[-19273] = assign( 19, "0111100010010011110" );
-	array[ 19274] = assign( 19, "0111011010011111111" );	// warning: length mismatch
+	array[ 19274] = assign( 19, "0111011010011111111" );
 	array[-19274] = assign( 19, "0101011010011111111" );
 	array[ 19275] = assign( 24, "100111110101111010010010" );
 	array[-19275] = assign( 24, "110111110101111010010010" );
@@ -39759,9 +39815,9 @@
 	array[-19303] = assign( 24, "111111111101111010011010" );
 	array[ 19304] = assign( 24, "101111111101111010011000" );
 	array[-19304] = assign( 24, "111111111101111010011000" );
-	array[ 19305] = assign( 19, "0101100010011011110" );	// warning: length mismatch
+	array[ 19305] = assign( 19, "0101100010011011110" );
 	array[-19305] = assign( 19, "0111100010011011110" );
-	array[ 19306] = assign( 19, "0111011010010111111" );	// warning: length mismatch
+	array[ 19306] = assign( 19, "0111011010010111111" );
 	array[-19306] = assign( 19, "0101011010010111111" );
 	array[ 19307] = assign( 24, "100111111101111010010010" );
 	array[-19307] = assign( 24, "110111111101111010010010" );
@@ -39825,9 +39881,9 @@
 	array[-19335] = assign( 24, "111111110111111010111010" );
 	array[ 19336] = assign( 24, "101111110111111010111000" );
 	array[-19336] = assign( 24, "111111110111111010111000" );
-	array[ 19337] = assign( 19, "0101100110010111110" );	// warning: length mismatch
+	array[ 19337] = assign( 19, "0101100110010111110" );
 	array[-19337] = assign( 19, "0111100110010111110" );
-	array[ 19338] = assign( 19, "0111011110011011111" );	// warning: length mismatch
+	array[ 19338] = assign( 19, "0111011110011011111" );
 	array[-19338] = assign( 19, "0101011110011011111" );
 	array[ 19339] = assign( 24, "100111110111111010110010" );
 	array[-19339] = assign( 24, "110111110111111010110010" );
@@ -39891,9 +39947,9 @@
 	array[-19367] = assign( 24, "111111111111111010111010" );
 	array[ 19368] = assign( 24, "101111111111111010111000" );
 	array[-19368] = assign( 24, "111111111111111010111000" );
-	array[ 19369] = assign( 19, "0101100110011111110" );	// warning: length mismatch
+	array[ 19369] = assign( 19, "0101100110011111110" );
 	array[-19369] = assign( 19, "0111100110011111110" );
-	array[ 19370] = assign( 19, "0111011110010011111" );	// warning: length mismatch
+	array[ 19370] = assign( 19, "0111011110010011111" );
 	array[-19370] = assign( 19, "0101011110010011111" );
 	array[ 19371] = assign( 24, "100111111111111010110010" );
 	array[-19371] = assign( 24, "110111111111111010110010" );
@@ -39957,9 +40013,9 @@
 	array[-19399] = assign( 26, "11111111010101010100101010" );
 	array[ 19400] = assign( 26, "10111111010101010100101000" );
 	array[-19400] = assign( 26, "10111111111101010000101010" );
-	array[ 19401] = assign( 19, "0101100011010010111" );	// warning: length mismatch
+	array[ 19401] = assign( 19, "0101100011010010111" );
 	array[-19401] = assign( 19, "0111100011010010111" );
-	array[ 19402] = assign( 19, "0111011011011110111" );	// warning: length mismatch
+	array[ 19402] = assign( 19, "0111011011011110111" );
 	array[-19402] = assign( 19, "0101011011011110111" );
 	array[ 19403] = assign( 25, "1001111101010101010011010" );
 	array[-19403] = assign( 25, "1001111111110101000111000" );
@@ -40023,9 +40079,9 @@
 	array[-19431] = assign( 26, "11111111110101010100101010" );
 	array[ 19432] = assign( 26, "10111111110101010100101000" );
 	array[-19432] = assign( 26, "10111111011101010000101010" );
-	array[ 19433] = assign( 19, "0101100011011010111" );	// warning: length mismatch
+	array[ 19433] = assign( 19, "0101100011011010111" );
 	array[-19433] = assign( 19, "0111100011011010111" );
-	array[ 19434] = assign( 19, "0111011011010110111" );	// warning: length mismatch
+	array[ 19434] = assign( 19, "0111011011010110111" );
 	array[-19434] = assign( 19, "0101011011010110111" );
 	array[ 19435] = assign( 25, "1001111111010101010011010" );
 	array[-19435] = assign( 25, "1001111101110101000111000" );
@@ -40089,9 +40145,9 @@
 	array[-19463] = assign( 26, "11111111011101010101101010" );
 	array[ 19464] = assign( 26, "10111111011101010101101000" );
 	array[-19464] = assign( 26, "10111111110101010001101010" );
-	array[ 19465] = assign( 19, "0101100111010110111" );	// warning: length mismatch
+	array[ 19465] = assign( 19, "0101100111010110111" );
 	array[-19465] = assign( 19, "0111100111010110111" );
-	array[ 19466] = assign( 19, "0111011111011010111" );	// warning: length mismatch
+	array[ 19466] = assign( 19, "0111011111011010111" );
 	array[-19466] = assign( 19, "0101011111011010111" );
 	array[ 19467] = assign( 25, "1001111101110101010111010" );
 	array[-19467] = assign( 25, "1101111101110101010111010" );
@@ -40155,9 +40211,9 @@
 	array[-19495] = assign( 26, "11111111111101010101101010" );
 	array[ 19496] = assign( 26, "10111111111101010101101000" );
 	array[-19496] = assign( 26, "10111111010101010001101010" );
-	array[ 19497] = assign( 19, "0101100111011110111" );	// warning: length mismatch
+	array[ 19497] = assign( 19, "0101100111011110111" );
 	array[-19497] = assign( 19, "0111100111011110111" );
-	array[ 19498] = assign( 19, "0111011111010010111" );	// warning: length mismatch
+	array[ 19498] = assign( 19, "0111011111010010111" );
 	array[-19498] = assign( 19, "0101011111010010111" );
 	array[ 19499] = assign( 25, "1001111111110101010111010" );
 	array[-19499] = assign( 25, "1101111111110101010111010" );
@@ -40221,9 +40277,9 @@
 	array[-19527] = assign( 26, "11111111010111010100111010" );
 	array[ 19528] = assign( 25, "1111111111111110000111010" );
 	array[-19528] = assign( 25, "1011111111111110000111010" );
-	array[ 19529] = assign( 20, "01011000101010011111" );	// warning: length mismatch
+	array[ 19529] = assign( 20, "01011000101010011111" );
 	array[-19529] = assign( 20, "01111000101010011111" );
-	array[ 19530] = assign( 20, "01110110101011111110" );	// warning: length mismatch
+	array[ 19530] = assign( 20, "01110110101011111110" );
 	array[-19530] = assign( 20, "01010110101011111110" );
 	array[ 19531] = assign( 25, "1101111111111110001101000" );
 	array[-19531] = assign( 25, "1001111111111110001101000" );
@@ -40287,9 +40343,9 @@
 	array[-19559] = assign( 26, "11111111110111010100111010" );
 	array[ 19560] = assign( 25, "1111111101111110000111010" );
 	array[-19560] = assign( 25, "1011111101111110000111010" );
-	array[ 19561] = assign( 20, "01011000101011011111" );	// warning: length mismatch
+	array[ 19561] = assign( 20, "01011000101011011111" );
 	array[-19561] = assign( 20, "01111000101011011111" );
-	array[ 19562] = assign( 20, "01110110101010111110" );	// warning: length mismatch
+	array[ 19562] = assign( 20, "01110110101010111110" );
 	array[-19562] = assign( 20, "01010110101010111110" );
 	array[ 19563] = assign( 25, "1101111101111110001101000" );
 	array[-19563] = assign( 25, "1001111101111110001101000" );
@@ -40353,9 +40409,9 @@
 	array[-19591] = assign( 26, "11111111011111010101111010" );
 	array[ 19592] = assign( 25, "1111111111011110001111010" );
 	array[-19592] = assign( 25, "1011111111011110001111010" );
-	array[ 19593] = assign( 20, "01011001101010111111" );	// warning: length mismatch
+	array[ 19593] = assign( 20, "01011001101010111111" );
 	array[-19593] = assign( 20, "01111001101010111111" );
-	array[ 19594] = assign( 20, "01110111101011011110" );	// warning: length mismatch
+	array[ 19594] = assign( 20, "01110111101011011110" );
 	array[-19594] = assign( 20, "01010111101011011110" );
 	array[ 19595] = assign( 25, "1101111111011110000111000" );
 	array[-19595] = assign( 25, "1001111111011110000111000" );
@@ -40419,9 +40475,9 @@
 	array[-19623] = assign( 26, "11111111111111010101111010" );
 	array[ 19624] = assign( 25, "1111111101011110001111010" );
 	array[-19624] = assign( 25, "1011111101011110001111010" );
-	array[ 19625] = assign( 20, "01011001101011111111" );	// warning: length mismatch
+	array[ 19625] = assign( 20, "01011001101011111111" );
 	array[-19625] = assign( 20, "01111001101011111111" );
-	array[ 19626] = assign( 20, "01110111101010011110" );	// warning: length mismatch
+	array[ 19626] = assign( 20, "01110111101010011110" );
 	array[-19626] = assign( 20, "01010111101010011110" );
 	array[ 19627] = assign( 25, "1101111101011110000111000" );
 	array[-19627] = assign( 25, "1001111101011110000111000" );
@@ -40487,7 +40543,7 @@
 	array[-19656] = assign( 26, "10111111111101100001011010" );
 	array[ 19657] = assign( 26, "11111111111101100001011000" );
 	array[-19657] = assign( 26, "10111111111101100001011000" );
-	array[ 19658] = assign( 20, "01110110111011110110" );	// warning: length mismatch
+	array[ 19658] = assign( 20, "01110110111011110110" );
 	array[-19658] = assign( 20, "01010110111011110110" );
 	array[ 19659] = assign( 25, "1101111111110110001111000" );
 	array[-19659] = assign( 25, "1001111111110110001111000" );
@@ -40553,7 +40609,7 @@
 	array[-19688] = assign( 26, "10111111011101100001011010" );
 	array[ 19689] = assign( 26, "11111111011101100001011000" );
 	array[-19689] = assign( 26, "10111111011101100001011000" );
-	array[ 19690] = assign( 20, "01110110111010110110" );	// warning: length mismatch
+	array[ 19690] = assign( 20, "01110110111010110110" );
 	array[-19690] = assign( 20, "01010110111010110110" );
 	array[ 19691] = assign( 25, "1101111101110110001111000" );
 	array[-19691] = assign( 25, "1001111101110110001111000" );
@@ -40619,7 +40675,7 @@
 	array[-19720] = assign( 26, "10111111110101100011011010" );
 	array[ 19721] = assign( 26, "11111111110101100011011000" );
 	array[-19721] = assign( 26, "10111111110101100011011000" );
-	array[ 19722] = assign( 20, "01110111111011010110" );	// warning: length mismatch
+	array[ 19722] = assign( 20, "01110111111011010110" );
 	array[-19722] = assign( 20, "01010111111011010110" );
 	array[ 19723] = assign( 26, "10011111011101110101111010" );
 	array[-19723] = assign( 26, "10011111110101100001011000" );
@@ -40685,7 +40741,7 @@
 	array[-19752] = assign( 26, "10111111010101100011011010" );
 	array[ 19753] = assign( 26, "11111111010101100011011000" );
 	array[-19753] = assign( 26, "10111111010101100011011000" );
-	array[ 19754] = assign( 20, "01110111111010010110" );	// warning: length mismatch
+	array[ 19754] = assign( 20, "01110111111010010110" );
 	array[-19754] = assign( 20, "01010111111010010110" );
 	array[ 19755] = assign( 26, "10011111111101110101111010" );
 	array[-19755] = assign( 26, "10011111010101100001011000" );
@@ -40751,7 +40807,7 @@
 	array[-19784] = assign( 26, "10111111111111000001111010" );
 	array[ 19785] = assign( 26, "11111111111111000001111000" );
 	array[-19785] = assign( 26, "10111111111111000001111000" );
-	array[ 19786] = assign( 20, "01110110101101111110" );	// warning: length mismatch
+	array[ 19786] = assign( 20, "01110110101101111110" );
 	array[-19786] = assign( 20, "01010110101101111110" );
 	array[ 19787] = assign( 26, "11011111111111000011011000" );
 	array[-19787] = assign( 26, "10011111111111000011011000" );
@@ -40817,7 +40873,7 @@
 	array[-19816] = assign( 26, "10111111011111000001111010" );
 	array[ 19817] = assign( 26, "11111111011111000001111000" );
 	array[-19817] = assign( 26, "10111111011111000001111000" );
-	array[ 19818] = assign( 20, "01110110101101011110" );	// warning: length mismatch
+	array[ 19818] = assign( 20, "01110110101101011110" );
 	array[-19818] = assign( 20, "01010110101101011110" );
 	array[ 19819] = assign( 26, "11011111011111000011011000" );
 	array[-19819] = assign( 26, "10011111011111000011011000" );
@@ -40883,7 +40939,7 @@
 	array[-19848] = assign( 26, "10111111110111000011111010" );
 	array[ 19849] = assign( 26, "11111111110111000011111000" );
 	array[-19849] = assign( 26, "10111111110111000011111000" );
-	array[ 19850] = assign( 20, "01110111101101101110" );	// warning: length mismatch
+	array[ 19850] = assign( 20, "01110111101101101110" );
 	array[-19850] = assign( 20, "01010111101101101110" );
 	array[ 19851] = assign( 26, "11011111110111000001111000" );
 	array[-19851] = assign( 26, "10011111110111000001111000" );
@@ -40949,7 +41005,7 @@
 	array[-19880] = assign( 26, "10011111110111001011111110" );
 	array[ 19881] = assign( 26, "11111111010111000011111000" );
 	array[-19881] = assign( 26, "10111111010111000011111000" );
-	array[ 19882] = assign( 20, "01110111101101001110" );	// warning: length mismatch
+	array[ 19882] = assign( 20, "01110111101101001110" );
 	array[-19882] = assign( 20, "01010111101101001110" );
 	array[ 19883] = assign( 26, "11011111010111000001111000" );
 	array[-19883] = assign( 26, "10011111010111000001111000" );
@@ -41015,7 +41071,7 @@
 	array[-19912] = assign( 26, "10011111010111001011111110" );
 	array[ 19913] = assign( 26, "11111111111101000001011100" );
 	array[-19913] = assign( 26, "10111111111101000001011100" );
-	array[ 19914] = assign( 20, "01110110111101111010" );	// warning: length mismatch
+	array[ 19914] = assign( 20, "01110110111101111010" );
 	array[-19914] = assign( 20, "01010110111101111010" );
 	array[ 19915] = assign( 26, "11011111111101000011111000" );
 	array[-19915] = assign( 26, "10011111111101000011111000" );
@@ -41081,7 +41137,7 @@
 	array[-19944] = assign( 26, "10011111111101001001111110" );
 	array[ 19945] = assign( 26, "11011111111101001011111100" );
 	array[-19945] = assign( 26, "10011111111101001011111100" );
-	array[ 19946] = assign( 20, "01110110111101011010" );	// warning: length mismatch
+	array[ 19946] = assign( 20, "01110110111101011010" );
 	array[-19946] = assign( 20, "01010110111101011010" );
 	array[ 19947] = assign( 26, "11011111011101000011111000" );
 	array[-19947] = assign( 26, "10011111011101000011111000" );
@@ -41147,7 +41203,7 @@
 	array[-19976] = assign( 26, "10011111011101001001111110" );
 	array[ 19977] = assign( 26, "11011111011101001011111100" );
 	array[-19977] = assign( 26, "10011111011101001011111100" );
-	array[ 19978] = assign( 20, "01110111111101101010" );	// warning: length mismatch
+	array[ 19978] = assign( 20, "01110111111101101010" );
 	array[-19978] = assign( 20, "01010111111101101010" );
 	array[ 19979] = assign( 26, "11011111110101000001011100" );
 	array[-19979] = assign( 26, "10011111110101000001011100" );
@@ -41213,7 +41269,7 @@
 	array[-20008] = assign( 26, "10011111110101001011011110" );
 	array[ 20009] = assign( 26, "11011111110101001001111100" );
 	array[-20009] = assign( 26, "10011111110101001001111100" );
-	array[ 20010] = assign( 20, "01110111111101001010" );	// warning: length mismatch
+	array[ 20010] = assign( 20, "01110111111101001010" );
 	array[-20010] = assign( 20, "01010111111101001010" );
 	array[ 20011] = assign( 26, "11011111010101000001011100" );
 	array[-20011] = assign( 26, "10011111010101000001011100" );
@@ -41279,7 +41335,7 @@
 	array[-20040] = assign( 24, "101111111111100001111110" );
 	array[ 20041] = assign( 24, "111111111111100001111100" );
 	array[-20041] = assign( 24, "101111111111100001111100" );
-	array[ 20042] = assign( 19, "0111011010111111110" );	// warning: length mismatch
+	array[ 20042] = assign( 19, "0111011010111111110" );
 	array[-20042] = assign( 19, "0101011010111111110" );
 	array[ 20043] = assign( 24, "110111111111100011011100" );
 	array[-20043] = assign( 24, "100111111111100011011100" );
@@ -41345,7 +41401,7 @@
 	array[-20072] = assign( 24, "100111111111101001011110" );
 	array[ 20073] = assign( 24, "110111111111101011011100" );
 	array[-20073] = assign( 24, "100111111111101011011100" );
-	array[ 20074] = assign( 19, "0111011010111101110" );	// warning: length mismatch
+	array[ 20074] = assign( 19, "0111011010111101110" );
 	array[-20074] = assign( 19, "0101011010111101110" );
 	array[ 20075] = assign( 24, "110111110111100011011100" );
 	array[-20075] = assign( 24, "100111110111100011011100" );
@@ -41411,7 +41467,7 @@
 	array[-20104] = assign( 24, "100111110111101001011110" );
 	array[ 20105] = assign( 24, "110111110111101011011100" );
 	array[-20105] = assign( 24, "100111110111101011011100" );
-	array[ 20106] = assign( 19, "0111011110111110110" );	// warning: length mismatch
+	array[ 20106] = assign( 19, "0111011110111110110" );
 	array[-20106] = assign( 19, "0101011110111110110" );
 	array[ 20107] = assign( 24, "110111111101100001111100" );
 	array[-20107] = assign( 24, "100111111101100001111100" );
@@ -41477,7 +41533,7 @@
 	array[-20136] = assign( 24, "100111111101101011111010" );
 	array[ 20137] = assign( 24, "110111111101101001011100" );
 	array[-20137] = assign( 24, "100111111101101001011100" );
-	array[ 20138] = assign( 19, "0111011110111100110" );	// warning: length mismatch
+	array[ 20138] = assign( 19, "0111011110111100110" );
 	array[-20138] = assign( 19, "0101011110111100110" );
 	array[ 20139] = assign( 24, "110111110101100001111100" );
 	array[-20139] = assign( 24, "100111110101100001111100" );
@@ -41543,7 +41599,7 @@
 	array[-20168] = assign( 24, "100111110101101011111010" );
 	array[ 20169] = assign( 24, "110111110101101001011100" );
 	array[-20169] = assign( 24, "100111110101101001011100" );
-	array[ 20170] = assign( 19, "0111011011111111100" );	// warning: length mismatch
+	array[ 20170] = assign( 19, "0111011011111111100" );
 	array[-20170] = assign( 19, "0101011011111111100" );
 	array[ 20171] = assign( 24, "110111111111000011111100" );
 	array[-20171] = assign( 24, "100111111111000011111100" );
@@ -41609,7 +41665,7 @@
 	array[-20200] = assign( 24, "100111111111001001111010" );
 	array[ 20201] = assign( 24, "110111111111001011111000" );
 	array[-20201] = assign( 24, "100111111111001011111000" );
-	array[ 20202] = assign( 19, "0111011011111101100" );	// warning: length mismatch
+	array[ 20202] = assign( 19, "0111011011111101100" );
 	array[-20202] = assign( 19, "0101011011111101100" );
 	array[ 20203] = assign( 24, "110111110111000011111100" );
 	array[-20203] = assign( 24, "100111110111000011111100" );
@@ -41675,7 +41731,7 @@
 	array[-20232] = assign( 24, "100111110111001001111010" );
 	array[ 20233] = assign( 24, "110111110111001011111000" );
 	array[-20233] = assign( 24, "100111110111001011111000" );
-	array[ 20234] = assign( 19, "0111011111111110100" );	// warning: length mismatch
+	array[ 20234] = assign( 19, "0111011111111110100" );
 	array[-20234] = assign( 19, "0101011111111110100" );
 	array[ 20235] = assign( 24, "111111110111001001011100" );
 	array[-20235] = assign( 24, "101111110111001001011100" );
@@ -41741,7 +41797,7 @@
 	array[-20264] = assign( 24, "100111111101001011011010" );
 	array[ 20265] = assign( 24, "110111111101001001111000" );
 	array[-20265] = assign( 24, "100111111101001001111000" );
-	array[ 20266] = assign( 19, "0111011111111100100" );	// warning: length mismatch
+	array[ 20266] = assign( 19, "0111011111111100100" );
 	array[-20266] = assign( 19, "0101011111111100100" );
 	array[ 20267] = assign( 24, "111111111101001011111000" );
 	array[-20267] = assign( 24, "101111111101001011111000" );
@@ -41807,7 +41863,7 @@
 	array[-20296] = assign( 24, "100111110101001011011010" );
 	array[ 20297] = assign( 24, "110111110101001001111000" );
 	array[-20297] = assign( 24, "100111110101001001111000" );
-	array[ 20298] = assign( 19, "0111100110110100100" );	// warning: length mismatch
+	array[ 20298] = assign( 19, "0111100110110100100" );
 	array[-20298] = assign( 19, "0101100110110100100" );
 	array[ 20299] = assign( 24, "111111110101001011111000" );
 	array[-20299] = assign( 24, "101111110101001011111000" );
@@ -41873,7 +41929,7 @@
 	array[-20328] = assign( 22, "1001111111101001011010" );
 	array[ 20329] = assign( 22, "1101111111101011011000" );
 	array[-20329] = assign( 22, "1001111111101011011000" );
-	array[ 20330] = assign( 17, "01111000101101110" );	// warning: length mismatch
+	array[ 20330] = assign( 17, "01111000101101110" );
 	array[-20330] = assign( 17, "01011000101101110" );
 	array[ 20331] = assign( 22, "1111111111101001111000" );
 	array[-20331] = assign( 22, "1011111111101001111000" );
@@ -41939,7 +41995,7 @@
 	array[-20360] = assign( 22, "1001111101101001011010" );
 	array[ 20361] = assign( 22, "1101111101101011011000" );
 	array[-20361] = assign( 22, "1001111101101011011000" );
-	array[ 20362] = assign( 17, "01111000101101010" );	// warning: length mismatch
+	array[ 20362] = assign( 17, "01111000101101010" );
 	array[-20362] = assign( 17, "01011000101101010" );
 	array[ 20363] = assign( 22, "1111111101101001111000" );
 	array[-20363] = assign( 22, "1011111101101001111000" );
@@ -42005,7 +42061,7 @@
 	array[-20392] = assign( 21, "100111111100101111010" );
 	array[ 20393] = assign( 22, "1101111111001001011000" );
 	array[-20393] = assign( 22, "1001111111001001011000" );
-	array[ 20394] = assign( 16, "0111100111101100" );	// warning: length mismatch
+	array[ 20394] = assign( 16, "0111100111101100" );
 	array[-20394] = assign( 16, "0101100111101100" );
 	array[ 20395] = assign( 22, "1111111111001011011000" );
 	array[-20395] = assign( 22, "1011111111001011011000" );
@@ -42071,7 +42127,7 @@
 	array[-20424] = assign( 21, "100111110100101111010" );
 	array[ 20425] = assign( 22, "1101111101001001011000" );
 	array[-20425] = assign( 22, "1001111101001001011000" );
-	array[ 20426] = assign( 16, "0111100111101000" );	// warning: length mismatch
+	array[ 20426] = assign( 16, "0111100111101000" );
 	array[-20426] = assign( 16, "0101100111101000" );
 	array[ 20427] = assign( 22, "1111111101001011011000" );
 	array[-20427] = assign( 22, "1011111101001011011000" );
@@ -42137,7 +42193,7 @@
 	array[-20456] = assign( 19, "1001111110100111010" );
 	array[ 20457] = assign( 19, "1101111110101111000" );
 	array[-20457] = assign( 19, "1001111110101111000" );
-	array[ 20458] = assign( 14, "01111000111001" );	// warning: length mismatch
+	array[ 20458] = assign( 14, "01111000111001" );
 	array[-20458] = assign( 14, "01011000111001" );
 	array[ 20459] = assign( 20, "11111111101001011000" );
 	array[-20459] = assign( 20, "10111111101001011000" );
@@ -42203,7 +42259,7 @@
 	array[-20488] = assign( 19, "1001111100100111010" );
 	array[ 20489] = assign( 19, "1001111100001111000" );
 	array[-20489] = assign( 19, "1001111100101111000" );
-	array[ 20490] = assign( 14, "01010110111000" );	// warning: length mismatch
+	array[ 20490] = assign( 14, "01010110111000" );
 	array[-20490] = assign( 14, "01011000111000" );
 	array[ 20491] = assign( 20, "10111111000001011000" );
 	array[-20491] = assign( 20, "10111111001001011000" );
@@ -42269,7 +42325,7 @@
 	array[-20520] = assign( 19, "1101111110000111010" );
 	array[ 20521] = assign( 19, "1001111110001111000" );
 	array[-20521] = assign( 19, "1101111110001111000" );
-	array[ 20522] = assign( 14, "01010110111001" );	// warning: length mismatch
+	array[ 20522] = assign( 14, "01010110111001" );
 	array[-20522] = assign( 14, "01110110111001" );
 	array[ 20523] = assign( 20, "10111111100001011000" );
 	array[-20523] = assign( 20, "11111111100001011000" );
@@ -42335,7 +42391,7 @@
 	array[-20552] = assign( 21, "110111110100001101010" );
 	array[ 20553] = assign( 21, "100111110100000111000" );
 	array[-20553] = assign( 21, "110111110100000111000" );
-	array[ 20554] = assign( 16, "0101011110101000" );	// warning: length mismatch
+	array[ 20554] = assign( 16, "0101011110101000" );
 	array[-20554] = assign( 16, "0111011110101000" );
 	array[ 20555] = assign( 21, "101111110100001111000" );
 	array[-20555] = assign( 21, "111111110100001111000" );
@@ -42401,7 +42457,7 @@
 	array[-20584] = assign( 21, "110111111100001101010" );
 	array[ 20585] = assign( 21, "100111111100000111000" );
 	array[-20585] = assign( 21, "110111111100000111000" );
-	array[ 20586] = assign( 16, "0101011110101100" );	// warning: length mismatch
+	array[ 20586] = assign( 16, "0101011110101100" );
 	array[-20586] = assign( 16, "0111011110101100" );
 	array[ 20587] = assign( 21, "101111111100001111000" );
 	array[-20587] = assign( 21, "111111111100001111000" );
@@ -42467,7 +42523,7 @@
 	array[-20616] = assign( 21, "110111110110000101010" );
 	array[ 20617] = assign( 21, "100111110110001101000" );
 	array[-20617] = assign( 21, "110111110110001101000" );
-	array[ 20618] = assign( 16, "0101011010101010" );	// warning: length mismatch
+	array[ 20618] = assign( 16, "0101011010101010" );
 	array[-20618] = assign( 16, "0111011010101010" );
 	array[ 20619] = assign( 21, "101111110110000111000" );
 	array[-20619] = assign( 21, "111111110110000111000" );
@@ -42533,7 +42589,7 @@
 	array[-20648] = assign( 21, "110111111110000101010" );
 	array[ 20649] = assign( 21, "100111111110001101000" );
 	array[-20649] = assign( 21, "110111111110001101000" );
-	array[ 20650] = assign( 16, "0101011010101110" );	// warning: length mismatch
+	array[ 20650] = assign( 16, "0101011010101110" );
 	array[-20650] = assign( 16, "0111011010101110" );
 	array[ 20651] = assign( 21, "101111111110000111000" );
 	array[-20651] = assign( 21, "111111111110000111000" );
@@ -42599,7 +42655,7 @@
 	array[-20680] = assign( 22, "1101111101010000111010" );
 	array[ 20681] = assign( 23, "10011111010100000101000" );
 	array[-20681] = assign( 23, "11011111010100000101000" );
-	array[ 20682] = assign( 17, "01010111110100100" );	// warning: length mismatch
+	array[ 20682] = assign( 17, "01010111110100100" );
 	array[-20682] = assign( 17, "01110111110100100" );
 	array[ 20683] = assign( 23, "10111111010100001101000" );
 	array[-20683] = assign( 23, "11111111010100001101000" );
@@ -42665,7 +42721,7 @@
 	array[-20712] = assign( 22, "1101111111010000111010" );
 	array[ 20713] = assign( 23, "10011111110100000101000" );
 	array[-20713] = assign( 23, "11011111110100000101000" );
-	array[ 20714] = assign( 17, "01010111110110100" );	// warning: length mismatch
+	array[ 20714] = assign( 17, "01010111110110100" );
 	array[-20714] = assign( 17, "01110111110110100" );
 	array[ 20715] = assign( 23, "10111111110100001101000" );
 	array[-20715] = assign( 23, "11111111110100001101000" );
@@ -42731,7 +42787,7 @@
 	array[-20744] = assign( 22, "1101111101110000011010" );
 	array[ 20745] = assign( 22, "1001111101110000111000" );
 	array[-20745] = assign( 22, "1101111101110000111000" );
-	array[ 20746] = assign( 17, "01010110110101100" );	// warning: length mismatch
+	array[ 20746] = assign( 17, "01010110110101100" );
 	array[-20746] = assign( 17, "01110110110101100" );
 	array[ 20747] = assign( 23, "10111111011100000101000" );
 	array[-20747] = assign( 23, "11111111011100000101000" );
@@ -42797,7 +42853,7 @@
 	array[-20776] = assign( 22, "1101111111110000011010" );
 	array[ 20777] = assign( 22, "1001111111110000111000" );
 	array[-20777] = assign( 22, "1101111111110000111000" );
-	array[ 20778] = assign( 17, "01010110110111100" );	// warning: length mismatch
+	array[ 20778] = assign( 17, "01010110110111100" );
 	array[-20778] = assign( 17, "01110110110111100" );
 	array[ 20779] = assign( 23, "10111111111100000101000" );
 	array[-20779] = assign( 23, "11111111111100000101000" );
@@ -42863,7 +42919,7 @@
 	array[-20808] = assign( 22, "1101111101011000110010" );
 	array[ 20809] = assign( 22, "1001111101011000011000" );
 	array[-20809] = assign( 22, "1101111101011000011000" );
-	array[ 20810] = assign( 17, "01010111100100110" );	// warning: length mismatch
+	array[ 20810] = assign( 17, "01010111100100110" );
 	array[-20810] = assign( 17, "01110111100100110" );
 	array[ 20811] = assign( 22, "1011111101011000111000" );
 	array[-20811] = assign( 22, "1111111101011000111000" );
@@ -42929,7 +42985,7 @@
 	array[-20840] = assign( 22, "1101111111011000110010" );
 	array[ 20841] = assign( 22, "1001111111011000011000" );
 	array[-20841] = assign( 22, "1101111111011000011000" );
-	array[ 20842] = assign( 17, "01010111100110110" );	// warning: length mismatch
+	array[ 20842] = assign( 17, "01010111100110110" );
 	array[-20842] = assign( 17, "01110111100110110" );
 	array[ 20843] = assign( 22, "1011111111011000111000" );
 	array[-20843] = assign( 22, "1111111111011000111000" );
@@ -42995,7 +43051,7 @@
 	array[-20872] = assign( 22, "1101111101111000010010" );
 	array[ 20873] = assign( 22, "1001111101111000110000" );
 	array[-20873] = assign( 22, "1101111101111000110000" );
-	array[ 20874] = assign( 17, "01010110100101110" );	// warning: length mismatch
+	array[ 20874] = assign( 17, "01010110100101110" );
 	array[-20874] = assign( 17, "01110110100101110" );
 	array[ 20875] = assign( 22, "1011111101111000011000" );
 	array[-20875] = assign( 22, "1111111101111000011000" );
@@ -43061,7 +43117,7 @@
 	array[-20904] = assign( 22, "1101111111111000010010" );
 	array[ 20905] = assign( 22, "1001111111111000110000" );
 	array[-20905] = assign( 22, "1101111111111000110000" );
-	array[ 20906] = assign( 17, "01010110100111110" );	// warning: length mismatch
+	array[ 20906] = assign( 17, "01010110100111110" );
 	array[-20906] = assign( 17, "01110110100111110" );
 	array[ 20907] = assign( 22, "1011111111111000011000" );
 	array[-20907] = assign( 22, "1111111111111000011000" );
@@ -43127,7 +43183,7 @@
 	array[-20936] = assign( 22, "1101111101010100001010" );
 	array[ 20937] = assign( 24, "100111110101010000010000" );
 	array[-20937] = assign( 24, "100111111111010110101010" );
-	array[ 20938] = assign( 16, "0101011101001010" );	// warning: length mismatch
+	array[ 20938] = assign( 16, "0101011101001010" );
 	array[-20938] = assign( 16, "0111011101001010" );
 	array[ 20939] = assign( 24, "101111110101010000110000" );
 	array[-20939] = assign( 24, "111111110101010000110000" );
@@ -43193,7 +43249,7 @@
 	array[-20968] = assign( 22, "1101111111010100001010" );
 	array[ 20969] = assign( 24, "100111111101010000010000" );
 	array[-20969] = assign( 24, "100111110111010110101010" );
-	array[ 20970] = assign( 16, "0101011101101010" );	// warning: length mismatch
+	array[ 20970] = assign( 16, "0101011101101010" );
 	array[-20970] = assign( 16, "0111011101101010" );
 	array[ 20971] = assign( 24, "101111111101010000110000" );
 	array[-20971] = assign( 24, "111111111101010000110000" );
@@ -43259,7 +43315,7 @@
 	array[-21000] = assign( 17, "11011110101011010" );
 	array[ 21001] = assign( 19, "1001110110111111110" );
 	array[-21001] = assign( 19, "1101110110111111110" );
-	array[ 21002] = assign( 16, "0101011001011010" );	// warning: length mismatch
+	array[ 21002] = assign( 16, "0101011001011010" );
 	array[-21002] = assign( 16, "0111011001011010" );
 	array[ 21003] = assign( 24, "101111110111010000010000" );
 	array[-21003] = assign( 24, "111111110111010000010000" );
@@ -43325,7 +43381,7 @@
 	array[-21032] = assign( 17, "11011110101111010" );
 	array[ 21033] = assign( 18, "100111010111111110" );
 	array[-21033] = assign( 18, "110111010111111110" );
-	array[ 21034] = assign( 16, "0101011001111010" );	// warning: length mismatch
+	array[ 21034] = assign( 16, "0101011001111010" );
 	array[-21034] = assign( 16, "0111011001111010" );
 	array[ 21035] = assign( 24, "101111111111010000010000" );
 	array[-21035] = assign( 24, "111111111111010000010000" );
@@ -43391,7 +43447,7 @@
 	array[-21064] = assign( 18, "110101111111111110" );
 	array[ 21065] = assign( 16, "1001010111111110" );
 	array[-21065] = assign( 16, "1101010111111110" );
-	array[ 21066] = assign( 17, "01011010111111110" );	// warning: length mismatch
+	array[ 21066] = assign( 17, "01011010111111110" );
 	array[-21066] = assign( 17, "01111010111111110" );
 	array[ 21067] = assign( 20, "10111101101111111110" );
 	array[-21067] = assign( 20, "11111101101111111110" );
@@ -43457,7 +43513,7 @@
 	array[-21096] = assign( 18, "110111001111111110" );
 	array[ 21097] = assign( 15, "100100111111110" );
 	array[-21097] = assign( 15, "110100111111110" );
-	array[ 21098] = assign( 17, "01011011111111110" );	// warning: length mismatch
+	array[ 21098] = assign( 17, "01011011111111110" );
 	array[-21098] = assign( 17, "01111011111111110" );
 	array[ 21099] = assign( 19, "1011110101111111110" );
 	array[-21099] = assign( 19, "1111110101111111110" );
@@ -43589,7 +43645,7 @@
 	array[-21160] = assign( 17, "11111110111111110" );
 	array[ 21161] = assign( 19, "1011011011111111110" );
 	array[-21161] = assign( 19, "1111011011111111110" );
-	array[ 21162] = assign( 13, "0101000101110" );	// warning: length mismatch
+	array[ 21162] = assign( 13, "0101000101110" );
 	array[-21162] = assign( 13, "0111000101110" );
 	array[ 21163] = assign( 16, "1011001111111110" );
 	array[-21163] = assign( 16, "1111001111111110" );
@@ -43655,7 +43711,7 @@
 	array[-21192] = assign( 22, "1111111101010110101010" );
 	array[ 21193] = assign( 21, "101111100111111111110" );
 	array[-21193] = assign( 21, "111111100111111111110" );
-	array[ 21194] = assign( 13, "0101001101110" );	// warning: length mismatch
+	array[ 21194] = assign( 13, "0101001101110" );
 	array[-21194] = assign( 13, "0111001101110" );
 	array[ 21195] = assign( 17, "10011011111111110" );
 	array[-21195] = assign( 17, "11011011111111110" );
@@ -43721,7 +43777,7 @@
 	array[-21224] = assign( 22, "1111111111010110101010" );
 	array[ 21225] = assign( 22, "1011110111111111111110" );
 	array[-21225] = assign( 22, "1111110111111111111110" );
-	array[ 21226] = assign( 20, "01011100111111111110" );	// warning: length mismatch
+	array[ 21226] = assign( 20, "01011100111111111110" );
 	array[-21226] = assign( 20, "01111100111111111110" );
 	array[ 21227] = assign( 20, "10010110111111111110" );
 	array[-21227] = assign( 20, "11010110111111111110" );
@@ -43763,9 +43819,11 @@
 	array[-21245] = assign( 26, "11111111110101100101111100" );
 	array[ 21246] = assign( 26, "10111111110101100111111100" );
 	array[-21246] = assign( 26, "11111111110101100111111100" );
-	array[ 21247] = assign( 27, "101111110111011010010011110" );
-	array[-21247] = assign( 27, "111111110111011010010011110" );
-	// decoded 31 sequences.
+	array[ 21247] = assign( 27, "111111110111011101100111111" );
+	array[-21247] = assign( 27, "101111110111011101100111111" );
+	array[ 21248] = assign( 27, "101111110111011010010011110" );
+	array[-21248] = assign( 27, "111111110111011010010011110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 21249
 	array[ 21249] = assign( 27, "101111110111011010010001110" );
 	array[-21249] = assign( 27, "111111110111011010010001110" );
@@ -43785,7 +43843,7 @@
 	array[-21256] = assign( 24, "111111110111011010010010" );
 	array[ 21257] = assign( 24, "101111110111011010010000" );
 	array[-21257] = assign( 24, "111111110111011010010000" );
-	array[ 21258] = assign( 17, "01011000010110110" );	// warning: length mismatch
+	array[ 21258] = assign( 17, "01011000010110110" );
 	array[-21258] = assign( 17, "01111000010110110" );
 	array[ 21259] = assign( 22, "1001111001111111111110" );
 	array[-21259] = assign( 22, "1101111001111111111110" );
@@ -43829,7 +43887,9 @@
 	array[-21278] = assign( 26, "11011111011101101111111100" );
 	array[ 21279] = assign( 26, "10111111011101100111111110" );
 	array[-21279] = assign( 26, "11111111011101100111111110" );
-	// decoded 31 sequences.
+	array[ 21280] = assign( 27, "101111111111011010010011110" );
+	array[-21280] = assign( 27, "101111111101011101110111111" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 21281
 	array[ 21281] = assign( 27, "101111111111011010010001110" );
 	array[-21281] = assign( 27, "111111111111011010010001110" );
@@ -43849,7 +43909,7 @@
 	array[-21288] = assign( 24, "111111111111011010010010" );
 	array[ 21289] = assign( 24, "101111111111011010010000" );
 	array[-21289] = assign( 24, "111111111111011010010000" );
-	array[ 21290] = assign( 17, "01011000011110110" );	// warning: length mismatch
+	array[ 21290] = assign( 17, "01011000011110110" );
 	array[-21290] = assign( 17, "01111000011110110" );
 	array[ 21291] = assign( 22, "1001111111110110101000" );
 	array[-21291] = assign( 22, "1101111111110110101000" );
@@ -43893,7 +43953,9 @@
 	array[-21310] = assign( 26, "11011111111101101111111100" );
 	array[ 21311] = assign( 26, "10111111111101100111111110" );
 	array[-21311] = assign( 26, "11111111111101100111111110" );
-	// decoded 31 sequences.
+	array[ 21312] = assign( 27, "101111110101111010110011110" );
+	array[-21312] = assign( 27, "101111110101011101110111111" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 21313
 	array[ 21313] = assign( 27, "101111110101111010110001110" );
 	array[-21313] = assign( 27, "111111110101111010110001110" );
@@ -43913,9 +43975,9 @@
 	array[-21320] = assign( 24, "111111110101111010110010" );
 	array[ 21321] = assign( 24, "101111110101111010110000" );
 	array[-21321] = assign( 24, "111111110101111010110000" );
-	array[ 21322] = assign( 17, "01011001010011110" );	// warning: length mismatch
+	array[ 21322] = assign( 17, "01011001010011110" );
 	array[-21322] = assign( 17, "01111001010011110" );
-	array[ 21323] = assign( 17, "01110111011111111" );	// warning: length mismatch
+	array[ 21323] = assign( 17, "01110111011111111" );
 	array[-21323] = assign( 17, "01010111011111111" );
 	array[ 21324] = assign( 22, "1001111101011110101010" );
 	array[-21324] = assign( 22, "1101111101011110101010" );
@@ -43957,7 +44019,9 @@
 	array[-21342] = assign( 26, "11011111010111101101111110" );
 	array[ 21343] = assign( 26, "10011111010111101111111110" );
 	array[-21343] = assign( 26, "11011111010111101111111110" );
-	// decoded 31 sequences.
+	array[ 21344] = assign( 27, "101111111101111010110011110" );
+	array[-21344] = assign( 27, "100111111111110100110111111" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 21345
 	array[ 21345] = assign( 27, "101111111101111010110001110" );
 	array[-21345] = assign( 27, "111111111101111010110001110" );
@@ -43977,9 +44041,9 @@
 	array[-21352] = assign( 24, "111111111101111010110010" );
 	array[ 21353] = assign( 24, "101111111101111010110000" );
 	array[-21353] = assign( 24, "111111111101111010110000" );
-	array[ 21354] = assign( 17, "01011001011011110" );	// warning: length mismatch
+	array[ 21354] = assign( 17, "01011001011011110" );
 	array[-21354] = assign( 17, "01111001011011110" );
-	array[ 21355] = assign( 17, "01110111010111111" );	// warning: length mismatch
+	array[ 21355] = assign( 17, "01110111010111111" );
 	array[-21355] = assign( 17, "01010111010111111" );
 	array[ 21356] = assign( 22, "1001111111011110101010" );
 	array[-21356] = assign( 22, "1101111111011110101010" );
@@ -44021,7 +44085,9 @@
 	array[-21374] = assign( 26, "11011111110111101101111110" );
 	array[ 21375] = assign( 26, "10011111110111101111111110" );
 	array[-21375] = assign( 26, "11011111110111101111111110" );
-	// decoded 31 sequences.
+	array[ 21376] = assign( 27, "101111110111111010011011110" );
+	array[-21376] = assign( 27, "100111110111110100110111111" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 21377
 	array[ 21377] = assign( 27, "101111110111111010011001110" );
 	array[-21377] = assign( 27, "111111110111111010011001110" );
@@ -44041,9 +44107,9 @@
 	array[-21384] = assign( 24, "111111110111111010011010" );
 	array[ 21385] = assign( 24, "101111110111111010011000" );
 	array[-21385] = assign( 24, "111111110111111010011000" );
-	array[ 21386] = assign( 19, "0101100010010111110" );	// warning: length mismatch
+	array[ 21386] = assign( 19, "0101100010010111110" );
 	array[-21386] = assign( 19, "0111100010010111110" );
-	array[ 21387] = assign( 19, "0111011010011011111" );	// warning: length mismatch
+	array[ 21387] = assign( 19, "0111011010011011111" );
 	array[-21387] = assign( 19, "0101011010011011111" );
 	array[ 21388] = assign( 24, "100111110111111010010010" );
 	array[-21388] = assign( 24, "110111110111111010010010" );
@@ -44107,9 +44173,9 @@
 	array[-21416] = assign( 24, "111111111111111010011010" );
 	array[ 21417] = assign( 24, "101111111111111010011000" );
 	array[-21417] = assign( 24, "111111111111111010011000" );
-	array[ 21418] = assign( 19, "0101100010011111110" );	// warning: length mismatch
+	array[ 21418] = assign( 19, "0101100010011111110" );
 	array[-21418] = assign( 19, "0111100010011111110" );
-	array[ 21419] = assign( 19, "0111011010010011111" );	// warning: length mismatch
+	array[ 21419] = assign( 19, "0111011010010011111" );
 	array[-21419] = assign( 19, "0101011010010011111" );
 	array[ 21420] = assign( 24, "100111111111111010010010" );
 	array[-21420] = assign( 24, "110111111111111010010010" );
@@ -44173,9 +44239,9 @@
 	array[-21448] = assign( 25, "1111111101010101010111010" );
 	array[ 21449] = assign( 25, "1011111101010101010111000" );
 	array[-21449] = assign( 25, "1011111111110101000111010" );
-	array[ 21450] = assign( 19, "0101100110010010111" );	// warning: length mismatch
+	array[ 21450] = assign( 19, "0101100110010010111" );
 	array[-21450] = assign( 19, "0111100110010010111" );
-	array[ 21451] = assign( 19, "0111011110011110111" );	// warning: length mismatch
+	array[ 21451] = assign( 19, "0111011110011110111" );
 	array[-21451] = assign( 19, "0101011110011110111" );
 	array[ 21452] = assign( 25, "1001111101010101010110010" );
 	array[-21452] = assign( 25, "1001111111110101000011000" );
@@ -44239,9 +44305,9 @@
 	array[-21480] = assign( 25, "1111111111010101010111010" );
 	array[ 21481] = assign( 25, "1011111111010101010111000" );
 	array[-21481] = assign( 25, "1011111101110101000111010" );
-	array[ 21482] = assign( 19, "0101100110011010111" );	// warning: length mismatch
+	array[ 21482] = assign( 19, "0101100110011010111" );
 	array[-21482] = assign( 19, "0111100110011010111" );
-	array[ 21483] = assign( 19, "0111011110010110111" );	// warning: length mismatch
+	array[ 21483] = assign( 19, "0111011110010110111" );
 	array[-21483] = assign( 19, "0101011110010110111" );
 	array[ 21484] = assign( 25, "1001111111010101010110010" );
 	array[-21484] = assign( 25, "1001111101110101000011000" );
@@ -44305,9 +44371,9 @@
 	array[-21512] = assign( 26, "11111111011101010100101010" );
 	array[ 21513] = assign( 26, "10111111011101010100101000" );
 	array[-21513] = assign( 26, "10111111110101010000101010" );
-	array[ 21514] = assign( 19, "0101100011010110111" );	// warning: length mismatch
+	array[ 21514] = assign( 19, "0101100011010110111" );
 	array[-21514] = assign( 19, "0111100011010110111" );
-	array[ 21515] = assign( 19, "0111011011011010111" );	// warning: length mismatch
+	array[ 21515] = assign( 19, "0111011011011010111" );
 	array[-21515] = assign( 19, "0101011011011010111" );
 	array[ 21516] = assign( 25, "1001111101110101010011010" );
 	array[-21516] = assign( 25, "1001111111010101000111000" );
@@ -44371,9 +44437,9 @@
 	array[-21544] = assign( 26, "11111111111101010100101010" );
 	array[ 21545] = assign( 26, "10111111111101010100101000" );
 	array[-21545] = assign( 26, "10111111010101010000101010" );
-	array[ 21546] = assign( 19, "0101100011011110111" );	// warning: length mismatch
+	array[ 21546] = assign( 19, "0101100011011110111" );
 	array[-21546] = assign( 19, "0111100011011110111" );
-	array[ 21547] = assign( 19, "0111011011010010111" );	// warning: length mismatch
+	array[ 21547] = assign( 19, "0111011011010010111" );
 	array[-21547] = assign( 19, "0101011011010010111" );
 	array[ 21548] = assign( 25, "1001111111110101010011010" );
 	array[-21548] = assign( 25, "1001111101010101000111000" );
@@ -44437,9 +44503,9 @@
 	array[-21576] = assign( 26, "11111111010111010101101010" );
 	array[ 21577] = assign( 25, "1111111111111110001101010" );
 	array[-21577] = assign( 25, "1011111111111110001101010" );
-	array[ 21578] = assign( 19, "0101100111010011111" );	// warning: length mismatch
+	array[ 21578] = assign( 19, "0101100111010011111" );
 	array[-21578] = assign( 19, "0111100111010011111" );
-	array[ 21579] = assign( 19, "0111011111011111110" );	// warning: length mismatch
+	array[ 21579] = assign( 19, "0111011111011111110" );
 	array[-21579] = assign( 19, "0101011111011111110" );
 	array[ 21580] = assign( 25, "1001111101011101010111010" );
 	array[-21580] = assign( 25, "1001111111111110000101000" );
@@ -44503,9 +44569,9 @@
 	array[-21608] = assign( 26, "11111111110111010101101010" );
 	array[ 21609] = assign( 25, "1111111101111110001101010" );
 	array[-21609] = assign( 25, "1011111101111110001101010" );
-	array[ 21610] = assign( 19, "0101100111011011111" );	// warning: length mismatch
+	array[ 21610] = assign( 19, "0101100111011011111" );
 	array[-21610] = assign( 19, "0111100111011011111" );
-	array[ 21611] = assign( 19, "0111011111010111110" );	// warning: length mismatch
+	array[ 21611] = assign( 19, "0111011111010111110" );
 	array[-21611] = assign( 19, "0101011111010111110" );
 	array[ 21612] = assign( 25, "1001111111011101010111010" );
 	array[-21612] = assign( 25, "1001111101111110000101000" );
@@ -44569,9 +44635,9 @@
 	array[-21640] = assign( 26, "11111111011111010100111010" );
 	array[ 21641] = assign( 25, "1111111111011110000111010" );
 	array[-21641] = assign( 25, "1011111111011110000111010" );
-	array[ 21642] = assign( 20, "01011000101010111111" );	// warning: length mismatch
+	array[ 21642] = assign( 20, "01011000101010111111" );
 	array[-21642] = assign( 20, "01111000101010111111" );
-	array[ 21643] = assign( 20, "01110110101011011110" );	// warning: length mismatch
+	array[ 21643] = assign( 20, "01110110101011011110" );
 	array[-21643] = assign( 20, "01010110101011011110" );
 	array[ 21644] = assign( 25, "1101111111011110001101000" );
 	array[-21644] = assign( 25, "1001111111011110001101000" );
@@ -44635,9 +44701,9 @@
 	array[-21672] = assign( 26, "11111111111111010100111010" );
 	array[ 21673] = assign( 25, "1111111101011110000111010" );
 	array[-21673] = assign( 25, "1011111101011110000111010" );
-	array[ 21674] = assign( 20, "01011000101011111111" );	// warning: length mismatch
+	array[ 21674] = assign( 20, "01011000101011111111" );
 	array[-21674] = assign( 20, "01111000101011111111" );
-	array[ 21675] = assign( 20, "01110110101010011110" );	// warning: length mismatch
+	array[ 21675] = assign( 20, "01110110101010011110" );
 	array[-21675] = assign( 20, "01010110101010011110" );
 	array[ 21676] = assign( 25, "1101111101011110001101000" );
 	array[-21676] = assign( 25, "1001111101011110001101000" );
@@ -44703,7 +44769,7 @@
 	array[-21705] = assign( 25, "1011111111110110001111010" );
 	array[ 21706] = assign( 25, "1111111111110110001111000" );
 	array[-21706] = assign( 25, "1011111111110110001111000" );
-	array[ 21707] = assign( 20, "01110111101011110110" );	// warning: length mismatch
+	array[ 21707] = assign( 20, "01110111101011110110" );
 	array[-21707] = assign( 20, "01010111101011110110" );
 	array[ 21708] = assign( 25, "1101111111110110000111000" );
 	array[-21708] = assign( 25, "1001111111110110000111000" );
@@ -44769,7 +44835,7 @@
 	array[-21737] = assign( 25, "1011111101110110001111010" );
 	array[ 21738] = assign( 25, "1111111101110110001111000" );
 	array[-21738] = assign( 25, "1011111101110110001111000" );
-	array[ 21739] = assign( 20, "01110111101010110110" );	// warning: length mismatch
+	array[ 21739] = assign( 20, "01110111101010110110" );
 	array[-21739] = assign( 20, "01010111101010110110" );
 	array[ 21740] = assign( 25, "1101111101110110000111000" );
 	array[-21740] = assign( 25, "1001111101110110000111000" );
@@ -44835,7 +44901,7 @@
 	array[-21769] = assign( 26, "10111111110101100001011010" );
 	array[ 21770] = assign( 26, "11111111110101100001011000" );
 	array[-21770] = assign( 26, "10111111110101100001011000" );
-	array[ 21771] = assign( 20, "01110110111011010110" );	// warning: length mismatch
+	array[ 21771] = assign( 20, "01110110111011010110" );
 	array[-21771] = assign( 20, "01010110111011010110" );
 	array[ 21772] = assign( 25, "1101111111010110001111000" );
 	array[-21772] = assign( 25, "1001111111010110001111000" );
@@ -44901,7 +44967,7 @@
 	array[-21801] = assign( 26, "10111111010101100001011010" );
 	array[ 21802] = assign( 26, "11111111010101100001011000" );
 	array[-21802] = assign( 26, "10111111010101100001011000" );
-	array[ 21803] = assign( 20, "01110110111010010110" );	// warning: length mismatch
+	array[ 21803] = assign( 20, "01110110111010010110" );
 	array[-21803] = assign( 20, "01010110111010010110" );
 	array[ 21804] = assign( 25, "1101111101010110001111000" );
 	array[-21804] = assign( 25, "1001111101010110001111000" );
@@ -44967,7 +45033,7 @@
 	array[-21833] = assign( 26, "10111111111111000011011010" );
 	array[ 21834] = assign( 26, "11111111111111000011011000" );
 	array[-21834] = assign( 26, "10111111111111000011011000" );
-	array[ 21835] = assign( 19, "0111011111101111110" );	// warning: length mismatch
+	array[ 21835] = assign( 19, "0111011111101111110" );
 	array[-21835] = assign( 19, "0101011111101111110" );
 	array[ 21836] = assign( 26, "10011111010111110101111010" );
 	array[-21836] = assign( 26, "10011111111111000001011000" );
@@ -45033,7 +45099,7 @@
 	array[-21865] = assign( 26, "10111111011111000011011010" );
 	array[ 21866] = assign( 26, "11111111011111000011011000" );
 	array[-21866] = assign( 26, "10111111011111000011011000" );
-	array[ 21867] = assign( 19, "0111011111101011110" );	// warning: length mismatch
+	array[ 21867] = assign( 19, "0111011111101011110" );
 	array[-21867] = assign( 19, "0101011111101011110" );
 	array[ 21868] = assign( 26, "10011111110111110101111010" );
 	array[-21868] = assign( 26, "10011111011111000001011000" );
@@ -45099,7 +45165,7 @@
 	array[-21897] = assign( 26, "10111111110111000001111010" );
 	array[ 21898] = assign( 26, "11111111110111000001111000" );
 	array[-21898] = assign( 26, "10111111110111000001111000" );
-	array[ 21899] = assign( 20, "01110110101101101110" );	// warning: length mismatch
+	array[ 21899] = assign( 20, "01110110101101101110" );
 	array[-21899] = assign( 20, "01010110101101101110" );
 	array[ 21900] = assign( 26, "11011111110111000011011000" );
 	array[-21900] = assign( 26, "10011111110111000011011000" );
@@ -45165,7 +45231,7 @@
 	array[-21929] = assign( 26, "10111111010111000001111010" );
 	array[ 21930] = assign( 26, "11111111010111000001111000" );
 	array[-21930] = assign( 26, "10111111010111000001111000" );
-	array[ 21931] = assign( 20, "01110110101101001110" );	// warning: length mismatch
+	array[ 21931] = assign( 20, "01110110101101001110" );
 	array[-21931] = assign( 20, "01010110101101001110" );
 	array[ 21932] = assign( 26, "11011111010111000011011000" );
 	array[-21932] = assign( 26, "10011111010111000011011000" );
@@ -45231,7 +45297,7 @@
 	array[-21961] = assign( 26, "10111111111101000011111010" );
 	array[ 21962] = assign( 26, "11111111111101000011111000" );
 	array[-21962] = assign( 26, "10111111111101000011111000" );
-	array[ 21963] = assign( 20, "01110111101101111010" );	// warning: length mismatch
+	array[ 21963] = assign( 20, "01110111101101111010" );
 	array[-21963] = assign( 20, "01010111101101111010" );
 	array[ 21964] = assign( 26, "11011111111101000001111000" );
 	array[-21964] = assign( 26, "10011111111101000001111000" );
@@ -45297,7 +45363,7 @@
 	array[-21993] = assign( 26, "10011111111101001011111110" );
 	array[ 21994] = assign( 26, "11111111011101000011111000" );
 	array[-21994] = assign( 26, "10111111011101000011111000" );
-	array[ 21995] = assign( 20, "01110111101101011010" );	// warning: length mismatch
+	array[ 21995] = assign( 20, "01110111101101011010" );
 	array[-21995] = assign( 20, "01010111101101011010" );
 	array[ 21996] = assign( 26, "11011111011101000001111000" );
 	array[-21996] = assign( 26, "10011111011101000001111000" );
@@ -45363,7 +45429,7 @@
 	array[-22025] = assign( 26, "10011111011101001011111110" );
 	array[ 22026] = assign( 26, "11111111110101000001011100" );
 	array[-22026] = assign( 26, "10111111110101000001011100" );
-	array[ 22027] = assign( 20, "01110110111101101010" );	// warning: length mismatch
+	array[ 22027] = assign( 20, "01110110111101101010" );
 	array[-22027] = assign( 20, "01010110111101101010" );
 	array[ 22028] = assign( 26, "11011111110101000011111000" );
 	array[-22028] = assign( 26, "10011111110101000011111000" );
@@ -45429,7 +45495,7 @@
 	array[-22057] = assign( 26, "10011111110101001001111110" );
 	array[ 22058] = assign( 26, "11011111110101001011111100" );
 	array[-22058] = assign( 26, "10011111110101001011111100" );
-	array[ 22059] = assign( 20, "01110110111101001010" );	// warning: length mismatch
+	array[ 22059] = assign( 20, "01110110111101001010" );
 	array[-22059] = assign( 20, "01010110111101001010" );
 	array[ 22060] = assign( 26, "11011111010101000011111000" );
 	array[-22060] = assign( 26, "10011111010101000011111000" );
@@ -45495,7 +45561,7 @@
 	array[-22089] = assign( 24, "101111111111100011011110" );
 	array[ 22090] = assign( 24, "111111111111100011011100" );
 	array[-22090] = assign( 24, "101111111111100011011100" );
-	array[ 22091] = assign( 19, "0111011111110111110" );	// warning: length mismatch
+	array[ 22091] = assign( 19, "0111011111110111110" );
 	array[-22091] = assign( 19, "0101011111110111110" );
 	array[ 22092] = assign( 24, "110111111111100001011100" );
 	array[-22092] = assign( 24, "100111111111100001011100" );
@@ -45561,7 +45627,7 @@
 	array[-22121] = assign( 24, "100111111111101011011110" );
 	array[ 22122] = assign( 24, "110111111111101001111100" );
 	array[-22122] = assign( 24, "100111111111101001111100" );
-	array[ 22123] = assign( 19, "0111011111110101110" );	// warning: length mismatch
+	array[ 22123] = assign( 19, "0111011111110101110" );
 	array[-22123] = assign( 19, "0101011111110101110" );
 	array[ 22124] = assign( 24, "110111110111100001011100" );
 	array[-22124] = assign( 24, "100111110111100001011100" );
@@ -45627,7 +45693,7 @@
 	array[-22153] = assign( 24, "100111110111101011011110" );
 	array[ 22154] = assign( 24, "110111110111101001111100" );
 	array[-22154] = assign( 24, "100111110111101001111100" );
-	array[ 22155] = assign( 19, "0111011010111110110" );	// warning: length mismatch
+	array[ 22155] = assign( 19, "0111011010111110110" );
 	array[-22155] = assign( 19, "0101011010111110110" );
 	array[ 22156] = assign( 24, "110111111101100011011100" );
 	array[-22156] = assign( 24, "100111111101100011011100" );
@@ -45693,7 +45759,7 @@
 	array[-22185] = assign( 24, "100111111101101001011110" );
 	array[ 22186] = assign( 24, "110111111101101011011100" );
 	array[-22186] = assign( 24, "100111111101101011011100" );
-	array[ 22187] = assign( 19, "0111011010111100110" );	// warning: length mismatch
+	array[ 22187] = assign( 19, "0111011010111100110" );
 	array[-22187] = assign( 19, "0101011010111100110" );
 	array[ 22188] = assign( 24, "110111110101100011011100" );
 	array[-22188] = assign( 24, "100111110101100011011100" );
@@ -45759,7 +45825,7 @@
 	array[-22217] = assign( 24, "100111110101101001011110" );
 	array[ 22218] = assign( 24, "110111110101101011011100" );
 	array[-22218] = assign( 24, "100111110101101011011100" );
-	array[ 22219] = assign( 19, "0111011110111111100" );	// warning: length mismatch
+	array[ 22219] = assign( 19, "0111011110111111100" );
 	array[-22219] = assign( 19, "0101011110111111100" );
 	array[ 22220] = assign( 24, "110111111111000001111100" );
 	array[-22220] = assign( 24, "100111111111000001111100" );
@@ -45825,7 +45891,7 @@
 	array[-22249] = assign( 24, "100111111111001011111010" );
 	array[ 22250] = assign( 24, "110111111111001001011100" );
 	array[-22250] = assign( 24, "100111111111001001011100" );
-	array[ 22251] = assign( 19, "0111011110111101100" );	// warning: length mismatch
+	array[ 22251] = assign( 19, "0111011110111101100" );
 	array[-22251] = assign( 19, "0101011110111101100" );
 	array[ 22252] = assign( 24, "110111110111000001111100" );
 	array[-22252] = assign( 24, "100111110111000001111100" );
@@ -45891,7 +45957,7 @@
 	array[-22281] = assign( 24, "100111110111001011111010" );
 	array[ 22282] = assign( 24, "110111110111001001011100" );
 	array[-22282] = assign( 24, "100111110111001001011100" );
-	array[ 22283] = assign( 19, "0111011011111110100" );	// warning: length mismatch
+	array[ 22283] = assign( 19, "0111011011111110100" );
 	array[-22283] = assign( 19, "0101011011111110100" );
 	array[ 22284] = assign( 24, "110111111101000011111100" );
 	array[-22284] = assign( 24, "100111111101000011111100" );
@@ -45957,7 +46023,7 @@
 	array[-22313] = assign( 24, "100111111101001001111010" );
 	array[ 22314] = assign( 24, "110111111101001011111000" );
 	array[-22314] = assign( 24, "100111111101001011111000" );
-	array[ 22315] = assign( 19, "0111011011111100100" );	// warning: length mismatch
+	array[ 22315] = assign( 19, "0111011011111100100" );
 	array[-22315] = assign( 19, "0101011011111100100" );
 	array[ 22316] = assign( 24, "110111110101000011111100" );
 	array[-22316] = assign( 24, "100111110101000011111100" );
@@ -46023,7 +46089,7 @@
 	array[-22345] = assign( 24, "100111110101001001111010" );
 	array[ 22346] = assign( 24, "110111110101001011111000" );
 	array[-22346] = assign( 24, "100111110101001011111000" );
-	array[ 22347] = assign( 17, "01110111111111110" );	// warning: length mismatch
+	array[ 22347] = assign( 17, "01110111111111110" );
 	array[-22347] = assign( 17, "01010111111111110" );
 	array[ 22348] = assign( 24, "111111110101001001011100" );
 	array[-22348] = assign( 24, "101111110101001001011100" );
@@ -46089,7 +46155,7 @@
 	array[-22377] = assign( 22, "1001111111101011011010" );
 	array[ 22378] = assign( 22, "1101111111101001111000" );
 	array[-22378] = assign( 22, "1001111111101001111000" );
-	array[ 22379] = assign( 17, "01110111111111010" );	// warning: length mismatch
+	array[ 22379] = assign( 17, "01110111111111010" );
 	array[-22379] = assign( 17, "01010111111111010" );
 	array[ 22380] = assign( 22, "1111111111101011111000" );
 	array[-22380] = assign( 22, "1011111111101011111000" );
@@ -46155,7 +46221,7 @@
 	array[-22409] = assign( 22, "1001111101101011011010" );
 	array[ 22410] = assign( 22, "1101111101101001111000" );
 	array[-22410] = assign( 22, "1001111101101001111000" );
-	array[ 22411] = assign( 17, "01111001101101010" );	// warning: length mismatch
+	array[ 22411] = assign( 17, "01111001101101010" );
 	array[-22411] = assign( 17, "01011001101101010" );
 	array[ 22412] = assign( 22, "1111111101101011111000" );
 	array[-22412] = assign( 22, "1011111101101011111000" );
@@ -46221,7 +46287,7 @@
 	array[-22441] = assign( 22, "1001111111001001011010" );
 	array[ 22442] = assign( 22, "1101111111001011011000" );
 	array[-22442] = assign( 22, "1001111111001011011000" );
-	array[ 22443] = assign( 17, "01111000101101100" );	// warning: length mismatch
+	array[ 22443] = assign( 17, "01111000101101100" );
 	array[-22443] = assign( 17, "01011000101101100" );
 	array[ 22444] = assign( 22, "1111111111001001111000" );
 	array[-22444] = assign( 22, "1011111111001001111000" );
@@ -46287,7 +46353,7 @@
 	array[-22473] = assign( 22, "1001111101001001011010" );
 	array[ 22474] = assign( 22, "1101111101001011011000" );
 	array[-22474] = assign( 22, "1001111101001011011000" );
-	array[ 22475] = assign( 17, "01111000101101000" );	// warning: length mismatch
+	array[ 22475] = assign( 17, "01111000101101000" );
 	array[-22475] = assign( 17, "01011000101101000" );
 	array[ 22476] = assign( 22, "1111111101001001111000" );
 	array[-22476] = assign( 22, "1011111101001001111000" );
@@ -46353,7 +46419,7 @@
 	array[-22505] = assign( 19, "1001111110101111010" );
 	array[ 22506] = assign( 20, "11011111101001011000" );
 	array[-22506] = assign( 20, "10011111101001011000" );
-	array[ 22507] = assign( 14, "01111001111001" );	// warning: length mismatch
+	array[ 22507] = assign( 14, "01111001111001" );
 	array[-22507] = assign( 14, "01011001111001" );
 	array[ 22508] = assign( 20, "11111111101011011000" );
 	array[-22508] = assign( 20, "10111111101011011000" );
@@ -46419,7 +46485,7 @@
 	array[-22537] = assign( 19, "1001111100101111010" );
 	array[ 22538] = assign( 20, "10011111000001011000" );
 	array[-22538] = assign( 20, "10011111001001011000" );
-	array[ 22539] = assign( 14, "01010111111000" );	// warning: length mismatch
+	array[ 22539] = assign( 14, "01010111111000" );
 	array[-22539] = assign( 14, "01011001111000" );
 	array[ 22540] = assign( 20, "10111111000011011000" );
 	array[-22540] = assign( 20, "10111111001011011000" );
@@ -46485,7 +46551,7 @@
 	array[-22569] = assign( 19, "1101111110001111010" );
 	array[ 22570] = assign( 20, "10011111100001011000" );
 	array[-22570] = assign( 20, "11011111100001011000" );
-	array[ 22571] = assign( 14, "01010111111001" );	// warning: length mismatch
+	array[ 22571] = assign( 14, "01010111111001" );
 	array[-22571] = assign( 14, "01110111111001" );
 	array[ 22572] = assign( 20, "10111111100011011000" );
 	array[-22572] = assign( 20, "11111111100011011000" );
@@ -46551,7 +46617,7 @@
 	array[-22601] = assign( 21, "110111110100000111010" );
 	array[ 22602] = assign( 21, "100111110100001111000" );
 	array[-22602] = assign( 21, "110111110100001111000" );
-	array[ 22603] = assign( 16, "0101011011101000" );	// warning: length mismatch
+	array[ 22603] = assign( 16, "0101011011101000" );
 	array[-22603] = assign( 16, "0111011011101000" );
 	array[ 22604] = assign( 22, "1011111101000001011000" );
 	array[-22604] = assign( 22, "1111111101000001011000" );
@@ -46617,7 +46683,7 @@
 	array[-22633] = assign( 21, "110111111100000111010" );
 	array[ 22634] = assign( 21, "100111111100001111000" );
 	array[-22634] = assign( 21, "110111111100001111000" );
-	array[ 22635] = assign( 16, "0101011011101100" );	// warning: length mismatch
+	array[ 22635] = assign( 16, "0101011011101100" );
 	array[-22635] = assign( 16, "0111011011101100" );
 	array[ 22636] = assign( 22, "1011111111000001011000" );
 	array[-22636] = assign( 22, "1111111111000001011000" );
@@ -46683,7 +46749,7 @@
 	array[-22665] = assign( 21, "110111110110001101010" );
 	array[ 22666] = assign( 21, "100111110110000111000" );
 	array[-22666] = assign( 21, "110111110110000111000" );
-	array[ 22667] = assign( 16, "0101011110101010" );	// warning: length mismatch
+	array[ 22667] = assign( 16, "0101011110101010" );
 	array[-22667] = assign( 16, "0111011110101010" );
 	array[ 22668] = assign( 21, "101111110110001111000" );
 	array[-22668] = assign( 21, "111111110110001111000" );
@@ -46749,7 +46815,7 @@
 	array[-22697] = assign( 21, "110111111110001101010" );
 	array[ 22698] = assign( 21, "100111111110000111000" );
 	array[-22698] = assign( 21, "110111111110000111000" );
-	array[ 22699] = assign( 16, "0101011110101110" );	// warning: length mismatch
+	array[ 22699] = assign( 16, "0101011110101110" );
 	array[-22699] = assign( 16, "0111011110101110" );
 	array[ 22700] = assign( 21, "101111111110001111000" );
 	array[-22700] = assign( 21, "111111111110001111000" );
@@ -46815,7 +46881,7 @@
 	array[-22729] = assign( 23, "11011111010100000101010" );
 	array[ 22730] = assign( 23, "10011111010100001101000" );
 	array[-22730] = assign( 23, "11011111010100001101000" );
-	array[ 22731] = assign( 18, "010101101010100100" );	// warning: length mismatch
+	array[ 22731] = assign( 18, "010101101010100100" );
 	array[-22731] = assign( 18, "011101101010100100" );
 	array[ 22732] = assign( 23, "10111111010100000111000" );
 	array[-22732] = assign( 23, "11111111010100000111000" );
@@ -46881,7 +46947,7 @@
 	array[-22761] = assign( 23, "11011111110100000101010" );
 	array[ 22762] = assign( 23, "10011111110100001101000" );
 	array[-22762] = assign( 23, "11011111110100001101000" );
-	array[ 22763] = assign( 18, "010101101010110100" );	// warning: length mismatch
+	array[ 22763] = assign( 18, "010101101010110100" );
 	array[-22763] = assign( 18, "011101101010110100" );
 	array[ 22764] = assign( 23, "10111111110100000111000" );
 	array[-22764] = assign( 23, "11111111110100000111000" );
@@ -46947,7 +47013,7 @@
 	array[-22793] = assign( 22, "1101111101110000111010" );
 	array[ 22794] = assign( 23, "10011111011100000101000" );
 	array[-22794] = assign( 23, "11011111011100000101000" );
-	array[ 22795] = assign( 17, "01010111110101100" );	// warning: length mismatch
+	array[ 22795] = assign( 17, "01010111110101100" );
 	array[-22795] = assign( 17, "01110111110101100" );
 	array[ 22796] = assign( 23, "10111111011100001101000" );
 	array[-22796] = assign( 23, "11111111011100001101000" );
@@ -47013,7 +47079,7 @@
 	array[-22825] = assign( 22, "1101111111110000111010" );
 	array[ 22826] = assign( 23, "10011111111100000101000" );
 	array[-22826] = assign( 23, "11011111111100000101000" );
-	array[ 22827] = assign( 17, "01010111110111100" );	// warning: length mismatch
+	array[ 22827] = assign( 17, "01010111110111100" );
 	array[-22827] = assign( 17, "01110111110111100" );
 	array[ 22828] = assign( 23, "10111111111100001101000" );
 	array[-22828] = assign( 23, "11111111111100001101000" );
@@ -47079,7 +47145,7 @@
 	array[-22857] = assign( 22, "1101111101011000011010" );
 	array[ 22858] = assign( 22, "1001111101011000111000" );
 	array[-22858] = assign( 22, "1101111101011000111000" );
-	array[ 22859] = assign( 17, "01010110110100110" );	// warning: length mismatch
+	array[ 22859] = assign( 17, "01010110110100110" );
 	array[-22859] = assign( 17, "01110110110100110" );
 	array[ 22860] = assign( 23, "10111111010110000101000" );
 	array[-22860] = assign( 23, "11111111010110000101000" );
@@ -47145,7 +47211,7 @@
 	array[-22889] = assign( 22, "1101111111011000011010" );
 	array[ 22890] = assign( 22, "1001111111011000111000" );
 	array[-22890] = assign( 22, "1101111111011000111000" );
-	array[ 22891] = assign( 17, "01010110110110110" );	// warning: length mismatch
+	array[ 22891] = assign( 17, "01010110110110110" );
 	array[-22891] = assign( 17, "01110110110110110" );
 	array[ 22892] = assign( 23, "10111111110110000101000" );
 	array[-22892] = assign( 23, "11111111110110000101000" );
@@ -47211,7 +47277,7 @@
 	array[-22921] = assign( 22, "1101111101111000110010" );
 	array[ 22922] = assign( 22, "1001111101111000011000" );
 	array[-22922] = assign( 22, "1101111101111000011000" );
-	array[ 22923] = assign( 17, "01010111100101110" );	// warning: length mismatch
+	array[ 22923] = assign( 17, "01010111100101110" );
 	array[-22923] = assign( 17, "01110111100101110" );
 	array[ 22924] = assign( 22, "1011111101111000111000" );
 	array[-22924] = assign( 22, "1111111101111000111000" );
@@ -47277,7 +47343,7 @@
 	array[-22953] = assign( 22, "1101111111111000110010" );
 	array[ 22954] = assign( 22, "1001111111111000011000" );
 	array[-22954] = assign( 22, "1101111111111000011000" );
-	array[ 22955] = assign( 17, "01010111100111110" );	// warning: length mismatch
+	array[ 22955] = assign( 17, "01010111100111110" );
 	array[-22955] = assign( 17, "01110111100111110" );
 	array[ 22956] = assign( 22, "1011111111111000111000" );
 	array[-22956] = assign( 22, "1111111111111000111000" );
@@ -47315,11 +47381,13 @@
 	array[-22972] = assign( 26, "11111111111110001110011111" );
 	array[ 22973] = assign( 26, "10111111111110001110111111" );
 	array[-22973] = assign( 26, "11111111111110001110111111" );
-	array[ 22974] = assign( 27, "100111110101010001010011010" );
-	array[-22974] = assign( 27, "110111110101010001010011010" );
-	array[ 22975] = assign( 26, "10111111010101001111001110" );
-	array[-22975] = assign( 26, "11111111010101001111001110" );
-	// decoded 31 sequences.
+	array[ 22974] = assign( 27, "100111110101010001010001110" );
+	array[-22974] = assign( 27, "110111110101010001010001110" );
+	array[ 22975] = assign( 27, "100111110101010001010011010" );
+	array[-22975] = assign( 27, "110111110101010001010011010" );
+	array[ 22976] = assign( 26, "10111111010101001111001110" );
+	array[-22976] = assign( 26, "11111111010101001111001110" );
+	// decoded 32 sequences.
 	// decoded sequences starting at 22977
 	array[ 22977] = assign( 26, "10011111010101000101001110" );
 	array[-22977] = assign( 26, "11011111010101000101001110" );
@@ -47341,7 +47409,7 @@
 	array[-22985] = assign( 24, "110111110101010000010010" );
 	array[ 22986] = assign( 24, "100111110101010000110000" );
 	array[-22986] = assign( 24, "110111110101010000110000" );
-	array[ 22987] = assign( 18, "010101101001001010" );	// warning: length mismatch
+	array[ 22987] = assign( 18, "010101101001001010" );
 	array[-22987] = assign( 18, "011101101001001010" );
 	array[ 22988] = assign( 24, "101111110101010000011000" );
 	array[-22988] = assign( 24, "111111110101010000011000" );
@@ -47407,7 +47475,7 @@
 	array[-23017] = assign( 24, "110111111101010000010010" );
 	array[ 23018] = assign( 24, "100111111101010000110000" );
 	array[-23018] = assign( 24, "110111111101010000110000" );
-	array[ 23019] = assign( 18, "010101101001101010" );	// warning: length mismatch
+	array[ 23019] = assign( 18, "010101101001101010" );
 	array[-23019] = assign( 18, "011101101001101010" );
 	array[ 23020] = assign( 24, "101111111101010000011000" );
 	array[-23020] = assign( 24, "111111111101010000011000" );
@@ -47473,7 +47541,7 @@
 	array[-23049] = assign( 22, "1101111101110100001010" );
 	array[ 23050] = assign( 24, "100111110111010000010000" );
 	array[-23050] = assign( 24, "100111111101010110101010" );
-	array[ 23051] = assign( 16, "0101011101011010" );	// warning: length mismatch
+	array[ 23051] = assign( 16, "0101011101011010" );
 	array[-23051] = assign( 16, "0111011101011010" );
 	array[ 23052] = assign( 24, "101111110111010000110000" );
 	array[-23052] = assign( 24, "111111110111010000110000" );
@@ -47539,7 +47607,7 @@
 	array[-23081] = assign( 22, "1101111111110100001010" );
 	array[ 23082] = assign( 24, "100111111111010000010000" );
 	array[-23082] = assign( 24, "100111110101010110101010" );
-	array[ 23083] = assign( 16, "0101011101111010" );	// warning: length mismatch
+	array[ 23083] = assign( 16, "0101011101111010" );
 	array[-23083] = assign( 16, "0111011101111010" );
 	array[ 23084] = assign( 24, "101111111111010000110000" );
 	array[-23084] = assign( 24, "111111111111010000110000" );
@@ -47605,7 +47673,7 @@
 	array[-23113] = assign( 17, "11011110101001110" );
 	array[ 23114] = assign( 20, "10011101101111111110" );
 	array[-23114] = assign( 20, "11011101101111111110" );
-	array[ 23115] = assign( 16, "0101011001001110" );	// warning: length mismatch
+	array[ 23115] = assign( 16, "0101011001001110" );
 	array[-23115] = assign( 16, "0111011001001110" );
 	array[ 23116] = assign( 24, "101111110101110000010000" );
 	array[-23116] = assign( 24, "111111110101110000010000" );
@@ -47671,7 +47739,7 @@
 	array[-23145] = assign( 17, "11011110101101110" );
 	array[ 23146] = assign( 19, "1001110101111111110" );
 	array[-23146] = assign( 19, "1101110101111111110" );
-	array[ 23147] = assign( 16, "0101011001101110" );	// warning: length mismatch
+	array[ 23147] = assign( 16, "0101011001101110" );
 	array[-23147] = assign( 16, "0111011001101110" );
 	array[ 23148] = assign( 24, "101111111101110000010000" );
 	array[-23148] = assign( 24, "111111111101110000010000" );
@@ -47737,7 +47805,7 @@
 	array[-23177] = assign( 19, "1101011111111111110" );
 	array[ 23178] = assign( 17, "10010101111111110" );
 	array[-23178] = assign( 17, "11010101111111110" );
-	array[ 23179] = assign( 18, "010110101111111110" );	// warning: length mismatch
+	array[ 23179] = assign( 18, "010110101111111110" );
 	array[-23179] = assign( 18, "011110101111111110" );
 	array[ 23180] = assign( 21, "101111011011111111110" );
 	array[-23180] = assign( 21, "111111011011111111110" );
@@ -47803,7 +47871,7 @@
 	array[-23209] = assign( 19, "1101110011111111110" );
 	array[ 23210] = assign( 16, "1001001111111110" );
 	array[-23210] = assign( 16, "1101001111111110" );
-	array[ 23211] = assign( 18, "010110111111111110" );	// warning: length mismatch
+	array[ 23211] = assign( 18, "010110111111111110" );
 	array[-23211] = assign( 18, "011110111111111110" );
 	array[ 23212] = assign( 20, "10111101011111111110" );
 	array[-23212] = assign( 20, "11111101011111111110" );
@@ -47935,7 +48003,7 @@
 	array[-23273] = assign( 18, "111111101111010110" );
 	array[ 23274] = assign( 20, "10110110111111111110" );
 	array[-23274] = assign( 20, "11110110111111111110" );
-	array[ 23275] = assign( 13, "0101000111110" );	// warning: length mismatch
+	array[ 23275] = assign( 13, "0101000111110" );
 	array[-23275] = assign( 13, "0111000111110" );
 	array[ 23276] = assign( 17, "10110011111111110" );
 	array[-23276] = assign( 17, "11110011111111110" );
@@ -48001,7 +48069,7 @@
 	array[-23305] = assign( 22, "1111111101110110101010" );
 	array[ 23306] = assign( 22, "1011111001111111111110" );
 	array[-23306] = assign( 22, "1111111001111111111110" );
-	array[ 23307] = assign( 13, "0101001111110" );	// warning: length mismatch
+	array[ 23307] = assign( 13, "0101001111110" );
 	array[-23307] = assign( 13, "0111001111110" );
 	array[ 23308] = assign( 18, "100110111111111110" );
 	array[-23308] = assign( 18, "110110111111111110" );
@@ -48067,7 +48135,7 @@
 	array[-23337] = assign( 22, "1111111111110110101010" );
 	array[ 23338] = assign( 22, "1011111111110110101000" );
 	array[-23338] = assign( 22, "1111111111110110101000" );
-	array[ 23339] = assign( 21, "010111001111111111110" );	// warning: length mismatch
+	array[ 23339] = assign( 21, "010111001111111111110" );
 	array[-23339] = assign( 21, "011111001111111111110" );
 	array[ 23340] = assign( 21, "100101101111111111110" );
 	array[-23340] = assign( 21, "110101101111111111110" );
@@ -48133,9 +48201,9 @@
 	array[-23369] = assign( 24, "111111110101111010010010" );
 	array[ 23370] = assign( 24, "101111110101111010010000" );
 	array[-23370] = assign( 24, "111111110101111010010000" );
-	array[ 23371] = assign( 17, "01011000010011110" );	// warning: length mismatch
+	array[ 23371] = assign( 17, "01011000010011110" );
 	array[-23371] = assign( 17, "01111000010011110" );
-	array[ 23372] = assign( 17, "01110110011111111" );	// warning: length mismatch
+	array[ 23372] = assign( 17, "01110110011111111" );
 	array[-23372] = assign( 17, "01010110011111111" );
 	array[ 23373] = assign( 18, "100111101110011110" );
 	array[-23373] = assign( 18, "110111101110011110" );
@@ -48199,9 +48267,9 @@
 	array[-23401] = assign( 24, "111111111101111010010010" );
 	array[ 23402] = assign( 24, "101111111101111010010000" );
 	array[-23402] = assign( 24, "111111111101111010010000" );
-	array[ 23403] = assign( 17, "01011000011011110" );	// warning: length mismatch
+	array[ 23403] = assign( 17, "01011000011011110" );
 	array[-23403] = assign( 17, "01111000011011110" );
-	array[ 23404] = assign( 17, "01110110010111111" );	// warning: length mismatch
+	array[ 23404] = assign( 17, "01110110010111111" );
 	array[-23404] = assign( 17, "01010110010111111" );
 	array[ 23405] = assign( 18, "100111101111011110" );
 	array[-23405] = assign( 18, "110111101111011110" );
@@ -48265,9 +48333,9 @@
 	array[-23433] = assign( 24, "111111110111111010110010" );
 	array[ 23434] = assign( 24, "101111110111111010110000" );
 	array[-23434] = assign( 24, "111111110111111010110000" );
-	array[ 23435] = assign( 17, "01011001010111110" );	// warning: length mismatch
+	array[ 23435] = assign( 17, "01011001010111110" );
 	array[-23435] = assign( 17, "01111001010111110" );
-	array[ 23436] = assign( 17, "01110111011011111" );	// warning: length mismatch
+	array[ 23436] = assign( 17, "01110111011011111" );
 	array[-23436] = assign( 17, "01010111011011111" );
 	array[ 23437] = assign( 22, "1001111101111110101010" );
 	array[-23437] = assign( 22, "1101111101111110101010" );
@@ -48331,9 +48399,9 @@
 	array[-23465] = assign( 24, "111111111111111010110010" );
 	array[ 23466] = assign( 24, "101111111111111010110000" );
 	array[-23466] = assign( 24, "111111111111111010110000" );
-	array[ 23467] = assign( 17, "01011001011111110" );	// warning: length mismatch
+	array[ 23467] = assign( 17, "01011001011111110" );
 	array[-23467] = assign( 17, "01111001011111110" );
-	array[ 23468] = assign( 17, "01110111010011111" );	// warning: length mismatch
+	array[ 23468] = assign( 17, "01110111010011111" );
 	array[-23468] = assign( 17, "01010111010011111" );
 	array[ 23469] = assign( 22, "1001111111111110101010" );
 	array[-23469] = assign( 22, "1101111111111110101010" );
@@ -48397,9 +48465,9 @@
 	array[-23497] = assign( 25, "1111111101010101010011010" );
 	array[ 23498] = assign( 25, "1011111101010101010011000" );
 	array[-23498] = assign( 25, "1011111111110101000011010" );
-	array[ 23499] = assign( 19, "0101100010010010111" );	// warning: length mismatch
+	array[ 23499] = assign( 19, "0101100010010010111" );
 	array[-23499] = assign( 19, "0111100010010010111" );
-	array[ 23500] = assign( 19, "0111011010011110111" );	// warning: length mismatch
+	array[ 23500] = assign( 19, "0111011010011110111" );
 	array[-23500] = assign( 19, "0101011010011110111" );
 	array[ 23501] = assign( 25, "1001111101010101010010010" );
 	array[-23501] = assign( 25, "1001111111110101000110000" );
@@ -48463,9 +48531,9 @@
 	array[-23529] = assign( 25, "1111111111010101010011010" );
 	array[ 23530] = assign( 25, "1011111111010101010011000" );
 	array[-23530] = assign( 25, "1011111101110101000011010" );
-	array[ 23531] = assign( 19, "0101100010011010111" );	// warning: length mismatch
+	array[ 23531] = assign( 19, "0101100010011010111" );
 	array[-23531] = assign( 19, "0111100010011010111" );
-	array[ 23532] = assign( 19, "0111011010010110111" );	// warning: length mismatch
+	array[ 23532] = assign( 19, "0111011010010110111" );
 	array[-23532] = assign( 19, "0101011010010110111" );
 	array[ 23533] = assign( 25, "1001111111010101010010010" );
 	array[-23533] = assign( 25, "1001111101110101000110000" );
@@ -48529,9 +48597,9 @@
 	array[-23561] = assign( 25, "1111111101110101010111010" );
 	array[ 23562] = assign( 25, "1011111101110101010111000" );
 	array[-23562] = assign( 25, "1011111111010101000111010" );
-	array[ 23563] = assign( 19, "0101100110010110111" );	// warning: length mismatch
+	array[ 23563] = assign( 19, "0101100110010110111" );
 	array[-23563] = assign( 19, "0111100110010110111" );
-	array[ 23564] = assign( 19, "0111011110011010111" );	// warning: length mismatch
+	array[ 23564] = assign( 19, "0111011110011010111" );
 	array[-23564] = assign( 19, "0101011110011010111" );
 	array[ 23565] = assign( 25, "1001111101110101010110010" );
 	array[-23565] = assign( 25, "1001111111010101000011000" );
@@ -48595,9 +48663,9 @@
 	array[-23593] = assign( 25, "1111111111110101010111010" );
 	array[ 23594] = assign( 25, "1011111111110101010111000" );
 	array[-23594] = assign( 25, "1011111101010101000111010" );
-	array[ 23595] = assign( 19, "0101100110011110111" );	// warning: length mismatch
+	array[ 23595] = assign( 19, "0101100110011110111" );
 	array[-23595] = assign( 19, "0111100110011110111" );
-	array[ 23596] = assign( 19, "0111011110010010111" );	// warning: length mismatch
+	array[ 23596] = assign( 19, "0111011110010010111" );
 	array[-23596] = assign( 19, "0101011110010010111" );
 	array[ 23597] = assign( 25, "1001111111110101010110010" );
 	array[-23597] = assign( 25, "1001111101010101000011000" );
@@ -48661,9 +48729,9 @@
 	array[-23625] = assign( 26, "11111111010111010100101010" );
 	array[ 23626] = assign( 25, "1111111111111110000101010" );
 	array[-23626] = assign( 25, "1011111111111110000101010" );
-	array[ 23627] = assign( 19, "0101100011010011111" );	// warning: length mismatch
+	array[ 23627] = assign( 19, "0101100011010011111" );
 	array[-23627] = assign( 19, "0111100011010011111" );
-	array[ 23628] = assign( 19, "0111011011011111110" );	// warning: length mismatch
+	array[ 23628] = assign( 19, "0111011011011111110" );
 	array[-23628] = assign( 19, "0101011011011111110" );
 	array[ 23629] = assign( 24, "110111111111111000111000" );
 	array[-23629] = assign( 24, "100111111111111000111000" );
@@ -48727,9 +48795,9 @@
 	array[-23657] = assign( 26, "11111111110111010100101010" );
 	array[ 23658] = assign( 25, "1111111101111110000101010" );
 	array[-23658] = assign( 25, "1011111101111110000101010" );
-	array[ 23659] = assign( 19, "0101100011011011111" );	// warning: length mismatch
+	array[ 23659] = assign( 19, "0101100011011011111" );
 	array[-23659] = assign( 19, "0111100011011011111" );
-	array[ 23660] = assign( 19, "0111011011010111110" );	// warning: length mismatch
+	array[ 23660] = assign( 19, "0111011011010111110" );
 	array[-23660] = assign( 19, "0101011011010111110" );
 	array[ 23661] = assign( 24, "110111110111111000111000" );
 	array[-23661] = assign( 24, "100111110111111000111000" );
@@ -48793,9 +48861,9 @@
 	array[-23689] = assign( 26, "11111111011111010101101010" );
 	array[ 23690] = assign( 25, "1111111111011110001101010" );
 	array[-23690] = assign( 25, "1011111111011110001101010" );
-	array[ 23691] = assign( 19, "0101100111010111111" );	// warning: length mismatch
+	array[ 23691] = assign( 19, "0101100111010111111" );
 	array[-23691] = assign( 19, "0111100111010111111" );
-	array[ 23692] = assign( 19, "0111011111011011110" );	// warning: length mismatch
+	array[ 23692] = assign( 19, "0111011111011011110" );
 	array[-23692] = assign( 19, "0101011111011011110" );
 	array[ 23693] = assign( 25, "1001111101111101010111010" );
 	array[-23693] = assign( 25, "1001111111011110000101000" );
@@ -48859,9 +48927,9 @@
 	array[-23721] = assign( 26, "11111111111111010101101010" );
 	array[ 23722] = assign( 25, "1111111101011110001101010" );
 	array[-23722] = assign( 25, "1011111101011110001101010" );
-	array[ 23723] = assign( 19, "0101100111011111111" );	// warning: length mismatch
+	array[ 23723] = assign( 19, "0101100111011111111" );
 	array[-23723] = assign( 19, "0111100111011111111" );
-	array[ 23724] = assign( 19, "0111011111010011110" );	// warning: length mismatch
+	array[ 23724] = assign( 19, "0111011111010011110" );
 	array[-23724] = assign( 19, "0101011111010011110" );
 	array[ 23725] = assign( 25, "1001111111111101010111010" );
 	array[-23725] = assign( 25, "1001111101011110000101000" );
@@ -48927,7 +48995,7 @@
 	array[-23754] = assign( 25, "1011111111110110000111010" );
 	array[ 23755] = assign( 25, "1111111111110110000111000" );
 	array[-23755] = assign( 25, "1011111111110110000111000" );
-	array[ 23756] = assign( 20, "01110110101011110110" );	// warning: length mismatch
+	array[ 23756] = assign( 20, "01110110101011110110" );
 	array[-23756] = assign( 20, "01010110101011110110" );
 	array[ 23757] = assign( 25, "1101111111110110001101000" );
 	array[-23757] = assign( 25, "1001111111110110001101000" );
@@ -48993,7 +49061,7 @@
 	array[-23786] = assign( 25, "1011111101110110000111010" );
 	array[ 23787] = assign( 25, "1111111101110110000111000" );
 	array[-23787] = assign( 25, "1011111101110110000111000" );
-	array[ 23788] = assign( 20, "01110110101010110110" );	// warning: length mismatch
+	array[ 23788] = assign( 20, "01110110101010110110" );
 	array[-23788] = assign( 20, "01010110101010110110" );
 	array[ 23789] = assign( 25, "1101111101110110001101000" );
 	array[-23789] = assign( 25, "1001111101110110001101000" );
@@ -49059,7 +49127,7 @@
 	array[-23818] = assign( 25, "1011111111010110001111010" );
 	array[ 23819] = assign( 25, "1111111111010110001111000" );
 	array[-23819] = assign( 25, "1011111111010110001111000" );
-	array[ 23820] = assign( 20, "01110111101011010110" );	// warning: length mismatch
+	array[ 23820] = assign( 20, "01110111101011010110" );
 	array[-23820] = assign( 20, "01010111101011010110" );
 	array[ 23821] = assign( 25, "1101111111010110000111000" );
 	array[-23821] = assign( 25, "1001111111010110000111000" );
@@ -49125,7 +49193,7 @@
 	array[-23850] = assign( 25, "1011111101010110001111010" );
 	array[ 23851] = assign( 25, "1111111101010110001111000" );
 	array[-23851] = assign( 25, "1011111101010110001111000" );
-	array[ 23852] = assign( 20, "01110111101010010110" );	// warning: length mismatch
+	array[ 23852] = assign( 20, "01110111101010010110" );
 	array[-23852] = assign( 20, "01010111101010010110" );
 	array[ 23853] = assign( 25, "1101111101010110000111000" );
 	array[-23853] = assign( 25, "1001111101010110000111000" );
@@ -49191,7 +49259,7 @@
 	array[-23882] = assign( 26, "10111111111111000001011010" );
 	array[ 23883] = assign( 26, "11111111111111000001011000" );
 	array[-23883] = assign( 26, "10111111111111000001011000" );
-	array[ 23884] = assign( 19, "0111011011101111110" );	// warning: length mismatch
+	array[ 23884] = assign( 19, "0111011011101111110" );
 	array[-23884] = assign( 19, "0101011011101111110" );
 	array[ 23885] = assign( 25, "1101111111111100001111000" );
 	array[-23885] = assign( 25, "1001111111111100001111000" );
@@ -49257,7 +49325,7 @@
 	array[-23914] = assign( 26, "10111111011111000001011010" );
 	array[ 23915] = assign( 26, "11111111011111000001011000" );
 	array[-23915] = assign( 26, "10111111011111000001011000" );
-	array[ 23916] = assign( 19, "0111011011101011110" );	// warning: length mismatch
+	array[ 23916] = assign( 19, "0111011011101011110" );
 	array[-23916] = assign( 19, "0101011011101011110" );
 	array[ 23917] = assign( 25, "1101111101111100001111000" );
 	array[-23917] = assign( 25, "1001111101111100001111000" );
@@ -49323,7 +49391,7 @@
 	array[-23946] = assign( 26, "10111111110111000011011010" );
 	array[ 23947] = assign( 26, "11111111110111000011011000" );
 	array[-23947] = assign( 26, "10111111110111000011011000" );
-	array[ 23948] = assign( 19, "0111011111101101110" );	// warning: length mismatch
+	array[ 23948] = assign( 19, "0111011111101101110" );
 	array[-23948] = assign( 19, "0101011111101101110" );
 	array[ 23949] = assign( 26, "10011111011111110101111010" );
 	array[-23949] = assign( 26, "10011111110111000001011000" );
@@ -49389,7 +49457,7 @@
 	array[-23978] = assign( 26, "10111111010111000011011010" );
 	array[ 23979] = assign( 26, "11111111010111000011011000" );
 	array[-23979] = assign( 26, "10111111010111000011011000" );
-	array[ 23980] = assign( 19, "0111011111101001110" );	// warning: length mismatch
+	array[ 23980] = assign( 19, "0111011111101001110" );
 	array[-23980] = assign( 19, "0101011111101001110" );
 	array[ 23981] = assign( 26, "10011111111111110101111010" );
 	array[-23981] = assign( 26, "10011111010111000001011000" );
@@ -49455,7 +49523,7 @@
 	array[-24010] = assign( 26, "10111111111101000001111010" );
 	array[ 24011] = assign( 26, "11111111111101000001111000" );
 	array[-24011] = assign( 26, "10111111111101000001111000" );
-	array[ 24012] = assign( 20, "01110110101101111010" );	// warning: length mismatch
+	array[ 24012] = assign( 20, "01110110101101111010" );
 	array[-24012] = assign( 20, "01010110101101111010" );
 	array[ 24013] = assign( 26, "11011111111101000011011000" );
 	array[-24013] = assign( 26, "10011111111101000011011000" );
@@ -49521,7 +49589,7 @@
 	array[-24042] = assign( 26, "10111111011101000001111010" );
 	array[ 24043] = assign( 26, "11111111011101000001111000" );
 	array[-24043] = assign( 26, "10111111011101000001111000" );
-	array[ 24044] = assign( 20, "01110110101101011010" );	// warning: length mismatch
+	array[ 24044] = assign( 20, "01110110101101011010" );
 	array[-24044] = assign( 20, "01010110101101011010" );
 	array[ 24045] = assign( 26, "11011111011101000011011000" );
 	array[-24045] = assign( 26, "10011111011101000011011000" );
@@ -49587,7 +49655,7 @@
 	array[-24074] = assign( 26, "10111111110101000011111010" );
 	array[ 24075] = assign( 26, "11111111110101000011111000" );
 	array[-24075] = assign( 26, "10111111110101000011111000" );
-	array[ 24076] = assign( 20, "01110111101101101010" );	// warning: length mismatch
+	array[ 24076] = assign( 20, "01110111101101101010" );
 	array[-24076] = assign( 20, "01010111101101101010" );
 	array[ 24077] = assign( 26, "11011111110101000001111000" );
 	array[-24077] = assign( 26, "10011111110101000001111000" );
@@ -49653,7 +49721,7 @@
 	array[-24106] = assign( 26, "10011111110101001011111110" );
 	array[ 24107] = assign( 26, "11111111010101000011111000" );
 	array[-24107] = assign( 26, "10111111010101000011111000" );
-	array[ 24108] = assign( 20, "01110111101101001010" );	// warning: length mismatch
+	array[ 24108] = assign( 20, "01110111101101001010" );
 	array[-24108] = assign( 20, "01010111101101001010" );
 	array[ 24109] = assign( 26, "11011111010101000001111000" );
 	array[-24109] = assign( 26, "10011111010101000001111000" );
@@ -49719,7 +49787,7 @@
 	array[-24138] = assign( 24, "101111111111100001011110" );
 	array[ 24139] = assign( 24, "111111111111100001011100" );
 	array[-24139] = assign( 24, "101111111111100001011100" );
-	array[ 24140] = assign( 19, "0111011011110111110" );	// warning: length mismatch
+	array[ 24140] = assign( 19, "0111011011110111110" );
 	array[-24140] = assign( 19, "0101011011110111110" );
 	array[ 24141] = assign( 24, "110111111111100011111000" );
 	array[-24141] = assign( 24, "100111111111100011111000" );
@@ -49785,7 +49853,7 @@
 	array[-24170] = assign( 24, "100111111111101001111110" );
 	array[ 24171] = assign( 24, "110111111111101011111100" );
 	array[-24171] = assign( 24, "100111111111101011111100" );
-	array[ 24172] = assign( 19, "0111011011110101110" );	// warning: length mismatch
+	array[ 24172] = assign( 19, "0111011011110101110" );
 	array[-24172] = assign( 19, "0101011011110101110" );
 	array[ 24173] = assign( 24, "110111110111100011111000" );
 	array[-24173] = assign( 24, "100111110111100011111000" );
@@ -49851,7 +49919,7 @@
 	array[-24202] = assign( 24, "100111110111101001111110" );
 	array[ 24203] = assign( 24, "110111110111101011111100" );
 	array[-24203] = assign( 24, "100111110111101011111100" );
-	array[ 24204] = assign( 19, "0111011111110110110" );	// warning: length mismatch
+	array[ 24204] = assign( 19, "0111011111110110110" );
 	array[-24204] = assign( 19, "0101011111110110110" );
 	array[ 24205] = assign( 24, "110111111101100001011100" );
 	array[-24205] = assign( 24, "100111111101100001011100" );
@@ -49917,7 +49985,7 @@
 	array[-24234] = assign( 24, "100111111101101011011110" );
 	array[ 24235] = assign( 24, "110111111101101001111100" );
 	array[-24235] = assign( 24, "100111111101101001111100" );
-	array[ 24236] = assign( 19, "0111011111110100110" );	// warning: length mismatch
+	array[ 24236] = assign( 19, "0111011111110100110" );
 	array[-24236] = assign( 19, "0101011111110100110" );
 	array[ 24237] = assign( 24, "110111110101100001011100" );
 	array[-24237] = assign( 24, "100111110101100001011100" );
@@ -49983,7 +50051,7 @@
 	array[-24266] = assign( 24, "100111110101101011011110" );
 	array[ 24267] = assign( 24, "110111110101101001111100" );
 	array[-24267] = assign( 24, "100111110101101001111100" );
-	array[ 24268] = assign( 19, "0111011010111111100" );	// warning: length mismatch
+	array[ 24268] = assign( 19, "0111011010111111100" );
 	array[-24268] = assign( 19, "0101011010111111100" );
 	array[ 24269] = assign( 24, "110111111111000011011100" );
 	array[-24269] = assign( 24, "100111111111000011011100" );
@@ -50049,7 +50117,7 @@
 	array[-24298] = assign( 24, "100111111111001001011110" );
 	array[ 24299] = assign( 24, "110111111111001011011100" );
 	array[-24299] = assign( 24, "100111111111001011011100" );
-	array[ 24300] = assign( 19, "0111011010111101100" );	// warning: length mismatch
+	array[ 24300] = assign( 19, "0111011010111101100" );
 	array[-24300] = assign( 19, "0101011010111101100" );
 	array[ 24301] = assign( 24, "110111110111000011011100" );
 	array[-24301] = assign( 24, "100111110111000011011100" );
@@ -50115,7 +50183,7 @@
 	array[-24330] = assign( 24, "100111110111001001011110" );
 	array[ 24331] = assign( 24, "110111110111001011011100" );
 	array[-24331] = assign( 24, "100111110111001011011100" );
-	array[ 24332] = assign( 19, "0111011110111110100" );	// warning: length mismatch
+	array[ 24332] = assign( 19, "0111011110111110100" );
 	array[-24332] = assign( 19, "0101011110111110100" );
 	array[ 24333] = assign( 24, "110111111101000001111100" );
 	array[-24333] = assign( 24, "100111111101000001111100" );
@@ -50181,7 +50249,7 @@
 	array[-24362] = assign( 24, "100111111101001011111010" );
 	array[ 24363] = assign( 24, "110111111101001001011100" );
 	array[-24363] = assign( 24, "100111111101001001011100" );
-	array[ 24364] = assign( 19, "0111011110111100100" );	// warning: length mismatch
+	array[ 24364] = assign( 19, "0111011110111100100" );
 	array[-24364] = assign( 19, "0101011110111100100" );
 	array[ 24365] = assign( 24, "110111110101000001111100" );
 	array[-24365] = assign( 24, "100111110101000001111100" );
@@ -50247,7 +50315,7 @@
 	array[-24394] = assign( 24, "100111110101001011111010" );
 	array[ 24395] = assign( 24, "110111110101001001011100" );
 	array[-24395] = assign( 24, "100111110101001001011100" );
-	array[ 24396] = assign( 17, "01110110111111110" );	// warning: length mismatch
+	array[ 24396] = assign( 17, "01110110111111110" );
 	array[-24396] = assign( 17, "01010110111111110" );
 	array[ 24397] = assign( 22, "1101111111100011111100" );
 	array[-24397] = assign( 22, "1001111111100011111100" );
@@ -50313,7 +50381,7 @@
 	array[-24426] = assign( 22, "1001111111101001111010" );
 	array[ 24427] = assign( 22, "1101111111101011111000" );
 	array[-24427] = assign( 22, "1001111111101011111000" );
-	array[ 24428] = assign( 17, "01110110111111010" );	// warning: length mismatch
+	array[ 24428] = assign( 17, "01110110111111010" );
 	array[-24428] = assign( 17, "01010110111111010" );
 	array[ 24429] = assign( 22, "1101111101100011111100" );
 	array[-24429] = assign( 22, "1001111101100011111100" );
@@ -50379,7 +50447,7 @@
 	array[-24458] = assign( 22, "1001111101101001111010" );
 	array[ 24459] = assign( 22, "1101111101101011111000" );
 	array[-24459] = assign( 22, "1001111101101011111000" );
-	array[ 24460] = assign( 17, "01110111111111100" );	// warning: length mismatch
+	array[ 24460] = assign( 17, "01110111111111100" );
 	array[-24460] = assign( 17, "01010111111111100" );
 	array[ 24461] = assign( 22, "1111111101101001011100" );
 	array[-24461] = assign( 22, "1011111101101001011100" );
@@ -50445,7 +50513,7 @@
 	array[-24490] = assign( 22, "1001111111001011011010" );
 	array[ 24491] = assign( 22, "1101111111001001111000" );
 	array[-24491] = assign( 22, "1001111111001001111000" );
-	array[ 24492] = assign( 17, "01110111111111000" );	// warning: length mismatch
+	array[ 24492] = assign( 17, "01110111111111000" );
 	array[-24492] = assign( 17, "01010111111111000" );
 	array[ 24493] = assign( 22, "1111111111001011111000" );
 	array[-24493] = assign( 22, "1011111111001011111000" );
@@ -50511,7 +50579,7 @@
 	array[-24522] = assign( 22, "1001111101001011011010" );
 	array[ 24523] = assign( 22, "1101111101001001111000" );
 	array[-24523] = assign( 22, "1001111101001001111000" );
-	array[ 24524] = assign( 17, "01111001101101000" );	// warning: length mismatch
+	array[ 24524] = assign( 17, "01111001101101000" );
 	array[-24524] = assign( 17, "01011001101101000" );
 	array[ 24525] = assign( 22, "1111111101001011111000" );
 	array[-24525] = assign( 22, "1011111101001011111000" );
@@ -50577,7 +50645,7 @@
 	array[-24554] = assign( 20, "10011111101001011010" );
 	array[ 24555] = assign( 20, "11011111101011011000" );
 	array[-24555] = assign( 20, "10011111101011011000" );
-	array[ 24556] = assign( 15, "011110001011001" );	// warning: length mismatch
+	array[ 24556] = assign( 15, "011110001011001" );
 	array[-24556] = assign( 15, "010110001011001" );
 	array[ 24557] = assign( 20, "11111111101001111000" );
 	array[-24557] = assign( 20, "10111111101001111000" );
@@ -50643,7 +50711,7 @@
 	array[-24586] = assign( 20, "10011111001001011010" );
 	array[ 24587] = assign( 20, "10011111000011011000" );
 	array[-24587] = assign( 20, "10011111001011011000" );
-	array[ 24588] = assign( 15, "010101101011000" );	// warning: length mismatch
+	array[ 24588] = assign( 15, "010101101011000" );
 	array[-24588] = assign( 15, "010110001011000" );
 	array[ 24589] = assign( 20, "10111111000001111000" );
 	array[-24589] = assign( 20, "10111111001001111000" );
@@ -50709,7 +50777,7 @@
 	array[-24618] = assign( 20, "11011111100001011010" );
 	array[ 24619] = assign( 20, "10011111100011011000" );
 	array[-24619] = assign( 20, "11011111100011011000" );
-	array[ 24620] = assign( 15, "010101101011001" );	// warning: length mismatch
+	array[ 24620] = assign( 15, "010101101011001" );
 	array[-24620] = assign( 15, "011101101011001" );
 	array[ 24621] = assign( 20, "10111111100001111000" );
 	array[-24621] = assign( 20, "11111111100001111000" );
@@ -50775,7 +50843,7 @@
 	array[-24650] = assign( 21, "110111110100001111010" );
 	array[ 24651] = assign( 22, "1001111101000001011000" );
 	array[-24651] = assign( 22, "1101111101000001011000" );
-	array[ 24652] = assign( 16, "0101011111101000" );	// warning: length mismatch
+	array[ 24652] = assign( 16, "0101011111101000" );
 	array[-24652] = assign( 16, "0111011111101000" );
 	array[ 24653] = assign( 22, "1011111101000011011000" );
 	array[-24653] = assign( 22, "1111111101000011011000" );
@@ -50841,7 +50909,7 @@
 	array[-24682] = assign( 21, "110111111100001111010" );
 	array[ 24683] = assign( 22, "1001111111000001011000" );
 	array[-24683] = assign( 22, "1101111111000001011000" );
-	array[ 24684] = assign( 16, "0101011111101100" );	// warning: length mismatch
+	array[ 24684] = assign( 16, "0101011111101100" );
 	array[-24684] = assign( 16, "0111011111101100" );
 	array[ 24685] = assign( 22, "1011111111000011011000" );
 	array[-24685] = assign( 22, "1111111111000011011000" );
@@ -50907,7 +50975,7 @@
 	array[-24714] = assign( 21, "110111110110000111010" );
 	array[ 24715] = assign( 21, "100111110110001111000" );
 	array[-24715] = assign( 21, "110111110110001111000" );
-	array[ 24716] = assign( 16, "0101011011101010" );	// warning: length mismatch
+	array[ 24716] = assign( 16, "0101011011101010" );
 	array[-24716] = assign( 16, "0111011011101010" );
 	array[ 24717] = assign( 22, "1011111101100001011000" );
 	array[-24717] = assign( 22, "1111111101100001011000" );
@@ -50973,7 +51041,7 @@
 	array[-24746] = assign( 21, "110111111110000111010" );
 	array[ 24747] = assign( 21, "100111111110001111000" );
 	array[-24747] = assign( 21, "110111111110001111000" );
-	array[ 24748] = assign( 16, "0101011011101110" );	// warning: length mismatch
+	array[ 24748] = assign( 16, "0101011011101110" );
 	array[-24748] = assign( 16, "0111011011101110" );
 	array[ 24749] = assign( 22, "1011111111100001011000" );
 	array[-24749] = assign( 22, "1111111111100001011000" );
@@ -51039,7 +51107,7 @@
 	array[-24778] = assign( 23, "11011111010100001101010" );
 	array[ 24779] = assign( 23, "10011111010100000111000" );
 	array[-24779] = assign( 23, "11011111010100000111000" );
-	array[ 24780] = assign( 18, "010101111010100100" );	// warning: length mismatch
+	array[ 24780] = assign( 18, "010101111010100100" );
 	array[-24780] = assign( 18, "011101111010100100" );
 	array[ 24781] = assign( 23, "10111111010100001111000" );
 	array[-24781] = assign( 23, "11111111010100001111000" );
@@ -51105,7 +51173,7 @@
 	array[-24810] = assign( 23, "11011111110100001101010" );
 	array[ 24811] = assign( 23, "10011111110100000111000" );
 	array[-24811] = assign( 23, "11011111110100000111000" );
-	array[ 24812] = assign( 18, "010101111010110100" );	// warning: length mismatch
+	array[ 24812] = assign( 18, "010101111010110100" );
 	array[-24812] = assign( 18, "011101111010110100" );
 	array[ 24813] = assign( 23, "10111111110100001111000" );
 	array[-24813] = assign( 23, "11111111110100001111000" );
@@ -51171,7 +51239,7 @@
 	array[-24842] = assign( 23, "11011111011100000101010" );
 	array[ 24843] = assign( 23, "10011111011100001101000" );
 	array[-24843] = assign( 23, "11011111011100001101000" );
-	array[ 24844] = assign( 18, "010101101010101100" );	// warning: length mismatch
+	array[ 24844] = assign( 18, "010101101010101100" );
 	array[-24844] = assign( 18, "011101101010101100" );
 	array[ 24845] = assign( 23, "10111111011100000111000" );
 	array[-24845] = assign( 23, "11111111011100000111000" );
@@ -51237,7 +51305,7 @@
 	array[-24874] = assign( 23, "11011111111100000101010" );
 	array[ 24875] = assign( 23, "10011111111100001101000" );
 	array[-24875] = assign( 23, "11011111111100001101000" );
-	array[ 24876] = assign( 18, "010101101010111100" );	// warning: length mismatch
+	array[ 24876] = assign( 18, "010101101010111100" );
 	array[-24876] = assign( 18, "011101101010111100" );
 	array[ 24877] = assign( 23, "10111111111100000111000" );
 	array[-24877] = assign( 23, "11111111111100000111000" );
@@ -51303,7 +51371,7 @@
 	array[-24906] = assign( 22, "1101111101011000111010" );
 	array[ 24907] = assign( 23, "10011111010110000101000" );
 	array[-24907] = assign( 23, "11011111010110000101000" );
-	array[ 24908] = assign( 17, "01010111110100110" );	// warning: length mismatch
+	array[ 24908] = assign( 17, "01010111110100110" );
 	array[-24908] = assign( 17, "01110111110100110" );
 	array[ 24909] = assign( 23, "10111111010110001101000" );
 	array[-24909] = assign( 23, "11111111010110001101000" );
@@ -51369,7 +51437,7 @@
 	array[-24938] = assign( 22, "1101111111011000111010" );
 	array[ 24939] = assign( 23, "10011111110110000101000" );
 	array[-24939] = assign( 23, "11011111110110000101000" );
-	array[ 24940] = assign( 17, "01010111110110110" );	// warning: length mismatch
+	array[ 24940] = assign( 17, "01010111110110110" );
 	array[-24940] = assign( 17, "01110111110110110" );
 	array[ 24941] = assign( 23, "10111111110110001101000" );
 	array[-24941] = assign( 23, "11111111110110001101000" );
@@ -51435,7 +51503,7 @@
 	array[-24970] = assign( 22, "1101111101111000011010" );
 	array[ 24971] = assign( 22, "1001111101111000111000" );
 	array[-24971] = assign( 22, "1101111101111000111000" );
-	array[ 24972] = assign( 17, "01010110110101110" );	// warning: length mismatch
+	array[ 24972] = assign( 17, "01010110110101110" );
 	array[-24972] = assign( 17, "01110110110101110" );
 	array[ 24973] = assign( 23, "10111111011110000101000" );
 	array[-24973] = assign( 23, "11111111011110000101000" );
@@ -51501,7 +51569,7 @@
 	array[-25002] = assign( 22, "1101111111111000011010" );
 	array[ 25003] = assign( 22, "1001111111111000111000" );
 	array[-25003] = assign( 22, "1101111111111000111000" );
-	array[ 25004] = assign( 17, "01010110110111110" );	// warning: length mismatch
+	array[ 25004] = assign( 17, "01010110110111110" );
 	array[-25004] = assign( 17, "01110110110111110" );
 	array[ 25005] = assign( 23, "10111111111110000101000" );
 	array[-25005] = assign( 23, "11111111111110000101000" );
@@ -51567,7 +51635,7 @@
 	array[-25034] = assign( 24, "110111110101010000110010" );
 	array[ 25035] = assign( 24, "100111110101010000011000" );
 	array[-25035] = assign( 24, "110111110101010000011000" );
-	array[ 25036] = assign( 18, "010101111001001010" );	// warning: length mismatch
+	array[ 25036] = assign( 18, "010101111001001010" );
 	array[-25036] = assign( 18, "011101111001001010" );
 	array[ 25037] = assign( 24, "101111110101010000111000" );
 	array[-25037] = assign( 24, "111111110101010000111000" );
@@ -51633,7 +51701,7 @@
 	array[-25066] = assign( 24, "110111111101010000110010" );
 	array[ 25067] = assign( 24, "100111111101010000011000" );
 	array[-25067] = assign( 24, "110111111101010000011000" );
-	array[ 25068] = assign( 18, "010101111001101010" );	// warning: length mismatch
+	array[ 25068] = assign( 18, "010101111001101010" );
 	array[-25068] = assign( 18, "011101111001101010" );
 	array[ 25069] = assign( 24, "101111111101010000111000" );
 	array[-25069] = assign( 24, "111111111101010000111000" );
@@ -51699,7 +51767,7 @@
 	array[-25098] = assign( 24, "110111110111010000010010" );
 	array[ 25099] = assign( 24, "100111110111010000110000" );
 	array[-25099] = assign( 24, "110111110111010000110000" );
-	array[ 25100] = assign( 18, "010101101001011010" );	// warning: length mismatch
+	array[ 25100] = assign( 18, "010101101001011010" );
 	array[-25100] = assign( 18, "011101101001011010" );
 	array[ 25101] = assign( 24, "101111110111010000011000" );
 	array[-25101] = assign( 24, "111111110111010000011000" );
@@ -51765,7 +51833,7 @@
 	array[-25130] = assign( 24, "110111111111010000010010" );
 	array[ 25131] = assign( 24, "100111111111010000110000" );
 	array[-25131] = assign( 24, "110111111111010000110000" );
-	array[ 25132] = assign( 18, "010101101001111010" );	// warning: length mismatch
+	array[ 25132] = assign( 18, "010101101001111010" );
 	array[-25132] = assign( 18, "011101101001111010" );
 	array[ 25133] = assign( 24, "101111111111010000011000" );
 	array[-25133] = assign( 24, "111111111111010000011000" );
@@ -51831,7 +51899,7 @@
 	array[-25162] = assign( 22, "1101111101011100001010" );
 	array[ 25163] = assign( 23, "11011111111111110101010" );
 	array[-25163] = assign( 23, "10011111111111110101010" );
-	array[ 25164] = assign( 16, "0101011101001110" );	// warning: length mismatch
+	array[ 25164] = assign( 16, "0101011101001110" );
 	array[-25164] = assign( 16, "0111011101001110" );
 	array[ 25165] = assign( 24, "101111110101110000110000" );
 	array[-25165] = assign( 24, "111111110101110000110000" );
@@ -51897,7 +51965,7 @@
 	array[-25194] = assign( 22, "1101111111011100001010" );
 	array[ 25195] = assign( 23, "11011111011111110101010" );
 	array[-25195] = assign( 23, "10011111011111110101010" );
-	array[ 25196] = assign( 16, "0101011101101110" );	// warning: length mismatch
+	array[ 25196] = assign( 16, "0101011101101110" );
 	array[-25196] = assign( 16, "0111011101101110" );
 	array[ 25197] = assign( 24, "101111111101110000110000" );
 	array[-25197] = assign( 24, "111111111101110000110000" );
@@ -51963,7 +52031,7 @@
 	array[-25226] = assign( 17, "11011110101011110" );
 	array[ 25227] = assign( 21, "100111011011111111110" );
 	array[-25227] = assign( 21, "110111011011111111110" );
-	array[ 25228] = assign( 16, "0101011001011110" );	// warning: length mismatch
+	array[ 25228] = assign( 16, "0101011001011110" );
 	array[-25228] = assign( 16, "0111011001011110" );
 	array[ 25229] = assign( 24, "101111110111110000010000" );
 	array[-25229] = assign( 24, "111111110111110000010000" );
@@ -52029,7 +52097,7 @@
 	array[-25258] = assign( 17, "11011110101111110" );
 	array[ 25259] = assign( 20, "10011101011111111110" );
 	array[-25259] = assign( 20, "11011101011111111110" );
-	array[ 25260] = assign( 16, "0101011001111110" );	// warning: length mismatch
+	array[ 25260] = assign( 16, "0101011001111110" );
 	array[-25260] = assign( 16, "0111011001111110" );
 	array[ 25261] = assign( 24, "101111111111110000010000" );
 	array[-25261] = assign( 24, "111111111111110000010000" );
@@ -52095,7 +52163,7 @@
 	array[-25290] = assign( 20, "11010111111111111110" );
 	array[ 25291] = assign( 18, "100101011111111110" );
 	array[-25291] = assign( 18, "110101011111111110" );
-	array[ 25292] = assign( 19, "0101101011111111110" );	// warning: length mismatch
+	array[ 25292] = assign( 19, "0101101011111111110" );
 	array[-25292] = assign( 19, "0111101011111111110" );
 	array[ 25293] = assign( 22, "1011110110111111111110" );
 	array[-25293] = assign( 22, "1111110110111111111110" );
@@ -52161,9 +52229,9 @@
 	array[-25322] = assign( 20, "11011100111111111110" );
 	array[ 25323] = assign( 17, "10010011111111110" );
 	array[-25323] = assign( 17, "11010011111111110" );
-	array[ 25324] = assign( 19, "0101101111111111110" );	// warning: length mismatch
+	array[ 25324] = assign( 19, "0101101111111111110" );
 	array[-25324] = assign( 19, "0111101111111111110" );
-	array[ 25325] = assign( 14, "01110011111111" );	// warning: length mismatch
+	array[ 25325] = assign( 14, "01110011111111" );
 	array[-25325] = assign( 14, "01010011111111" );
 	array[ 25326] = assign( 22, "1011111111010110001010" );
 	array[-25326] = assign( 22, "1111111111010110001010" );
@@ -52229,7 +52297,7 @@
 	array[-25355] = assign( 18, "111110111111111110" );
 	array[ 25356] = assign( 23, "11111111110101110000000" );
 	array[-25356] = assign( 23, "10111111110101110000000" );
-	array[ 25357] = assign( 14, "01110001111111" );	// warning: length mismatch
+	array[ 25357] = assign( 14, "01110001111111" );
 	array[-25357] = assign( 14, "01010001111111" );
 	array[ 25358] = assign( 18, "101111101010110110" );
 	array[-25358] = assign( 18, "111111101010110110" );
@@ -52293,7 +52361,7 @@
 	array[-25386] = assign( 18, "111111101111110110" );
 	array[ 25387] = assign( 21, "101101101111111111110" );
 	array[-25387] = assign( 21, "111101101111111111110" );
-	array[ 25388] = assign( 14, "01010001010110" );	// warning: length mismatch
+	array[ 25388] = assign( 14, "01010001010110" );
 	array[-25388] = assign( 14, "01110001010110" );
 	array[ 25389] = assign( 18, "101100111111111110" );
 	array[-25389] = assign( 18, "111100111111111110" );
@@ -52359,7 +52427,7 @@
 	array[-25418] = assign( 22, "1111111101011110101010" );
 	array[ 25419] = assign( 22, "1011111101011110101000" );
 	array[-25419] = assign( 22, "1111111101011110101000" );
-	array[ 25420] = assign( 14, "01010011010110" );	// warning: length mismatch
+	array[ 25420] = assign( 14, "01010011010110" );
 	array[-25420] = assign( 14, "01110011010110" );
 	array[ 25421] = assign( 19, "1001101111111111110" );
 	array[-25421] = assign( 19, "1101101111111111110" );
@@ -52425,7 +52493,7 @@
 	array[-25450] = assign( 22, "1111111111011110101010" );
 	array[ 25451] = assign( 22, "1011111111011110101000" );
 	array[-25451] = assign( 22, "1111111111011110101000" );
-	array[ 25452] = assign( 22, "0101110011111111111110" );	// warning: length mismatch
+	array[ 25452] = assign( 22, "0101110011111111111110" );
 	array[-25452] = assign( 22, "0111110011111111111110" );
 	array[ 25453] = assign( 22, "1001011011111111111110" );
 	array[-25453] = assign( 22, "1101011011111111111110" );
@@ -52491,9 +52559,9 @@
 	array[-25482] = assign( 24, "111111110111111010010010" );
 	array[ 25483] = assign( 24, "101111110111111010010000" );
 	array[-25483] = assign( 24, "111111110111111010010000" );
-	array[ 25484] = assign( 17, "01011000010111110" );	// warning: length mismatch
+	array[ 25484] = assign( 17, "01011000010111110" );
 	array[-25484] = assign( 17, "01111000010111110" );
-	array[ 25485] = assign( 17, "01110110011011111" );	// warning: length mismatch
+	array[ 25485] = assign( 17, "01110110011011111" );
 	array[-25485] = assign( 17, "01010110011011111" );
 	array[ 25486] = assign( 18, "100111101110111110" );
 	array[-25486] = assign( 18, "110111101110111110" );
@@ -52557,9 +52625,9 @@
 	array[-25514] = assign( 24, "111111111111111010010010" );
 	array[ 25515] = assign( 24, "101111111111111010010000" );
 	array[-25515] = assign( 24, "111111111111111010010000" );
-	array[ 25516] = assign( 17, "01011000011111110" );	// warning: length mismatch
+	array[ 25516] = assign( 17, "01011000011111110" );
 	array[-25516] = assign( 17, "01111000011111110" );
-	array[ 25517] = assign( 17, "01110110010011111" );	// warning: length mismatch
+	array[ 25517] = assign( 17, "01110110010011111" );
 	array[-25517] = assign( 17, "01010110010011111" );
 	array[ 25518] = assign( 18, "100111101111111110" );
 	array[-25518] = assign( 18, "110111101111111110" );
@@ -52623,9 +52691,9 @@
 	array[-25546] = assign( 25, "1111111101010101010110010" );
 	array[ 25547] = assign( 25, "1011111101010101010110000" );
 	array[-25547] = assign( 25, "1011111111110101000110010" );
-	array[ 25548] = assign( 17, "01011001010010111" );	// warning: length mismatch
+	array[ 25548] = assign( 17, "01011001010010111" );
 	array[-25548] = assign( 17, "01111001010010111" );
-	array[ 25549] = assign( 17, "01110111011110111" );	// warning: length mismatch
+	array[ 25549] = assign( 17, "01110111011110111" );
 	array[-25549] = assign( 17, "01010111011110111" );
 	array[ 25550] = assign( 23, "10011111010101010101010" );
 	array[-25550] = assign( 23, "11011111010101010101010" );
@@ -52689,9 +52757,9 @@
 	array[-25578] = assign( 25, "1111111111010101010110010" );
 	array[ 25579] = assign( 25, "1011111111010101010110000" );
 	array[-25579] = assign( 25, "1011111101110101000110010" );
-	array[ 25580] = assign( 17, "01011001011010111" );	// warning: length mismatch
+	array[ 25580] = assign( 17, "01011001011010111" );
 	array[-25580] = assign( 17, "01111001011010111" );
-	array[ 25581] = assign( 17, "01110111010110111" );	// warning: length mismatch
+	array[ 25581] = assign( 17, "01110111010110111" );
 	array[-25581] = assign( 17, "01010111010110111" );
 	array[ 25582] = assign( 23, "10011111110101010101010" );
 	array[-25582] = assign( 23, "11011111110101010101010" );
@@ -52755,9 +52823,9 @@
 	array[-25610] = assign( 25, "1111111101110101010011010" );
 	array[ 25611] = assign( 25, "1011111101110101010011000" );
 	array[-25611] = assign( 25, "1011111111010101000011010" );
-	array[ 25612] = assign( 19, "0101100010010110111" );	// warning: length mismatch
+	array[ 25612] = assign( 19, "0101100010010110111" );
 	array[-25612] = assign( 19, "0111100010010110111" );
-	array[ 25613] = assign( 19, "0111011010011010111" );	// warning: length mismatch
+	array[ 25613] = assign( 19, "0111011010011010111" );
 	array[-25613] = assign( 19, "0101011010011010111" );
 	array[ 25614] = assign( 25, "1001111101110101010010010" );
 	array[-25614] = assign( 25, "1001111111010101000110000" );
@@ -52821,9 +52889,9 @@
 	array[-25642] = assign( 25, "1111111111110101010011010" );
 	array[ 25643] = assign( 25, "1011111111110101010011000" );
 	array[-25643] = assign( 25, "1011111101010101000011010" );
-	array[ 25644] = assign( 19, "0101100010011110111" );	// warning: length mismatch
+	array[ 25644] = assign( 19, "0101100010011110111" );
 	array[-25644] = assign( 19, "0111100010011110111" );
-	array[ 25645] = assign( 19, "0111011010010010111" );	// warning: length mismatch
+	array[ 25645] = assign( 19, "0111011010010010111" );
 	array[-25645] = assign( 19, "0101011010010010111" );
 	array[ 25646] = assign( 25, "1001111111110101010010010" );
 	array[-25646] = assign( 25, "1001111101010101000110000" );
@@ -52887,9 +52955,9 @@
 	array[-25674] = assign( 25, "1111111101011101010111010" );
 	array[ 25675] = assign( 24, "111111111111111000111010" );
 	array[-25675] = assign( 24, "101111111111111000111010" );
-	array[ 25676] = assign( 19, "0101100110010011111" );	// warning: length mismatch
+	array[ 25676] = assign( 19, "0101100110010011111" );
 	array[-25676] = assign( 19, "0111100110010011111" );
-	array[ 25677] = assign( 19, "0111011110011111110" );	// warning: length mismatch
+	array[ 25677] = assign( 19, "0111011110011111110" );
 	array[-25677] = assign( 19, "0101011110011111110" );
 	array[ 25678] = assign( 24, "110111111111111000011000" );
 	array[-25678] = assign( 24, "100111111111111000011000" );
@@ -52953,9 +53021,9 @@
 	array[-25706] = assign( 25, "1111111111011101010111010" );
 	array[ 25707] = assign( 24, "111111110111111000111010" );
 	array[-25707] = assign( 24, "101111110111111000111010" );
-	array[ 25708] = assign( 19, "0101100110011011111" );	// warning: length mismatch
+	array[ 25708] = assign( 19, "0101100110011011111" );
 	array[-25708] = assign( 19, "0111100110011011111" );
-	array[ 25709] = assign( 19, "0111011110010111110" );	// warning: length mismatch
+	array[ 25709] = assign( 19, "0111011110010111110" );
 	array[-25709] = assign( 19, "0101011110010111110" );
 	array[ 25710] = assign( 24, "110111110111111000011000" );
 	array[-25710] = assign( 24, "100111110111111000011000" );
@@ -53019,9 +53087,9 @@
 	array[-25738] = assign( 26, "11111111011111010100101010" );
 	array[ 25739] = assign( 25, "1111111111011110000101010" );
 	array[-25739] = assign( 25, "1011111111011110000101010" );
-	array[ 25740] = assign( 19, "0101100011010111111" );	// warning: length mismatch
+	array[ 25740] = assign( 19, "0101100011010111111" );
 	array[-25740] = assign( 19, "0111100011010111111" );
-	array[ 25741] = assign( 19, "0111011011011011110" );	// warning: length mismatch
+	array[ 25741] = assign( 19, "0111011011011011110" );
 	array[-25741] = assign( 19, "0101011011011011110" );
 	array[ 25742] = assign( 24, "110111111101111000111000" );
 	array[-25742] = assign( 24, "100111111101111000111000" );
@@ -53085,9 +53153,9 @@
 	array[-25770] = assign( 26, "11111111111111010100101010" );
 	array[ 25771] = assign( 25, "1111111101011110000101010" );
 	array[-25771] = assign( 25, "1011111101011110000101010" );
-	array[ 25772] = assign( 19, "0101100011011111111" );	// warning: length mismatch
+	array[ 25772] = assign( 19, "0101100011011111111" );
 	array[-25772] = assign( 19, "0111100011011111111" );
-	array[ 25773] = assign( 19, "0111011011010011110" );	// warning: length mismatch
+	array[ 25773] = assign( 19, "0111011011010011110" );
 	array[-25773] = assign( 19, "0101011011010011110" );
 	array[ 25774] = assign( 24, "110111110101111000111000" );
 	array[-25774] = assign( 24, "100111110101111000111000" );
@@ -53153,7 +53221,7 @@
 	array[-25803] = assign( 25, "1011111111110110001101010" );
 	array[ 25804] = assign( 25, "1111111111110110001101000" );
 	array[-25804] = assign( 25, "1011111111110110001101000" );
-	array[ 25805] = assign( 19, "0111011111011110110" );	// warning: length mismatch
+	array[ 25805] = assign( 19, "0111011111011110110" );
 	array[-25805] = assign( 19, "0101011111011110110" );
 	array[ 25806] = assign( 25, "1001111101010111010111010" );
 	array[-25806] = assign( 25, "1001111111110110000101000" );
@@ -53219,7 +53287,7 @@
 	array[-25835] = assign( 25, "1011111101110110001101010" );
 	array[ 25836] = assign( 25, "1111111101110110001101000" );
 	array[-25836] = assign( 25, "1011111101110110001101000" );
-	array[ 25837] = assign( 19, "0111011111010110110" );	// warning: length mismatch
+	array[ 25837] = assign( 19, "0111011111010110110" );
 	array[-25837] = assign( 19, "0101011111010110110" );
 	array[ 25838] = assign( 25, "1001111111010111010111010" );
 	array[-25838] = assign( 25, "1001111101110110000101000" );
@@ -53285,7 +53353,7 @@
 	array[-25867] = assign( 25, "1011111111010110000111010" );
 	array[ 25868] = assign( 25, "1111111111010110000111000" );
 	array[-25868] = assign( 25, "1011111111010110000111000" );
-	array[ 25869] = assign( 20, "01110110101011010110" );	// warning: length mismatch
+	array[ 25869] = assign( 20, "01110110101011010110" );
 	array[-25869] = assign( 20, "01010110101011010110" );
 	array[ 25870] = assign( 25, "1101111111010110001101000" );
 	array[-25870] = assign( 25, "1001111111010110001101000" );
@@ -53351,7 +53419,7 @@
 	array[-25899] = assign( 25, "1011111101010110000111010" );
 	array[ 25900] = assign( 25, "1111111101010110000111000" );
 	array[-25900] = assign( 25, "1011111101010110000111000" );
-	array[ 25901] = assign( 20, "01110110101010010110" );	// warning: length mismatch
+	array[ 25901] = assign( 20, "01110110101010010110" );
 	array[-25901] = assign( 20, "01010110101010010110" );
 	array[ 25902] = assign( 25, "1101111101010110001101000" );
 	array[-25902] = assign( 25, "1001111101010110001101000" );
@@ -53417,7 +53485,7 @@
 	array[-25931] = assign( 25, "1011111111111100001111010" );
 	array[ 25932] = assign( 25, "1111111111111100001111000" );
 	array[-25932] = assign( 25, "1011111111111100001111000" );
-	array[ 25933] = assign( 19, "0111011110101111110" );	// warning: length mismatch
+	array[ 25933] = assign( 19, "0111011110101111110" );
 	array[-25933] = assign( 19, "0101011110101111110" );
 	array[ 25934] = assign( 25, "1101111111111100000111000" );
 	array[-25934] = assign( 25, "1001111111111100000111000" );
@@ -53483,7 +53551,7 @@
 	array[-25963] = assign( 25, "1011111101111100001111010" );
 	array[ 25964] = assign( 25, "1111111101111100001111000" );
 	array[-25964] = assign( 25, "1011111101111100001111000" );
-	array[ 25965] = assign( 19, "0111011110101011110" );	// warning: length mismatch
+	array[ 25965] = assign( 19, "0111011110101011110" );
 	array[-25965] = assign( 19, "0101011110101011110" );
 	array[ 25966] = assign( 25, "1101111101111100000111000" );
 	array[-25966] = assign( 25, "1001111101111100000111000" );
@@ -53549,7 +53617,7 @@
 	array[-25995] = assign( 26, "10111111110111000001011010" );
 	array[ 25996] = assign( 26, "11111111110111000001011000" );
 	array[-25996] = assign( 26, "10111111110111000001011000" );
-	array[ 25997] = assign( 19, "0111011011101101110" );	// warning: length mismatch
+	array[ 25997] = assign( 19, "0111011011101101110" );
 	array[-25997] = assign( 19, "0101011011101101110" );
 	array[ 25998] = assign( 25, "1101111111011100001111000" );
 	array[-25998] = assign( 25, "1001111111011100001111000" );
@@ -53615,7 +53683,7 @@
 	array[-26027] = assign( 26, "10111111010111000001011010" );
 	array[ 26028] = assign( 26, "11111111010111000001011000" );
 	array[-26028] = assign( 26, "10111111010111000001011000" );
-	array[ 26029] = assign( 19, "0111011011101001110" );	// warning: length mismatch
+	array[ 26029] = assign( 19, "0111011011101001110" );
 	array[-26029] = assign( 19, "0101011011101001110" );
 	array[ 26030] = assign( 25, "1101111101011100001111000" );
 	array[-26030] = assign( 25, "1001111101011100001111000" );
@@ -53681,7 +53749,7 @@
 	array[-26059] = assign( 26, "10111111111101000011011010" );
 	array[ 26060] = assign( 26, "11111111111101000011011000" );
 	array[-26060] = assign( 26, "10111111111101000011011000" );
-	array[ 26061] = assign( 19, "0111011111101111010" );	// warning: length mismatch
+	array[ 26061] = assign( 19, "0111011111101111010" );
 	array[-26061] = assign( 19, "0101011111101111010" );
 	array[ 26062] = assign( 26, "11011111111101000001011000" );
 	array[-26062] = assign( 26, "10011111111101000001011000" );
@@ -53747,7 +53815,7 @@
 	array[-26091] = assign( 26, "10111111011101000011011010" );
 	array[ 26092] = assign( 26, "11111111011101000011011000" );
 	array[-26092] = assign( 26, "10111111011101000011011000" );
-	array[ 26093] = assign( 19, "0111011111101011010" );	// warning: length mismatch
+	array[ 26093] = assign( 19, "0111011111101011010" );
 	array[-26093] = assign( 19, "0101011111101011010" );
 	array[ 26094] = assign( 26, "11011111011101000001011000" );
 	array[-26094] = assign( 26, "10011111011101000001011000" );
@@ -53813,7 +53881,7 @@
 	array[-26123] = assign( 26, "10111111110101000001111010" );
 	array[ 26124] = assign( 26, "11111111110101000001111000" );
 	array[-26124] = assign( 26, "10111111110101000001111000" );
-	array[ 26125] = assign( 20, "01110110101101101010" );	// warning: length mismatch
+	array[ 26125] = assign( 20, "01110110101101101010" );
 	array[-26125] = assign( 20, "01010110101101101010" );
 	array[ 26126] = assign( 26, "11011111110101000011011000" );
 	array[-26126] = assign( 26, "10011111110101000011011000" );
@@ -53879,7 +53947,7 @@
 	array[-26155] = assign( 26, "10111111010101000001111010" );
 	array[ 26156] = assign( 26, "11111111010101000001111000" );
 	array[-26156] = assign( 26, "10111111010101000001111000" );
-	array[ 26157] = assign( 20, "01110110101101001010" );	// warning: length mismatch
+	array[ 26157] = assign( 20, "01110110101101001010" );
 	array[-26157] = assign( 20, "01010110101101001010" );
 	array[ 26158] = assign( 26, "11011111010101000011011000" );
 	array[-26158] = assign( 26, "10011111010101000011011000" );
@@ -53945,7 +54013,7 @@
 	array[-26187] = assign( 24, "101111111111100011111010" );
 	array[ 26188] = assign( 24, "111111111111100011111000" );
 	array[-26188] = assign( 24, "101111111111100011111000" );
-	array[ 26189] = assign( 19, "0111011110110111110" );	// warning: length mismatch
+	array[ 26189] = assign( 19, "0111011110110111110" );
 	array[-26189] = assign( 19, "0101011110110111110" );
 	array[ 26190] = assign( 24, "110111111111100001111000" );
 	array[-26190] = assign( 24, "100111111111100001111000" );
@@ -54011,7 +54079,7 @@
 	array[-26219] = assign( 24, "100111111111101011111110" );
 	array[ 26220] = assign( 24, "111111110111100011111000" );
 	array[-26220] = assign( 24, "101111110111100011111000" );
-	array[ 26221] = assign( 19, "0111011110110101110" );	// warning: length mismatch
+	array[ 26221] = assign( 19, "0111011110110101110" );
 	array[-26221] = assign( 19, "0101011110110101110" );
 	array[ 26222] = assign( 24, "110111110111100001111000" );
 	array[-26222] = assign( 24, "100111110111100001111000" );
@@ -54077,7 +54145,7 @@
 	array[-26251] = assign( 24, "100111110111101011111110" );
 	array[ 26252] = assign( 24, "111111111101100001011100" );
 	array[-26252] = assign( 24, "101111111101100001011100" );
-	array[ 26253] = assign( 19, "0111011011110110110" );	// warning: length mismatch
+	array[ 26253] = assign( 19, "0111011011110110110" );
 	array[-26253] = assign( 19, "0101011011110110110" );
 	array[ 26254] = assign( 24, "110111111101100011111000" );
 	array[-26254] = assign( 24, "100111111101100011111000" );
@@ -54143,7 +54211,7 @@
 	array[-26283] = assign( 24, "100111111101101001111110" );
 	array[ 26284] = assign( 24, "110111111101101011111100" );
 	array[-26284] = assign( 24, "100111111101101011111100" );
-	array[ 26285] = assign( 19, "0111011011110100110" );	// warning: length mismatch
+	array[ 26285] = assign( 19, "0111011011110100110" );
 	array[-26285] = assign( 19, "0101011011110100110" );
 	array[ 26286] = assign( 24, "110111110101100011111000" );
 	array[-26286] = assign( 24, "100111110101100011111000" );
@@ -54209,7 +54277,7 @@
 	array[-26315] = assign( 24, "100111110101101001111110" );
 	array[ 26316] = assign( 24, "110111110101101011111100" );
 	array[-26316] = assign( 24, "100111110101101011111100" );
-	array[ 26317] = assign( 19, "0111011111110111100" );	// warning: length mismatch
+	array[ 26317] = assign( 19, "0111011111110111100" );
 	array[-26317] = assign( 19, "0101011111110111100" );
 	array[ 26318] = assign( 24, "110111111111000001011100" );
 	array[-26318] = assign( 24, "100111111111000001011100" );
@@ -54275,7 +54343,7 @@
 	array[-26347] = assign( 24, "100111111111001011011110" );
 	array[ 26348] = assign( 24, "110111111111001001111100" );
 	array[-26348] = assign( 24, "100111111111001001111100" );
-	array[ 26349] = assign( 19, "0111011111110101100" );	// warning: length mismatch
+	array[ 26349] = assign( 19, "0111011111110101100" );
 	array[-26349] = assign( 19, "0101011111110101100" );
 	array[ 26350] = assign( 24, "110111110111000001011100" );
 	array[-26350] = assign( 24, "100111110111000001011100" );
@@ -54341,7 +54409,7 @@
 	array[-26379] = assign( 24, "100111110111001011011110" );
 	array[ 26380] = assign( 24, "110111110111001001111100" );
 	array[-26380] = assign( 24, "100111110111001001111100" );
-	array[ 26381] = assign( 19, "0111011010111110100" );	// warning: length mismatch
+	array[ 26381] = assign( 19, "0111011010111110100" );
 	array[-26381] = assign( 19, "0101011010111110100" );
 	array[ 26382] = assign( 24, "110111111101000011011100" );
 	array[-26382] = assign( 24, "100111111101000011011100" );
@@ -54407,7 +54475,7 @@
 	array[-26411] = assign( 24, "100111111101001001011110" );
 	array[ 26412] = assign( 24, "110111111101001011011100" );
 	array[-26412] = assign( 24, "100111111101001011011100" );
-	array[ 26413] = assign( 19, "0111011010111100100" );	// warning: length mismatch
+	array[ 26413] = assign( 19, "0111011010111100100" );
 	array[-26413] = assign( 19, "0101011010111100100" );
 	array[ 26414] = assign( 24, "110111110101000011011100" );
 	array[-26414] = assign( 24, "100111110101000011011100" );
@@ -54473,7 +54541,7 @@
 	array[-26443] = assign( 22, "1011111111100011111110" );
 	array[ 26444] = assign( 22, "1111111111100011111100" );
 	array[-26444] = assign( 22, "1011111111100011111100" );
-	array[ 26445] = assign( 17, "01110111101111110" );	// warning: length mismatch
+	array[ 26445] = assign( 17, "01110111101111110" );
 	array[-26445] = assign( 17, "01010111101111110" );
 	array[ 26446] = assign( 22, "1101111111100001111100" );
 	array[-26446] = assign( 22, "1001111111100001111100" );
@@ -54539,7 +54607,7 @@
 	array[-26475] = assign( 22, "1001111111101011111010" );
 	array[ 26476] = assign( 22, "1101111111101001011100" );
 	array[-26476] = assign( 22, "1001111111101001011100" );
-	array[ 26477] = assign( 17, "01110111101111010" );	// warning: length mismatch
+	array[ 26477] = assign( 17, "01110111101111010" );
 	array[-26477] = assign( 17, "01010111101111010" );
 	array[ 26478] = assign( 22, "1101111101100001111100" );
 	array[-26478] = assign( 22, "1001111101100001111100" );
@@ -54605,7 +54673,7 @@
 	array[-26507] = assign( 22, "1001111101101011111010" );
 	array[ 26508] = assign( 22, "1101111101101001011100" );
 	array[-26508] = assign( 22, "1001111101101001011100" );
-	array[ 26509] = assign( 17, "01110110111111100" );	// warning: length mismatch
+	array[ 26509] = assign( 17, "01110110111111100" );
 	array[-26509] = assign( 17, "01010110111111100" );
 	array[ 26510] = assign( 22, "1101111111000011111100" );
 	array[-26510] = assign( 22, "1001111111000011111100" );
@@ -54671,7 +54739,7 @@
 	array[-26539] = assign( 22, "1001111111001001111010" );
 	array[ 26540] = assign( 22, "1101111111001011111000" );
 	array[-26540] = assign( 22, "1001111111001011111000" );
-	array[ 26541] = assign( 17, "01110110111111000" );	// warning: length mismatch
+	array[ 26541] = assign( 17, "01110110111111000" );
 	array[-26541] = assign( 17, "01010110111111000" );
 	array[ 26542] = assign( 22, "1101111101000011111100" );
 	array[-26542] = assign( 22, "1001111101000011111100" );
@@ -54737,7 +54805,7 @@
 	array[-26571] = assign( 22, "1001111101001001111010" );
 	array[ 26572] = assign( 22, "1101111101001011111000" );
 	array[-26572] = assign( 22, "1001111101001011111000" );
-	array[ 26573] = assign( 15, "011101111111101" );	// warning: length mismatch
+	array[ 26573] = assign( 15, "011101111111101" );
 	array[-26573] = assign( 15, "010101111111101" );
 	array[ 26574] = assign( 22, "1111111101001001011100" );
 	array[-26574] = assign( 22, "1011111101001001011100" );
@@ -54803,7 +54871,7 @@
 	array[-26603] = assign( 20, "10011111101011011010" );
 	array[ 26604] = assign( 20, "11011111101001111000" );
 	array[-26604] = assign( 20, "10011111101001111000" );
-	array[ 26605] = assign( 15, "010110011111100" );	// warning: length mismatch
+	array[ 26605] = assign( 15, "010110011111100" );
 	array[-26605] = assign( 15, "010101111111100" );
 	array[ 26606] = assign( 20, "11111111101011111000" );
 	array[-26606] = assign( 20, "10111111101011111000" );
@@ -54869,7 +54937,7 @@
 	array[-26635] = assign( 20, "10011111001011011010" );
 	array[ 26636] = assign( 20, "10011111000001111000" );
 	array[-26636] = assign( 20, "10011111001001111000" );
-	array[ 26637] = assign( 15, "010101111011000" );	// warning: length mismatch
+	array[ 26637] = assign( 15, "010101111011000" );
 	array[-26637] = assign( 15, "010110011011000" );
 	array[ 26638] = assign( 20, "10111111000011111000" );
 	array[-26638] = assign( 20, "10111111001011111000" );
@@ -54935,7 +55003,7 @@
 	array[-26667] = assign( 20, "11011111100011011010" );
 	array[ 26668] = assign( 20, "10011111100001111000" );
 	array[-26668] = assign( 20, "11011111100001111000" );
-	array[ 26669] = assign( 15, "010101111011001" );	// warning: length mismatch
+	array[ 26669] = assign( 15, "010101111011001" );
 	array[-26669] = assign( 15, "011101111011001" );
 	array[ 26670] = assign( 20, "10111111100011111000" );
 	array[-26670] = assign( 20, "11111111100011111000" );
@@ -55001,7 +55069,7 @@
 	array[-26699] = assign( 22, "1101111101000001011010" );
 	array[ 26700] = assign( 22, "1001111101000011011000" );
 	array[-26700] = assign( 22, "1101111101000011011000" );
-	array[ 26701] = assign( 17, "01010110101101000" );	// warning: length mismatch
+	array[ 26701] = assign( 17, "01010110101101000" );
 	array[-26701] = assign( 17, "01110110101101000" );
 	array[ 26702] = assign( 22, "1011111101000001111000" );
 	array[-26702] = assign( 22, "1111111101000001111000" );
@@ -55067,7 +55135,7 @@
 	array[-26731] = assign( 22, "1101111111000001011010" );
 	array[ 26732] = assign( 22, "1001111111000011011000" );
 	array[-26732] = assign( 22, "1101111111000011011000" );
-	array[ 26733] = assign( 17, "01010110101101100" );	// warning: length mismatch
+	array[ 26733] = assign( 17, "01010110101101100" );
 	array[-26733] = assign( 17, "01110110101101100" );
 	array[ 26734] = assign( 22, "1011111111000001111000" );
 	array[-26734] = assign( 22, "1111111111000001111000" );
@@ -55133,7 +55201,7 @@
 	array[-26763] = assign( 21, "110111110110001111010" );
 	array[ 26764] = assign( 22, "1001111101100001011000" );
 	array[-26764] = assign( 22, "1101111101100001011000" );
-	array[ 26765] = assign( 16, "0101011111101010" );	// warning: length mismatch
+	array[ 26765] = assign( 16, "0101011111101010" );
 	array[-26765] = assign( 16, "0111011111101010" );
 	array[ 26766] = assign( 22, "1011111101100011011000" );
 	array[-26766] = assign( 22, "1111111101100011011000" );
@@ -55199,7 +55267,7 @@
 	array[-26795] = assign( 21, "110111111110001111010" );
 	array[ 26796] = assign( 22, "1001111111100001011000" );
 	array[-26796] = assign( 22, "1101111111100001011000" );
-	array[ 26797] = assign( 16, "0101011111101110" );	// warning: length mismatch
+	array[ 26797] = assign( 16, "0101011111101110" );
 	array[-26797] = assign( 16, "0111011111101110" );
 	array[ 26798] = assign( 22, "1011111111100011011000" );
 	array[-26798] = assign( 22, "1111111111100011011000" );
@@ -55265,7 +55333,7 @@
 	array[-26827] = assign( 23, "11011111010100000111010" );
 	array[ 26828] = assign( 23, "10011111010100001111000" );
 	array[-26828] = assign( 23, "11011111010100001111000" );
-	array[ 26829] = assign( 18, "010101101110100100" );	// warning: length mismatch
+	array[ 26829] = assign( 18, "010101101110100100" );
 	array[-26829] = assign( 18, "011101101110100100" );
 	array[ 26830] = assign( 24, "101111110101000001011000" );
 	array[-26830] = assign( 24, "111111110101000001011000" );
@@ -55331,7 +55399,7 @@
 	array[-26859] = assign( 23, "11011111110100000111010" );
 	array[ 26860] = assign( 23, "10011111110100001111000" );
 	array[-26860] = assign( 23, "11011111110100001111000" );
-	array[ 26861] = assign( 18, "010101101110110100" );	// warning: length mismatch
+	array[ 26861] = assign( 18, "010101101110110100" );
 	array[-26861] = assign( 18, "011101101110110100" );
 	array[ 26862] = assign( 24, "101111111101000001011000" );
 	array[-26862] = assign( 24, "111111111101000001011000" );
@@ -55397,7 +55465,7 @@
 	array[-26891] = assign( 23, "11011111011100001101010" );
 	array[ 26892] = assign( 23, "10011111011100000111000" );
 	array[-26892] = assign( 23, "11011111011100000111000" );
-	array[ 26893] = assign( 18, "010101111010101100" );	// warning: length mismatch
+	array[ 26893] = assign( 18, "010101111010101100" );
 	array[-26893] = assign( 18, "011101111010101100" );
 	array[ 26894] = assign( 23, "10111111011100001111000" );
 	array[-26894] = assign( 23, "11111111011100001111000" );
@@ -55463,7 +55531,7 @@
 	array[-26923] = assign( 23, "11011111111100001101010" );
 	array[ 26924] = assign( 23, "10011111111100000111000" );
 	array[-26924] = assign( 23, "11011111111100000111000" );
-	array[ 26925] = assign( 18, "010101111010111100" );	// warning: length mismatch
+	array[ 26925] = assign( 18, "010101111010111100" );
 	array[-26925] = assign( 18, "011101111010111100" );
 	array[ 26926] = assign( 23, "10111111111100001111000" );
 	array[-26926] = assign( 23, "11111111111100001111000" );
@@ -55529,7 +55597,7 @@
 	array[-26955] = assign( 23, "11011111010110000101010" );
 	array[ 26956] = assign( 23, "10011111010110001101000" );
 	array[-26956] = assign( 23, "11011111010110001101000" );
-	array[ 26957] = assign( 18, "010101101010100110" );	// warning: length mismatch
+	array[ 26957] = assign( 18, "010101101010100110" );
 	array[-26957] = assign( 18, "011101101010100110" );
 	array[ 26958] = assign( 23, "10111111010110000111000" );
 	array[-26958] = assign( 23, "11111111010110000111000" );
@@ -55595,7 +55663,7 @@
 	array[-26987] = assign( 23, "11011111110110000101010" );
 	array[ 26988] = assign( 23, "10011111110110001101000" );
 	array[-26988] = assign( 23, "11011111110110001101000" );
-	array[ 26989] = assign( 18, "010101101010110110" );	// warning: length mismatch
+	array[ 26989] = assign( 18, "010101101010110110" );
 	array[-26989] = assign( 18, "011101101010110110" );
 	array[ 26990] = assign( 23, "10111111110110000111000" );
 	array[-26990] = assign( 23, "11111111110110000111000" );
@@ -55661,7 +55729,7 @@
 	array[-27019] = assign( 22, "1101111101111000111010" );
 	array[ 27020] = assign( 23, "10011111011110000101000" );
 	array[-27020] = assign( 23, "11011111011110000101000" );
-	array[ 27021] = assign( 17, "01010111110101110" );	// warning: length mismatch
+	array[ 27021] = assign( 17, "01010111110101110" );
 	array[-27021] = assign( 17, "01110111110101110" );
 	array[ 27022] = assign( 23, "10111111011110001101000" );
 	array[-27022] = assign( 23, "11111111011110001101000" );
@@ -55727,7 +55795,7 @@
 	array[-27051] = assign( 22, "1101111111111000111010" );
 	array[ 27052] = assign( 23, "10011111111110000101000" );
 	array[-27052] = assign( 23, "11011111111110000101000" );
-	array[ 27053] = assign( 17, "01010111110111110" );	// warning: length mismatch
+	array[ 27053] = assign( 17, "01010111110111110" );
 	array[-27053] = assign( 17, "01110111110111110" );
 	array[ 27054] = assign( 23, "10111111111110001101000" );
 	array[-27054] = assign( 23, "11111111111110001101000" );
@@ -55793,7 +55861,7 @@
 	array[-27083] = assign( 24, "110111110101010000011010" );
 	array[ 27084] = assign( 24, "100111110101010000111000" );
 	array[-27084] = assign( 24, "110111110101010000111000" );
-	array[ 27085] = assign( 18, "010101101101001010" );	// warning: length mismatch
+	array[ 27085] = assign( 18, "010101101101001010" );
 	array[-27085] = assign( 18, "011101101101001010" );
 	array[ 27086] = assign( 25, "1011111101010100000101000" );
 	array[-27086] = assign( 25, "1111111101010100000101000" );
@@ -55859,7 +55927,7 @@
 	array[-27115] = assign( 24, "110111111101010000011010" );
 	array[ 27116] = assign( 24, "100111111101010000111000" );
 	array[-27116] = assign( 24, "110111111101010000111000" );
-	array[ 27117] = assign( 18, "010101101101101010" );	// warning: length mismatch
+	array[ 27117] = assign( 18, "010101101101101010" );
 	array[-27117] = assign( 18, "011101101101101010" );
 	array[ 27118] = assign( 25, "1011111111010100000101000" );
 	array[-27118] = assign( 25, "1111111111010100000101000" );
@@ -55925,7 +55993,7 @@
 	array[-27147] = assign( 24, "110111110111010000110010" );
 	array[ 27148] = assign( 24, "100111110111010000011000" );
 	array[-27148] = assign( 24, "110111110111010000011000" );
-	array[ 27149] = assign( 18, "010101111001011010" );	// warning: length mismatch
+	array[ 27149] = assign( 18, "010101111001011010" );
 	array[-27149] = assign( 18, "011101111001011010" );
 	array[ 27150] = assign( 24, "101111110111010000111000" );
 	array[-27150] = assign( 24, "111111110111010000111000" );
@@ -55991,7 +56059,7 @@
 	array[-27179] = assign( 24, "110111111111010000110010" );
 	array[ 27180] = assign( 24, "100111111111010000011000" );
 	array[-27180] = assign( 24, "110111111111010000011000" );
-	array[ 27181] = assign( 18, "010101111001111010" );	// warning: length mismatch
+	array[ 27181] = assign( 18, "010101111001111010" );
 	array[-27181] = assign( 18, "011101111001111010" );
 	array[ 27182] = assign( 24, "101111111111010000111000" );
 	array[-27182] = assign( 24, "111111111111010000111000" );
@@ -56057,7 +56125,7 @@
 	array[-27211] = assign( 24, "110111110101110000010010" );
 	array[ 27212] = assign( 24, "100111110101110000110000" );
 	array[-27212] = assign( 24, "110111110101110000110000" );
-	array[ 27213] = assign( 18, "010101101001001110" );	// warning: length mismatch
+	array[ 27213] = assign( 18, "010101101001001110" );
 	array[-27213] = assign( 18, "011101101001001110" );
 	array[ 27214] = assign( 24, "101111110101110000011000" );
 	array[-27214] = assign( 24, "111111110101110000011000" );
@@ -56123,7 +56191,7 @@
 	array[-27243] = assign( 24, "110111111101110000010010" );
 	array[ 27244] = assign( 24, "100111111101110000110000" );
 	array[-27244] = assign( 24, "110111111101110000110000" );
-	array[ 27245] = assign( 18, "010101101001101110" );	// warning: length mismatch
+	array[ 27245] = assign( 18, "010101101001101110" );
 	array[-27245] = assign( 18, "011101101001101110" );
 	array[ 27246] = assign( 24, "101111111101110000011000" );
 	array[-27246] = assign( 24, "111111111101110000011000" );
@@ -56189,7 +56257,7 @@
 	array[-27275] = assign( 22, "1101111101111100001010" );
 	array[ 27276] = assign( 23, "11011111110111110101010" );
 	array[-27276] = assign( 23, "10011111110111110101010" );
-	array[ 27277] = assign( 16, "0101011101011110" );	// warning: length mismatch
+	array[ 27277] = assign( 16, "0101011101011110" );
 	array[-27277] = assign( 16, "0111011101011110" );
 	array[ 27278] = assign( 24, "101111110111110000110000" );
 	array[-27278] = assign( 24, "111111110111110000110000" );
@@ -56255,7 +56323,7 @@
 	array[-27307] = assign( 22, "1101111111111100001010" );
 	array[ 27308] = assign( 23, "11011111010111110101010" );
 	array[-27308] = assign( 23, "10011111010111110101010" );
-	array[ 27309] = assign( 16, "0101011101111110" );	// warning: length mismatch
+	array[ 27309] = assign( 16, "0101011101111110" );
 	array[-27309] = assign( 16, "0111011101111110" );
 	array[ 27310] = assign( 24, "101111111111110000110000" );
 	array[-27310] = assign( 24, "111111111111110000110000" );
@@ -56321,7 +56389,7 @@
 	array[-27339] = assign( 18, "110111101010010110" );
 	array[ 27340] = assign( 22, "1001110110111111111110" );
 	array[-27340] = assign( 22, "1101110110111111111110" );
-	array[ 27341] = assign( 17, "01010110010010110" );	// warning: length mismatch
+	array[ 27341] = assign( 17, "01010110010010110" );
 	array[-27341] = assign( 17, "01110110010010110" );
 	array[ 27342] = assign( 24, "101111110101011000010000" );
 	array[-27342] = assign( 24, "111111110101011000010000" );
@@ -56387,7 +56455,7 @@
 	array[-27371] = assign( 18, "110111101011010110" );
 	array[ 27372] = assign( 21, "100111010111111111110" );
 	array[-27372] = assign( 21, "110111010111111111110" );
-	array[ 27373] = assign( 17, "01010110011010110" );	// warning: length mismatch
+	array[ 27373] = assign( 17, "01010110011010110" );
 	array[-27373] = assign( 17, "01110110011010110" );
 	array[ 27374] = assign( 24, "101111111101011000010000" );
 	array[-27374] = assign( 24, "111111111101011000010000" );
@@ -56453,7 +56521,7 @@
 	array[-27403] = assign( 21, "110101111111111111110" );
 	array[ 27404] = assign( 19, "1001010111111111110" );
 	array[-27404] = assign( 19, "1101010111111111110" );
-	array[ 27405] = assign( 20, "01011010111111111110" );	// warning: length mismatch
+	array[ 27405] = assign( 20, "01011010111111111110" );
 	array[-27405] = assign( 20, "01111010111111111110" );
 	array[ 27406] = assign( 22, "1011111101110110001000" );
 	array[-27406] = assign( 22, "1111111101110110001000" );
@@ -56519,9 +56587,9 @@
 	array[-27435] = assign( 21, "110111001111111111110" );
 	array[ 27436] = assign( 18, "100100111111111110" );
 	array[-27436] = assign( 18, "110100111111111110" );
-	array[ 27437] = assign( 20, "01011011111111111110" );	// warning: length mismatch
+	array[ 27437] = assign( 20, "01011011111111111110" );
 	array[-27437] = assign( 20, "01111011111111111110" );
-	array[ 27438] = assign( 14, "01110011011111" );	// warning: length mismatch
+	array[ 27438] = assign( 14, "01110011011111" );
 	array[-27438] = assign( 14, "01010011011111" );
 	array[ 27439] = assign( 22, "1011111111110110001010" );
 	array[-27439] = assign( 22, "1111111111110110001010" );
@@ -56587,7 +56655,7 @@
 	array[-27468] = assign( 18, "101111101011111111" );
 	array[ 27469] = assign( 23, "11111111111111010000000" );
 	array[-27469] = assign( 23, "10111111111111010000000" );
-	array[ 27470] = assign( 14, "01110001011111" );	// warning: length mismatch
+	array[ 27470] = assign( 14, "01110001011111" );
 	array[-27470] = assign( 14, "01010001011111" );
 	array[ 27471] = assign( 18, "101111101010011110" );
 	array[-27471] = assign( 18, "111111101010011110" );
@@ -56651,7 +56719,7 @@
 	array[-27499] = assign( 18, "111111101111011110" );
 	array[ 27500] = assign( 18, "111111101010111111" );
 	array[-27500] = assign( 18, "101111101010111111" );
-	array[ 27501] = assign( 14, "01010001110110" );	// warning: length mismatch
+	array[ 27501] = assign( 14, "01010001110110" );
 	array[-27501] = assign( 14, "01110001110110" );
 	array[ 27502] = assign( 19, "1011001111111111110" );
 	array[-27502] = assign( 19, "1111001111111111110" );
@@ -56717,7 +56785,7 @@
 	array[-27531] = assign( 22, "1111111101111110101010" );
 	array[ 27532] = assign( 22, "1011111101111110101000" );
 	array[-27532] = assign( 22, "1111111101111110101000" );
-	array[ 27533] = assign( 14, "01010011110110" );	// warning: length mismatch
+	array[ 27533] = assign( 14, "01010011110110" );
 	array[-27533] = assign( 14, "01110011110110" );
 	array[ 27534] = assign( 20, "10011011111111111110" );
 	array[-27534] = assign( 20, "11011011111111111110" );
@@ -56783,7 +56851,7 @@
 	array[-27563] = assign( 22, "1111111111111110101010" );
 	array[ 27564] = assign( 22, "1011111111111110101000" );
 	array[-27564] = assign( 22, "1111111111111110101000" );
-	array[ 27565] = assign( 23, "01011100111111111111110" );	// warning: length mismatch
+	array[ 27565] = assign( 23, "01011100111111111111110" );
 	array[-27565] = assign( 23, "01111100111111111111110" );
 	array[ 27566] = assign( 22, "1001111111111110100000" );
 	array[-27566] = assign( 22, "1101111111111110100000" );
@@ -56849,9 +56917,9 @@
 	array[-27595] = assign( 25, "1111111101010101010010010" );
 	array[ 27596] = assign( 25, "1011111101010101010010000" );
 	array[-27596] = assign( 25, "1011111111110101000010010" );
-	array[ 27597] = assign( 17, "01011000010010111" );	// warning: length mismatch
+	array[ 27597] = assign( 17, "01011000010010111" );
 	array[-27597] = assign( 17, "01111000010010111" );
-	array[ 27598] = assign( 17, "01110110011110111" );	// warning: length mismatch
+	array[ 27598] = assign( 17, "01110110011110111" );
 	array[-27598] = assign( 17, "01010110011110111" );
 	array[ 27599] = assign( 18, "100111101110010111" );
 	array[-27599] = assign( 18, "110111101110010111" );
@@ -56915,9 +56983,9 @@
 	array[-27627] = assign( 25, "1111111111010101010010010" );
 	array[ 27628] = assign( 25, "1011111111010101010010000" );
 	array[-27628] = assign( 25, "1011111101110101000010010" );
-	array[ 27629] = assign( 17, "01011000011010111" );	// warning: length mismatch
+	array[ 27629] = assign( 17, "01011000011010111" );
 	array[-27629] = assign( 17, "01111000011010111" );
-	array[ 27630] = assign( 17, "01110110010110111" );	// warning: length mismatch
+	array[ 27630] = assign( 17, "01110110010110111" );
 	array[-27630] = assign( 17, "01010110010110111" );
 	array[ 27631] = assign( 18, "100111101111010111" );
 	array[-27631] = assign( 18, "110111101111010111" );
@@ -56981,9 +57049,9 @@
 	array[-27659] = assign( 25, "1111111101110101010110010" );
 	array[ 27660] = assign( 25, "1011111101110101010110000" );
 	array[-27660] = assign( 25, "1011111111010101000110010" );
-	array[ 27661] = assign( 17, "01011001010110111" );	// warning: length mismatch
+	array[ 27661] = assign( 17, "01011001010110111" );
 	array[-27661] = assign( 17, "01111001010110111" );
-	array[ 27662] = assign( 17, "01110111011010111" );	// warning: length mismatch
+	array[ 27662] = assign( 17, "01110111011010111" );
 	array[-27662] = assign( 17, "01010111011010111" );
 	array[ 27663] = assign( 23, "10011111011101010101010" );
 	array[-27663] = assign( 23, "11011111011101010101010" );
@@ -57047,9 +57115,9 @@
 	array[-27691] = assign( 25, "1111111111110101010110010" );
 	array[ 27692] = assign( 25, "1011111111110101010110000" );
 	array[-27692] = assign( 25, "1011111101010101000110010" );
-	array[ 27693] = assign( 17, "01011001011110111" );	// warning: length mismatch
+	array[ 27693] = assign( 17, "01011001011110111" );
 	array[-27693] = assign( 17, "01111001011110111" );
-	array[ 27694] = assign( 17, "01110111010010111" );	// warning: length mismatch
+	array[ 27694] = assign( 17, "01110111010010111" );
 	array[-27694] = assign( 17, "01010111010010111" );
 	array[ 27695] = assign( 23, "10011111111101010101010" );
 	array[-27695] = assign( 23, "11011111111101010101010" );
@@ -57113,9 +57181,9 @@
 	array[-27723] = assign( 25, "1111111101011101010011010" );
 	array[ 27724] = assign( 24, "111111111111111000011010" );
 	array[-27724] = assign( 24, "101111111111111000011010" );
-	array[ 27725] = assign( 19, "0101100010010011111" );	// warning: length mismatch
+	array[ 27725] = assign( 19, "0101100010010011111" );
 	array[-27725] = assign( 19, "0111100010010011111" );
-	array[ 27726] = assign( 19, "0111011010011111110" );	// warning: length mismatch
+	array[ 27726] = assign( 19, "0111011010011111110" );
 	array[-27726] = assign( 19, "0101011010011111110" );
 	array[ 27727] = assign( 24, "110111111111111000110000" );
 	array[-27727] = assign( 24, "100111111111111000110000" );
@@ -57179,9 +57247,9 @@
 	array[-27755] = assign( 25, "1111111111011101010011010" );
 	array[ 27756] = assign( 24, "111111110111111000011010" );
 	array[-27756] = assign( 24, "101111110111111000011010" );
-	array[ 27757] = assign( 19, "0101100010011011111" );	// warning: length mismatch
+	array[ 27757] = assign( 19, "0101100010011011111" );
 	array[-27757] = assign( 19, "0111100010011011111" );
-	array[ 27758] = assign( 19, "0111011010010111110" );	// warning: length mismatch
+	array[ 27758] = assign( 19, "0111011010010111110" );
 	array[-27758] = assign( 19, "0101011010010111110" );
 	array[ 27759] = assign( 24, "110111110111111000110000" );
 	array[-27759] = assign( 24, "100111110111111000110000" );
@@ -57245,9 +57313,9 @@
 	array[-27787] = assign( 25, "1111111101111101010111010" );
 	array[ 27788] = assign( 24, "111111111101111000111010" );
 	array[-27788] = assign( 24, "101111111101111000111010" );
-	array[ 27789] = assign( 19, "0101100110010111111" );	// warning: length mismatch
+	array[ 27789] = assign( 19, "0101100110010111111" );
 	array[-27789] = assign( 19, "0111100110010111111" );
-	array[ 27790] = assign( 19, "0111011110011011110" );	// warning: length mismatch
+	array[ 27790] = assign( 19, "0111011110011011110" );
 	array[-27790] = assign( 19, "0101011110011011110" );
 	array[ 27791] = assign( 24, "110111111101111000011000" );
 	array[-27791] = assign( 24, "100111111101111000011000" );
@@ -57311,9 +57379,9 @@
 	array[-27819] = assign( 25, "1111111111111101010111010" );
 	array[ 27820] = assign( 24, "111111110101111000111010" );
 	array[-27820] = assign( 24, "101111110101111000111010" );
-	array[ 27821] = assign( 19, "0101100110011111111" );	// warning: length mismatch
+	array[ 27821] = assign( 19, "0101100110011111111" );
 	array[-27821] = assign( 19, "0111100110011111111" );
-	array[ 27822] = assign( 19, "0111011110010011110" );	// warning: length mismatch
+	array[ 27822] = assign( 19, "0111011110010011110" );
 	array[-27822] = assign( 19, "0101011110010011110" );
 	array[ 27823] = assign( 24, "110111110101111000011000" );
 	array[-27823] = assign( 24, "100111110101111000011000" );
@@ -57379,7 +57447,7 @@
 	array[-27852] = assign( 25, "1011111111110110000101010" );
 	array[ 27853] = assign( 25, "1111111111110110000101000" );
 	array[-27853] = assign( 25, "1011111111110110000101000" );
-	array[ 27854] = assign( 19, "0111011011011110110" );	// warning: length mismatch
+	array[ 27854] = assign( 19, "0111011011011110110" );
 	array[-27854] = assign( 19, "0101011011011110110" );
 	array[ 27855] = assign( 24, "110111111111011000111000" );
 	array[-27855] = assign( 24, "100111111111011000111000" );
@@ -57445,7 +57513,7 @@
 	array[-27884] = assign( 25, "1011111101110110000101010" );
 	array[ 27885] = assign( 25, "1111111101110110000101000" );
 	array[-27885] = assign( 25, "1011111101110110000101000" );
-	array[ 27886] = assign( 19, "0111011011010110110" );	// warning: length mismatch
+	array[ 27886] = assign( 19, "0111011011010110110" );
 	array[-27886] = assign( 19, "0101011011010110110" );
 	array[ 27887] = assign( 24, "110111110111011000111000" );
 	array[-27887] = assign( 24, "100111110111011000111000" );
@@ -57511,7 +57579,7 @@
 	array[-27916] = assign( 25, "1011111111010110001101010" );
 	array[ 27917] = assign( 25, "1111111111010110001101000" );
 	array[-27917] = assign( 25, "1011111111010110001101000" );
-	array[ 27918] = assign( 19, "0111011111011010110" );	// warning: length mismatch
+	array[ 27918] = assign( 19, "0111011111011010110" );
 	array[-27918] = assign( 19, "0101011111011010110" );
 	array[ 27919] = assign( 25, "1001111101110111010111010" );
 	array[-27919] = assign( 25, "1001111111010110000101000" );
@@ -57577,7 +57645,7 @@
 	array[-27948] = assign( 25, "1011111101010110001101010" );
 	array[ 27949] = assign( 25, "1111111101010110001101000" );
 	array[-27949] = assign( 25, "1011111101010110001101000" );
-	array[ 27950] = assign( 19, "0111011111010010110" );	// warning: length mismatch
+	array[ 27950] = assign( 19, "0111011111010010110" );
 	array[-27950] = assign( 19, "0101011111010010110" );
 	array[ 27951] = assign( 25, "1001111111110111010111010" );
 	array[-27951] = assign( 25, "1001111101010110000101000" );
@@ -57643,7 +57711,7 @@
 	array[-27980] = assign( 25, "1011111111111100000111010" );
 	array[ 27981] = assign( 25, "1111111111111100000111000" );
 	array[-27981] = assign( 25, "1011111111111100000111000" );
-	array[ 27982] = assign( 19, "0111011010101111110" );	// warning: length mismatch
+	array[ 27982] = assign( 19, "0111011010101111110" );
 	array[-27982] = assign( 19, "0101011010101111110" );
 	array[ 27983] = assign( 25, "1101111111111100001101000" );
 	array[-27983] = assign( 25, "1001111111111100001101000" );
@@ -57709,7 +57777,7 @@
 	array[-28012] = assign( 25, "1011111101111100000111010" );
 	array[ 28013] = assign( 25, "1111111101111100000111000" );
 	array[-28013] = assign( 25, "1011111101111100000111000" );
-	array[ 28014] = assign( 19, "0111011010101011110" );	// warning: length mismatch
+	array[ 28014] = assign( 19, "0111011010101011110" );
 	array[-28014] = assign( 19, "0101011010101011110" );
 	array[ 28015] = assign( 25, "1101111101111100001101000" );
 	array[-28015] = assign( 25, "1001111101111100001101000" );
@@ -57775,7 +57843,7 @@
 	array[-28044] = assign( 25, "1011111111011100001111010" );
 	array[ 28045] = assign( 25, "1111111111011100001111000" );
 	array[-28045] = assign( 25, "1011111111011100001111000" );
-	array[ 28046] = assign( 19, "0111011110101101110" );	// warning: length mismatch
+	array[ 28046] = assign( 19, "0111011110101101110" );
 	array[-28046] = assign( 19, "0101011110101101110" );
 	array[ 28047] = assign( 25, "1101111111011100000111000" );
 	array[-28047] = assign( 25, "1001111111011100000111000" );
@@ -57841,7 +57909,7 @@
 	array[-28076] = assign( 25, "1011111101011100001111010" );
 	array[ 28077] = assign( 25, "1111111101011100001111000" );
 	array[-28077] = assign( 25, "1011111101011100001111000" );
-	array[ 28078] = assign( 19, "0111011110101001110" );	// warning: length mismatch
+	array[ 28078] = assign( 19, "0111011110101001110" );
 	array[-28078] = assign( 19, "0101011110101001110" );
 	array[ 28079] = assign( 25, "1101111101011100000111000" );
 	array[-28079] = assign( 25, "1001111101011100000111000" );
@@ -57907,7 +57975,7 @@
 	array[-28108] = assign( 26, "10111111111101000001011010" );
 	array[ 28109] = assign( 26, "11111111111101000001011000" );
 	array[-28109] = assign( 26, "10111111111101000001011000" );
-	array[ 28110] = assign( 19, "0111011011101111010" );	// warning: length mismatch
+	array[ 28110] = assign( 19, "0111011011101111010" );
 	array[-28110] = assign( 19, "0101011011101111010" );
 	array[ 28111] = assign( 25, "1101111111110100001111000" );
 	array[-28111] = assign( 25, "1001111111110100001111000" );
@@ -57973,7 +58041,7 @@
 	array[-28140] = assign( 26, "10111111011101000001011010" );
 	array[ 28141] = assign( 26, "11111111011101000001011000" );
 	array[-28141] = assign( 26, "10111111011101000001011000" );
-	array[ 28142] = assign( 19, "0111011011101011010" );	// warning: length mismatch
+	array[ 28142] = assign( 19, "0111011011101011010" );
 	array[-28142] = assign( 19, "0101011011101011010" );
 	array[ 28143] = assign( 25, "1101111101110100001111000" );
 	array[-28143] = assign( 25, "1001111101110100001111000" );
@@ -58039,7 +58107,7 @@
 	array[-28172] = assign( 26, "10111111110101000011011010" );
 	array[ 28173] = assign( 26, "11111111110101000011011000" );
 	array[-28173] = assign( 26, "10111111110101000011011000" );
-	array[ 28174] = assign( 19, "0111011111101101010" );	// warning: length mismatch
+	array[ 28174] = assign( 19, "0111011111101101010" );
 	array[-28174] = assign( 19, "0101011111101101010" );
 	array[ 28175] = assign( 26, "11011111110101000001011000" );
 	array[-28175] = assign( 26, "10011111110101000001011000" );
@@ -58105,7 +58173,7 @@
 	array[-28204] = assign( 26, "10111111010101000011011010" );
 	array[ 28205] = assign( 26, "11111111010101000011011000" );
 	array[-28205] = assign( 26, "10111111010101000011011000" );
-	array[ 28206] = assign( 19, "0111011111101001010" );	// warning: length mismatch
+	array[ 28206] = assign( 19, "0111011111101001010" );
 	array[-28206] = assign( 19, "0101011111101001010" );
 	array[ 28207] = assign( 26, "11011111010101000001011000" );
 	array[-28207] = assign( 26, "10011111010101000001011000" );
@@ -58171,7 +58239,7 @@
 	array[-28236] = assign( 24, "101111111111100001111010" );
 	array[ 28237] = assign( 24, "111111111111100001111000" );
 	array[-28237] = assign( 24, "101111111111100001111000" );
-	array[ 28238] = assign( 19, "0111011010110111110" );	// warning: length mismatch
+	array[ 28238] = assign( 19, "0111011010110111110" );
 	array[-28238] = assign( 19, "0101011010110111110" );
 	array[ 28239] = assign( 24, "110111111111100011011000" );
 	array[-28239] = assign( 24, "100111111111100011011000" );
@@ -58237,7 +58305,7 @@
 	array[-28268] = assign( 24, "101111110111100001111010" );
 	array[ 28269] = assign( 24, "111111110111100001111000" );
 	array[-28269] = assign( 24, "101111110111100001111000" );
-	array[ 28270] = assign( 19, "0111011010110101110" );	// warning: length mismatch
+	array[ 28270] = assign( 19, "0111011010110101110" );
 	array[-28270] = assign( 19, "0101011010110101110" );
 	array[ 28271] = assign( 24, "110111110111100011011000" );
 	array[-28271] = assign( 24, "100111110111100011011000" );
@@ -58303,7 +58371,7 @@
 	array[-28300] = assign( 24, "101111111101100011111010" );
 	array[ 28301] = assign( 24, "111111111101100011111000" );
 	array[-28301] = assign( 24, "101111111101100011111000" );
-	array[ 28302] = assign( 19, "0111011110110110110" );	// warning: length mismatch
+	array[ 28302] = assign( 19, "0111011110110110110" );
 	array[-28302] = assign( 19, "0101011110110110110" );
 	array[ 28303] = assign( 24, "110111111101100001111000" );
 	array[-28303] = assign( 24, "100111111101100001111000" );
@@ -58369,7 +58437,7 @@
 	array[-28332] = assign( 24, "100111111101101011111110" );
 	array[ 28333] = assign( 24, "111111110101100011111000" );
 	array[-28333] = assign( 24, "101111110101100011111000" );
-	array[ 28334] = assign( 19, "0111011110110100110" );	// warning: length mismatch
+	array[ 28334] = assign( 19, "0111011110110100110" );
 	array[-28334] = assign( 19, "0101011110110100110" );
 	array[ 28335] = assign( 24, "110111110101100001111000" );
 	array[-28335] = assign( 24, "100111110101100001111000" );
@@ -58435,7 +58503,7 @@
 	array[-28364] = assign( 24, "100111110101101011111110" );
 	array[ 28365] = assign( 24, "111111111111000001011100" );
 	array[-28365] = assign( 24, "101111111111000001011100" );
-	array[ 28366] = assign( 19, "0111011011110111100" );	// warning: length mismatch
+	array[ 28366] = assign( 19, "0111011011110111100" );
 	array[-28366] = assign( 19, "0101011011110111100" );
 	array[ 28367] = assign( 24, "110111111111000011111000" );
 	array[-28367] = assign( 24, "100111111111000011111000" );
@@ -58501,7 +58569,7 @@
 	array[-28396] = assign( 24, "100111111111001001111110" );
 	array[ 28397] = assign( 24, "110111111111001011111100" );
 	array[-28397] = assign( 24, "100111111111001011111100" );
-	array[ 28398] = assign( 19, "0111011011110101100" );	// warning: length mismatch
+	array[ 28398] = assign( 19, "0111011011110101100" );
 	array[-28398] = assign( 19, "0101011011110101100" );
 	array[ 28399] = assign( 24, "110111110111000011111000" );
 	array[-28399] = assign( 24, "100111110111000011111000" );
@@ -58567,7 +58635,7 @@
 	array[-28428] = assign( 24, "100111110111001001111110" );
 	array[ 28429] = assign( 24, "110111110111001011111100" );
 	array[-28429] = assign( 24, "100111110111001011111100" );
-	array[ 28430] = assign( 19, "0111011111110110100" );	// warning: length mismatch
+	array[ 28430] = assign( 19, "0111011111110110100" );
 	array[-28430] = assign( 19, "0101011111110110100" );
 	array[ 28431] = assign( 24, "110111111101000001011100" );
 	array[-28431] = assign( 24, "100111111101000001011100" );
@@ -58633,7 +58701,7 @@
 	array[-28460] = assign( 24, "100111111101001011011110" );
 	array[ 28461] = assign( 24, "110111111101001001111100" );
 	array[-28461] = assign( 24, "100111111101001001111100" );
-	array[ 28462] = assign( 19, "0111011111110100100" );	// warning: length mismatch
+	array[ 28462] = assign( 19, "0111011111110100100" );
 	array[-28462] = assign( 19, "0101011111110100100" );
 	array[ 28463] = assign( 24, "110111110101000001011100" );
 	array[-28463] = assign( 24, "100111110101000001011100" );
@@ -58699,7 +58767,7 @@
 	array[-28492] = assign( 22, "1011111111100001111110" );
 	array[ 28493] = assign( 22, "1111111111100001111100" );
 	array[-28493] = assign( 22, "1011111111100001111100" );
-	array[ 28494] = assign( 17, "01110110101111110" );	// warning: length mismatch
+	array[ 28494] = assign( 17, "01110110101111110" );
 	array[-28494] = assign( 17, "01010110101111110" );
 	array[ 28495] = assign( 22, "1101111111100011011100" );
 	array[-28495] = assign( 22, "1001111111100011011100" );
@@ -58765,7 +58833,7 @@
 	array[-28524] = assign( 22, "1001111111101001011110" );
 	array[ 28525] = assign( 22, "1101111111101011011100" );
 	array[-28525] = assign( 22, "1001111111101011011100" );
-	array[ 28526] = assign( 17, "01110110101111010" );	// warning: length mismatch
+	array[ 28526] = assign( 17, "01110110101111010" );
 	array[-28526] = assign( 17, "01010110101111010" );
 	array[ 28527] = assign( 22, "1101111101100011011100" );
 	array[-28527] = assign( 22, "1001111101100011011100" );
@@ -58831,7 +58899,7 @@
 	array[-28556] = assign( 22, "1001111101101001011110" );
 	array[ 28557] = assign( 22, "1101111101101011011100" );
 	array[-28557] = assign( 22, "1001111101101011011100" );
-	array[ 28558] = assign( 17, "01110111101111100" );	// warning: length mismatch
+	array[ 28558] = assign( 17, "01110111101111100" );
 	array[-28558] = assign( 17, "01010111101111100" );
 	array[ 28559] = assign( 22, "1101111111000001111100" );
 	array[-28559] = assign( 22, "1001111111000001111100" );
@@ -58897,7 +58965,7 @@
 	array[-28588] = assign( 22, "1001111111001011111010" );
 	array[ 28589] = assign( 22, "1101111111001001011100" );
 	array[-28589] = assign( 22, "1001111111001001011100" );
-	array[ 28590] = assign( 17, "01110111101111000" );	// warning: length mismatch
+	array[ 28590] = assign( 17, "01110111101111000" );
 	array[-28590] = assign( 17, "01010111101111000" );
 	array[ 28591] = assign( 22, "1101111101000001111100" );
 	array[-28591] = assign( 22, "1001111101000001111100" );
@@ -58963,7 +59031,7 @@
 	array[-28620] = assign( 22, "1001111101001011111010" );
 	array[ 28621] = assign( 22, "1101111101001001011100" );
 	array[-28621] = assign( 22, "1001111101001001011100" );
-	array[ 28622] = assign( 15, "011101101111101" );	// warning: length mismatch
+	array[ 28622] = assign( 15, "011101101111101" );
 	array[-28622] = assign( 15, "010101101111101" );
 	array[ 28623] = assign( 20, "11011111100011111100" );
 	array[-28623] = assign( 20, "10011111100011111100" );
@@ -59029,7 +59097,7 @@
 	array[-28652] = assign( 20, "10011111101001111010" );
 	array[ 28653] = assign( 20, "11011111101011111000" );
 	array[-28653] = assign( 20, "10011111101011111000" );
-	array[ 28654] = assign( 15, "010110001111100" );	// warning: length mismatch
+	array[ 28654] = assign( 15, "010110001111100" );
 	array[-28654] = assign( 15, "010101101111100" );
 	array[ 28655] = assign( 20, "10011111001011111100" );
 	array[-28655] = assign( 20, "10011111000011111100" );
@@ -59095,7 +59163,7 @@
 	array[-28684] = assign( 20, "10011111001001111010" );
 	array[ 28685] = assign( 20, "10011111000011111000" );
 	array[-28685] = assign( 20, "10011111001011111000" );
-	array[ 28686] = assign( 15, "010101101111000" );	// warning: length mismatch
+	array[ 28686] = assign( 15, "010101101111000" );
 	array[-28686] = assign( 15, "010110001111000" );
 	array[ 28687] = assign( 20, "10011111101011111100" );
 	array[-28687] = assign( 20, "10111111001001011100" );
@@ -59161,7 +59229,7 @@
 	array[-28716] = assign( 20, "11011111100001111010" );
 	array[ 28717] = assign( 20, "10011111100011111000" );
 	array[-28717] = assign( 20, "11011111100011111000" );
-	array[ 28718] = assign( 15, "010101101111001" );	// warning: length mismatch
+	array[ 28718] = assign( 15, "010101101111001" );
 	array[-28718] = assign( 15, "011101101111001" );
 	array[ 28719] = assign( 20, "10111111100001011100" );
 	array[-28719] = assign( 20, "11111111100001011100" );
@@ -59227,7 +59295,7 @@
 	array[-28748] = assign( 22, "1101111101000011011010" );
 	array[ 28749] = assign( 22, "1001111101000001111000" );
 	array[-28749] = assign( 22, "1101111101000001111000" );
-	array[ 28750] = assign( 17, "01010111101101000" );	// warning: length mismatch
+	array[ 28750] = assign( 17, "01010111101101000" );
 	array[-28750] = assign( 17, "01110111101101000" );
 	array[ 28751] = assign( 22, "1011111101000011111000" );
 	array[-28751] = assign( 22, "1111111101000011111000" );
@@ -59293,7 +59361,7 @@
 	array[-28780] = assign( 22, "1101111111000011011010" );
 	array[ 28781] = assign( 22, "1001111111000001111000" );
 	array[-28781] = assign( 22, "1101111111000001111000" );
-	array[ 28782] = assign( 17, "01010111101101100" );	// warning: length mismatch
+	array[ 28782] = assign( 17, "01010111101101100" );
 	array[-28782] = assign( 17, "01110111101101100" );
 	array[ 28783] = assign( 22, "1011111111000011111000" );
 	array[-28783] = assign( 22, "1111111111000011111000" );
@@ -59359,7 +59427,7 @@
 	array[-28812] = assign( 22, "1101111101100001011010" );
 	array[ 28813] = assign( 22, "1001111101100011011000" );
 	array[-28813] = assign( 22, "1101111101100011011000" );
-	array[ 28814] = assign( 17, "01010110101101010" );	// warning: length mismatch
+	array[ 28814] = assign( 17, "01010110101101010" );
 	array[-28814] = assign( 17, "01110110101101010" );
 	array[ 28815] = assign( 22, "1011111101100001111000" );
 	array[-28815] = assign( 22, "1111111101100001111000" );
@@ -59425,7 +59493,7 @@
 	array[-28844] = assign( 22, "1101111111100001011010" );
 	array[ 28845] = assign( 22, "1001111111100011011000" );
 	array[-28845] = assign( 22, "1101111111100011011000" );
-	array[ 28846] = assign( 17, "01010110101101110" );	// warning: length mismatch
+	array[ 28846] = assign( 17, "01010110101101110" );
 	array[-28846] = assign( 17, "01110110101101110" );
 	array[ 28847] = assign( 22, "1011111111100001111000" );
 	array[-28847] = assign( 22, "1111111111100001111000" );
@@ -59491,7 +59559,7 @@
 	array[-28876] = assign( 23, "11011111010100001111010" );
 	array[ 28877] = assign( 24, "100111110101000001011000" );
 	array[-28877] = assign( 24, "110111110101000001011000" );
-	array[ 28878] = assign( 18, "010101111110100100" );	// warning: length mismatch
+	array[ 28878] = assign( 18, "010101111110100100" );
 	array[-28878] = assign( 18, "011101111110100100" );
 	array[ 28879] = assign( 24, "101111110101000011011000" );
 	array[-28879] = assign( 24, "111111110101000011011000" );
@@ -59557,7 +59625,7 @@
 	array[-28908] = assign( 23, "11011111110100001111010" );
 	array[ 28909] = assign( 24, "100111111101000001011000" );
 	array[-28909] = assign( 24, "110111111101000001011000" );
-	array[ 28910] = assign( 18, "010101111110110100" );	// warning: length mismatch
+	array[ 28910] = assign( 18, "010101111110110100" );
 	array[-28910] = assign( 18, "011101111110110100" );
 	array[ 28911] = assign( 24, "101111111101000011011000" );
 	array[-28911] = assign( 24, "111111111101000011011000" );
@@ -59623,7 +59691,7 @@
 	array[-28940] = assign( 23, "11011111011100000111010" );
 	array[ 28941] = assign( 23, "10011111011100001111000" );
 	array[-28941] = assign( 23, "11011111011100001111000" );
-	array[ 28942] = assign( 18, "010101101110101100" );	// warning: length mismatch
+	array[ 28942] = assign( 18, "010101101110101100" );
 	array[-28942] = assign( 18, "011101101110101100" );
 	array[ 28943] = assign( 24, "101111110111000001011000" );
 	array[-28943] = assign( 24, "111111110111000001011000" );
@@ -59689,7 +59757,7 @@
 	array[-28972] = assign( 23, "11011111111100000111010" );
 	array[ 28973] = assign( 23, "10011111111100001111000" );
 	array[-28973] = assign( 23, "11011111111100001111000" );
-	array[ 28974] = assign( 18, "010101101110111100" );	// warning: length mismatch
+	array[ 28974] = assign( 18, "010101101110111100" );
 	array[-28974] = assign( 18, "011101101110111100" );
 	array[ 28975] = assign( 24, "101111111111000001011000" );
 	array[-28975] = assign( 24, "111111111111000001011000" );
@@ -59755,7 +59823,7 @@
 	array[-29004] = assign( 23, "11011111010110001101010" );
 	array[ 29005] = assign( 23, "10011111010110000111000" );
 	array[-29005] = assign( 23, "11011111010110000111000" );
-	array[ 29006] = assign( 18, "010101111010100110" );	// warning: length mismatch
+	array[ 29006] = assign( 18, "010101111010100110" );
 	array[-29006] = assign( 18, "011101111010100110" );
 	array[ 29007] = assign( 23, "10111111010110001111000" );
 	array[-29007] = assign( 23, "11111111010110001111000" );
@@ -59821,7 +59889,7 @@
 	array[-29036] = assign( 23, "11011111110110001101010" );
 	array[ 29037] = assign( 23, "10011111110110000111000" );
 	array[-29037] = assign( 23, "11011111110110000111000" );
-	array[ 29038] = assign( 18, "010101111010110110" );	// warning: length mismatch
+	array[ 29038] = assign( 18, "010101111010110110" );
 	array[-29038] = assign( 18, "011101111010110110" );
 	array[ 29039] = assign( 23, "10111111110110001111000" );
 	array[-29039] = assign( 23, "11111111110110001111000" );
@@ -59887,7 +59955,7 @@
 	array[-29068] = assign( 23, "11011111011110000101010" );
 	array[ 29069] = assign( 23, "10011111011110001101000" );
 	array[-29069] = assign( 23, "11011111011110001101000" );
-	array[ 29070] = assign( 18, "010101101010101110" );	// warning: length mismatch
+	array[ 29070] = assign( 18, "010101101010101110" );
 	array[-29070] = assign( 18, "011101101010101110" );
 	array[ 29071] = assign( 23, "10111111011110000111000" );
 	array[-29071] = assign( 23, "11111111011110000111000" );
@@ -59953,7 +60021,7 @@
 	array[-29100] = assign( 23, "11011111111110000101010" );
 	array[ 29101] = assign( 23, "10011111111110001101000" );
 	array[-29101] = assign( 23, "11011111111110001101000" );
-	array[ 29102] = assign( 18, "010101101010111110" );	// warning: length mismatch
+	array[ 29102] = assign( 18, "010101101010111110" );
 	array[-29102] = assign( 18, "011101101010111110" );
 	array[ 29103] = assign( 23, "10111111111110000111000" );
 	array[-29103] = assign( 23, "11111111111110000111000" );
@@ -60019,7 +60087,7 @@
 	array[-29132] = assign( 24, "110111110101010000111010" );
 	array[ 29133] = assign( 25, "1001111101010100000101000" );
 	array[-29133] = assign( 25, "1101111101010100000101000" );
-	array[ 29134] = assign( 18, "010101111101001010" );	// warning: length mismatch
+	array[ 29134] = assign( 18, "010101111101001010" );
 	array[-29134] = assign( 18, "011101111101001010" );
 	array[ 29135] = assign( 25, "1011111101010100001101000" );
 	array[-29135] = assign( 25, "1111111101010100001101000" );
@@ -60085,7 +60153,7 @@
 	array[-29164] = assign( 24, "110111111101010000111010" );
 	array[ 29165] = assign( 25, "1001111111010100000101000" );
 	array[-29165] = assign( 25, "1101111111010100000101000" );
-	array[ 29166] = assign( 18, "010101111101101010" );	// warning: length mismatch
+	array[ 29166] = assign( 18, "010101111101101010" );
 	array[-29166] = assign( 18, "011101111101101010" );
 	array[ 29167] = assign( 25, "1011111111010100001101000" );
 	array[-29167] = assign( 25, "1111111111010100001101000" );
@@ -60151,7 +60219,7 @@
 	array[-29196] = assign( 24, "110111110111010000011010" );
 	array[ 29197] = assign( 24, "100111110111010000111000" );
 	array[-29197] = assign( 24, "110111110111010000111000" );
-	array[ 29198] = assign( 18, "010101101101011010" );	// warning: length mismatch
+	array[ 29198] = assign( 18, "010101101101011010" );
 	array[-29198] = assign( 18, "011101101101011010" );
 	array[ 29199] = assign( 25, "1011111101110100000101000" );
 	array[-29199] = assign( 25, "1111111101110100000101000" );
@@ -60217,7 +60285,7 @@
 	array[-29228] = assign( 24, "110111111111010000011010" );
 	array[ 29229] = assign( 24, "100111111111010000111000" );
 	array[-29229] = assign( 24, "110111111111010000111000" );
-	array[ 29230] = assign( 18, "010101101101111010" );	// warning: length mismatch
+	array[ 29230] = assign( 18, "010101101101111010" );
 	array[-29230] = assign( 18, "011101101101111010" );
 	array[ 29231] = assign( 25, "1011111111110100000101000" );
 	array[-29231] = assign( 25, "1111111111110100000101000" );
@@ -60283,7 +60351,7 @@
 	array[-29260] = assign( 24, "110111110101110000110010" );
 	array[ 29261] = assign( 24, "100111110101110000011000" );
 	array[-29261] = assign( 24, "110111110101110000011000" );
-	array[ 29262] = assign( 18, "010101111001001110" );	// warning: length mismatch
+	array[ 29262] = assign( 18, "010101111001001110" );
 	array[-29262] = assign( 18, "011101111001001110" );
 	array[ 29263] = assign( 24, "101111110101110000111000" );
 	array[-29263] = assign( 24, "111111110101110000111000" );
@@ -60349,7 +60417,7 @@
 	array[-29292] = assign( 24, "110111111101110000110010" );
 	array[ 29293] = assign( 24, "100111111101110000011000" );
 	array[-29293] = assign( 24, "110111111101110000011000" );
-	array[ 29294] = assign( 18, "010101111001101110" );	// warning: length mismatch
+	array[ 29294] = assign( 18, "010101111001101110" );
 	array[-29294] = assign( 18, "011101111001101110" );
 	array[ 29295] = assign( 24, "101111111101110000111000" );
 	array[-29295] = assign( 24, "111111111101110000111000" );
@@ -60415,7 +60483,7 @@
 	array[-29324] = assign( 24, "110111110111110000010010" );
 	array[ 29325] = assign( 24, "100111110111110000110000" );
 	array[-29325] = assign( 24, "110111110111110000110000" );
-	array[ 29326] = assign( 18, "010101101001011110" );	// warning: length mismatch
+	array[ 29326] = assign( 18, "010101101001011110" );
 	array[-29326] = assign( 18, "011101101001011110" );
 	array[ 29327] = assign( 24, "101111110111110000011000" );
 	array[-29327] = assign( 24, "111111110111110000011000" );
@@ -60481,7 +60549,7 @@
 	array[-29356] = assign( 24, "110111111111110000010010" );
 	array[ 29357] = assign( 24, "100111111111110000110000" );
 	array[-29357] = assign( 24, "110111111111110000110000" );
-	array[ 29358] = assign( 18, "010101101001111110" );	// warning: length mismatch
+	array[ 29358] = assign( 18, "010101101001111110" );
 	array[-29358] = assign( 18, "011101101001111110" );
 	array[ 29359] = assign( 24, "101111111111110000011000" );
 	array[-29359] = assign( 24, "111111111111110000011000" );
@@ -60547,7 +60615,7 @@
 	array[-29388] = assign( 22, "1101111101010110001010" );
 	array[ 29389] = assign( 23, "11011111111101110101010" );
 	array[-29389] = assign( 23, "10011111111101110101010" );
-	array[ 29390] = assign( 17, "01010111010010110" );	// warning: length mismatch
+	array[ 29390] = assign( 17, "01010111010010110" );
 	array[-29390] = assign( 17, "01110111010010110" );
 	array[ 29391] = assign( 24, "101111110101011000110000" );
 	array[-29391] = assign( 24, "111111110101011000110000" );
@@ -60613,7 +60681,7 @@
 	array[-29420] = assign( 22, "1101111111010110001010" );
 	array[ 29421] = assign( 23, "11011111011101110101010" );
 	array[-29421] = assign( 23, "10011111011101110101010" );
-	array[ 29422] = assign( 17, "01010111011010110" );	// warning: length mismatch
+	array[ 29422] = assign( 17, "01010111011010110" );
 	array[-29422] = assign( 17, "01110111011010110" );
 	array[ 29423] = assign( 24, "101111111101011000110000" );
 	array[-29423] = assign( 24, "111111111101011000110000" );
@@ -60679,7 +60747,7 @@
 	array[-29452] = assign( 18, "110111101010110110" );
 	array[ 29453] = assign( 22, "1001111101110110001000" );
 	array[-29453] = assign( 22, "1101111101110110001000" );
-	array[ 29454] = assign( 17, "01010110010110110" );	// warning: length mismatch
+	array[ 29454] = assign( 17, "01010110010110110" );
 	array[-29454] = assign( 17, "01110110010110110" );
 	array[ 29455] = assign( 24, "101111110111011000010000" );
 	array[-29455] = assign( 24, "111111110111011000010000" );
@@ -60745,7 +60813,7 @@
 	array[-29484] = assign( 18, "110111101011110110" );
 	array[ 29485] = assign( 22, "1001110101111111111110" );
 	array[-29485] = assign( 22, "1101110101111111111110" );
-	array[ 29486] = assign( 17, "01010110011110110" );	// warning: length mismatch
+	array[ 29486] = assign( 17, "01010110011110110" );
 	array[-29486] = assign( 17, "01110110011110110" );
 	array[ 29487] = assign( 24, "101111111111011000010000" );
 	array[-29487] = assign( 24, "111111111111011000010000" );
@@ -60811,7 +60879,7 @@
 	array[-29516] = assign( 22, "1101011111111111111110" );
 	array[ 29517] = assign( 20, "10010101111111111110" );
 	array[-29517] = assign( 20, "11010101111111111110" );
-	array[ 29518] = assign( 21, "010110101111111111110" );	// warning: length mismatch
+	array[ 29518] = assign( 21, "010110101111111111110" );
 	array[-29518] = assign( 21, "011110101111111111110" );
 	array[ 29519] = assign( 22, "1011111101011110001000" );
 	array[-29519] = assign( 22, "1111111101011110001000" );
@@ -60877,9 +60945,9 @@
 	array[-29548] = assign( 22, "1101110011111111111110" );
 	array[ 29549] = assign( 19, "1001001111111111110" );
 	array[-29549] = assign( 19, "1101001111111111110" );
-	array[ 29550] = assign( 21, "010110111111111111110" );	// warning: length mismatch
+	array[ 29550] = assign( 21, "010110111111111111110" );
 	array[-29550] = assign( 21, "011110111111111111110" );
-	array[ 29551] = assign( 14, "01110011110111" );	// warning: length mismatch
+	array[ 29551] = assign( 14, "01110011110111" );
 	array[-29551] = assign( 14, "01010011110111" );
 	array[ 29552] = assign( 22, "1011111111011110001010" );
 	array[-29552] = assign( 22, "1111111111011110001010" );
@@ -60945,7 +61013,7 @@
 	array[-29581] = assign( 18, "101111101011011111" );
 	array[ 29582] = assign( 22, "1111001111111111111111" );
 	array[-29582] = assign( 22, "1011001111111111111111" );
-	array[ 29583] = assign( 14, "01110001110111" );	// warning: length mismatch
+	array[ 29583] = assign( 14, "01110001110111" );
 	array[-29583] = assign( 14, "01010001110111" );
 	array[ 29584] = assign( 18, "101111101010111110" );
 	array[-29584] = assign( 18, "111111101010111110" );
@@ -61009,7 +61077,7 @@
 	array[-29612] = assign( 18, "111111101111111110" );
 	array[ 29613] = assign( 18, "111111101010011111" );
 	array[-29613] = assign( 18, "101111101010011111" );
-	array[ 29614] = assign( 14, "01010001011110" );	// warning: length mismatch
+	array[ 29614] = assign( 14, "01010001011110" );
 	array[-29614] = assign( 14, "01110001011110" );
 	array[ 29615] = assign( 20, "10110011111111111110" );
 	array[-29615] = assign( 20, "11110011111111111110" );
@@ -61075,7 +61143,7 @@
 	array[-29644] = assign( 23, "11111111010101010101010" );
 	array[ 29645] = assign( 23, "10111111010101010101000" );
 	array[-29645] = assign( 23, "10111111111101010001010" );
-	array[ 29646] = assign( 14, "01010011011110" );	// warning: length mismatch
+	array[ 29646] = assign( 14, "01010011011110" );
 	array[-29646] = assign( 14, "01110011011110" );
 	array[ 29647] = assign( 21, "100110111111111111110" );
 	array[-29647] = assign( 21, "110110111111111111110" );
@@ -61207,9 +61275,9 @@
 	array[-29708] = assign( 25, "1111111101110101010010010" );
 	array[ 29709] = assign( 25, "1011111101110101010010000" );
 	array[-29709] = assign( 25, "1011111111010101000010010" );
-	array[ 29710] = assign( 17, "01011000010110111" );	// warning: length mismatch
+	array[ 29710] = assign( 17, "01011000010110111" );
 	array[-29710] = assign( 17, "01111000010110111" );
-	array[ 29711] = assign( 17, "01110110011010111" );	// warning: length mismatch
+	array[ 29711] = assign( 17, "01110110011010111" );
 	array[-29711] = assign( 17, "01010110011010111" );
 	array[ 29712] = assign( 18, "100111101110110111" );
 	array[-29712] = assign( 18, "110111101110110111" );
@@ -61273,9 +61341,9 @@
 	array[-29740] = assign( 25, "1111111111110101010010010" );
 	array[ 29741] = assign( 25, "1011111111110101010010000" );
 	array[-29741] = assign( 25, "1011111101010101000010010" );
-	array[ 29742] = assign( 17, "01011000011110111" );	// warning: length mismatch
+	array[ 29742] = assign( 17, "01011000011110111" );
 	array[-29742] = assign( 17, "01111000011110111" );
-	array[ 29743] = assign( 17, "01110110010010111" );	// warning: length mismatch
+	array[ 29743] = assign( 17, "01110110010010111" );
 	array[-29743] = assign( 17, "01010110010010111" );
 	array[ 29744] = assign( 18, "100111101111110111" );
 	array[-29744] = assign( 18, "110111101111110111" );
@@ -61339,9 +61407,9 @@
 	array[-29772] = assign( 25, "1111111101011101010110010" );
 	array[ 29773] = assign( 24, "111111111111111000110010" );
 	array[-29773] = assign( 24, "101111111111111000110010" );
-	array[ 29774] = assign( 17, "01011001010011111" );	// warning: length mismatch
+	array[ 29774] = assign( 17, "01011001010011111" );
 	array[-29774] = assign( 17, "01111001010011111" );
-	array[ 29775] = assign( 17, "01110111011111110" );	// warning: length mismatch
+	array[ 29775] = assign( 17, "01110111011111110" );
 	array[-29775] = assign( 17, "01010111011111110" );
 	array[ 29776] = assign( 23, "10011111010111010101010" );
 	array[-29776] = assign( 23, "11011111010111010101010" );
@@ -61405,9 +61473,9 @@
 	array[-29804] = assign( 25, "1111111111011101010110010" );
 	array[ 29805] = assign( 24, "111111110111111000110010" );
 	array[-29805] = assign( 24, "101111110111111000110010" );
-	array[ 29806] = assign( 17, "01011001011011111" );	// warning: length mismatch
+	array[ 29806] = assign( 17, "01011001011011111" );
 	array[-29806] = assign( 17, "01111001011011111" );
-	array[ 29807] = assign( 17, "01110111010111110" );	// warning: length mismatch
+	array[ 29807] = assign( 17, "01110111010111110" );
 	array[-29807] = assign( 17, "01010111010111110" );
 	array[ 29808] = assign( 23, "10011111110111010101010" );
 	array[-29808] = assign( 23, "11011111110111010101010" );
@@ -61471,9 +61539,9 @@
 	array[-29836] = assign( 25, "1111111101111101010011010" );
 	array[ 29837] = assign( 24, "111111111101111000011010" );
 	array[-29837] = assign( 24, "101111111101111000011010" );
-	array[ 29838] = assign( 19, "0101100010010111111" );	// warning: length mismatch
+	array[ 29838] = assign( 19, "0101100010010111111" );
 	array[-29838] = assign( 19, "0111100010010111111" );
-	array[ 29839] = assign( 19, "0111011010011011110" );	// warning: length mismatch
+	array[ 29839] = assign( 19, "0111011010011011110" );
 	array[-29839] = assign( 19, "0101011010011011110" );
 	array[ 29840] = assign( 24, "110111111101111000110000" );
 	array[-29840] = assign( 24, "100111111101111000110000" );
@@ -61537,9 +61605,9 @@
 	array[-29868] = assign( 25, "1111111111111101010011010" );
 	array[ 29869] = assign( 24, "111111110101111000011010" );
 	array[-29869] = assign( 24, "101111110101111000011010" );
-	array[ 29870] = assign( 19, "0101100010011111111" );	// warning: length mismatch
+	array[ 29870] = assign( 19, "0101100010011111111" );
 	array[-29870] = assign( 19, "0111100010011111111" );
-	array[ 29871] = assign( 19, "0111011010010011110" );	// warning: length mismatch
+	array[ 29871] = assign( 19, "0111011010010011110" );
 	array[-29871] = assign( 19, "0101011010010011110" );
 	array[ 29872] = assign( 24, "110111110101111000110000" );
 	array[-29872] = assign( 24, "100111110101111000110000" );
@@ -61605,7 +61673,7 @@
 	array[-29901] = assign( 24, "101111111111011000111010" );
 	array[ 29902] = assign( 24, "111111111111011000111000" );
 	array[-29902] = assign( 24, "101111111111011000111000" );
-	array[ 29903] = assign( 19, "0111011110011110110" );	// warning: length mismatch
+	array[ 29903] = assign( 19, "0111011110011110110" );
 	array[-29903] = assign( 19, "0101011110011110110" );
 	array[ 29904] = assign( 24, "110111111111011000011000" );
 	array[-29904] = assign( 24, "100111111111011000011000" );
@@ -61671,7 +61739,7 @@
 	array[-29933] = assign( 24, "101111110111011000111010" );
 	array[ 29934] = assign( 24, "111111110111011000111000" );
 	array[-29934] = assign( 24, "101111110111011000111000" );
-	array[ 29935] = assign( 19, "0111011110010110110" );	// warning: length mismatch
+	array[ 29935] = assign( 19, "0111011110010110110" );
 	array[-29935] = assign( 19, "0101011110010110110" );
 	array[ 29936] = assign( 24, "110111110111011000011000" );
 	array[-29936] = assign( 24, "100111110111011000011000" );
@@ -61737,7 +61805,7 @@
 	array[-29965] = assign( 25, "1011111111010110000101010" );
 	array[ 29966] = assign( 25, "1111111111010110000101000" );
 	array[-29966] = assign( 25, "1011111111010110000101000" );
-	array[ 29967] = assign( 19, "0111011011011010110" );	// warning: length mismatch
+	array[ 29967] = assign( 19, "0111011011011010110" );
 	array[-29967] = assign( 19, "0101011011011010110" );
 	array[ 29968] = assign( 24, "110111111101011000111000" );
 	array[-29968] = assign( 24, "100111111101011000111000" );
@@ -61803,7 +61871,7 @@
 	array[-29997] = assign( 25, "1011111101010110000101010" );
 	array[ 29998] = assign( 25, "1111111101010110000101000" );
 	array[-29998] = assign( 25, "1011111101010110000101000" );
-	array[ 29999] = assign( 19, "0111011011010010110" );	// warning: length mismatch
+	array[ 29999] = assign( 19, "0111011011010010110" );
 	array[-29999] = assign( 19, "0101011011010010110" );
 	array[ 30000] = assign( 24, "110111110101011000111000" );
 	array[-30000] = assign( 24, "100111110101011000111000" );
@@ -61869,7 +61937,7 @@
 	array[-30029] = assign( 25, "1011111111111100001101010" );
 	array[ 30030] = assign( 25, "1111111111111100001101000" );
 	array[-30030] = assign( 25, "1011111111111100001101000" );
-	array[ 30031] = assign( 18, "011101111101111110" );	// warning: length mismatch
+	array[ 30031] = assign( 18, "011101111101111110" );
 	array[-30031] = assign( 18, "010101111101111110" );
 	array[ 30032] = assign( 25, "1001111101011111010111010" );
 	array[-30032] = assign( 25, "1001111111111100000101000" );
@@ -61935,7 +62003,7 @@
 	array[-30061] = assign( 25, "1011111101111100001101010" );
 	array[ 30062] = assign( 25, "1111111101111100001101000" );
 	array[-30062] = assign( 25, "1011111101111100001101000" );
-	array[ 30063] = assign( 18, "011101111101011110" );	// warning: length mismatch
+	array[ 30063] = assign( 18, "011101111101011110" );
 	array[-30063] = assign( 18, "010101111101011110" );
 	array[ 30064] = assign( 25, "1001111111011111010111010" );
 	array[-30064] = assign( 25, "1001111101111100000101000" );
@@ -62001,7 +62069,7 @@
 	array[-30093] = assign( 25, "1011111111011100000111010" );
 	array[ 30094] = assign( 25, "1111111111011100000111000" );
 	array[-30094] = assign( 25, "1011111111011100000111000" );
-	array[ 30095] = assign( 19, "0111011010101101110" );	// warning: length mismatch
+	array[ 30095] = assign( 19, "0111011010101101110" );
 	array[-30095] = assign( 19, "0101011010101101110" );
 	array[ 30096] = assign( 25, "1101111111011100001101000" );
 	array[-30096] = assign( 25, "1001111111011100001101000" );
@@ -62067,7 +62135,7 @@
 	array[-30125] = assign( 25, "1011111101011100000111010" );
 	array[ 30126] = assign( 25, "1111111101011100000111000" );
 	array[-30126] = assign( 25, "1011111101011100000111000" );
-	array[ 30127] = assign( 19, "0111011010101001110" );	// warning: length mismatch
+	array[ 30127] = assign( 19, "0111011010101001110" );
 	array[-30127] = assign( 19, "0101011010101001110" );
 	array[ 30128] = assign( 25, "1101111101011100001101000" );
 	array[-30128] = assign( 25, "1001111101011100001101000" );
@@ -62133,7 +62201,7 @@
 	array[-30157] = assign( 25, "1011111111110100001111010" );
 	array[ 30158] = assign( 25, "1111111111110100001111000" );
 	array[-30158] = assign( 25, "1011111111110100001111000" );
-	array[ 30159] = assign( 19, "0111011110101111010" );	// warning: length mismatch
+	array[ 30159] = assign( 19, "0111011110101111010" );
 	array[-30159] = assign( 19, "0101011110101111010" );
 	array[ 30160] = assign( 25, "1101111111110100000111000" );
 	array[-30160] = assign( 25, "1001111111110100000111000" );
@@ -62199,7 +62267,7 @@
 	array[-30189] = assign( 25, "1011111101110100001111010" );
 	array[ 30190] = assign( 25, "1111111101110100001111000" );
 	array[-30190] = assign( 25, "1011111101110100001111000" );
-	array[ 30191] = assign( 19, "0111011110101011010" );	// warning: length mismatch
+	array[ 30191] = assign( 19, "0111011110101011010" );
 	array[-30191] = assign( 19, "0101011110101011010" );
 	array[ 30192] = assign( 25, "1101111101110100000111000" );
 	array[-30192] = assign( 25, "1001111101110100000111000" );
@@ -62265,7 +62333,7 @@
 	array[-30221] = assign( 26, "10111111110101000001011010" );
 	array[ 30222] = assign( 26, "11111111110101000001011000" );
 	array[-30222] = assign( 26, "10111111110101000001011000" );
-	array[ 30223] = assign( 19, "0111011011101101010" );	// warning: length mismatch
+	array[ 30223] = assign( 19, "0111011011101101010" );
 	array[-30223] = assign( 19, "0101011011101101010" );
 	array[ 30224] = assign( 25, "1101111111010100001111000" );
 	array[-30224] = assign( 25, "1001111111010100001111000" );
@@ -62331,7 +62399,7 @@
 	array[-30253] = assign( 26, "10111111010101000001011010" );
 	array[ 30254] = assign( 26, "11111111010101000001011000" );
 	array[-30254] = assign( 26, "10111111010101000001011000" );
-	array[ 30255] = assign( 19, "0111011011101001010" );	// warning: length mismatch
+	array[ 30255] = assign( 19, "0111011011101001010" );
 	array[-30255] = assign( 19, "0101011011101001010" );
 	array[ 30256] = assign( 25, "1101111101010100001111000" );
 	array[-30256] = assign( 25, "1001111101010100001111000" );
@@ -62397,7 +62465,7 @@
 	array[-30285] = assign( 24, "101111111111100011011010" );
 	array[ 30286] = assign( 24, "111111111111100011011000" );
 	array[-30286] = assign( 24, "101111111111100011011000" );
-	array[ 30287] = assign( 18, "011101111110111110" );	// warning: length mismatch
+	array[ 30287] = assign( 18, "011101111110111110" );
 	array[-30287] = assign( 18, "010101111110111110" );
 	array[ 30288] = assign( 24, "110111111111100001011000" );
 	array[-30288] = assign( 24, "100111111111100001011000" );
@@ -62463,7 +62531,7 @@
 	array[-30317] = assign( 24, "101111110111100011011010" );
 	array[ 30318] = assign( 24, "111111110111100011011000" );
 	array[-30318] = assign( 24, "101111110111100011011000" );
-	array[ 30319] = assign( 18, "011101111110101110" );	// warning: length mismatch
+	array[ 30319] = assign( 18, "011101111110101110" );
 	array[-30319] = assign( 18, "010101111110101110" );
 	array[ 30320] = assign( 24, "110111110111100001011000" );
 	array[-30320] = assign( 24, "100111110111100001011000" );
@@ -62529,7 +62597,7 @@
 	array[-30349] = assign( 24, "101111111101100001111010" );
 	array[ 30350] = assign( 24, "111111111101100001111000" );
 	array[-30350] = assign( 24, "101111111101100001111000" );
-	array[ 30351] = assign( 19, "0111011010110110110" );	// warning: length mismatch
+	array[ 30351] = assign( 19, "0111011010110110110" );
 	array[-30351] = assign( 19, "0101011010110110110" );
 	array[ 30352] = assign( 24, "110111111101100011011000" );
 	array[-30352] = assign( 24, "100111111101100011011000" );
@@ -62595,7 +62663,7 @@
 	array[-30381] = assign( 24, "101111110101100001111010" );
 	array[ 30382] = assign( 24, "111111110101100001111000" );
 	array[-30382] = assign( 24, "101111110101100001111000" );
-	array[ 30383] = assign( 19, "0111011010110100110" );	// warning: length mismatch
+	array[ 30383] = assign( 19, "0111011010110100110" );
 	array[-30383] = assign( 19, "0101011010110100110" );
 	array[ 30384] = assign( 24, "110111110101100011011000" );
 	array[-30384] = assign( 24, "100111110101100011011000" );
@@ -62661,7 +62729,7 @@
 	array[-30413] = assign( 24, "101111111111000011111010" );
 	array[ 30414] = assign( 24, "111111111111000011111000" );
 	array[-30414] = assign( 24, "101111111111000011111000" );
-	array[ 30415] = assign( 19, "0111011110110111100" );	// warning: length mismatch
+	array[ 30415] = assign( 19, "0111011110110111100" );
 	array[-30415] = assign( 19, "0101011110110111100" );
 	array[ 30416] = assign( 24, "110111111111000001111000" );
 	array[-30416] = assign( 24, "100111111111000001111000" );
@@ -62727,7 +62795,7 @@
 	array[-30445] = assign( 24, "100111111111001011111110" );
 	array[ 30446] = assign( 24, "111111110111000011111000" );
 	array[-30446] = assign( 24, "101111110111000011111000" );
-	array[ 30447] = assign( 19, "0111011110110101100" );	// warning: length mismatch
+	array[ 30447] = assign( 19, "0111011110110101100" );
 	array[-30447] = assign( 19, "0101011110110101100" );
 	array[ 30448] = assign( 24, "110111110111000001111000" );
 	array[-30448] = assign( 24, "100111110111000001111000" );
@@ -62793,7 +62861,7 @@
 	array[-30477] = assign( 24, "100111110111001011111110" );
 	array[ 30478] = assign( 24, "111111111101000001011100" );
 	array[-30478] = assign( 24, "101111111101000001011100" );
-	array[ 30479] = assign( 19, "0111011011110110100" );	// warning: length mismatch
+	array[ 30479] = assign( 19, "0111011011110110100" );
 	array[-30479] = assign( 19, "0101011011110110100" );
 	array[ 30480] = assign( 24, "110111111101000011111000" );
 	array[-30480] = assign( 24, "100111111101000011111000" );
@@ -62859,7 +62927,7 @@
 	array[-30509] = assign( 24, "100111111101001001111110" );
 	array[ 30510] = assign( 24, "110111111101001011111100" );
 	array[-30510] = assign( 24, "100111111101001011111100" );
-	array[ 30511] = assign( 19, "0111011011110100100" );	// warning: length mismatch
+	array[ 30511] = assign( 19, "0111011011110100100" );
 	array[-30511] = assign( 19, "0101011011110100100" );
 	array[ 30512] = assign( 24, "110111110101000011111000" );
 	array[-30512] = assign( 24, "100111110101000011111000" );
@@ -62925,7 +62993,7 @@
 	array[-30541] = assign( 22, "1011111111100011011110" );
 	array[ 30542] = assign( 22, "1111111111100011011100" );
 	array[-30542] = assign( 22, "1011111111100011011100" );
-	array[ 30543] = assign( 17, "01110111111101110" );	// warning: length mismatch
+	array[ 30543] = assign( 17, "01110111111101110" );
 	array[-30543] = assign( 17, "01010111111101110" );
 	array[ 30544] = assign( 22, "1101111111100001011100" );
 	array[-30544] = assign( 22, "1001111111100001011100" );
@@ -62991,7 +63059,7 @@
 	array[-30573] = assign( 22, "1001111111101011011110" );
 	array[ 30574] = assign( 22, "1101111111101001111100" );
 	array[-30574] = assign( 22, "1001111111101001111100" );
-	array[ 30575] = assign( 17, "01110111111101010" );	// warning: length mismatch
+	array[ 30575] = assign( 17, "01110111111101010" );
 	array[-30575] = assign( 17, "01010111111101010" );
 	array[ 30576] = assign( 22, "1101111101100001011100" );
 	array[-30576] = assign( 22, "1001111101100001011100" );
@@ -63057,7 +63125,7 @@
 	array[-30605] = assign( 22, "1001111101101011011110" );
 	array[ 30606] = assign( 22, "1101111101101001111100" );
 	array[-30606] = assign( 22, "1001111101101001111100" );
-	array[ 30607] = assign( 17, "01110110101111100" );	// warning: length mismatch
+	array[ 30607] = assign( 17, "01110110101111100" );
 	array[-30607] = assign( 17, "01010110101111100" );
 	array[ 30608] = assign( 22, "1101111111000011011100" );
 	array[-30608] = assign( 22, "1001111111000011011100" );
@@ -63123,7 +63191,7 @@
 	array[-30637] = assign( 22, "1001111111001001011110" );
 	array[ 30638] = assign( 22, "1101111111001011011100" );
 	array[-30638] = assign( 22, "1001111111001011011100" );
-	array[ 30639] = assign( 17, "01110110101111000" );	// warning: length mismatch
+	array[ 30639] = assign( 17, "01110110101111000" );
 	array[-30639] = assign( 17, "01010110101111000" );
 	array[ 30640] = assign( 22, "1101111101000011011100" );
 	array[-30640] = assign( 22, "1001111101000011011100" );
@@ -63189,7 +63257,7 @@
 	array[-30669] = assign( 20, "10111111100011111110" );
 	array[ 30670] = assign( 20, "11111111100011111100" );
 	array[-30670] = assign( 20, "10111111100011111100" );
-	array[ 30671] = assign( 15, "011101111011101" );	// warning: length mismatch
+	array[ 30671] = assign( 15, "011101111011101" );
 	array[-30671] = assign( 15, "010101111011101" );
 	array[ 30672] = assign( 20, "11011111100001111100" );
 	array[-30672] = assign( 20, "10011111100001111100" );
@@ -63255,7 +63323,7 @@
 	array[-30701] = assign( 20, "10011111101011111010" );
 	array[ 30702] = assign( 20, "10111111001011111100" );
 	array[-30702] = assign( 20, "10011111101001011100" );
-	array[ 30703] = assign( 15, "010110011011100" );	// warning: length mismatch
+	array[ 30703] = assign( 15, "010110011011100" );
 	array[-30703] = assign( 15, "010101111011100" );
 	array[ 30704] = assign( 20, "10011111001001111100" );
 	array[-30704] = assign( 20, "10011111000001111100" );
@@ -63321,7 +63389,7 @@
 	array[-30733] = assign( 20, "10011111001011111010" );
 	array[ 30734] = assign( 20, "10011111000001011100" );
 	array[-30734] = assign( 20, "10011111001001011100" );
-	array[ 30735] = assign( 15, "010101111111000" );	// warning: length mismatch
+	array[ 30735] = assign( 15, "010101111111000" );
 	array[-30735] = assign( 15, "010110011111000" );
 	array[ 30736] = assign( 20, "10011111101001111100" );
 	array[-30736] = assign( 20, "10111111001011011100" );
@@ -63387,7 +63455,7 @@
 	array[-30765] = assign( 20, "11011111100011111010" );
 	array[ 30766] = assign( 20, "10011111100001011100" );
 	array[-30766] = assign( 20, "11011111100001011100" );
-	array[ 30767] = assign( 15, "010101111111001" );	// warning: length mismatch
+	array[ 30767] = assign( 15, "010101111111001" );
 	array[-30767] = assign( 15, "011101111111001" );
 	array[ 30768] = assign( 20, "10111111100011011100" );
 	array[-30768] = assign( 20, "11111111100011011100" );
@@ -63453,7 +63521,7 @@
 	array[-30797] = assign( 22, "1101111101000001111010" );
 	array[ 30798] = assign( 22, "1001111101000011111000" );
 	array[-30798] = assign( 22, "1101111101000011111000" );
-	array[ 30799] = assign( 17, "01010110111101000" );	// warning: length mismatch
+	array[ 30799] = assign( 17, "01010110111101000" );
 	array[-30799] = assign( 17, "01110110111101000" );
 	array[ 30800] = assign( 22, "1001111111001011111100" );
 	array[-30800] = assign( 22, "1101111111001011111100" );
@@ -63519,7 +63587,7 @@
 	array[-30829] = assign( 22, "1101111111000001111010" );
 	array[ 30830] = assign( 22, "1001111111000011111000" );
 	array[-30830] = assign( 22, "1101111111000011111000" );
-	array[ 30831] = assign( 17, "01010110111101100" );	// warning: length mismatch
+	array[ 30831] = assign( 17, "01010110111101100" );
 	array[-30831] = assign( 17, "01110110111101100" );
 	array[ 30832] = assign( 22, "1011111111000001011100" );
 	array[-30832] = assign( 22, "1111111111000001011100" );
@@ -63585,7 +63653,7 @@
 	array[-30861] = assign( 22, "1101111101100011011010" );
 	array[ 30862] = assign( 22, "1001111101100001111000" );
 	array[-30862] = assign( 22, "1101111101100001111000" );
-	array[ 30863] = assign( 17, "01010111101101010" );	// warning: length mismatch
+	array[ 30863] = assign( 17, "01010111101101010" );
 	array[-30863] = assign( 17, "01110111101101010" );
 	array[ 30864] = assign( 22, "1011111101100011111000" );
 	array[-30864] = assign( 22, "1111111101100011111000" );
@@ -63651,7 +63719,7 @@
 	array[-30893] = assign( 22, "1101111111100011011010" );
 	array[ 30894] = assign( 22, "1001111111100001111000" );
 	array[-30894] = assign( 22, "1101111111100001111000" );
-	array[ 30895] = assign( 17, "01010111101101110" );	// warning: length mismatch
+	array[ 30895] = assign( 17, "01010111101101110" );
 	array[-30895] = assign( 17, "01110111101101110" );
 	array[ 30896] = assign( 22, "1011111111100011111000" );
 	array[-30896] = assign( 22, "1111111111100011111000" );
@@ -63717,7 +63785,7 @@
 	array[-30925] = assign( 24, "110111110101000001011010" );
 	array[ 30926] = assign( 24, "100111110101000011011000" );
 	array[-30926] = assign( 24, "110111110101000011011000" );
-	array[ 30927] = assign( 19, "0101011010110100100" );	// warning: length mismatch
+	array[ 30927] = assign( 19, "0101011010110100100" );
 	array[-30927] = assign( 19, "0111011010110100100" );
 	array[ 30928] = assign( 24, "101111110101000001111000" );
 	array[-30928] = assign( 24, "111111110101000001111000" );
@@ -63783,7 +63851,7 @@
 	array[-30957] = assign( 24, "110111111101000001011010" );
 	array[ 30958] = assign( 24, "100111111101000011011000" );
 	array[-30958] = assign( 24, "110111111101000011011000" );
-	array[ 30959] = assign( 19, "0101011010110110100" );	// warning: length mismatch
+	array[ 30959] = assign( 19, "0101011010110110100" );
 	array[-30959] = assign( 19, "0111011010110110100" );
 	array[ 30960] = assign( 24, "101111111101000001111000" );
 	array[-30960] = assign( 24, "111111111101000001111000" );
@@ -63849,7 +63917,7 @@
 	array[-30989] = assign( 23, "11011111011100001111010" );
 	array[ 30990] = assign( 24, "100111110111000001011000" );
 	array[-30990] = assign( 24, "110111110111000001011000" );
-	array[ 30991] = assign( 18, "010101111110101100" );	// warning: length mismatch
+	array[ 30991] = assign( 18, "010101111110101100" );
 	array[-30991] = assign( 18, "011101111110101100" );
 	array[ 30992] = assign( 24, "101111110111000011011000" );
 	array[-30992] = assign( 24, "111111110111000011011000" );
@@ -63915,7 +63983,7 @@
 	array[-31021] = assign( 23, "11011111111100001111010" );
 	array[ 31022] = assign( 24, "100111111111000001011000" );
 	array[-31022] = assign( 24, "110111111111000001011000" );
-	array[ 31023] = assign( 18, "010101111110111100" );	// warning: length mismatch
+	array[ 31023] = assign( 18, "010101111110111100" );
 	array[-31023] = assign( 18, "011101111110111100" );
 	array[ 31024] = assign( 24, "101111111111000011011000" );
 	array[-31024] = assign( 24, "111111111111000011011000" );
@@ -63981,7 +64049,7 @@
 	array[-31053] = assign( 23, "11011111010110000111010" );
 	array[ 31054] = assign( 23, "10011111010110001111000" );
 	array[-31054] = assign( 23, "11011111010110001111000" );
-	array[ 31055] = assign( 18, "010101101110100110" );	// warning: length mismatch
+	array[ 31055] = assign( 18, "010101101110100110" );
 	array[-31055] = assign( 18, "011101101110100110" );
 	array[ 31056] = assign( 24, "101111110101100001011000" );
 	array[-31056] = assign( 24, "111111110101100001011000" );
@@ -64047,7 +64115,7 @@
 	array[-31085] = assign( 23, "11011111110110000111010" );
 	array[ 31086] = assign( 23, "10011111110110001111000" );
 	array[-31086] = assign( 23, "11011111110110001111000" );
-	array[ 31087] = assign( 18, "010101101110110110" );	// warning: length mismatch
+	array[ 31087] = assign( 18, "010101101110110110" );
 	array[-31087] = assign( 18, "011101101110110110" );
 	array[ 31088] = assign( 24, "101111111101100001011000" );
 	array[-31088] = assign( 24, "111111111101100001011000" );
@@ -64113,7 +64181,7 @@
 	array[-31117] = assign( 23, "11011111011110001101010" );
 	array[ 31118] = assign( 23, "10011111011110000111000" );
 	array[-31118] = assign( 23, "11011111011110000111000" );
-	array[ 31119] = assign( 18, "010101111010101110" );	// warning: length mismatch
+	array[ 31119] = assign( 18, "010101111010101110" );
 	array[-31119] = assign( 18, "011101111010101110" );
 	array[ 31120] = assign( 23, "10111111011110001111000" );
 	array[-31120] = assign( 23, "11111111011110001111000" );
@@ -64179,7 +64247,7 @@
 	array[-31149] = assign( 23, "11011111111110001101010" );
 	array[ 31150] = assign( 23, "10011111111110000111000" );
 	array[-31150] = assign( 23, "11011111111110000111000" );
-	array[ 31151] = assign( 18, "010101111010111110" );	// warning: length mismatch
+	array[ 31151] = assign( 18, "010101111010111110" );
 	array[-31151] = assign( 18, "011101111010111110" );
 	array[ 31152] = assign( 23, "10111111111110001111000" );
 	array[-31152] = assign( 23, "11111111111110001111000" );
@@ -64245,7 +64313,7 @@
 	array[-31181] = assign( 25, "1101111101010100000101010" );
 	array[ 31182] = assign( 25, "1001111101010100001101000" );
 	array[-31182] = assign( 25, "1101111101010100001101000" );
-	array[ 31183] = assign( 19, "0101011010101001010" );	// warning: length mismatch
+	array[ 31183] = assign( 19, "0101011010101001010" );
 	array[-31183] = assign( 19, "0111011010101001010" );
 	array[ 31184] = assign( 25, "1011111101010100000111000" );
 	array[-31184] = assign( 25, "1111111101010100000111000" );
@@ -64311,7 +64379,7 @@
 	array[-31213] = assign( 25, "1101111111010100000101010" );
 	array[ 31214] = assign( 25, "1001111111010100001101000" );
 	array[-31214] = assign( 25, "1101111111010100001101000" );
-	array[ 31215] = assign( 19, "0101011010101101010" );	// warning: length mismatch
+	array[ 31215] = assign( 19, "0101011010101101010" );
 	array[-31215] = assign( 19, "0111011010101101010" );
 	array[ 31216] = assign( 25, "1011111111010100000111000" );
 	array[-31216] = assign( 25, "1111111111010100000111000" );
@@ -64377,7 +64445,7 @@
 	array[-31245] = assign( 24, "110111110111010000111010" );
 	array[ 31246] = assign( 25, "1001111101110100000101000" );
 	array[-31246] = assign( 25, "1101111101110100000101000" );
-	array[ 31247] = assign( 18, "010101111101011010" );	// warning: length mismatch
+	array[ 31247] = assign( 18, "010101111101011010" );
 	array[-31247] = assign( 18, "011101111101011010" );
 	array[ 31248] = assign( 25, "1011111101110100001101000" );
 	array[-31248] = assign( 25, "1111111101110100001101000" );
@@ -64443,7 +64511,7 @@
 	array[-31277] = assign( 24, "110111111111010000111010" );
 	array[ 31278] = assign( 25, "1001111111110100000101000" );
 	array[-31278] = assign( 25, "1101111111110100000101000" );
-	array[ 31279] = assign( 18, "010101111101111010" );	// warning: length mismatch
+	array[ 31279] = assign( 18, "010101111101111010" );
 	array[-31279] = assign( 18, "011101111101111010" );
 	array[ 31280] = assign( 25, "1011111111110100001101000" );
 	array[-31280] = assign( 25, "1111111111110100001101000" );
@@ -64509,7 +64577,7 @@
 	array[-31309] = assign( 24, "110111110101110000011010" );
 	array[ 31310] = assign( 24, "100111110101110000111000" );
 	array[-31310] = assign( 24, "110111110101110000111000" );
-	array[ 31311] = assign( 18, "010101101101001110" );	// warning: length mismatch
+	array[ 31311] = assign( 18, "010101101101001110" );
 	array[-31311] = assign( 18, "011101101101001110" );
 	array[ 31312] = assign( 25, "1011111101011100000101000" );
 	array[-31312] = assign( 25, "1111111101011100000101000" );
@@ -64575,7 +64643,7 @@
 	array[-31341] = assign( 24, "110111111101110000011010" );
 	array[ 31342] = assign( 24, "100111111101110000111000" );
 	array[-31342] = assign( 24, "110111111101110000111000" );
-	array[ 31343] = assign( 18, "010101101101101110" );	// warning: length mismatch
+	array[ 31343] = assign( 18, "010101101101101110" );
 	array[-31343] = assign( 18, "011101101101101110" );
 	array[ 31344] = assign( 25, "1011111111011100000101000" );
 	array[-31344] = assign( 25, "1111111111011100000101000" );
@@ -64641,7 +64709,7 @@
 	array[-31373] = assign( 24, "110111110111110000110010" );
 	array[ 31374] = assign( 24, "100111110111110000011000" );
 	array[-31374] = assign( 24, "110111110111110000011000" );
-	array[ 31375] = assign( 18, "010101111001011110" );	// warning: length mismatch
+	array[ 31375] = assign( 18, "010101111001011110" );
 	array[-31375] = assign( 18, "011101111001011110" );
 	array[ 31376] = assign( 24, "101111110111110000111000" );
 	array[-31376] = assign( 24, "111111110111110000111000" );
@@ -64707,7 +64775,7 @@
 	array[-31405] = assign( 24, "110111111111110000110010" );
 	array[ 31406] = assign( 24, "100111111111110000011000" );
 	array[-31406] = assign( 24, "110111111111110000011000" );
-	array[ 31407] = assign( 18, "010101111001111110" );	// warning: length mismatch
+	array[ 31407] = assign( 18, "010101111001111110" );
 	array[-31407] = assign( 18, "011101111001111110" );
 	array[ 31408] = assign( 24, "101111111111110000111000" );
 	array[-31408] = assign( 24, "111111111111110000111000" );
@@ -64773,7 +64841,7 @@
 	array[-31437] = assign( 24, "110111110101011000010010" );
 	array[ 31438] = assign( 24, "100111110101011000110000" );
 	array[-31438] = assign( 24, "110111110101011000110000" );
-	array[ 31439] = assign( 19, "0101011010010010110" );	// warning: length mismatch
+	array[ 31439] = assign( 19, "0101011010010010110" );
 	array[-31439] = assign( 19, "0111011010010010110" );
 	array[ 31440] = assign( 24, "101111110101011000011000" );
 	array[-31440] = assign( 24, "111111110101011000011000" );
@@ -64839,7 +64907,7 @@
 	array[-31469] = assign( 24, "110111111101011000010010" );
 	array[ 31470] = assign( 24, "100111111101011000110000" );
 	array[-31470] = assign( 24, "110111111101011000110000" );
-	array[ 31471] = assign( 19, "0101011010011010110" );	// warning: length mismatch
+	array[ 31471] = assign( 19, "0101011010011010110" );
 	array[-31471] = assign( 19, "0111011010011010110" );
 	array[ 31472] = assign( 24, "101111111101011000011000" );
 	array[-31472] = assign( 24, "111111111101011000011000" );
@@ -64905,7 +64973,7 @@
 	array[-31501] = assign( 22, "1101111101110110001010" );
 	array[ 31502] = assign( 23, "11011111110101110101010" );
 	array[-31502] = assign( 23, "10011111110101110101010" );
-	array[ 31503] = assign( 17, "01010111010110110" );	// warning: length mismatch
+	array[ 31503] = assign( 17, "01010111010110110" );
 	array[-31503] = assign( 17, "01110111010110110" );
 	array[ 31504] = assign( 24, "101111110111011000110000" );
 	array[-31504] = assign( 24, "111111110111011000110000" );
@@ -64971,7 +65039,7 @@
 	array[-31533] = assign( 22, "1101111111110110001010" );
 	array[ 31534] = assign( 23, "11011111010101110101010" );
 	array[-31534] = assign( 23, "10011111010101110101010" );
-	array[ 31535] = assign( 17, "01010111011110110" );	// warning: length mismatch
+	array[ 31535] = assign( 17, "01010111011110110" );
 	array[-31535] = assign( 17, "01110111011110110" );
 	array[ 31536] = assign( 24, "101111111111011000110000" );
 	array[-31536] = assign( 24, "111111111111011000110000" );
@@ -65037,9 +65105,9 @@
 	array[-31565] = assign( 18, "110111101010011110" );
 	array[ 31566] = assign( 18, "110111101111111111" );
 	array[-31566] = assign( 18, "100111101111111111" );
-	array[ 31567] = assign( 17, "01010110010011110" );	// warning: length mismatch
+	array[ 31567] = assign( 17, "01010110010011110" );
 	array[-31567] = assign( 17, "01110110010011110" );
-	array[ 31568] = assign( 17, "01111000011111111" );	// warning: length mismatch
+	array[ 31568] = assign( 17, "01111000011111111" );
 	array[-31568] = assign( 17, "01011000011111111" );
 	array[ 31569] = assign( 24, "101111110101111000010010" );
 	array[-31569] = assign( 24, "111111110101111000010010" );
@@ -65103,9 +65171,9 @@
 	array[-31597] = assign( 18, "110111101011011110" );
 	array[ 31598] = assign( 18, "110111101110111111" );
 	array[-31598] = assign( 18, "100111101110111111" );
-	array[ 31599] = assign( 17, "01010110011011110" );	// warning: length mismatch
+	array[ 31599] = assign( 17, "01010110011011110" );
 	array[-31599] = assign( 17, "01110110011011110" );
-	array[ 31600] = assign( 17, "01111000010111111" );	// warning: length mismatch
+	array[ 31600] = assign( 17, "01111000010111111" );
 	array[-31600] = assign( 17, "01011000010111111" );
 	array[ 31601] = assign( 24, "101111111101111000010010" );
 	array[-31601] = assign( 24, "111111111101111000010010" );
@@ -65169,7 +65237,7 @@
 	array[-31629] = assign( 23, "10111111110111010010000" );
 	array[ 31630] = assign( 21, "100101011111111111110" );
 	array[-31630] = assign( 21, "110101011111111111110" );
-	array[ 31631] = assign( 22, "0101101011111111111110" );	// warning: length mismatch
+	array[ 31631] = assign( 22, "0101101011111111111110" );
 	array[-31631] = assign( 22, "0111101011111111111110" );
 	array[ 31632] = assign( 22, "1011111101111110001000" );
 	array[-31632] = assign( 22, "1111111101111110001000" );
@@ -65235,9 +65303,9 @@
 	array[-31661] = assign( 23, "10111111010111010010000" );
 	array[ 31662] = assign( 20, "10010011111111111110" );
 	array[-31662] = assign( 20, "11010011111111111110" );
-	array[ 31663] = assign( 22, "0101101111111111111110" );	// warning: length mismatch
+	array[ 31663] = assign( 22, "0101101111111111111110" );
 	array[-31663] = assign( 22, "0111101111111111111110" );
-	array[ 31664] = assign( 14, "01110011010111" );	// warning: length mismatch
+	array[ 31664] = assign( 14, "01110011010111" );
 	array[-31664] = assign( 14, "01010011010111" );
 	array[ 31665] = assign( 22, "1011111111111110001010" );
 	array[-31665] = assign( 22, "1111111111111110001010" );
@@ -65303,7 +65371,7 @@
 	array[-31694] = assign( 18, "101111101011110111" );
 	array[ 31695] = assign( 22, "1111001111111111111110" );
 	array[-31695] = assign( 22, "1011001111111111111110" );
-	array[ 31696] = assign( 14, "01110001010111" );	// warning: length mismatch
+	array[ 31696] = assign( 14, "01110001010111" );
 	array[-31696] = assign( 14, "01010001010111" );
 	array[ 31697] = assign( 18, "101111101010010111" );
 	array[-31697] = assign( 18, "111111101010010111" );
@@ -65367,7 +65435,7 @@
 	array[-31725] = assign( 18, "111111101111010111" );
 	array[ 31726] = assign( 18, "111111101010110111" );
 	array[-31726] = assign( 18, "101111101010110111" );
-	array[ 31727] = assign( 14, "01010001111110" );	// warning: length mismatch
+	array[ 31727] = assign( 14, "01010001111110" );
 	array[-31727] = assign( 14, "01110001111110" );
 	array[ 31728] = assign( 21, "101100111111111111110" );
 	array[-31728] = assign( 21, "111100111111111111110" );
@@ -65433,7 +65501,7 @@
 	array[-31757] = assign( 23, "11111111011101010101010" );
 	array[ 31758] = assign( 23, "10111111011101010101000" );
 	array[-31758] = assign( 23, "10111111110101010001010" );
-	array[ 31759] = assign( 14, "01010011111110" );	// warning: length mismatch
+	array[ 31759] = assign( 14, "01010011111110" );
 	array[-31759] = assign( 14, "01110011111110" );
 	array[ 31760] = assign( 22, "1001101111111111111110" );
 	array[-31760] = assign( 22, "1101101111111111111110" );
@@ -65501,7 +65569,7 @@
 	array[-31790] = assign( 23, "10111111010101010001010" );
 	array[ 31791] = assign( 23, "11111111010101010001000" );
 	array[-31791] = assign( 23, "10111111010101010001000" );
-	array[ 31792] = assign( 23, "01111010111111111111110" );	// warning: length mismatch
+	array[ 31792] = assign( 23, "01111010111111111111110" );
 	array[-31792] = assign( 23, "01011010111111111111110" );
 	array[ 31793] = assign( 22, "1101010111111111111110" );
 	array[-31793] = assign( 22, "1001010111111111111110" );
@@ -65565,9 +65633,9 @@
 	array[-31821] = assign( 25, "1111111101011101010010010" );
 	array[ 31822] = assign( 24, "111111111111111000010010" );
 	array[-31822] = assign( 24, "101111111111111000010010" );
-	array[ 31823] = assign( 17, "01011000010011111" );	// warning: length mismatch
+	array[ 31823] = assign( 17, "01011000010011111" );
 	array[-31823] = assign( 17, "01111000010011111" );
-	array[ 31824] = assign( 17, "01110110011111110" );	// warning: length mismatch
+	array[ 31824] = assign( 17, "01110110011111110" );
 	array[-31824] = assign( 17, "01010110011111110" );
 	array[ 31825] = assign( 18, "100111101110011111" );
 	array[-31825] = assign( 18, "110111101110011111" );
@@ -65631,9 +65699,9 @@
 	array[-31853] = assign( 25, "1111111111011101010010010" );
 	array[ 31854] = assign( 24, "111111110111111000010010" );
 	array[-31854] = assign( 24, "101111110111111000010010" );
-	array[ 31855] = assign( 17, "01011000011011111" );	// warning: length mismatch
+	array[ 31855] = assign( 17, "01011000011011111" );
 	array[-31855] = assign( 17, "01111000011011111" );
-	array[ 31856] = assign( 17, "01110110010111110" );	// warning: length mismatch
+	array[ 31856] = assign( 17, "01110110010111110" );
 	array[-31856] = assign( 17, "01010110010111110" );
 	array[ 31857] = assign( 18, "100111101111011111" );
 	array[-31857] = assign( 18, "110111101111011111" );
@@ -65697,9 +65765,9 @@
 	array[-31885] = assign( 25, "1111111101111101010110010" );
 	array[ 31886] = assign( 24, "111111111101111000110010" );
 	array[-31886] = assign( 24, "101111111101111000110010" );
-	array[ 31887] = assign( 17, "01011001010111111" );	// warning: length mismatch
+	array[ 31887] = assign( 17, "01011001010111111" );
 	array[-31887] = assign( 17, "01111001010111111" );
-	array[ 31888] = assign( 17, "01110111011011110" );	// warning: length mismatch
+	array[ 31888] = assign( 17, "01110111011011110" );
 	array[-31888] = assign( 17, "01010111011011110" );
 	array[ 31889] = assign( 23, "10011111011111010101010" );
 	array[-31889] = assign( 23, "11011111011111010101010" );
@@ -65763,9 +65831,9 @@
 	array[-31917] = assign( 25, "1111111111111101010110010" );
 	array[ 31918] = assign( 24, "111111110101111000110010" );
 	array[-31918] = assign( 24, "101111110101111000110010" );
-	array[ 31919] = assign( 17, "01011001011111111" );	// warning: length mismatch
+	array[ 31919] = assign( 17, "01011001011111111" );
 	array[-31919] = assign( 17, "01111001011111111" );
-	array[ 31920] = assign( 17, "01110111010011110" );	// warning: length mismatch
+	array[ 31920] = assign( 17, "01110111010011110" );
 	array[-31920] = assign( 17, "01010111010011110" );
 	array[ 31921] = assign( 23, "10011111111111010101010" );
 	array[-31921] = assign( 23, "11011111111111010101010" );
@@ -65831,7 +65899,7 @@
 	array[-31950] = assign( 24, "101111111111011000011010" );
 	array[ 31951] = assign( 24, "111111111111011000011000" );
 	array[-31951] = assign( 24, "101111111111011000011000" );
-	array[ 31952] = assign( 19, "0111011010011110110" );	// warning: length mismatch
+	array[ 31952] = assign( 19, "0111011010011110110" );
 	array[-31952] = assign( 19, "0101011010011110110" );
 	array[ 31953] = assign( 24, "110111111111011000110000" );
 	array[-31953] = assign( 24, "100111111111011000110000" );
@@ -65897,7 +65965,7 @@
 	array[-31982] = assign( 24, "101111110111011000011010" );
 	array[ 31983] = assign( 24, "111111110111011000011000" );
 	array[-31983] = assign( 24, "101111110111011000011000" );
-	array[ 31984] = assign( 19, "0111011010010110110" );	// warning: length mismatch
+	array[ 31984] = assign( 19, "0111011010010110110" );
 	array[-31984] = assign( 19, "0101011010010110110" );
 	array[ 31985] = assign( 24, "110111110111011000110000" );
 	array[-31985] = assign( 24, "100111110111011000110000" );
@@ -65963,7 +66031,7 @@
 	array[-32014] = assign( 24, "101111111101011000111010" );
 	array[ 32015] = assign( 24, "111111111101011000111000" );
 	array[-32015] = assign( 24, "101111111101011000111000" );
-	array[ 32016] = assign( 19, "0111011110011010110" );	// warning: length mismatch
+	array[ 32016] = assign( 19, "0111011110011010110" );
 	array[-32016] = assign( 19, "0101011110011010110" );
 	array[ 32017] = assign( 24, "110111111101011000011000" );
 	array[-32017] = assign( 24, "100111111101011000011000" );
@@ -66029,7 +66097,7 @@
 	array[-32046] = assign( 24, "101111110101011000111010" );
 	array[ 32047] = assign( 24, "111111110101011000111000" );
 	array[-32047] = assign( 24, "101111110101011000111000" );
-	array[ 32048] = assign( 19, "0111011110010010110" );	// warning: length mismatch
+	array[ 32048] = assign( 19, "0111011110010010110" );
 	array[-32048] = assign( 19, "0101011110010010110" );
 	array[ 32049] = assign( 24, "110111110101011000011000" );
 	array[-32049] = assign( 24, "100111110101011000011000" );
@@ -66095,7 +66163,7 @@
 	array[-32078] = assign( 25, "1011111111111100000101010" );
 	array[ 32079] = assign( 25, "1111111111111100000101000" );
 	array[-32079] = assign( 25, "1011111111111100000101000" );
-	array[ 32080] = assign( 18, "011101101101111110" );	// warning: length mismatch
+	array[ 32080] = assign( 18, "011101101101111110" );
 	array[-32080] = assign( 18, "010101101101111110" );
 	array[ 32081] = assign( 24, "110111111111110000111000" );
 	array[-32081] = assign( 24, "100111111111110000111000" );
@@ -66161,7 +66229,7 @@
 	array[-32110] = assign( 25, "1011111101111100000101010" );
 	array[ 32111] = assign( 25, "1111111101111100000101000" );
 	array[-32111] = assign( 25, "1011111101111100000101000" );
-	array[ 32112] = assign( 18, "011101101101011110" );	// warning: length mismatch
+	array[ 32112] = assign( 18, "011101101101011110" );
 	array[-32112] = assign( 18, "010101101101011110" );
 	array[ 32113] = assign( 24, "110111110111110000111000" );
 	array[-32113] = assign( 24, "100111110111110000111000" );
@@ -66227,7 +66295,7 @@
 	array[-32142] = assign( 25, "1011111111011100001101010" );
 	array[ 32143] = assign( 25, "1111111111011100001101000" );
 	array[-32143] = assign( 25, "1011111111011100001101000" );
-	array[ 32144] = assign( 18, "011101111101101110" );	// warning: length mismatch
+	array[ 32144] = assign( 18, "011101111101101110" );
 	array[-32144] = assign( 18, "010101111101101110" );
 	array[ 32145] = assign( 25, "1001111101111111010111010" );
 	array[-32145] = assign( 25, "1001111111011100000101000" );
@@ -66293,7 +66361,7 @@
 	array[-32174] = assign( 25, "1011111101011100001101010" );
 	array[ 32175] = assign( 25, "1111111101011100001101000" );
 	array[-32175] = assign( 25, "1011111101011100001101000" );
-	array[ 32176] = assign( 18, "011101111101001110" );	// warning: length mismatch
+	array[ 32176] = assign( 18, "011101111101001110" );
 	array[-32176] = assign( 18, "010101111101001110" );
 	array[ 32177] = assign( 25, "1001111111111111010111010" );
 	array[-32177] = assign( 25, "1001111101011100000101000" );
@@ -66359,7 +66427,7 @@
 	array[-32206] = assign( 25, "1011111111110100000111010" );
 	array[ 32207] = assign( 25, "1111111111110100000111000" );
 	array[-32207] = assign( 25, "1011111111110100000111000" );
-	array[ 32208] = assign( 19, "0111011010101111010" );	// warning: length mismatch
+	array[ 32208] = assign( 19, "0111011010101111010" );
 	array[-32208] = assign( 19, "0101011010101111010" );
 	array[ 32209] = assign( 25, "1101111111110100001101000" );
 	array[-32209] = assign( 25, "1001111111110100001101000" );
@@ -66425,7 +66493,7 @@
 	array[-32238] = assign( 25, "1011111101110100000111010" );
 	array[ 32239] = assign( 25, "1111111101110100000111000" );
 	array[-32239] = assign( 25, "1011111101110100000111000" );
-	array[ 32240] = assign( 19, "0111011010101011010" );	// warning: length mismatch
+	array[ 32240] = assign( 19, "0111011010101011010" );
 	array[-32240] = assign( 19, "0101011010101011010" );
 	array[ 32241] = assign( 25, "1101111101110100001101000" );
 	array[-32241] = assign( 25, "1001111101110100001101000" );
@@ -66491,7 +66559,7 @@
 	array[-32270] = assign( 25, "1011111111010100001111010" );
 	array[ 32271] = assign( 25, "1111111111010100001111000" );
 	array[-32271] = assign( 25, "1011111111010100001111000" );
-	array[ 32272] = assign( 19, "0111011110101101010" );	// warning: length mismatch
+	array[ 32272] = assign( 19, "0111011110101101010" );
 	array[-32272] = assign( 19, "0101011110101101010" );
 	array[ 32273] = assign( 25, "1101111111010100000111000" );
 	array[-32273] = assign( 25, "1001111111010100000111000" );
@@ -66557,7 +66625,7 @@
 	array[-32302] = assign( 25, "1011111101010100001111010" );
 	array[ 32303] = assign( 25, "1111111101010100001111000" );
 	array[-32303] = assign( 25, "1011111101010100001111000" );
-	array[ 32304] = assign( 19, "0111011110101001010" );	// warning: length mismatch
+	array[ 32304] = assign( 19, "0111011110101001010" );
 	array[-32304] = assign( 19, "0101011110101001010" );
 	array[ 32305] = assign( 25, "1101111101010100000111000" );
 	array[-32305] = assign( 25, "1001111101010100000111000" );
@@ -66623,7 +66691,7 @@
 	array[-32334] = assign( 24, "101111111111100001011010" );
 	array[ 32335] = assign( 24, "111111111111100001011000" );
 	array[-32335] = assign( 24, "101111111111100001011000" );
-	array[ 32336] = assign( 18, "011101101110111110" );	// warning: length mismatch
+	array[ 32336] = assign( 18, "011101101110111110" );
 	array[-32336] = assign( 18, "010101101110111110" );
 	array[ 32337] = assign( 23, "11011111111110001111000" );
 	array[-32337] = assign( 23, "10011111111110001111000" );
@@ -66689,7 +66757,7 @@
 	array[-32366] = assign( 24, "101111110111100001011010" );
 	array[ 32367] = assign( 24, "111111110111100001011000" );
 	array[-32367] = assign( 24, "101111110111100001011000" );
-	array[ 32368] = assign( 18, "011101101110101110" );	// warning: length mismatch
+	array[ 32368] = assign( 18, "011101101110101110" );
 	array[-32368] = assign( 18, "010101101110101110" );
 	array[ 32369] = assign( 23, "11011111011110001111000" );
 	array[-32369] = assign( 23, "10011111011110001111000" );
@@ -66755,7 +66823,7 @@
 	array[-32398] = assign( 24, "101111111101100011011010" );
 	array[ 32399] = assign( 24, "111111111101100011011000" );
 	array[-32399] = assign( 24, "101111111101100011011000" );
-	array[ 32400] = assign( 18, "011101111110110110" );	// warning: length mismatch
+	array[ 32400] = assign( 18, "011101111110110110" );
 	array[-32400] = assign( 18, "010101111110110110" );
 	array[ 32401] = assign( 24, "110111111101100001011000" );
 	array[-32401] = assign( 24, "100111111101100001011000" );
@@ -66821,7 +66889,7 @@
 	array[-32430] = assign( 24, "101111110101100011011010" );
 	array[ 32431] = assign( 24, "111111110101100011011000" );
 	array[-32431] = assign( 24, "101111110101100011011000" );
-	array[ 32432] = assign( 18, "011101111110100110" );	// warning: length mismatch
+	array[ 32432] = assign( 18, "011101111110100110" );
 	array[-32432] = assign( 18, "010101111110100110" );
 	array[ 32433] = assign( 24, "110111110101100001011000" );
 	array[-32433] = assign( 24, "100111110101100001011000" );
@@ -66887,7 +66955,7 @@
 	array[-32462] = assign( 24, "101111111111000001111010" );
 	array[ 32463] = assign( 24, "111111111111000001111000" );
 	array[-32463] = assign( 24, "101111111111000001111000" );
-	array[ 32464] = assign( 19, "0111011010110111100" );	// warning: length mismatch
+	array[ 32464] = assign( 19, "0111011010110111100" );
 	array[-32464] = assign( 19, "0101011010110111100" );
 	array[ 32465] = assign( 24, "110111111111000011011000" );
 	array[-32465] = assign( 24, "100111111111000011011000" );
@@ -66953,7 +67021,7 @@
 	array[-32494] = assign( 24, "101111110111000001111010" );
 	array[ 32495] = assign( 24, "111111110111000001111000" );
 	array[-32495] = assign( 24, "101111110111000001111000" );
-	array[ 32496] = assign( 19, "0111011010110101100" );	// warning: length mismatch
+	array[ 32496] = assign( 19, "0111011010110101100" );
 	array[-32496] = assign( 19, "0101011010110101100" );
 	array[ 32497] = assign( 24, "110111110111000011011000" );
 	array[-32497] = assign( 24, "100111110111000011011000" );
@@ -67019,7 +67087,7 @@
 	array[-32526] = assign( 24, "101111111101000011111010" );
 	array[ 32527] = assign( 24, "111111111101000011111000" );
 	array[-32527] = assign( 24, "101111111101000011111000" );
-	array[ 32528] = assign( 19, "0111011110110110100" );	// warning: length mismatch
+	array[ 32528] = assign( 19, "0111011110110110100" );
 	array[-32528] = assign( 19, "0101011110110110100" );
 	array[ 32529] = assign( 24, "110111111101000001111000" );
 	array[-32529] = assign( 24, "100111111101000001111000" );
@@ -67085,7 +67153,7 @@
 	array[-32558] = assign( 24, "100111111101001011111110" );
 	array[ 32559] = assign( 24, "111111110101000011111000" );
 	array[-32559] = assign( 24, "101111110101000011111000" );
-	array[ 32560] = assign( 19, "0111011110110100100" );	// warning: length mismatch
+	array[ 32560] = assign( 19, "0111011110110100100" );
 	array[-32560] = assign( 19, "0101011110110100100" );
 	array[ 32561] = assign( 24, "110111110101000001111000" );
 	array[-32561] = assign( 24, "100111110101000001111000" );
@@ -67151,7 +67219,7 @@
 	array[-32590] = assign( 22, "1011111111100001011110" );
 	array[ 32591] = assign( 22, "1111111111100001011100" );
 	array[-32591] = assign( 22, "1011111111100001011100" );
-	array[ 32592] = assign( 17, "01110110111101110" );	// warning: length mismatch
+	array[ 32592] = assign( 17, "01110110111101110" );
 	array[-32592] = assign( 17, "01010110111101110" );
 	array[ 32593] = assign( 22, "1101111111100011111000" );
 	array[-32593] = assign( 22, "1001111111100011111000" );
@@ -67217,7 +67285,7 @@
 	array[-32622] = assign( 22, "1001111111101001111110" );
 	array[ 32623] = assign( 22, "1101111111101011111100" );
 	array[-32623] = assign( 22, "1001111111101011111100" );
-	array[ 32624] = assign( 17, "01110110111101010" );	// warning: length mismatch
+	array[ 32624] = assign( 17, "01110110111101010" );
 	array[-32624] = assign( 17, "01010110111101010" );
 	array[ 32625] = assign( 22, "1101111101100011111000" );
 	array[-32625] = assign( 22, "1001111101100011111000" );
@@ -67283,7 +67351,7 @@
 	array[-32654] = assign( 22, "1001111101101001111110" );
 	array[ 32655] = assign( 22, "1101111101101011111100" );
 	array[-32655] = assign( 22, "1001111101101011111100" );
-	array[ 32656] = assign( 17, "01110111111101100" );	// warning: length mismatch
+	array[ 32656] = assign( 17, "01110111111101100" );
 	array[-32656] = assign( 17, "01010111111101100" );
 	array[ 32657] = assign( 22, "1101111111000001011100" );
 	array[-32657] = assign( 22, "1001111111000001011100" );
@@ -67349,7 +67417,7 @@
 	array[-32686] = assign( 22, "1001111111001011011110" );
 	array[ 32687] = assign( 22, "1101111111001001111100" );
 	array[-32687] = assign( 22, "1001111111001001111100" );
-	array[ 32688] = assign( 17, "01110111111101000" );	// warning: length mismatch
+	array[ 32688] = assign( 17, "01110111111101000" );
 	array[-32688] = assign( 17, "01010111111101000" );
 	array[ 32689] = assign( 22, "1101111101000001011100" );
 	array[-32689] = assign( 22, "1001111101000001011100" );
@@ -67415,7 +67483,7 @@
 	array[-32718] = assign( 20, "10111111100001111110" );
 	array[ 32719] = assign( 20, "11111111100001111100" );
 	array[-32719] = assign( 20, "10111111100001111100" );
-	array[ 32720] = assign( 15, "011101101011101" );	// warning: length mismatch
+	array[ 32720] = assign( 15, "011101101011101" );
 	array[-32720] = assign( 15, "010101101011101" );
 	array[ 32721] = assign( 20, "11011111100011011100" );
 	array[-32721] = assign( 20, "10011111100011011100" );
@@ -67481,7 +67549,7 @@
 	array[-32750] = assign( 20, "10011111101001011110" );
 	array[ 32751] = assign( 20, "10111111001001111100" );
 	array[-32751] = assign( 20, "10011111101011011100" );
-	array[ 32752] = assign( 15, "010110001011100" );	// warning: length mismatch
+	array[ 32752] = assign( 15, "010110001011100" );
 	array[-32752] = assign( 15, "010101101011100" );
 	array[ 32753] = assign( 20, "10011111001011011100" );
 	array[-32753] = assign( 20, "10011111000011011100" );
