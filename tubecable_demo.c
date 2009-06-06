@@ -1,6 +1,10 @@
 /*
  * libtubecable - displaylink protocol reference implementation
  *
+ * version 0.1.2 - more efficient Huffman table by Henrik Pedersen
+ *                 fixed two more encoder glitches
+ *                 June 6th, 2009
+ *
  * version 0.1.1 - added missing Huffman sequences
  *                 fixed 2 bugs in encoder 
  *                 June 5th, 2009
@@ -36,11 +40,13 @@ int main(int argc, char* argv[] ) {
 	create( &cs, 1024*1024 );
 
 	// load huffman table
-	dl_huffman_load_table( "tubecable_huffman.c" );
+	dl_huffman_load_table( "tubecable_huffman.bin" );
 
 	usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x01AE ); // DL-120
 	if (!handle)
 		handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
+	if (!handle)
+		handle = usb_get_device_handle( 0x17E9, 0x019b ); // 'ForwardVideo' from dealextreme.com
 	if (!handle)
 		return 1;
 
@@ -100,25 +106,19 @@ int main(int argc, char* argv[] ) {
 		int mypcnt = 0;
 		int imgsize = X*Y;
 
+		// very important: before adding compressed blocks, set register 0x20 to 0xFF once
 		dl_reg_set( &cs, DL_REG_SYNC, 0xFF );
+
 		while (mypcnt < imgsize) {
-			int bs = (mypcnt == 0 ? DL_HUFFMAN_BLOCKSIZE-3 : DL_HUFFMAN_BLOCKSIZE );
-			int res = dl_huffman_compress( &cs, myaddr, imgsize-mypcnt, img16+mypcnt, bs );
+			int res = dl_huffman_compress( &cs, myaddr, imgsize-mypcnt, img16+mypcnt );
 			mypcnt += res;
 			myaddr += res*2;
 		}
 
-		FILE* foo = fopen( "out.bin", "w+" );
+		/*FILE* foo = fopen( "out.bin", "w+" );
 		fwrite(cs.buffer,cs.pos,1,foo);
-		fclose(foo);
+		fclose(foo);*/
 
-		/*for (int i = 0; i < (X*Y)/256; i++) {
-			dl_gfx_write( &cs, i*256*2, 0x00, image+(i*256*2) );
-			if ((i % 100) == 0) {
-				dl_sync_command( &cs );
-				send( &cs, handle );
-			}
-		}*/
 		printf( "encoded %d bytes\n",cs.pos );
 		dl_cmd_sync( &cs );
 		send( handle, &cs );

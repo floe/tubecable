@@ -1,6 +1,10 @@
 /*
  * libtubecable - displaylink protocol reference implementation
  *
+ * version 0.1.2 - more efficient Huffman table by Henrik Pedersen
+ *                 fixed two more encoder glitches
+ *                 June 6th, 2009
+ *
  * version 0.1.1 - added missing Huffman sequences
  *                 fixed 2 bugs in encoder
  *                 June 5th, 2009
@@ -269,8 +273,8 @@ void dl_gfx_copy( dl_cmdstream* cs, int src_addr, int dst_addr, uint8_t count );
 
 /****************** COMPRESSION COMMANDS ******************/
 
-#define DL_HUFFMAN_COUNT (1<<15)              // number of encoded offsets (pos/neg)
-#define DL_HUFFMAN_SIZE  2*DL_HUFFMAN_COUNT+1 // total number of Huffman sequences
+#define DL_HUFFMAN_COUNT (1<<15)                // number of encoded offsets (pos/neg)
+#define DL_HUFFMAN_SIZE  (2*DL_HUFFMAN_COUNT+1) // total number of Huffman sequences
 
 #define DL_HUFFMAN_BLOCKSIZE 512 // maximum size of one compressed block
 

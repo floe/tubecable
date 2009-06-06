@@ -1,6 +1,10 @@
 /*
  * libtubecable - displaylink protocol reference implementation
  *
+ * version 0.1.2 - more efficient Huffman table by Henrik Pedersen
+ *                 fixed two more encoder glitches
+ *                 June 6th, 2009
+ *
  * version 0.1.1 - added missing Huffman sequences
  *                 fixed 2 bugs in encoder 
  *                 June 5th, 2009
@@ -807,70 +811,33 @@ void dl_huffman_set_device_table( dl_cmdstream* cs, int size, uint8_t* buf ) {
 	dl_cmd_sync( cs );
 }
 
-
 // The userspace Huffman table.
-dl_huffman_code  dl_huffman_storage[DL_HUFFMAN_SIZE];
-dl_huffman_code* dl_huffman_table = &(dl_huffman_storage[DL_HUFFMAN_COUNT]);
+uint8_t dl_huffman_compact[DL_HUFFMAN_SIZE*(1+4)];
 
 // Load the userspace Huffman table.
 int dl_huffman_load_table( const char* filename ) {
-
-	int count = 0;
-	int empty = 0;
-	int i = 0;
-
-	FILE* table = fopen( filename, "r" );
-	if (!table) return 0;
-
-	printf( "loading huffman table from %s.. ", filename );
 	
-	// reset all entries
-	for (i = 0; i < DL_HUFFMAN_SIZE; i++)
-		dl_huffman_storage[i].bitcount = 0;
+	FILE* table = fopen( filename, "r" );
+	if (!table) return -1;
 
-	while (!feof(table)) {
+	printf( "loading huffman table from %s..\n", filename );
+	int res = fread( dl_huffman_compact, 1+4, DL_HUFFMAN_SIZE, table );
+	fclose(table);
 
-		char* seq;
-		char tmp[1024];
-		int loc, len;
-
-		int res = fscanf( table, " array[ %d] = assign( %d, \"%a[01]\" );", &loc, &len, &seq );
-		fgets(tmp,sizeof(tmp)-1,table); // clear rest of line
-		if (res != 3) continue;
-
-		if (dl_huffman_table[loc].bitcount != 0)
-			printf( "warning: overwriting entry %d\n", loc );
-
-		dl_huffman_table[loc].bitcount = len;
-		dl_huffman_table[loc].sequence = seq;
-		count++;
-	}
-
-	// fix missing entries
-	dl_huffman_code* last = &(dl_huffman_table[-DL_HUFFMAN_COUNT]);
-	for (i = -DL_HUFFMAN_COUNT; i < DL_HUFFMAN_COUNT; i++) {
-		if (dl_huffman_table[i].bitcount > 0) {
-			last = &(dl_huffman_table[i]);
-		} else {
-			dl_huffman_table[i] = *last;
-			empty++;
-			//printf("  fixing entry %d\n",i);
-		}
-	}
-
-	printf( "loaded %d entries (%d empty).\n", count, empty );
-	fclose( table );
-	return count;
+	if (res != sizeof(dl_huffman_compact)) return -1;
+	return 0;
 }
 
 // Append one huffman bit sequence to the stream.
 void dl_huffman_append( dl_cmdstream* cs, int16_t diff ) {
 
-	dl_huffman_code* code = &(dl_huffman_table[diff]);
+	uint8_t* huffentry = dl_huffman_compact+(1+4)*(DL_HUFFMAN_COUNT+diff);
+	uint8_t  bitcount = huffentry[0];
+	uint32_t word = (huffentry[1]<<24) | (huffentry[2]<<16) | (huffentry[3]<<8) | (huffentry[4]);
 
-	for (int i = 0; i < code->bitcount; i++) {
+	for (int i = 0; i < bitcount; i++) {
 
-		int curbit = (code->sequence[i] != '0');
+		int curbit = (word>>i)&1;
 
 		if (cs->bitpos == 0) cs->buffer[cs->pos] = 0;
 
@@ -884,6 +851,12 @@ void dl_huffman_append( dl_cmdstream* cs, int16_t diff ) {
 		}
 	}
 }
+
+
+// if we are this far from the end of the block, insert a new header
+// rationale: we don't want to require a new header at 10 bytes or less before the end
+// (6 bytes header + 4 bytes final register sequence), so insert a new one early enough
+#define RESTART_OFFSET 70
 
 // Append one 512-byte block of compressed data to the stream.
 int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixels, int blocksize ) {
@@ -900,8 +873,7 @@ int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixel
 		uint16_t prev = 0; if (pixel > 0) prev = pixels[pixel-1];
 
 		// start a new sub-block if 256 pixels have been encoded or if we are near the end of the big block
-		if ( ((bpcnt % 256) == 0) || ((cs->pos-start >= blocksize-20) && (cs->pos-start <= blocksize-16)) ) {
-			//if (addr == 0x035ED2) printf("new block\n");
+		if ( ((bpcnt % 256) == 0) || ((cs->pos-start >= blocksize-RESTART_OFFSET) && (cs->pos-start <= blocksize-(RESTART_OFFSET-4))) ) {
 
 			if (cs->bitpos != 0) { cs->pos++; cs->bitpos = 0; } // don't overwrite the last bits of the previous block
 			if (lastcnt) *lastcnt = bpcnt % 256; // adjust pixel count of previous block
