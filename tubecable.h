@@ -171,6 +171,12 @@ void dl_reg_set( dl_cmdstream* cs, uint8_t reg, uint8_t val );
 void dl_reg_set_all( dl_cmdstream* cs, uint8_t values[0x1D] );
 
 
+// Convenience macros for the mode array name
+#define DL_MODE_XY(x,y)    _DL_MODE(x,y,60)
+#define DL_MODE_XYR(x,y,r) _DL_MODE(x,y,r)
+#define _DL_MODE(xr,yr,rr) dl_reg_mode_##xr##x##yr##_##rr
+
+
 // The unknown registers very likely contain pixel clock, sync polarity etc.
 // While the mapping hasn't been found yet, some default register sets for 
 // standard resolutions are given below.

@@ -30,8 +30,8 @@
 uint8_t dl_crypt_nullkey[16] = DL_CRYPT_NULLKEY;
 
 // Key sequence and reverse-mapping table.
-uint8_t  keybuffer[0x11000];
-uint16_t ofsbuffer[0x1000];
+uint8_t  dl_crypt_keybuffer[0x11000];
+uint16_t dl_crypt_ofsbuffer[0x1000];
 
 // Generate a CRC12 over len bytes of data. Generator polynom:
 // x^12 + x^11 + x^3 + x^2 + x + 1 = 0001 1000 0000 1111 = 0x180F
@@ -811,8 +811,19 @@ void dl_huffman_set_device_table( dl_cmdstream* cs, int size, uint8_t* buf ) {
 	dl_cmd_sync( cs );
 }
 
+
+// One compacted Huffman table entry.
+typedef struct {
+	uint8_t size;
+	uint32_t seq;
+} dl_huffman_entry;
+
+#define PACKED_SIZE 5
+
+
 // The userspace Huffman table.
-uint8_t dl_huffman_compact[DL_HUFFMAN_SIZE*(1+4)];
+dl_huffman_entry dl_huffman_compact[DL_HUFFMAN_SIZE];
+
 
 // Load the userspace Huffman table.
 int dl_huffman_load_table( const char* filename ) {
@@ -820,34 +831,58 @@ int dl_huffman_load_table( const char* filename ) {
 	FILE* table = fopen( filename, "r" );
 	if (!table) return -1;
 
+	// load table into temporary buffer
 	printf( "loading huffman table from %s..\n", filename );
-	int res = fread( dl_huffman_compact, 1+4, DL_HUFFMAN_SIZE, table );
+	uint8_t* buf = (uint8_t*)malloc( DL_HUFFMAN_SIZE*PACKED_SIZE );
+	int res = fread( buf, PACKED_SIZE, DL_HUFFMAN_SIZE, table );
 	fclose(table);
 
-	if (res != sizeof(dl_huffman_compact)) return -1;
+	// convert to host bit order
+	for (int i = 0; i < DL_HUFFMAN_SIZE; i++) {
+		uint8_t* huffentry = buf+(i*PACKED_SIZE);
+		dl_huffman_compact[i].size =  huffentry[0];
+		dl_huffman_compact[i].seq  = (huffentry[1]<<24) | (huffentry[2]<<16) | (huffentry[3]<<8) | (huffentry[4]);
+	}
+
+	// cleanup
+	free( buf );
+	if (res != DL_HUFFMAN_SIZE) return -1;
+
 	return 0;
 }
 
 // Append one huffman bit sequence to the stream.
 void dl_huffman_append( dl_cmdstream* cs, int16_t diff ) {
 
-	uint8_t* huffentry = dl_huffman_compact+(1+4)*(DL_HUFFMAN_COUNT+diff);
-	uint8_t  bitcount = huffentry[0];
-	uint32_t word = (huffentry[1]<<24) | (huffentry[2]<<16) | (huffentry[3]<<8) | (huffentry[4]);
+	dl_huffman_entry* tmp = dl_huffman_compact+DL_HUFFMAN_COUNT+diff;
+	uint8_t  bitcount = tmp->size;
+	uint32_t word     = tmp->seq;
 
-	for (int i = 0; i < bitcount; i++) {
+	while (bitcount) {
 
-		int curbit = (word>>i)&1;
+		uint32_t bits;
+		int thistime;
 
-		if (cs->bitpos == 0) cs->buffer[cs->pos] = 0;
+		// reset to 00000000 when we start on a new byte
+		if (cs->bitpos == 0)
+			cs->buffer[cs->pos] = 0;
 
-		cs->buffer[cs->pos] = cs->buffer[cs->pos] | (curbit << cs->bitpos);
+		// how many bits can we consume this time?
+		thistime = 8 - cs->bitpos;
+		if (thistime > bitcount)
+			thistime = bitcount;
 
-		cs->bitpos++;
+		// isolate those bits
+		bits = word & ((1<<thistime)-1);
 
+		cs->buffer[cs->pos] |= bits << cs->bitpos;
+
+		word >>= thistime;
+		bitcount -= thistime;
+		cs->bitpos += thistime;
 		if (cs->bitpos == 8) {
-			cs->bitpos = 0;
-			cs->pos++;
+			 cs->bitpos = 0;
+			 cs->pos++;
 		}
 	}
 }
@@ -856,7 +891,7 @@ void dl_huffman_append( dl_cmdstream* cs, int16_t diff ) {
 // if we are this far from the end of the block, insert a new header
 // rationale: we don't want to require a new header at 10 bytes or less before the end
 // (6 bytes header + 4 bytes final register sequence), so insert a new one early enough
-#define RESTART_OFFSET 70
+#define RESTART_OFFSET 50
 
 // Append one 512-byte block of compressed data to the stream.
 int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixels, int blocksize ) {

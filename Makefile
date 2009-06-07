@@ -9,6 +9,8 @@
 #clean:
 #	-rm -f ${NAME}.mod.c ${NAME}.mod.o ${NAME}.o ${NAME}.ko .${NAME}.* modules.order Module.symvers
 
-tubecable_demo: tubecable_demo.c tubecable.c
+all: tubecable_demo tubecable_decrypt
+
+%: %.c tubecable.c
 	g++ -ggdb -Wall -o $@ $^ -lusb 
 

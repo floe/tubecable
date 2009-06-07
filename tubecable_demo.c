@@ -50,13 +50,44 @@ int main(int argc, char* argv[] ) {
 	if (!handle)
 		return 1;
 
+	if (argc >= 2) {
+
+		// fill with an image
+		printf("filling screen with an image..\n");
+		uint8_t* image = read_rgb16(argv[1],XRES*YRES);
+		uint16_t* img16 = (uint16_t*)image;
+		
+		int myaddr = 0;
+		int mypcnt = 0;
+		int imgsize = XRES*YRES;
+
+		// very important: before adding compressed blocks, set register 0x20 to 0xFF once
+		dl_reg_set( &cs, DL_REG_SYNC, 0xFF );
+
+		while (mypcnt < imgsize) {
+			int res = dl_huffman_compress( &cs, myaddr, imgsize-mypcnt, img16+mypcnt );
+			mypcnt += res;
+			myaddr += res*2;
+		}
+
+		/*FILE* foo = fopen( "out.bin", "w+" );
+		fwrite(cs.buffer,cs.pos,1,foo);
+		fclose(foo);*/
+
+		printf( "encoded %d bytes\n",cs.pos );
+		dl_cmd_sync( &cs );
+		send( handle, &cs );
+
+		return(1);
+	}
+
 	// startup control messages & decompressor table
 	dl_init( handle );
 
 	// default register set & offsets
-	printf("setting default registers for 640x480@60Hz..\n");
-	dl_reg_set_all( &cs, dl_reg_mode_640x480_60 );
-	dl_reg_set_offsets( &cs, 0x000000, 0x000A00, 0x555555, 0x000500 );
+	printf("setting default registers for %dx%d@60Hz..\n",XRES,YRES);
+	dl_reg_set_all( &cs, DL_MODE_XY(XRES,YRES) );
+	dl_reg_set_offsets( &cs, 0x000000, XRES*2, 0x555555, XRES );
 	/*dl_set_offsets( &cs, 0x000000, 0x000A00, 0x555555, 0x000500 );
 	dl_unknown_command( &cs );
 	dl_set_offsets( &cs, 0x000000, 0x000A00, 0x555555, 0x000500 );*/
@@ -92,40 +123,6 @@ int main(int argc, char* argv[] ) {
 	dl_sync_command( &cs );
 	send( &cs, handle );*/
 
-	if (argc >= 2) {
-
-		// fill with an image
-		printf("filling screen with an image..\n");
-		#define X 640
-		#define Y 480 //960
-
-		uint8_t* image = read_rgb16(argv[1],X*Y);
-		uint16_t* img16 = (uint16_t*)image;
-		
-		int myaddr = 0;
-		int mypcnt = 0;
-		int imgsize = X*Y;
-
-		// very important: before adding compressed blocks, set register 0x20 to 0xFF once
-		dl_reg_set( &cs, DL_REG_SYNC, 0xFF );
-
-		while (mypcnt < imgsize) {
-			int res = dl_huffman_compress( &cs, myaddr, imgsize-mypcnt, img16+mypcnt );
-			mypcnt += res;
-			myaddr += res*2;
-		}
-
-		/*FILE* foo = fopen( "out.bin", "w+" );
-		fwrite(cs.buffer,cs.pos,1,foo);
-		fclose(foo);*/
-
-		printf( "encoded %d bytes\n",cs.pos );
-		dl_cmd_sync( &cs );
-		send( handle, &cs );
-
-		sleep(1);
-	}
-
 	// some vertical scrolling
 	printf("doing vertical scrolling (why doesn't horizontal work?)..\n");
 	for (int i = 0; i < YRES; i++) {
@@ -143,7 +140,7 @@ int main(int argc, char* argv[] ) {
 
 	// some memcopy
 	printf("doing bitblt..\n\n");
-	dl_reg_set_offsets( &cs, 0x000000, 0x000A00, 0x555555, 0x000500 );
+	dl_reg_set_offsets( &cs, 0x000000, XRES*2, 0x555555, XRES );
 	for (int i = 0; i < 100; i++) {
 		dl_gfx_copy( &cs, 0x500*(280+i)+320*2, 0x500*(380+i)+420*2, 100 );
 	}
