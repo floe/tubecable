@@ -832,6 +832,9 @@ int dl_huffman_load_table( const char* filename ) {
 		fgets(tmp,sizeof(tmp)-1,table); // clear rest of line
 		if (res != 3) continue;
 
+		if (dl_huffman_table[loc].bitcount != 0)
+			printf( "warning: overwriting entry %d\n", loc );
+
 		dl_huffman_table[loc].bitcount = len;
 		dl_huffman_table[loc].sequence = seq;
 		count++;

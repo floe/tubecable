@@ -29,12 +29,12 @@ int main(int argc, char* argv[] ) {
 	dl_cmdstream cs;
 	create( &cs, 1024*1024 );
 
+	// load huffman table
+	dl_huffman_load_table( "tubecable_huffman.c" );
+
 	// usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x01AE ); // DL-120
 	usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
 	if (!handle) return 1;
-
-	// load huffman table
-	dl_huffman_load_table( "tubecable_huffman.c" );
 
 	// startup control messages & decompressor table
 	dl_init( handle );
