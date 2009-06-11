@@ -1,13 +1,23 @@
 /*
  * libtubecable - displaylink protocol reference implementation
+ *
+ * version 0.1.2 - more efficient Huffman table by Henrik Pedersen
+ *                 fixed two more encoder glitches
+ *                 June 6th, 2009
+ *
+ * version 0.1.1 - added missing Huffman sequences
+ *                 fixed 2 bugs in encoder 
+ *                 June 5th, 2009
+ *
+ * version 0.1   - initial public release
+ *                 May 30th, 2009
+ *
  * written 2008/09 by floe at butterbrot.org
  * in cooperation with chrisly at platon42.de
  * this code is released as public domain.
  *
  * this is so experimental that the warranty shot itself.
  * so don't expect any.
- *
- * build with "g++ -ggdb -Wall -c tubecable.c -lusb"
  *
  */
 
@@ -20,8 +30,8 @@
 uint8_t dl_crypt_nullkey[16] = DL_CRYPT_NULLKEY;
 
 // Key sequence and reverse-mapping table.
-uint8_t  keybuffer[0x11000];
-uint16_t ofsbuffer[0x1000];
+uint8_t  dl_crypt_keybuffer[0x11000];
+uint16_t dl_crypt_ofsbuffer[0x1000];
 
 // Generate a CRC12 over len bytes of data. Generator polynom:
 // x^12 + x^11 + x^3 + x^2 + x + 1 = 0001 1000 0000 1111 = 0x180F
@@ -802,82 +812,86 @@ void dl_huffman_set_device_table( dl_cmdstream* cs, int size, uint8_t* buf ) {
 }
 
 
+// One compacted Huffman table entry.
+typedef struct {
+	uint8_t size;
+	uint32_t seq;
+} dl_huffman_entry;
+
+#define PACKED_SIZE 5
+
+
 // The userspace Huffman table.
-dl_huffman_code  dl_huffman_storage[DL_HUFFMAN_SIZE];
-dl_huffman_code* dl_huffman_table = &(dl_huffman_storage[DL_HUFFMAN_COUNT]);
+dl_huffman_entry dl_huffman_compact[DL_HUFFMAN_SIZE];
+
 
 // Load the userspace Huffman table.
 int dl_huffman_load_table( const char* filename ) {
-
-	int count = 0;
-	int empty = 0;
-	int i = 0;
-
-	FILE* table = fopen( filename, "r" );
-	if (!table) return 0;
-
-	printf( "loading huffman table from %s.. ", filename );
 	
-	// reset all entries
-	for (i = 0; i < DL_HUFFMAN_SIZE; i++)
-		dl_huffman_storage[i].bitcount = 0;
+	FILE* table = fopen( filename, "r" );
+	if (!table) return -1;
 
-	while (!feof(table)) {
+	// load table into temporary buffer
+	printf( "loading huffman table from %s..\n", filename );
+	uint8_t* buf = (uint8_t*)malloc( DL_HUFFMAN_SIZE*PACKED_SIZE );
+	int res = fread( buf, PACKED_SIZE, DL_HUFFMAN_SIZE, table );
+	fclose(table);
 
-		char* seq;
-		char tmp[1024];
-		int loc, len;
-
-		int res = fscanf( table, " array[ %d] = assign( %d, \"%a[01]\" );", &loc, &len, &seq );
-		fgets(tmp,sizeof(tmp)-1,table); // clear rest of line
-		if (res != 3) continue;
-
-		if (dl_huffman_table[loc].bitcount != 0)
-			printf( "warning: overwriting entry %d\n", loc );
-
-		dl_huffman_table[loc].bitcount = len;
-		dl_huffman_table[loc].sequence = seq;
-		count++;
+	// convert to host bit order
+	for (int i = 0; i < DL_HUFFMAN_SIZE; i++) {
+		uint8_t* huffentry = buf+(i*PACKED_SIZE);
+		dl_huffman_compact[i].size =  huffentry[0];
+		dl_huffman_compact[i].seq  = (huffentry[1]<<24) | (huffentry[2]<<16) | (huffentry[3]<<8) | (huffentry[4]);
 	}
 
-	// fix missing entries
-	dl_huffman_code* last = &(dl_huffman_table[-DL_HUFFMAN_COUNT]);
-	for (i = -DL_HUFFMAN_COUNT; i < DL_HUFFMAN_COUNT; i++) {
-		if (dl_huffman_table[i].bitcount > 0) {
-			last = &(dl_huffman_table[i]);
-		} else {
-			dl_huffman_table[i] = *last;
-			empty++;
-			//printf("  fixing entry %d\n",i);
-		}
-	}
+	// cleanup
+	free( buf );
+	if (res != DL_HUFFMAN_SIZE) return -1;
 
-	printf( "loaded %d entries (%d empty).\n", count, empty );
-	fclose( table );
-	return count;
+	return 0;
 }
 
 // Append one huffman bit sequence to the stream.
 void dl_huffman_append( dl_cmdstream* cs, int16_t diff ) {
 
-	dl_huffman_code* code = &(dl_huffman_table[diff]);
+	dl_huffman_entry* tmp = dl_huffman_compact+DL_HUFFMAN_COUNT+diff;
+	uint8_t  bitcount = tmp->size;
+	uint32_t word     = tmp->seq;
 
-	for (int i = 0; i < code->bitcount; i++) {
+	while (bitcount) {
 
-		int curbit = (code->sequence[i] != '0');
+		uint32_t bits;
+		int thistime;
 
-		if (cs->bitpos == 0) cs->buffer[cs->pos] = 0;
+		// reset to 00000000 when we start on a new byte
+		if (cs->bitpos == 0)
+			cs->buffer[cs->pos] = 0;
 
-		cs->buffer[cs->pos] = cs->buffer[cs->pos] | (curbit << cs->bitpos);
+		// how many bits can we consume this time?
+		thistime = 8 - cs->bitpos;
+		if (thistime > bitcount)
+			thistime = bitcount;
 
-		cs->bitpos++;
+		// isolate those bits
+		bits = word & ((1<<thistime)-1);
 
+		cs->buffer[cs->pos] |= bits << cs->bitpos;
+
+		word >>= thistime;
+		bitcount -= thistime;
+		cs->bitpos += thistime;
 		if (cs->bitpos == 8) {
-			cs->bitpos = 0;
-			cs->pos++;
+			 cs->bitpos = 0;
+			 cs->pos++;
 		}
 	}
 }
+
+
+// if we are this far from the end of the block, insert a new header
+// rationale: we don't want to require a new header at 10 bytes or less before the end
+// (6 bytes header + 4 bytes final register sequence), so insert a new one early enough
+#define RESTART_OFFSET 50
 
 // Append one 512-byte block of compressed data to the stream.
 int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixels, int blocksize ) {
@@ -894,7 +908,7 @@ int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixel
 		uint16_t prev = 0; if (pixel > 0) prev = pixels[pixel-1];
 
 		// start a new sub-block if 256 pixels have been encoded or if we are near the end of the big block
-		if (((bpcnt % 256) == 0) || (cs->pos-start == blocksize-20)) {
+		if ( ((bpcnt % 256) == 0) || ((cs->pos-start >= blocksize-RESTART_OFFSET) && (cs->pos-start <= blocksize-(RESTART_OFFSET-4))) ) {
 
 			if (cs->bitpos != 0) { cs->pos++; cs->bitpos = 0; } // don't overwrite the last bits of the previous block
 			if (lastcnt) *lastcnt = bpcnt % 256; // adjust pixel count of previous block
@@ -922,6 +936,9 @@ int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixel
 	// fix pixel count of the last sub-block
 	if (lastcnt) *lastcnt = bpcnt % 256;
 	dl_reg_set( cs, DL_REG_SYNC, 0xFF );
+
+	// make sure the next block starts on a byte boundary
+	cs->bitpos = 0;
 
 	// return total number of encoded pixels
 	return pixel;
