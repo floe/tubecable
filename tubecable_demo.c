@@ -45,7 +45,7 @@ int main(int argc, char* argv[] ) {
 	printf("Trying DL-120...\n");
 	usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x01AE ); // DL-120
 	if (!handle) {
-		printf("Trying DL-120...\n");
+		printf("Trying DL-160...\n");
 		handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
 	}
 	if (!handle) {
