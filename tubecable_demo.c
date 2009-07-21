@@ -33,7 +33,7 @@ int main(int argc, char* argv[] ) {
 	printf("so don't expect any.\n\n");
 	printf("(note: you can pass a 640x480 pixel RGB raw image file as parameter)\n\n");
 
-	#define XRES 640
+	#define XRES 800
 	#define YRES 480
 
 	dl_cmdstream cs;
@@ -116,8 +116,9 @@ int main(int argc, char* argv[] ) {
 	dl_rle_word red = { 0x00, 0x0000 };
 	for (int i = 0; i < YRES; i++) {
 		dl_gfx_rle( &cs, i*XRES*2,      0x00, &red );
-		dl_gfx_rle( &cs, i*XRES*2+512,  0x00, &red );
-		dl_gfx_rle( &cs, i*XRES*2+1024, 0x00, &red );
+		if(XRES > 256) dl_gfx_rle( &cs, i*XRES*2+512,  0x00, &red );
+		if(XRES > 512) dl_gfx_rle( &cs, i*XRES*2+512*2,  0x00, &red );
+		if(XRES > 768) dl_gfx_rle( &cs, i*XRES*2+512*3,  0x00, &red );
 		red.value = (i/15) << 11;
 	}
 	dl_cmd_sync( &cs );
