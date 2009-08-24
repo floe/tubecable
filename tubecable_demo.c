@@ -42,15 +42,30 @@ int main(int argc, char* argv[] ) {
 	// load huffman table
 	dl_huffman_load_table( "tubecable_huffman.bin" );
 
+	printf("Trying DL-120...\n");
 	usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x01AE ); // DL-120
-	if (!handle)
+	if (!handle) {
+		printf("Trying DL-160...\n");
 		handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
+<<<<<<< HEAD:tubecable_demo.c
 	if (!handle)
 		handle = usb_get_device_handle( 0x17E9, 0x401a ); // nanovision mimo
 	if (!handle)
+=======
+	}
+	if (!handle) {
+		printf("Trying ForwardVideo...\n");
+>>>>>>> f76951c59e64acd4484ffa59e09d526713fce6b9:tubecable_demo.c
 		handle = usb_get_device_handle( 0x17E9, 0x019b ); // 'ForwardVideo' from dealextreme.com
-	if (!handle)
+	}
+	if (!handle) {
+		printf("Trying Samsung U70...\n");
+		handle = usb_get_device_handle( 0x17E9, 0x0103 ); // Samsung U70
+	}
+	if (!handle) {
+		printf("Couldn't initialize; exiting.\n");
 		return 1;
+	}
 
 	if (argc >= 2) {
 
