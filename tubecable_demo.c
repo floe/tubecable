@@ -33,7 +33,7 @@ int main(int argc, char* argv[] ) {
 	printf("so don't expect any.\n\n");
 	printf("(note: you can pass a 640x480 pixel RGB raw image file as parameter)\n\n");
 
-	#define XRES 640
+	#define XRES 800
 	#define YRES 480
 
 	dl_cmdstream cs;
@@ -45,6 +45,8 @@ int main(int argc, char* argv[] ) {
 	usb_dev_handle* handle = usb_get_device_handle( 0x17E9, 0x01AE ); // DL-120
 	if (!handle)
 		handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
+	if (!handle)
+		handle = usb_get_device_handle( 0x17E9, 0x401a ); // nanovision mimo
 	if (!handle)
 		handle = usb_get_device_handle( 0x17E9, 0x019b ); // 'ForwardVideo' from dealextreme.com
 	if (!handle)
@@ -70,9 +72,9 @@ int main(int argc, char* argv[] ) {
 			myaddr += res*2;
 		}
 
-		/*FILE* foo = fopen( "out.bin", "w+" );
+		FILE* foo = fopen( "out.bin", "w+" );
 		fwrite(cs.buffer,cs.pos,1,foo);
-		fclose(foo);*/
+		fclose(foo);
 
 		printf( "encoded %d bytes\n",cs.pos );
 		dl_cmd_sync( &cs );
@@ -104,9 +106,14 @@ int main(int argc, char* argv[] ) {
 	printf("filling screen with red gradient..\n");
 	dl_rle_word red = { 0x00, 0x0000 };
 	for (int i = 0; i < YRES; i++) {
-		dl_gfx_rle( &cs, i*XRES*2,      0x00, &red );
-		dl_gfx_rle( &cs, i*XRES*2+512,  0x00, &red );
-		dl_gfx_rle( &cs, i*XRES*2+1024, 0x00, &red );
+		int count = XRES;
+		int offs = 0;
+		while (count > 0) {
+			int pcount = (count >= 256 ? 0x00 : count);
+			dl_gfx_rle( &cs, i*XRES*2+offs, pcount, &red );
+			offs += 2*256;
+			count -= 256;
+		}
 		red.value = (i/15) << 11;
 	}
 	dl_cmd_sync( &cs );
@@ -142,7 +149,7 @@ int main(int argc, char* argv[] ) {
 	printf("doing bitblt..\n\n");
 	dl_reg_set_offsets( &cs, 0x000000, XRES*2, 0x555555, XRES );
 	for (int i = 0; i < 100; i++) {
-		dl_gfx_copy( &cs, 0x500*(280+i)+320*2, 0x500*(380+i)+420*2, 100 );
+		dl_gfx_copy( &cs, XRES*2*(280+i)+320*2, XRES*2*(380+i)+420*2, 100 );
 	}
 	dl_cmd_sync( &cs );
 	send( handle, &cs );
