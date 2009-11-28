@@ -47,15 +47,13 @@ int main(int argc, char* argv[] ) {
 	if (!handle) {
 		printf("Trying DL-160...\n");
 		handle = usb_get_device_handle( 0x17E9, 0x0141 ); // DL-160
-<<<<<<< HEAD:tubecable_demo.c
-	if (!handle)
+	}
+	if (!handle) {
+		printf("Trying Nanovision Mimo...\n");
 		handle = usb_get_device_handle( 0x17E9, 0x401a ); // nanovision mimo
-	if (!handle)
-=======
 	}
 	if (!handle) {
 		printf("Trying ForwardVideo...\n");
->>>>>>> f76951c59e64acd4484ffa59e09d526713fce6b9:tubecable_demo.c
 		handle = usb_get_device_handle( 0x17E9, 0x019b ); // 'ForwardVideo' from dealextreme.com
 	}
 	if (!handle) {
