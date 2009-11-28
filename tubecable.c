@@ -901,11 +901,11 @@ int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixel
 	int start = cs->pos;
 	uint8_t* lastcnt = 0;
  
+	// previous pixel value (0 for the first pixel of a sub-block)
+	uint16_t prev = 0; //if (pixel > 0) prev = pixels[pixel-1];
+
 	// this loop generates sub-blocks of max. 256 pixels
 	while ( ((cs->pos-start) < blocksize-4) && (pixel < pcount) ) {
-
-		// previous pixel value (0 for the first pixel of a sub-block)
-		uint16_t prev = 0; if (pixel > 0) prev = pixels[pixel-1];
 
 		// start a new sub-block if 256 pixels have been encoded or if we are near the end of the big block
 		if ( ((bpcnt % 256) == 0) || ((cs->pos-start >= blocksize-RESTART_OFFSET) && (cs->pos-start <= blocksize-(RESTART_OFFSET-4))) ) {
@@ -920,8 +920,10 @@ int dl_huffman_compress( dl_cmdstream* cs, int addr, int pcount, uint16_t* pixel
 			prev = 0;
 		}
 
-		int16_t diff = pixels[pixel] - prev;
-		dl_huffman_append( cs, diff );
+		uint16_t thispix = pixels[pixel];
+		//int16_t diff = pixels[pixel] - prev;
+		dl_huffman_append( cs, thispix - prev );
+		prev = thispix;
 		bpcnt++;
 		pixel++;
 	}
@@ -985,6 +987,7 @@ void rgb24_to_rgb16( uint8_t* rgb24, uint8_t* rgb16, int count, int host_bit_ord
 
 void read_rgb24( const char* filename, uint8_t* rgb24, int count ) {
 	int f = open(filename,O_RDONLY);
+	lseek( f, 15, SEEK_SET );
 	read( f, rgb24, count*3 );
 	close(f);
 }

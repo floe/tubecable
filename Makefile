@@ -12,5 +12,5 @@
 all: tubecable_demo tubecable_decrypt
 
 %: %.c tubecable.c
-	g++ -ggdb -Wall -o $@ $^ -lusb 
+	g++ -O2 -ggdb -Wall -o $@ $^ -lusb 
 
