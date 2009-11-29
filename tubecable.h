@@ -47,6 +47,7 @@ extern uint16_t dl_crypt_ofsbuffer[0x1000];
 int dl_crypt_crc12( uint8_t* data, int len ); 
 
 // Fill key buffer and reverse-mapping buffer with pseudorandom numbers.
+// x^12 + x^6 + x^4 + x = 0000 1000 0010 1001 = 0x0829 ( 12, 6, 4, 1 ^= 12, 11, 8, 6 )
 #define DL_CRYPT_LFSR12 0x0829
 void dl_crypt_generate_key( uint8_t key[0x11000], uint16_t map[0x1000] );
 
@@ -150,22 +151,65 @@ void dl_cmd_sync( dl_cmdstream* cs );
 /******************* REGISTER COMMANDS ********************/
 
 #define DL_REG_COLORDEPTH   0x00 // 0x00 = 16 bit, 0x01 = 24 bit
-// 0x01 - 0x0E unknown
-//   0x01 - 0x0
-#define DL_REG_XRES_MSB     0x0F
+
+#define DL_REG_XDSTART_MSB  0x01 // x display start - LFSR16
+#define DL_REG_XDSTART_LSB  0x02
+#define DL_REG_XDEND_MSB    0x03 // x display end - LFSR16
+#define DL_REG_XDEND_LSB    0x04
+#define DL_REG_YDSTART_MSB  0x05 // y display start - LFSR16
+#define DL_REG_YDSTART_LSB  0x06
+#define DL_REG_YDEND_MSB    0x07 // y display end - LFSR16
+#define DL_REG_YDEND_LSB    0x08
+
+#define DL_REG_XENDCNT_MSB  0x09 // x end count - LFSR16
+#define DL_REG_XENDCNT_LSB  0x0A
+
+#define DL_REG_HSYNSTR_MSB  0x0B // hsync start - LFSR16
+#define DL_REG_HSYNSTR_LSB  0x0C
+#define DL_REG_HSYNEND_MSB  0x0D // hsync end - LFSR16
+#define DL_REG_HSYNEND_LSB  0x0E
+
+#define DL_REG_XRES_MSB     0x0F // x resolution
 #define DL_REG_XRES_LSB     0x10
-// 0x11 - 0x16 unknown
-#define DL_REG_YRES_MSB     0x17
+
+#define DL_REG_YENDCNT_MSB  0x11 // y end count - LFSR16
+#define DL_REG_YENDCNT_LSB  0x12
+
+#define DL_REG_VSYNSTR_MSB  0x13 // vsync start - LFSR16
+#define DL_REG_VSYNSTR_LSB  0x14
+#define DL_REG_VSYNEND_MSB  0x15 // vsync end - LFSR16
+#define DL_REG_VSYNEND_LSB  0x16
+
+#define DL_REG_YRES_MSB     0x17 // y resolution
 #define DL_REG_YRES_LSB     0x18
-// 0x19 - 0x1C unknown
-// 0x1D - 0x1E unused
+
+// 0x19 - 0x1A unknown
+
+#define DL_REG_PIXCLK_LSB   0x1B // pixel clock, 5 kHz units, LITTLE ENDIAN!
+#define DL_REG_PIXCLK_MSB   0x1C
+
+// 0x1D - 0x1E seemingly unused
+
 #define DL_REG_BLANK_SCREEN 0x1F // 0x00 = normal operation, 0x01 = blank screen
-// 0x20 - 0xFE unused
+
+// 0x20 - 0x2B address registers (see below)
+
+// 0x2C - 0xFE seemingly unused
+
 #define DL_REG_SYNC         0xFF // 0x00 = hold register updates, 0xFF = resume
 
 
 // Set a single register.
 void dl_reg_set( dl_cmdstream* cs, uint8_t reg, uint8_t val );
+
+// LFSR table for internal counter registers
+extern uint16_t dl_register_lfsr[65536];
+
+// Initialize the LFSR table
+void dl_init_register_lfsr();
+
+// Set an LFSR-based 16-bit register pair
+void dl_reg_set_lfsr( dl_cmdstream* cs, uint8_t reg, uint16_t val );
 
 // Set all mode registers at once.
 void dl_reg_set_all( dl_cmdstream* cs, uint8_t values[0x1D] );
@@ -177,9 +221,7 @@ void dl_reg_set_all( dl_cmdstream* cs, uint8_t values[0x1D] );
 #define _DL_MODE(xr,yr,rr) dl_reg_mode_##xr##x##yr##_##rr
 
 
-// The unknown registers very likely contain pixel clock, sync polarity etc.
-// While the mapping hasn't been found yet, some default register sets for 
-// standard resolutions are given below.
+// Some default register sets for standard resolutions
 
 // Modes for DL-120:
 
@@ -290,16 +332,6 @@ extern uint8_t dl_huffman_device_table[4608];
 
 // Set the on-device Huffman table.
 void dl_huffman_set_device_table( dl_cmdstream* cs, int size, uint8_t* buf );
-
-// Descriptor for one Huffman sequence.
-typedef struct {
-	int bitcount;
-	const char* sequence;
-} dl_huffman_code;
-
-// The userspace Huffman table.
-extern dl_huffman_code  dl_huffman_storage[ DL_HUFFMAN_SIZE ];
-extern dl_huffman_code* dl_huffman_table;
 
 // Load the userspace Huffman table.
 int dl_huffman_load_table( const char* filename );

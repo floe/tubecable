@@ -206,6 +206,49 @@ void dl_reg_set( dl_cmdstream* cs, uint8_t reg, uint8_t val ) {
 	insertb( cs, val );
 }
 
+// LFSR table for internal counter registers
+uint16_t dl_register_lfsr[65536];
+
+// Initialize the LFSR table
+void dl_init_register_lfsr() {
+
+	uint16_t bit   = 0;
+	uint16_t poly  = 0x8016; // 0x8016 = 1000 0000 0001 0110 - 16, 5, 3, 2 ^= 16, 14, 13, 11
+	uint16_t value = 0xFFFF;
+
+	for (int i = 0; i < 65536; i++) {
+
+		dl_register_lfsr[i] = value;
+
+		switch (value & poly) {
+
+			case 0x0002:
+			case 0x0004:
+			case 0x0010:
+			case 0x8000:
+			case 0x0016:
+			case 0x8006:
+			case 0x8012:
+			case 0x8014:
+				bit = 1;
+				break;
+
+			default:
+				bit = 0;
+				break;
+		}
+
+		value = ((value << 1) | bit);
+	}
+}
+
+// Set an LFSR-based 16-bit register pair
+void dl_reg_set_lfsr( dl_cmdstream* cs, uint8_t reg, uint16_t val ) {
+	uint16_t res = dl_register_lfsr[val];
+	dl_reg_set( cs, reg,   res >> 8   );
+	dl_reg_set( cs, reg+1, res & 0xFF );
+}
+
 // Set all mode registers at once.
 void dl_reg_set_all( dl_cmdstream* cs, uint8_t values[0x1D] ) {
 	dl_reg_set( cs, DL_REG_SYNC, 0x00 );
