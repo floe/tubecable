@@ -1,0 +1,14 @@
+a modified raw / run-length encoding..
+
+Fill with Bytes
+
+0xAF 0×63 3_byte_offset 1_byte_total_count [1_byte_count count_bytes_of_value 1_byte_no_of_repeats_of_last_pixel ... ] x N
+
+
+Fill with Words
+
+0xAF 0×6B 3_byte_offset 1_byte_total_count [1_byte_count count_words_of_value 1_byte_no_of_repeats_of_last_pixel ... ] x N
+
+
+total count: byte/word count, 0×00 = 256
+ 

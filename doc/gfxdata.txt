@@ -1,0 +1,67 @@
+**Compression Algorithm**
+
+The compression algorithm is the one big thing which is still missing from the picture. As a quick summary,
+it seems pretty certain that:
+  * the compression is done separately for 16-bit data and for 8-bit data, as always
+  * it doesn't encode absolute pixel values, but the difference to the previous pixel
+  * the ''start color'' for each pixel run is black (0x0000)
+  * it uses some kind of Huffman coding
+  * compression doesn't work without the big 512*9-byte table sent at the start by [[commands|command 0xE0]], so this is probably the Huffman tree
+  * all GFX commands can use compression when the appropriate bit is set (although it probably only makes sense for the direct write command)
+  * to get the correct Huffman bitstream, the bit order in every compressed byte must be reversed (see below)
+  * after exactly 508 bytes including command headers, the sequence 0xAF 0x20 0xFF 0xFF must be inserted. Pixel count for the previous header must be truncated appropriately.
+
+**Compressed GFX data commands**
+
+  * decompress word data ''0xAF 0x78  3_byte_offset  1_byte_pixelcount  compressed_gfx_data''
+  * decompress byte data ''0xAF 0x70  3_byte_offset  1_byte_pixelcount  compressed_gfx_data''
+
+pixelcount: 1 byte, 0x00 ^= 256
+
+in compressed data:
+
+  * word data: 2 bit per output pixel/1 bit per byte => approx. pixelcount/4 bytes data
+  * byte data: 1 bit per output pixel => approx. pixelcount/8 bytes data
+  * 0 bit = 'repeat current color for this pixel'
+  * 1 bit = 'change current color + some data'
+
+some color patterns (binary bit order reversed):
+
+  * red = 0x03 = 11000000
+  * green = 0x6B = 11010110
+  * blue = 0x6D = 10110110
+  * turq. = 0xE9 = 10010111
+  * yell. = 0x06 = 01100000
+  * lilac = 0x3A = 01011100
+  * white = 0x07 = 11100000
+
+examples on white background: 0x07 0x00 0x00 ... left side: host-side bit order, right side: reversed bit order
+
+  * ''1 px. red: 11011010 10100101 00000011          =   010110111010010111000000''
+  * ''2 px. red: 11011010 10010001 00001110          =   010110111000100101110000''
+  * ''3 px. red: 11011010 01000001 00111010          =   010110111000001001011100''
+  * ''4 px. red: 01101000 00000111 10100100 00000011 = 00010110111000000010010111000000''
+  * ''5 px. red: 11011010 00000001 10100100 00000011 =   01011011100000000010010111000000''
+  * ''6 px. red: 11011010 00000001 10010000 00001110 =   01011011100000000000100101110000''
+  * ''7 px. red: 11011010 00000001 01000000 00111010 =   01011011100000000000001001011100''
+  * ''8 px. red: 11011010 00000001 00000000 11101001 =   01011011100000000000000010010111''
+
+can you spot the pattern? :-)
+
+  * ''1 px. green: 11110000 10100001 00000011          = 000011111000010111000000''
+  * ''2 px. green: 01111100 10100000 00000011          =   001111100000010111000000''
+  * ''3 px. green: 01111100 10000000 00001110          =   001111100000000101110000''
+  * ''4 px. green: 01111100 00000000 00111010          =   001111100000000001011100''
+  * ''5 px. green: 01111100 00000000 11101000          =   001111100000000000010111''
+  * ''6 px. green: 01111100 00000000 10100000 00000011 =   00111110000000000000010111000000''
+  * ''7 px. green: 01111100 00000000 10000000 00001110 =   00111110000000000000000101110000''
+  * ''8 px. green: 11110000 00000001 00000000 11101000 = 00001111100000000000000000010111''
+
+  * ''1 px. blue: 10000100 00000001          =   0010000110000000''
+  * ''2 px. blue: 00000100 00000110          =   0010000001100000''
+  * ''3 px. blue: 00000100 00011000          =   0010000000011000''
+  * ''4 px. blue: 00000100 01100000          =   0010000000000110''
+  * ''5 px. blue: 00010000 00000000 00000110 = 000010000000000001100000''
+  * ''6 px. blue: 00000100 00000000 00000110 =   001000000000000001100000''
+  * ''7 px. blue: 00000100 00000000 00011000 =   001000000000000000011000''
+  * ''8 px. blue: 00000100 00000000 01100000 =   001000000000000000000110''

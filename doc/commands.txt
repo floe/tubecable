@@ -1,0 +1,20 @@
+Commands - all known ones start with 0xAF
+
+One or more commands can be put into a single bulk transfer, always ends with 0xAF 0xA0 (flush pipe or similar)
+
+  * 0xAF 0x20 .... - write register -> [[registers]]
+  * 0xAF 0x40 0x0B - unknown
+
+The following commands modify graphics memory.
+Base is 0x60, bit 0-2 select subcommand, bit 3 selects
+word mode, bit 4 selects compressed mode.
+
+  * 0xAF 0x60/0x68 .... - write mem -> [[writemem]]
+  * 0xAF 0x61/0x69 .... - fill mem -> [[fillmem]]
+  * 0xAF 0x62/0x6A .... - copy mem -> [[copymem]]
+  * 0xAF 0x63/0x6B .... - alternate -> [[alternate]]
+  * 0xAF 0x67/0x6E .... - unknown, only seen in driver code
+  * 0xAF 0x70/0x78 .... - write compressed graphics data -> [[gfxdata]]
+
+  * 0xAF 0xA0 - flush command pipe
+  * 0xAF 0xE0 .... - this is probably the decompressor table, organized as 512 * 9-byte chunks (originally assumed to be a firmware, but device runs fine without it, just compression doesn't work anymore if missing)

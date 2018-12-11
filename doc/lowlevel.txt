@@ -1,0 +1,32 @@
+Low-level control messages
+
+All messages listed as: requesttype request value index [buffer]
+
+  * Memory Peek: 0xC0 0x04 0x00 address [1 byte result]
+  * Memory Poke: 0x40 0x03 0x00 address [1 byte value]
+  * Poll Status(?): 0xC0 0x06 0x00 0x00 [4 bytes result]
+  * Set Encryption Key: 0x40 0x12 0x00 0x00 [16 bytes key]
+  * Unknown: 0x40 0x14 0x00 0x00 [] - empty buffer, sent by the windows driver with every bulk transfer
+  * Read EDID: 0xC0 0x02 offset<<8 0xA1 [up to 64 bytes result]
+
+The memory for the peeks & pokes seems to be 64k internal work RAM. Known blocks:
+
+  * 0x0000 - 0x1FFF: unknown, maybe 4250 bytes of data, rest filled with 0x02
+  * 0x2000 - 0x3FFF: unknown, but identical content to prev. block
+
+  * 0x4000 - 0x5FFF: unknown, 8192 bytes data
+  * 0x6000 - 0x7FFF: unknown, but identical content to prev. block
+
+  * 0x8000 - 0xBFFF: zeroes
+  * 0xC000 - 0xC2FF: unknown
+
+  * 0xC300 - 0xC3FF: graphics register space (e.g. framebuffer offset etc. - see [[registers]])
+  * 0xC400 - 0xC4FF: internal register space? 0x84 read, 0x1F=1, 0x0B=0 written during startup
+
+  * 0xC500 - 0xC6FF: filled with 0x00 0x05 0x05 0x05
+  * 0xC700 - 0xD1FF: zeroes
+  * 0xD200 - 0xD2FF: unknown
+  * 0xD300 - 0xDFFF: zeroes
+  * 0xE000 - 0xE1FF: unknown
+  * 0xE200 - 0xFBFF: zeroes
+  * 0xFC00 - 0xFFFF: unknown

@@ -1,0 +1,23 @@
+NOTE: all information on this page was gained through reverse-engineering
+the driver in order to enable interoperability with other systems.
+
+All bulk communications between the driver and the device are encrypted. 
+At first, I absolutely couldn't understand why, but when you consider 
+that they use the same ASIC also in Ethernet-based terminal adapters,
+it makes marginally more sense. Still, the encryption is total crap 
+and doesn't really protect anything (except maybe try to keep the pesky 
+open-source community out?).
+
+A short analysis by XORing the encrypted stream with itself showed that
+encryption is based on a stream cipher with a period of 4095. This 
+strongly suggests key generation through a linear-feedback shift register
+(LFSR) with 12 bits, and a closer look at the driver code confirmed this.
+For the exact algorithm, have a look in the example C code. 
+
+This code also generates a reverse-mapping table which just contains 
+the stream offset for each 12-bit value. The actual key is the CRC-12 (generator
+polynom 0x180F) of the 16-byte array sent by the [[lowlevel|lowlevel command "Set Key"]].
+This 12-bit value is used as an index into the reverse-mapping table and results in the 
+start offset in the range [0;4094]. From that point on, all bulk transfers are stream-XORed
+with the lower 8 bits from each stream value. After 4095 bytes, the stream offset wraps back
+to 0.

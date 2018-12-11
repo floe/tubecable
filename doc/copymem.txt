@@ -1,0 +1,10 @@
+Internal MemCopy
+
+copy byte sequence
+
+''0xAF 0x62 3_byte_target_offset 1_byte_count 3_byte_source_offset''
+
+copy word sequence
+
+''0xAF 0x6A 3_byte_target_offset 1_byte_count 3_byte_source_offset''
+

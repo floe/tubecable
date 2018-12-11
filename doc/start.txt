@@ -1,0 +1,39 @@
+**Startpage for Displaylink Stuff**
+
+  * [[lowlevel]]
+  * [[encryption]]
+  * [[commands]]
+  * [[registers]]
+  * [[gfxdata|compression]]
+
+** libtubecable **
+
+Hello again! Well, the compression is now working properly. And all of this is now encapsulated in a small library, libtubecable, which I've made available here:
+http://cloud.github.com/downloads/floe/tubecable/tubecable-0.1.1.tar.gz 
+If you're interested in participating, the public git repository is here: http://github.com/floe/tubecable/tree/master
+
+**The LGPL library from DisplayLink **
+
+Well, so DisplayLink released their own LGPL library, half a year after we figured all this stuff out. Nice. But wait, let's have a look at this library. Hmm, the compression is missing. So it's pretty useless compared to the closed-source drivers - it looks like it's targeted mainly for embedded stuff like LCD advertising signs and so on. Moreover, the init sequences are //still// encrypted - come on, what's the point? I'll decrypt them next week and put them in the Wiki.
+
+**Userspace Demo**
+
+This C file contains a tool which tries to drive a DL-120 based Displaylink device from userspace. There is no warranty at all (it saw the file and commited suicide). It //might// work on your DL-120 device if you change the USB id. It //might// also even work on a DL-160-based device. However, there's no guarantee that it //will//. In fact, it might burn down your monitor due to incorrect timings for all I know, so this is entirely at your own risk.. but thanks for trying, anyway ;-) By default, the demo will run with a red gradient, but you can pass a 640x960 pixel raw 24bit-RGB image as first parameter, and it will use that instead.
+
+UPDATE: thanks to Paulo, a fugly error with the 16-bit downsampling was fixed. Updated version below.
+
+UPDATE2: I added the decrpyted init sequences from libdlo.
+
+{{:dldemo.c|}}
+
+** Decrypting your own traces **
+
+Here's one thing which I totally forgot: some people who want to play around with their own DL device and sniff their own particular datastream can't do anything with it, as it's still encrypted. Here's a tool which takes the 16-byte key as first parameter in hex (this is sent by the [[lowlevel]] command "Set Key"), followed by one or more binary files which contain the raw USB bulk data stream.
+
+{{:dldecrypt.c|}}
+
+** Xorg or framebuffer driver **
+
+A number of people have asked whether I'm going to build a real Xorg driver or maybe at least a framebuffer driver. As much as I'd like to, I currently just haven't got the time, so this will probably done by somebody else. I'm still trying to get the annoying compression stuff sorted out..
+
+Floe

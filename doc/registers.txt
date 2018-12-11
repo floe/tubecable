@@ -1,0 +1,19 @@
+Write Register command:
+
+''0xAF 0x20 register value''
+register & value are 1 byte
+
+Registers:
+
+  * ''0x00              color depth - 0x00 -> 16 bit, 0x01 -> 24 bit''
+  * ''0x01 - 0x0E       unknown''
+  * ''0x0F/0x10         probably X resolution MSB/LSB''
+  * ''0x11 - 0x16       unknown''
+  * ''0x17/0x18         probably Y resolution MSB/LSB''
+  * ''0x19 - 0x1C       unknown''
+  * ''0x1F              blank output: 0x00 -> show framebuffer content, 0x01 -> show black screen (not DPMS off!)''
+  * ''0x20,0x21,0x22    big endian base offset of 16-bit framebuffer (MSB of color), for 16-bit mode''
+  * ''0x23,0x24,0x25    16-bit line stride (always XRes * 2)''
+  * ''0x26,0x27,0x28    big endian base offset of 8-bit framebuffer (LSB of color), for 24-bit mode''
+  * ''0x29,0x2A,0x2B    8-bit line stride (always XRes * 1)''
+  * ''0xFF              sync register: 0x00 -> stop register updates, 0xFF -> resume register updates. 0xAF 0x20 0xFF 0xFF also occurs every 512 bytes in the compressed data stream, maybe to reset the decoder.''

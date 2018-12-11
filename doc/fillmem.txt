@@ -1,0 +1,14 @@
+Fill Memory
+
+This is actually a run-length encoding..
+
+Fill with Bytes
+
+0xAF 0×61 3_byte_offset 1_byte_total_count [1_byte_count 1_byte_value ... ]
+
+Fill with Words
+
+0xAF 0×69 3_byte_offset 1_byte_total_count [1_byte_count 2_byte_value ... ]
+
+total count: byte/word count, 0×00 = 256
+ 

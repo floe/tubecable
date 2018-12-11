@@ -1,0 +1,9 @@
+Write Memory
+
+byte-wise:
+
+''0xAF 0x60  3_byte_offset  1_byte_length  [length_bytes_data]''
+
+word-wise:
+
+''0xAF 0x68  3_byte_offset  1_byte_length  [length_words_data]''
